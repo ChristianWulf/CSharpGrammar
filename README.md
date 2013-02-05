@@ -2,6 +2,8 @@ CSharpGrammar
 =============
 C# 4.0 preprocessor, lexer, and parser in Java
 
+I have built this C# grammar to develop and perform a C# to KDM transformation, see https://github.com/ChristianWulf/CSharpKDMDiscoverer.
+
 License
 ---
 Eclipse Public License - v 1.0 (http://www.eclipse.org/legal/epl-v10.html)
