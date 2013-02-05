@@ -1,0 +1,6 @@
+
+fragment Single_verbatim_string_literal_character:
+  | ~'"'//<any Character Except ">'
+  ;
+fragment Quote_escape_sequence:
+  | '""';

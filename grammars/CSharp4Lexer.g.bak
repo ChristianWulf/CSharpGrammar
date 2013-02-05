@@ -1,0 +1,390 @@
+lexer grammar CSharp4Lexer;
+
+options {
+  language = Java;
+}
+
+@lexer::header {
+  package lang.csharp;
+}
+
+//B.1 Lexical Grammar
+//Input
+//  : Input_section?
+//  ;
+fragment Input_section:
+  | Input_section_part+;
+fragment Input_section_part:
+  | Input_elements? NEW_LINE
+  | Pp_directive;
+fragment Input_elements:
+  | Input_element+;
+fragment Input_element:
+  | WHITESPACE
+  | Comment
+  | Token//'<any Token>'
+  ;
+
+//B.1.1 Line Terminators
+fragment NEW_LINE:
+  | '\u000D'//'<Carriage Return Character (U+000D)>'
+  | '\u000A'//'<Line Feed Character (U+000A)>'
+  | '\u000D' '\u000A'//'<Carriage Return Character (U+000D) Followed By Line Feed Character (U+000A)>'
+  | '\u0085'//<Next Line Character (U+0085)>'
+  | '\u2028'//'<Line Separator Character (U+2028)>'
+  | '\u2029'//'<Paragraph Separator Character (U+2029)>'
+  ;
+
+//B.1.2 Comments
+Comment:
+  | SINGLE_LINE_COMMENT
+  | DELIMITED_COMMENT;
+fragment SINGLE_LINE_COMMENT:
+  | '//' Input_characters?;
+fragment Input_characters:
+  | Input_character+
+  ;
+fragment Input_character:
+  | ~NEW_LINE_CHARACTER//'<Any Unicode Character Except A NEW_LINE_CHARACTER>'
+  ;
+
+fragment NEW_LINE_CHARACTER
+  : '\u000D'//'<Carriage Return Character (U+000D)>'
+  | '\u000A'//'<Line Feed Character (U+000A)>'
+  | '\u0085'//'<Next Line Character (U+0085)>'
+  | '\u2028'//'<Line Separator Character (U+2028)>'
+  | '\u2029'//'<Paragraph Separator Character (U+2029)>'
+  ;
+fragment DELIMITED_COMMENT:
+  | '/*' Delimited_comment_text? Asterisks '/';
+fragment Delimited_comment_text:
+  | Delimited_comment_section+;
+fragment Delimited_comment_section:
+  | '/'
+  | Asterisks? Not_slash_or_asterisk;
+fragment Asterisks:
+  | '*'+;
+//'<Any Unicode Character Except / Or *>'
+fragment Not_slash_or_asterisk:
+  | ~('/' | '*')
+  ;
+
+//B.1.3 White Space
+WHITESPACE
+  : Whitespace_characters //{$channel = HIDDEN;}
+  ;
+
+fragment Whitespace_characters
+  : Whitespace_character+
+  ;
+
+fragment Whitespace_character:
+  | UNICODE_CLASS_Zs//'<Any Character With Unicode Class Zs>'
+  | '\u0009'//'<Horizontal Tab Character (U+0009)>'
+  | '\u000B'//'<Vertical Tab Character (U+000B)>'
+  | '\u000C'//'<Form Feed Character (U+000C)>'
+  ;
+
+//B.1.4 Tokens
+fragment Token
+  : IDENTIFIER
+  | Keyword
+  | INTEGER_LITERAL
+  | REAL_LITERAL
+  | CHARACTER_LITERAL
+  | STRING_LITERAL
+  | OPERATOR_OR_PUNCTUATOR;
+
+//B.1.5 Unicode Character Escape Sequences
+fragment Unicode_escape_sequence:
+  | '\\u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+  | '\\U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT;
+
+//B.1.6 Identifiers
+IDENTIFIER:
+  | Available_identifier
+  | '@' Identifier_or_keyword;
+fragment Available_identifier:
+  | '<An Identifier_or_keyword That Is Not A Keyword>';
+fragment Identifier_or_keyword:
+  | Identifier_start_character Identifier_part_characters?;
+fragment Identifier_start_character:
+  | Letter_character
+  | '_';
+fragment Identifier_part_characters:
+  | Identifier_part_character+;
+fragment Identifier_part_character:
+  | Letter_character
+  | Decimal_digit_character
+  | Connecting_character
+  | Combining_character
+  | Formatting_character;
+fragment Letter_character:
+  | '<A Unicode Character Of Classes Lu, Ll, Lt, Lm, Lo, Or Nl>'
+  | '<A Unicode_escape_sequence Representing A Character Of Classes Lu, Ll, Lt, Lm, Lo, Or Nl>';
+fragment Combining_character:
+  | '<A Unicode Character Of Classes Mn Or Mc>'
+  | '<A Unicode_escape_sequence Representing A Character Of Classes Mn Or Mc>';
+fragment Decimal_digit_character:
+  | '<A Unicode Character Of The Class Nd>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Nd>';
+fragment Connecting_character:
+  | '<A Unicode Character Of The Class Pc>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Pc>';
+fragment Formatting_character:
+  | '<A Unicode Character Of The Class Cf>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Cf>';
+
+//B.1.7 Keywords
+fragment Keyword:
+  | 'abstract' | 'as' | 'base' | 'bool' | 'break'
+  | 'byte' | 'case' | 'catch' | 'char' | 'checked'
+  | 'class' | 'const' | 'continue' | 'decimal' | 'default'
+  | 'delegate' | 'do' | 'double' | 'else' | 'enum'
+  | 'event' | 'explicit' | 'extern' | 'false' | 'finally'
+  | 'fixed' | 'float' | 'for' | 'foreach' | 'goto'
+  | 'if' | 'implicit' | 'in' | 'int' | 'interface'
+  | 'internal' | 'is' | 'lock' | 'long' | 'namespace'
+  | 'new' | 'null' | 'object' | 'operator' | 'out'
+  | 'override' | 'params' | 'private' | 'protected' | 'public'
+  | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed'
+  | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string'
+  | 'struct' | 'switch' | 'this' | 'throw' | 'true'
+  | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked'
+  | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void'
+  | 'volatile' | 'while';
+
+//B.1.8 Literals
+//Literal:
+//  | BOOLEAN_LITERAL
+//  | INTEGER_LITERAL
+//  | REAL_LITERAL
+//  | CHARACTER_LITERAL
+//  | STRING_LITERAL
+//  | NULL_LITERAL
+//	;
+BOOLEAN_LITERAL:
+  | 'true'
+  | 'false';
+INTEGER_LITERAL:
+  | Decimal_integer_literal
+  | Hexadecimal_integer_literal;
+fragment Decimal_integer_literal:
+  | Decimal_digits Integer_type_suffix?;
+fragment Decimal_digits:
+  | DECIMAL_DIGIT+;
+fragment DECIMAL_DIGIT:
+  | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9';
+fragment Integer_type_suffix:
+  | 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu';
+fragment Hexadecimal_integer_literal:
+  | '0x' Hex_digits Integer_type_suffix?
+  | '0X' Hex_digits Integer_type_suffix?;
+fragment Hex_digits:
+  | HEX_DIGIT+;
+fragment HEX_DIGIT:
+  | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+  | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f';
+REAL_LITERAL:
+  | Decimal_digits '.' Decimal_digits Exponent_part? Real_type_suffix?
+  | '.' Decimal_digits Exponent_part? Real_type_suffix?
+  | Decimal_digits Exponent_part Real_type_suffix?
+  | Decimal_digits Real_type_suffix;
+fragment Exponent_part:
+  | 'e' Sign? Decimal_digits
+  | 'E' Sign? Decimal_digits;
+fragment Sign:
+  | '+' | '-';
+fragment Real_type_suffix:
+  | 'F' | 'f' | 'D' | 'd' | 'M' | 'm';
+CHARACTER_LITERAL:
+  | QUOTE Character QUOTE;
+fragment Character:
+  | Single_character
+  | Simple_escape_sequence
+  | Hexadecimal_escape_sequence
+  | Unicode_escape_sequence;
+fragment Single_character:
+  | ~(QUOTE | BACK_SLASH | NEW_LINE_CHARACTER)//'<Any Character Except \' (U+0027), \\ (U+005C), And NEW_LINE_CHARACTER>'
+  ;
+fragment Simple_escape_sequence:
+  | '\\\'' | '\\"' | DOUBLE_BACK_SLASH | '\\0' | '\\a' | '\\b' | '\\f' | '\\n' | '\\r' | '\\t' | '\\v';
+fragment Hexadecimal_escape_sequence 
+	: '\\x' HEX_DIGIT
+	| '\\x' HEX_DIGIT HEX_DIGIT
+	| '\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT
+	| '\\x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+	;
+STRING_LITERAL:
+  | Regular_string_literal
+  | Verbatim_string_literal;
+fragment Regular_string_literal:
+  | '"' Regular_string_literal_characters? '"';
+fragment Regular_string_literal_characters:
+  | Regular_string_literal_character+;
+fragment Regular_string_literal_character:
+  | Single_regular_string_literal_character
+  | Simple_escape_sequence
+  | Hexadecimal_escape_sequence
+  | Unicode_escape_sequence;
+fragment Single_regular_string_literal_character:
+  | ~( '"' | BACK_SLASH | NEW_LINE_CHARACTER )//'<Any Character Except " (U+0022), \\ (U+005C), And NEW_LINE_CHARACTER>'
+  ;
+fragment Verbatim_string_literal:
+  | '@"' Verbatim_string_literal_characters? '"';
+fragment Verbatim_string_literal_characters:
+  | Verbatim_string_literal_character+;
+fragment Verbatim_string_literal_character:
+  | Single_verbatim_string_literal_character
+  | Quote_escape_sequence;
+fragment Single_verbatim_string_literal_character:
+  | ~'"'//<any Character Except ">'
+  ;
+fragment Quote_escape_sequence:
+  | '""';
+NULL_LITERAL:
+  | 'null';
+
+//B.1.9 Operators And Punctuators
+fragment OPERATOR_OR_PUNCTUATOR:
+  | '{' | '}' | '[' | ']' | '(' | ')' | '.' | ',' | ':' | ';'
+  | '+' | '-' | '*' | '/' | '%' | '&' | '|' | '^' | '!' | '~'
+  | '=' | '<' | '>' | '?' | '??' | '::' | '++' | '--' | '&&' | '||'
+  | '->' | '==' | '!=' | '<=' | '>=' | '+=' | '-=' | '*=' | '/=' | '%='
+  | '&=' | '|=' | '^=' | '<<' | '<<=' | '=>';
+RIGHT_SHIFT:
+  | '>>';
+RIGHT_SHIFT_ASSIGNMENT:
+  | '>>=';
+
+//B.1.10 Pre_processing Directives
+fragment Pp_directive:
+  | Pp_declaration
+  | Pp_conditional
+  | Pp_line
+  | Pp_diagnostic
+  | Pp_region
+  | Pp_pragma;
+fragment Conditional_symbol:
+  | '<Any Identifier_or_keyword Except True Or False>';
+fragment Pp_expression
+  : WHITESPACE? Pp_or_expression WHITESPACE?;
+fragment Pp_or_expression:
+  | Pp_and_expression (WHITESPACE? '||' WHITESPACE? Pp_and_expression)*
+  ;
+fragment Pp_and_expression:
+  | Pp_equality_expression (WHITESPACE? '&&' WHITESPACE? Pp_equality_expression)*
+  ;
+fragment Pp_equality_expression:
+  | Pp_unary_expression (
+    | WHITESPACE? '==' WHITESPACE? Pp_unary_expression
+    | WHITESPACE? '!=' WHITESPACE? Pp_unary_expression
+  )*
+  ;
+fragment Pp_unary_expression:
+  | Pp_primary_expression
+  | '!' WHITESPACE? Pp_unary_expression;
+fragment Pp_primary_expression:
+  | 'true'
+  | 'false'
+  | Conditional_symbol
+  | '(' WHITESPACE? Pp_expression WHITESPACE? ')';
+fragment Pp_declaration:
+  | WHITESPACE? '#' WHITESPACE? 'define' WHITESPACE Conditional_symbol Pp_new_line
+  | WHITESPACE? '#' WHITESPACE? 'undef' WHITESPACE Conditional_symbol Pp_new_line;
+fragment Pp_new_line:
+  | WHITESPACE? SINGLE_LINE_COMMENT? NEW_LINE;
+fragment Pp_conditional:
+  | Pp_if_section Pp_elif_sections? Pp_else_section? Pp_endif;
+fragment Pp_if_section:
+  | WHITESPACE? '#' WHITESPACE? 'if' WHITESPACE Pp_expression Pp_new_line Conditional_section?;
+fragment Pp_elif_sections:
+  | Pp_elif_section+;
+fragment Pp_elif_section:
+  | WHITESPACE? '#' WHITESPACE? 'elif' WHITESPACE Pp_expression Pp_new_line Conditional_section?;
+fragment Pp_else_section:
+  | WHITESPACE? '#' WHITESPACE? 'else' Pp_new_line Conditional_section?;
+fragment Pp_endif:
+  | WHITESPACE? '#' WHITESPACE? 'endif' Pp_new_line;
+fragment Conditional_section:
+  | Input_section
+  | SkiPped_section;
+fragment SkiPped_section:
+  | SkiPped_section_part+
+  ;
+fragment SkiPped_section_part:
+  | SkiPped_characters? NEW_LINE
+  | Pp_directive;
+fragment SkiPped_characters:
+  | WHITESPACE? Not_number_sign Input_characters?;
+fragment Not_number_sign:
+  | ~( NEW_LINE_CHARACTER | '#' )//'<Any Input_character Except #>'
+  ;
+fragment Pp_diagnostic:
+  | WHITESPACE? '#' WHITESPACE? 'error' Pp_message
+  | WHITESPACE? '#' WHITESPACE? 'warning' Pp_message;
+fragment Pp_message:
+  | NEW_LINE
+  | WHITESPACE Input_characters? NEW_LINE;
+fragment Pp_region:
+  | Pp_start_region Conditional_section? Pp_end_region;
+fragment Pp_start_region:
+  | WHITESPACE? '#' WHITESPACE? 'region' Pp_message;
+fragment Pp_end_region:
+  | WHITESPACE? '#' WHITESPACE? 'endregion' Pp_message;
+fragment Pp_line:
+  | WHITESPACE? '#' WHITESPACE? 'line' WHITESPACE Line_indicator Pp_new_line;
+fragment Line_indicator:
+  | Decimal_digits (WHITESPACE File_name)?
+  | 'default'
+  | 'hidden';
+fragment File_name:
+  | '"' File_name_characters '"';
+fragment File_name_characters:
+  | File_name_character+;
+fragment File_name_character:
+  | ~( NEW_LINE_CHARACTER | '"' )//'<Any Input_character Except ">'
+  ;
+fragment Pp_pragma:
+  | WHITESPACE? '#' WHITESPACE? 'pragma' WHITESPACE Pragma_body Pp_new_line;
+fragment Pragma_body:
+  | Pragma_warning_body;
+fragment Pragma_warning_body:
+  | 'warning' WHITESPACE Warning_action (WHITESPACE Warning_list)?
+  ;
+fragment Warning_action:
+  | 'disable'
+  | 'restore';
+fragment Warning_list:
+  | Decimal_digits (WHITESPACE? ',' WHITESPACE? Decimal_digits)*;
+
+// A.1. Documentation Comments
+fragment SINGLE_LINE_DOC_COMMENT:
+  | '///' Input_characters?;
+fragment DELIMITED_DOC_COMMENT:
+  | '/**' Delimited_comment_text? Asterisks '/';
+
+// added by chw
+QUOTE : '\'';
+BACK_SLASH : '\\';
+DOUBLE_BACK_SLASH : '\\\\';
+
+fragment UNICODE_CLASS_Zs // Any character with Unicode class Zs
+ : '\u0020' // SPACE
+ | '\u00A0' // NO_BREAK SPACE
+ | '\u1680' // OGHAM SPACE MARK
+ | '\u180E' // MONGOLIAN VOWEL SEPARATOR
+ | '\u2000' // EN QUAD
+ | '\u2001' // EM QUAD
+ | '\u2002' // EN SPACE
+ | '\u2003' // EM SPACE
+ | '\u2004' // THREE_PER_EM SPACE
+ | '\u2005' // FOUR_PER_EM SPACE
+ | '\u2006' // SIX_PER_EM SPACE
+ | '\u2008' // PUNCTUATION SPACE
+ | '\u2009' // THIN SPACE
+ | '\u200A' // HAIR SPACE
+ | '\u202F' // NARROW NO_BREAK SPACE
+ | '\u3000' // IDEOGRAPHIC SPACE
+ | '\u205F' // MEDIUM MATHEMATICAL SPACE
+ ;

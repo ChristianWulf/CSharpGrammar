@@ -1,0 +1,338 @@
+lexer grammar CSharp4Lexer;
+
+options {
+  language = Java;
+}
+
+//B.1 Lexical Grammar
+Input:
+  | Input_section?;
+Input_section:
+   Input_section_part
+  | Input_section Input_section_part;
+Input_section_part:
+  | Input_elements? New_line
+  | Pp_directive;
+Input_elements:
+  | Input_element
+  | Input_elements Input_element;
+Input_element:
+  | Whitespace
+  | Comment
+  | '<any Token>';
+
+//B.1.1 Line Terminators
+New_line:
+  | '<Carriage Return Character (U+000D)>'
+  | '<Line Feed Character (U+000A)>'
+  | '<Carriage Return Character (U+000D) Followed By Line Feed Character (U+000A)>'
+  | '<Next Line Character (U+0085)>'
+  | '<Line Separator Character (U+2028)>'
+  | '<Paragraph Separator Character (U+2029)>';
+
+//B.1.2 Comments
+Comment:
+  | Single_line_comment
+  | Delimited_comment;
+Single_line_comment:
+  | '//' Input_characters?;
+Input_characters:
+  | Input_character+;
+Input_character:
+  | '<Any Unicode Character Except A New_line_character>';
+New_line_character:
+  | '<Carriage Return Character (U+000D)>'
+  | '<Line Feed Character (U+000A)>'
+  | '<Next Line Character (U+0085)>'
+  | '<Line Separator Character (U+2028)>'
+  | '<Paragraph Separator Character (U+2029)>';
+Delimited_comment:
+  | '/*' Delimited_comment_text? Asterisks '/';
+Delimited_comment_text:
+  | Delimited_comment_section+;
+Delimited_comment_section:
+  | '/'
+  | Asterisks? Not_slash_or_asterisk;
+Asterisks:
+  | '*'
+  | Asterisks '*';
+Not_slash_or_asterisk:
+  | '<Any Unicode Character Except / Or *>';
+
+//B.1.3 White Space
+Whitespace:
+  | '<Any Character With Unicode Class Zs>'
+  | '<Horizontal Tab Character (U+0009)>'
+  | '<Vertical Tab Character (U+000B)>'
+  | '<Form Feed Character (U+000C)>';
+
+//B.1.4 Tokens
+Token:
+  | IDENTIFIER
+  | Keyword
+  | Integer_literal
+  | Real_literal
+  | Character_literal
+  | String_literal
+  | Operator_or_punctuator;
+
+//B.1.5 Unicode Character Escape Sequences
+Unicode_escape_sequence:
+  | '\\u' Hex_digit Hex_digit Hex_digit Hex_digit
+  | '\\U' Hex_digit Hex_digit Hex_digit Hex_digit Hex_digit Hex_digit Hex_digit Hex_digit;
+
+
+//B.1.6 Identifiers
+IDENTIFIER:
+  | Available_identifier
+  | '@' Identifier_or_keyword;
+Available_identifier:
+  | '<An Identifier_or_keyword That Is Not A Keyword>';
+Identifier_or_keyword:
+  | Identifier_start_character Identifier_part_characters?;
+Identifier_start_character:
+  | Letter_character
+  | '_';
+Identifier_part_characters:
+  | Identifier_part_character+;
+Identifier_part_character:
+  | Letter_character
+  | Decimal_digit_character
+  | Connecting_character
+  | Combining_character
+  | Formatting_character;
+Letter_character:
+  | '<A Unicode Character Of Classes Lu, Ll, Lt, Lm, Lo, Or Nl>'
+  | '<A Unicode_escape_sequence Representing A Character Of Classes Lu, Ll, Lt, Lm, Lo, Or Nl>';
+Combining_character:
+  | '<A Unicode Character Of Classes Mn Or Mc>'
+  | '<A Unicode_escape_sequence Representing A Character Of Classes Mn Or Mc>';
+Decimal_digit_character:
+  | '<A Unicode Character Of The Class Nd>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Nd>';
+Connecting_character:
+  | '<A Unicode Character Of The Class Pc>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Pc>';
+Formatting_character:
+  | '<A Unicode Character Of The Class Cf>'
+  | '<A Unicode_escape_sequence Representing A Character Of The Class Cf>';
+
+//B.1.7 Keywords
+Keyword:
+  | 'abstract' | 'as' | 'base' | 'bool' | 'break'
+  | 'byte' | 'case' | 'catch' | 'char' | 'checked'
+  | 'class' | 'const' | 'continue' | 'decimal' | 'default'
+  | 'delegate' | 'do' | 'double' | 'else' | 'enum'
+  | 'event' | 'explicit' | 'extern' | 'false' | 'finally'
+  | 'fixed' | 'float' | 'for' | 'foreach' | 'goto'
+  | 'if' | 'implicit' | 'in' | 'int' | 'interface'
+  | 'internal' | 'is' | 'lock' | 'long' | 'namespace'
+  | 'new' | 'null' | 'object' | 'operator' | 'out'
+  | 'override' | 'params' | 'private' | 'protected' | 'public'
+  | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed'
+  | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string'
+  | 'struct' | 'switch' | 'this' | 'throw' | 'true'
+  | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked'
+  | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void'
+  | 'volatile' | 'while';
+
+//B.1.8 Literals
+Literal:
+  | Boolean_literal
+  | Integer_literal
+  | Real_literal
+  | Character_literal
+  | String_literal
+  | Null_literal;
+Boolean_literal:
+  | 'true'
+  | 'false';
+Integer_literal:
+  | Decimal_integer_literal
+  | Hexadecimal_integer_literal;
+Decimal_integer_literal:
+  | Decimal_digits Integer_type_suffix?;
+Decimal_digits:
+  | Decimal_digit+;
+Decimal_digit:
+  | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9';
+Integer_type_suffix:
+  | 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu';
+Hexadecimal_integer_literal:
+  | '0x' Hex_digits Integer_type_suffix?
+  | '0X' Hex_digits Integer_type_suffix?;
+Hex_digits:
+  | Hex_digit+;
+Hex_digit:
+  | '0' | '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+  | 'A' | 'B' | 'C' | 'D' | 'E' | 'F' | 'a' | 'b' | 'c' | 'd' | 'e' | 'f';
+Real_literal:
+  | Decimal_digits '.' Decimal_digits Exponent_part? Real_type_suffix?
+  | '.' Decimal_digits Exponent_part? Real_type_suffix?
+  | Decimal_digits Exponent_part Real_type_suffix?
+  | Decimal_digits Real_type_suffix;
+Exponent_part:
+  | 'e' Sign? Decimal_digits
+  | 'E' Sign? Decimal_digits;
+Sign:
+  | '+' | '-';
+Real_type_suffix:
+  | 'F' | 'f' | 'D' | 'd' | 'M' | 'm';
+Character_literal:
+  | '\'' Character '\'';
+Character:
+  | Single_character
+  | Simple_escape_sequence
+  | Hexadecimal_escape_sequence
+  | Unicode_escape_sequence;
+Single_character:
+  | '<Any Character Except \' (U+0027), \\ (U+005C), And New_line_character>';
+Simple_escape_sequence:
+  | '\\\'' | '\\"' | '\\\\' | '\\0' | '\\a' | '\\b' | '\\f' | '\\n' | '\\r' | '\\t' | '\\v';
+Hexadecimal_escape_sequence:
+  | '\\x' Hex_digit Hex_digit? Hex_digit? Hex_digit?;
+String_literal:
+  | Regular_string_literal
+  | Verbatim_string_literal;
+Regular_string_literal:
+  | '"' Regular_string_literal_characters? '"';
+Regular_string_literal_characters:
+  | Regular_string_literal_character+;
+Regular_string_literal_character:
+  | Single_regular_string_literal_character
+  | Simple_escape_sequence
+  | Hexadecimal_escape_sequence
+  | Unicode_escape_sequence;
+Single_regular_string_literal_character:
+  | '<Any Character Except " (U+0022), \\ (U+005C), And New_line_character>';
+Verbatim_string_literal:
+  | '@"' Verbatim_string_literal_characters? '"';
+Verbatim_string_literal_characters:
+  | Verbatim_string_literal_character+;
+Verbatim_string_literal_character:
+  | Single_verbatim_string_literal_character
+  | Quote_escape_sequence;
+Single_verbatim_string_literal_character:
+  | '<any Character Except ">';
+Quote_escape_sequence:
+  | '""';
+Null_literal:
+  | 'null';
+
+//B.1.9 Operators And Punctuators
+Operator_or_punctuator:
+  | '{' | '}' | '[' | ']' | '(' | ')' | '.' | ',' | ':' | ';'
+  | '+' | '-' | '*' | '/' | '%' | '&' | '|' | '^' | '!' | '~'
+  | '=' | '<' | '>' | '?' | '??' | '::' | '++' | '--' | '&&' | '||'
+  | '->' | '==' | '!=' | '<=' | '>=' | '+=' | '-=' | '*=' | '/=' | '%='
+  | '&=' | '|=' | '^=' | '<<' | '<<=' | '=>';
+Right_shift:
+  | '>>';
+Right_shift_assignment:
+  | '>>=';
+
+//B.1.10 Pre_processing Directives
+Pp_directive:
+  | Pp_declaration
+  | Pp_conditional
+  | Pp_line
+  | Pp_diagnostic
+  | Pp_region
+  | Pp_pragma;
+Conditional_symbol:
+  | '<Any Identifier_or_keyword Except True Or False>';
+Pp_expression:
+  | Whitespace? Pp_or_expression Whitespace?;
+Pp_or_expression:
+  | Pp_and_expression
+  | Pp_or_expression Whitespace? '||' Whitespace? Pp_and_expression;
+Pp_and_expression:
+  | Pp_equality_expression
+  | Pp_and_expression Whitespace? '&&' Whitespace? Pp_equality_expression;
+Pp_equality_expression:
+  | Pp_unary_expression
+  | Pp_equality_expression Whitespace? '==' Whitespace? Pp_unary_expression
+  | Pp_equality_expression Whitespace? '!=' Whitespace? Pp_unary_expression;
+Pp_unary_expression:
+  | Pp_primary_expression
+  | '!' Whitespace? Pp_unary_expression;
+Pp_primary_expression:
+  | 'true'
+  | 'false'
+  | Conditional_symbol
+  | '(' Whitespace? Pp_expression Whitespace? ')';
+Pp_declaration:
+  | Whitespace? '#' Whitespace? 'define' Whitespace Conditional_symbol Pp_new_line
+  | Whitespace? '#' Whitespace? 'undef' Whitespace Conditional_symbol Pp_new_line;
+Pp_new_line:
+  | Whitespace? Single_line_comment? New_line;
+Pp_conditional:
+  | Pp_if_section Pp_elif_sections? Pp_else_section? Pp_endif;
+Pp_if_section:
+  | Whitespace? '#' Whitespace? 'if' Whitespace Pp_expression Pp_new_line Conditional_section?;
+Pp_elif_sections:
+  | Pp_elif_section+;
+Pp_elif_section:
+  | Whitespace? '#' Whitespace? 'elif' Whitespace Pp_expression Pp_new_line Conditional_section?;
+Pp_else_section:
+  | Whitespace? '#' Whitespace? 'else' Pp_new_line Conditional_section?;
+Pp_endif:
+  | Whitespace? '#' Whitespace? 'endif' Pp_new_line;
+Conditional_section:
+  | Input_section
+  | Skipped_section;
+Skipped_section:
+  | Skipped_section_part
+  | Skipped_section Skipped_section_part;
+Skipped_section_part:
+  | Skipped_characters? New_line
+  | Pp_directive;
+Skipped_characters:
+  | Whitespace? Not_number_sign Input_characters?;
+Not_number_sign:
+  | '<Any Input_character Except #>';
+Pp_diagnostic:
+  | Whitespace? '#' Whitespace? 'error' Pp_message
+  | Whitespace? '#' Whitespace? 'warning' Pp_message;
+Pp_message:
+  | New_line
+  | Whitespace Input_characters? New_line;
+Pp_region:
+  | Pp_start_region Conditional_section? Pp_end_region;
+Pp_start_region:
+  | Whitespace? '#' Whitespace? 'region' Pp_message;
+Pp_end_region:
+  | Whitespace? '#' Whitespace? 'endregion' Pp_message;
+Pp_line:
+  | Whitespace? '#' Whitespace? 'line' Whitespace Line_indicator Pp_new_line;
+Line_indicator:
+  | Decimal_digits Whitespace File_name
+  | Decimal_digits
+  | 'default'
+  | 'hidden';
+File_name:
+  | '"' File_name_characters '"';
+File_name_characters:
+  | File_name_character
+  | File_name_characters File_name_character;
+File_name_character:
+  | '<Any Input_character Except ">';
+Pp_pragma:
+  | Whitespace? '#' Whitespace? 'pragma' Whitespace Pragma_body Pp_new_line;
+Pragma_body:
+  | Pragma_warning_body;
+Pragma_warning_body:
+  | 'warning' Whitespace Warning_action
+  | 'warning' Whitespace Warning_action Whitespace Warning_list;
+Warning_action:
+  | 'disable'
+  | 'restore';
+Warning_list:
+  | Decimal_digits
+  | Warning_list Whitespace? ',' Whitespace? Decimal_digits;
+
+// A.1. Documentation Comments
+Single_line_doc_comment:
+  | '///' Input_characters?;
+Delimited_doc_comment:
+  | '/**' Delimited_comment_text? Asterisks '/';
