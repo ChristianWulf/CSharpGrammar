@@ -20,13 +20,18 @@ public class Main {
             RecognitionException {
         String filename = "resource/if_statement.cs";
         
-        ANTLRFileStreamWithBOM charStream = new ANTLRFileStreamWithBOM(filename);
-        Lexer lex = new CSharp4PreProcessorImpl(charStream);
-        CommonTokenStream tokens = new CommonTokenStream(lex);
-        CSharp4 parser = new CSharp4(tokens);
+        CSharp4 parser = createParserFor(filename);
         parser.compilation_unit();
         
-        System.out.println(tokens.getTokens());
+        System.out.println(((CommonTokenStream)parser.getTokenStream()).getTokens());
     }
+
+	private static CSharp4 createParserFor(String filename) throws IOException {
+		ANTLRFileStreamWithBOM charStream = new ANTLRFileStreamWithBOM(filename);
+        Lexer lex = new CSharp4PreProcessorImpl(charStream);
+        CommonTokenStream tokenStream = new CommonTokenStream(lex);
+        CSharp4 parser = new CSharp4(tokenStream);
+        return parser;
+	}
 
 }
