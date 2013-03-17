@@ -21,7 +21,7 @@ Instead, compile CSharp4PreProcessor.g which triggers the compilation of the CSh
 
 Example
 ---
-In the near future, I will add a code example to the src folder. For now, the following code example shall be sufficient:
+You also find the following example in the src/example/Main.java file.
 ```java
 String filename = ...
 ANTLRFileStream stream = new ANTLRFileStream(filename);
