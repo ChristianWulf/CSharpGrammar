@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g 2013-02-05 11:22:28
+// $ANTLR 3.4 C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g 2013-03-17 19:57:57
 
   package lang.csharp;
 
@@ -247,7 +247,7 @@ public TreeAdaptor getTreeAdaptor() {
     return adaptor;
 }
     public String[] getTokenNames() { return csParser.tokenNames; }
-    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g"; }
 
 
     public static class compilation_unit_return extends ParserRuleReturnScope {
@@ -257,7 +257,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "compilation_unit"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:23:1: compilation_unit : namespace_body[true] ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:23:1: compilation_unit : namespace_body[true] ;
     public final csParser.compilation_unit_return compilation_unit() throws RecognitionException {
         csParser.compilation_unit_return retval = new csParser.compilation_unit_return();
         retval.start = input.LT(1);
@@ -273,8 +273,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 1) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:23:17: ( namespace_body[true] )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:24:2: namespace_body[true]
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:23:17: ( namespace_body[true] )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:24:2: namespace_body[true]
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -321,7 +321,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:26:1: namespace_declaration : 'namespace' qualified_identifier namespace_block ( ';' )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:26:1: namespace_declaration : 'namespace' qualified_identifier namespace_block ( ';' )? ;
     public final csParser.namespace_declaration_return namespace_declaration() throws RecognitionException {
         csParser.namespace_declaration_return retval = new csParser.namespace_declaration_return();
         retval.start = input.LT(1);
@@ -343,8 +343,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 2) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:26:22: ( 'namespace' qualified_identifier namespace_block ( ';' )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:27:2: 'namespace' qualified_identifier namespace_block ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:26:22: ( 'namespace' qualified_identifier namespace_block ( ';' )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:27:2: 'namespace' qualified_identifier namespace_block ( ';' )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -371,7 +371,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, namespace_block4.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:27:57: ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:27:57: ( ';' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -380,7 +380,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt1) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:27:57: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:27:57: ';'
                     {
                     char_literal5=(Token)match(input,SEMI,FOLLOW_SEMI_in_namespace_declaration89); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -431,7 +431,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_block"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:28:1: namespace_block : '{' namespace_body[false] '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:28:1: namespace_block : '{' namespace_body[false] '}' ;
     public final csParser.namespace_block_return namespace_block() throws RecognitionException {
         csParser.namespace_block_return retval = new csParser.namespace_block_return();
         retval.start = input.LT(1);
@@ -451,8 +451,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 3) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:28:16: ( '{' namespace_body[false] '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:29:2: '{' namespace_body[false] '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:28:16: ( '{' namespace_body[false] '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:29:2: '{' namespace_body[false] '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -515,7 +515,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:30:1: namespace_body[boolean bGlobal] : ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:30:1: namespace_body[boolean bGlobal] : ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )? ;
     public final csParser.namespace_body_return namespace_body(boolean bGlobal) throws RecognitionException {
         csParser.namespace_body_return retval = new csParser.namespace_body_return();
         retval.start = input.LT(1);
@@ -537,13 +537,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 4) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:30:32: ( ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:2: ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:30:32: ( ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:2: ( extern_alias_directives )? ( using_directives )? ( global_attributes )? ( namespace_member_declarations )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:2: ( extern_alias_directives )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:2: ( extern_alias_directives )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -556,7 +556,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt2) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:2: extern_alias_directives
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:2: extern_alias_directives
                     {
                     pushFollow(FOLLOW_extern_alias_directives_in_namespace_body116);
                     extern_alias_directives9=extern_alias_directives();
@@ -571,7 +571,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:29: ( using_directives )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:29: ( using_directives )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -580,7 +580,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt3) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:29: using_directives
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:29: using_directives
                     {
                     pushFollow(FOLLOW_using_directives_in_namespace_body121);
                     using_directives10=using_directives();
@@ -595,7 +595,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:49: ( global_attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:49: ( global_attributes )?
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -612,7 +612,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt4) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:49: global_attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:49: global_attributes
                     {
                     pushFollow(FOLLOW_global_attributes_in_namespace_body126);
                     global_attributes11=global_attributes();
@@ -627,7 +627,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:70: ( namespace_member_declarations )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:70: ( namespace_member_declarations )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -636,7 +636,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:70: namespace_member_declarations
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:70: namespace_member_declarations
                     {
                     pushFollow(FOLLOW_namespace_member_declarations_in_namespace_body131);
                     namespace_member_declarations12=namespace_member_declarations();
@@ -686,7 +686,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "extern_alias_directives"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:32:1: extern_alias_directives : ( extern_alias_directive )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:32:1: extern_alias_directives : ( extern_alias_directive )+ ;
     public final csParser.extern_alias_directives_return extern_alias_directives() throws RecognitionException {
         csParser.extern_alias_directives_return retval = new csParser.extern_alias_directives_return();
         retval.start = input.LT(1);
@@ -702,13 +702,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 5) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:32:24: ( ( extern_alias_directive )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:33:2: ( extern_alias_directive )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:32:24: ( ( extern_alias_directive )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:33:2: ( extern_alias_directive )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:33:2: ( extern_alias_directive )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:33:2: ( extern_alias_directive )+
             int cnt6=0;
             loop6:
             do {
@@ -728,7 +728,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:33:2: extern_alias_directive
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:33:2: extern_alias_directive
             	    {
             	    pushFollow(FOLLOW_extern_alias_directive_in_extern_alias_directives140);
             	    extern_alias_directive13=extern_alias_directive();
@@ -786,7 +786,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "extern_alias_directive"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:34:1: extern_alias_directive : 'extern' 'alias' identifier ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:34:1: extern_alias_directive : 'extern' 'alias' identifier ';' ;
     public final csParser.extern_alias_directive_return extern_alias_directive() throws RecognitionException {
         csParser.extern_alias_directive_return retval = new csParser.extern_alias_directive_return();
         retval.start = input.LT(1);
@@ -808,8 +808,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 6) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:34:23: ( 'extern' 'alias' identifier ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:35:2: 'extern' 'alias' identifier ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:34:23: ( 'extern' 'alias' identifier ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:35:2: 'extern' 'alias' identifier ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -880,7 +880,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "using_directives"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:36:1: using_directives : ( using_directive )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:36:1: using_directives : ( using_directive )+ ;
     public final csParser.using_directives_return using_directives() throws RecognitionException {
         csParser.using_directives_return retval = new csParser.using_directives_return();
         retval.start = input.LT(1);
@@ -896,13 +896,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 7) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:36:17: ( ( using_directive )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:37:2: ( using_directive )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:36:17: ( ( using_directive )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:37:2: ( using_directive )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:37:2: ( using_directive )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:37:2: ( using_directive )+
             int cnt7=0;
             loop7:
             do {
@@ -916,7 +916,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:37:2: using_directive
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:37:2: using_directive
             	    {
             	    pushFollow(FOLLOW_using_directive_in_using_directives168);
             	    using_directive18=using_directive();
@@ -974,7 +974,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "using_directive"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:38:1: using_directive : ( using_alias_directive | using_namespace_directive ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:38:1: using_directive : ( using_alias_directive | using_namespace_directive ) ;
     public final csParser.using_directive_return using_directive() throws RecognitionException {
         csParser.using_directive_return retval = new csParser.using_directive_return();
         retval.start = input.LT(1);
@@ -992,13 +992,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 8) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:38:16: ( ( using_alias_directive | using_namespace_directive ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:39:2: ( using_alias_directive | using_namespace_directive )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:38:16: ( ( using_alias_directive | using_namespace_directive ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:39:2: ( using_alias_directive | using_namespace_directive )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:39:2: ( using_alias_directive | using_namespace_directive )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:39:2: ( using_alias_directive | using_namespace_directive )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -1042,7 +1042,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt8) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:39:3: using_alias_directive
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:39:3: using_alias_directive
                     {
                     pushFollow(FOLLOW_using_alias_directive_in_using_directive178);
                     using_alias_directive19=using_alias_directive();
@@ -1054,7 +1054,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:40:4: using_namespace_directive
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:40:4: using_namespace_directive
                     {
                     pushFollow(FOLLOW_using_namespace_directive_in_using_directive183);
                     using_namespace_directive20=using_namespace_directive();
@@ -1104,7 +1104,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "using_alias_directive"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:41:1: using_alias_directive : 'using' identifier '=' namespace_or_type_name ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:41:1: using_alias_directive : 'using' identifier '=' namespace_or_type_name ';' ;
     public final csParser.using_alias_directive_return using_alias_directive() throws RecognitionException {
         csParser.using_alias_directive_return retval = new csParser.using_alias_directive_return();
         retval.start = input.LT(1);
@@ -1128,8 +1128,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 9) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:41:22: ( 'using' identifier '=' namespace_or_type_name ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:42:2: 'using' identifier '=' namespace_or_type_name ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:41:22: ( 'using' identifier '=' namespace_or_type_name ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:42:2: 'using' identifier '=' namespace_or_type_name ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -1207,7 +1207,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "using_namespace_directive"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:43:1: using_namespace_directive : 'using' namespace_name ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:43:1: using_namespace_directive : 'using' namespace_name ';' ;
     public final csParser.using_namespace_directive_return using_namespace_directive() throws RecognitionException {
         csParser.using_namespace_directive_return retval = new csParser.using_namespace_directive_return();
         retval.start = input.LT(1);
@@ -1227,8 +1227,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 10) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:43:26: ( 'using' namespace_name ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:44:2: 'using' namespace_name ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:43:26: ( 'using' namespace_name ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:44:2: 'using' namespace_name ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -1291,7 +1291,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_member_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:45:1: namespace_member_declarations : ( namespace_member_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:45:1: namespace_member_declarations : ( namespace_member_declaration )+ ;
     public final csParser.namespace_member_declarations_return namespace_member_declarations() throws RecognitionException {
         csParser.namespace_member_declarations_return retval = new csParser.namespace_member_declarations_return();
         retval.start = input.LT(1);
@@ -1307,13 +1307,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 11) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:45:30: ( ( namespace_member_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:46:2: ( namespace_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:45:30: ( ( namespace_member_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:46:2: ( namespace_member_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:46:2: ( namespace_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:46:2: ( namespace_member_declaration )+
             int cnt9=0;
             loop9:
             do {
@@ -1327,7 +1327,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt9) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:46:2: namespace_member_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:46:2: namespace_member_declaration
             	    {
             	    pushFollow(FOLLOW_namespace_member_declaration_in_namespace_member_declarations232);
             	    namespace_member_declaration29=namespace_member_declaration();
@@ -1385,7 +1385,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_member_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:47:1: namespace_member_declaration : ( namespace_declaration | ( attributes )? ( modifiers )? type_declaration );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:47:1: namespace_member_declaration : ( namespace_declaration | ( attributes )? ( modifiers )? type_declaration );
     public final csParser.namespace_member_declaration_return namespace_member_declaration() throws RecognitionException {
         csParser.namespace_member_declaration_return retval = new csParser.namespace_member_declaration_return();
         retval.start = input.LT(1);
@@ -1407,7 +1407,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 12) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:47:29: ( namespace_declaration | ( attributes )? ( modifiers )? type_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:47:29: ( namespace_declaration | ( attributes )? ( modifiers )? type_declaration )
             int alt12=2;
             int LA12_0 = input.LA(1);
 
@@ -1427,7 +1427,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt12) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:48:2: namespace_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:48:2: namespace_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1442,12 +1442,12 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:4: ( attributes )? ( modifiers )? type_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:4: ( attributes )? ( modifiers )? type_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:4: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:4: ( attributes )?
                     int alt10=2;
                     int LA10_0 = input.LA(1);
 
@@ -1456,7 +1456,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt10) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:4: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:4: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_namespace_member_declaration246);
                             attributes31=attributes();
@@ -1471,7 +1471,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:18: ( modifiers )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:18: ( modifiers )?
                     int alt11=2;
                     int LA11_0 = input.LA(1);
 
@@ -1480,7 +1480,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt11) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:18: modifiers
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:18: modifiers
                             {
                             pushFollow(FOLLOW_modifiers_in_namespace_member_declaration251);
                             modifiers32=modifiers();
@@ -1539,7 +1539,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:50:1: type_declaration : ( ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration ) | class_declaration | struct_declaration | interface_declaration | enum_declaration | delegate_declaration );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:50:1: type_declaration : ( ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration ) | class_declaration | struct_declaration | interface_declaration | enum_declaration | delegate_declaration );
     public final csParser.type_declaration_return type_declaration() throws RecognitionException {
         csParser.type_declaration_return retval = new csParser.type_declaration_return();
         retval.start = input.LT(1);
@@ -1571,7 +1571,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 13) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:50:17: ( ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration ) | class_declaration | struct_declaration | interface_declaration | enum_declaration | delegate_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:50:17: ( ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration ) | class_declaration | struct_declaration | interface_declaration | enum_declaration | delegate_declaration )
             int alt14=6;
             int LA14_0 = input.LA(1);
 
@@ -1603,7 +1603,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt14) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:2: ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:2: ( 'partial' )=> 'partial' ( class_declaration | struct_declaration | interface_declaration )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1616,7 +1616,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal34_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:29: ( class_declaration | struct_declaration | interface_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:29: ( class_declaration | struct_declaration | interface_declaration )
                     int alt13=3;
                     switch ( input.LA(1) ) {
                     case 111:
@@ -1645,7 +1645,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt13) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:30: class_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:30: class_declaration
                             {
                             pushFollow(FOLLOW_class_declaration_in_type_declaration275);
                             class_declaration35=class_declaration();
@@ -1657,7 +1657,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:52:11: struct_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:52:11: struct_declaration
                             {
                             pushFollow(FOLLOW_struct_declaration_in_type_declaration287);
                             struct_declaration36=struct_declaration();
@@ -1669,7 +1669,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:53:11: interface_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:53:11: interface_declaration
                             {
                             pushFollow(FOLLOW_interface_declaration_in_type_declaration299);
                             interface_declaration37=interface_declaration();
@@ -1687,7 +1687,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:54:4: class_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:54:4: class_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1702,7 +1702,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:55:4: struct_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:55:4: struct_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1717,7 +1717,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:56:4: interface_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:56:4: interface_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1732,7 +1732,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:57:4: enum_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:57:4: enum_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1747,7 +1747,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:58:4: delegate_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:58:4: delegate_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -1796,7 +1796,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "qualified_identifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:60:1: qualified_identifier : identifier ( '.' identifier )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:60:1: qualified_identifier : identifier ( '.' identifier )* ;
     public final csParser.qualified_identifier_return qualified_identifier() throws RecognitionException {
         csParser.qualified_identifier_return retval = new csParser.qualified_identifier_return();
         retval.start = input.LT(1);
@@ -1816,8 +1816,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 14) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:60:21: ( identifier ( '.' identifier )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:61:2: identifier ( '.' identifier )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:60:21: ( identifier ( '.' identifier )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:61:2: identifier ( '.' identifier )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -1829,7 +1829,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier43.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:61:13: ( '.' identifier )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:61:13: ( '.' identifier )*
             loop15:
             do {
                 int alt15=2;
@@ -1842,7 +1842,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt15) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:61:14: '.' identifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:61:14: '.' identifier
             	    {
             	    char_literal44=(Token)match(input,DOT,FOLLOW_DOT_in_qualified_identifier337); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -1903,7 +1903,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:62:1: namespace_name : namespace_or_type_name ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:62:1: namespace_name : namespace_or_type_name ;
     public final csParser.namespace_name_return namespace_name() throws RecognitionException {
         csParser.namespace_name_return retval = new csParser.namespace_name_return();
         retval.start = input.LT(1);
@@ -1919,8 +1919,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 15) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:63:2: ( namespace_or_type_name )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:63:4: namespace_or_type_name
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:63:2: ( namespace_or_type_name )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:63:4: namespace_or_type_name
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -1967,7 +1967,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:65:1: modifiers : ( modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:65:1: modifiers : ( modifier )+ ;
     public final csParser.modifiers_return modifiers() throws RecognitionException {
         csParser.modifiers_return retval = new csParser.modifiers_return();
         retval.start = input.LT(1);
@@ -1983,13 +1983,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 16) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:65:10: ( ( modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:66:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:65:10: ( ( modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:66:2: ( modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:66:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:66:2: ( modifier )+
             int cnt16=0;
             loop16:
             do {
@@ -2003,7 +2003,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt16) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:66:2: modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:66:2: modifier
             	    {
             	    pushFollow(FOLLOW_modifier_in_modifiers359);
             	    modifier47=modifier();
@@ -2061,7 +2061,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "modifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:67:1: modifier : ( 'new' | 'public' | 'protected' | 'private' | 'internal' | 'unsafe' | 'abstract' | 'sealed' | 'static' | 'readonly' | 'volatile' | 'extern' | 'virtual' | 'override' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:67:1: modifier : ( 'new' | 'public' | 'protected' | 'private' | 'internal' | 'unsafe' | 'abstract' | 'sealed' | 'static' | 'readonly' | 'volatile' | 'extern' | 'virtual' | 'override' );
     public final csParser.modifier_return modifier() throws RecognitionException {
         csParser.modifier_return retval = new csParser.modifier_return();
         retval.start = input.LT(1);
@@ -2077,8 +2077,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 17) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:67:9: ( 'new' | 'public' | 'protected' | 'private' | 'internal' | 'unsafe' | 'abstract' | 'sealed' | 'static' | 'readonly' | 'volatile' | 'extern' | 'virtual' | 'override' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:67:9: ( 'new' | 'public' | 'protected' | 'private' | 'internal' | 'unsafe' | 'abstract' | 'sealed' | 'static' | 'readonly' | 'volatile' | 'extern' | 'virtual' | 'override' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -2135,7 +2135,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_member_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:71:1: class_member_declaration : ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:71:1: class_member_declaration : ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration ) ;
     public final csParser.class_member_declaration_return class_member_declaration() throws RecognitionException {
         csParser.class_member_declaration_return retval = new csParser.class_member_declaration_return();
         retval.start = input.LT(1);
@@ -2211,13 +2211,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 18) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:71:25: ( ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:72:2: ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:71:25: ( ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:72:2: ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:72:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:72:2: ( attributes )?
             int alt17=2;
             int LA17_0 = input.LA(1);
 
@@ -2226,7 +2226,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt17) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:72:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:72:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_class_member_declaration431);
                     attributes49=attributes();
@@ -2241,7 +2241,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:73:3: (m= modifiers )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:73:3: (m= modifiers )?
             int alt18=2;
             int LA18_0 = input.LA(1);
 
@@ -2250,7 +2250,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt18) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:73:3: m= modifiers
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:73:3: m= modifiers
                     {
                     pushFollow(FOLLOW_modifiers_in_class_member_declaration437);
                     m=modifiers();
@@ -2265,7 +2265,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:74:2: ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:74:2: ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | class_declaration | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration | destructor_declaration )
             int alt21=13;
             switch ( input.LA(1) ) {
             case 112:
@@ -2418,7 +2418,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt21) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:74:4: 'const' type constant_declarators ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:74:4: 'const' type constant_declarators ';'
                     {
                     string_literal50=(Token)match(input,112,FOLLOW_112_in_class_member_declaration443); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -2453,7 +2453,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:75:4: event_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:75:4: event_declaration
                     {
                     pushFollow(FOLLOW_event_declaration_in_class_member_declaration460);
                     event_declaration54=event_declaration();
@@ -2465,7 +2465,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:76:4: 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:76:4: 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration )
                     {
                     string_literal55=(Token)match(input,159,FOLLOW_159_in_class_member_declaration467); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -2475,7 +2475,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal55_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:76:14: ( method_declaration | interface_declaration | class_declaration | struct_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:76:14: ( method_declaration | interface_declaration | class_declaration | struct_declaration )
                     int alt19=4;
                     switch ( input.LA(1) ) {
                     case Character_literal:
@@ -2562,7 +2562,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt19) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:76:15: method_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:76:15: method_declaration
                             {
                             pushFollow(FOLLOW_method_declaration_in_class_member_declaration470);
                             method_declaration56=method_declaration();
@@ -2574,7 +2574,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:77:9: interface_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:77:9: interface_declaration
                             {
                             pushFollow(FOLLOW_interface_declaration_in_class_member_declaration481);
                             interface_declaration57=interface_declaration();
@@ -2586,7 +2586,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:78:9: class_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:78:9: class_declaration
                             {
                             pushFollow(FOLLOW_class_declaration_in_class_member_declaration492);
                             class_declaration58=class_declaration();
@@ -2598,7 +2598,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 4 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:79:9: struct_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:79:9: struct_declaration
                             {
                             pushFollow(FOLLOW_struct_declaration_in_class_member_declaration503);
                             struct_declaration59=struct_declaration();
@@ -2616,7 +2616,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:80:4: interface_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:80:4: interface_declaration
                     {
                     pushFollow(FOLLOW_interface_declaration_in_class_member_declaration509);
                     interface_declaration60=interface_declaration();
@@ -2628,7 +2628,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:81:4: 'void' method_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:81:4: 'void' method_declaration
                     {
                     string_literal61=(Token)match(input,192,FOLLOW_192_in_class_member_declaration515); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -2648,7 +2648,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:4: type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:4: type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
                     {
                     pushFollow(FOLLOW_type_in_class_member_declaration524);
                     type63=type();
@@ -2657,7 +2657,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, type63.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:9: ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:9: ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
                     int alt20=6;
                     switch ( input.LA(1) ) {
                     case 103:
@@ -2798,7 +2798,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt20) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:11: ( member_name '(' )=> method_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:11: ( member_name '(' )=> method_declaration
                             {
                             pushFollow(FOLLOW_method_declaration_in_class_member_declaration538);
                             method_declaration64=method_declaration();
@@ -2810,7 +2810,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:83:8: ( member_name '{' )=> property_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:83:8: ( member_name '{' )=> property_declaration
                             {
                             pushFollow(FOLLOW_property_declaration_in_class_member_declaration557);
                             property_declaration65=property_declaration();
@@ -2822,7 +2822,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:84:8: ( member_name '.' 'this' )=> type_name '.' indexer_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:84:8: ( member_name '.' 'this' )=> type_name '.' indexer_declaration
                             {
                             pushFollow(FOLLOW_type_name_in_class_member_declaration580);
                             type_name66=type_name();
@@ -2849,7 +2849,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 4 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:85:8: indexer_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:85:8: indexer_declaration
                             {
                             pushFollow(FOLLOW_indexer_declaration_in_class_member_declaration593);
                             indexer_declaration69=indexer_declaration();
@@ -2861,7 +2861,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 5 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:86:11: field_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:86:11: field_declaration
                             {
                             pushFollow(FOLLOW_field_declaration_in_class_member_declaration606);
                             field_declaration70=field_declaration();
@@ -2873,7 +2873,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 6 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:87:11: operator_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:87:11: operator_declaration
                             {
                             pushFollow(FOLLOW_operator_declaration_in_class_member_declaration624);
                             operator_declaration71=operator_declaration();
@@ -2891,7 +2891,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:91:4: class_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:91:4: class_declaration
                     {
                     pushFollow(FOLLOW_class_declaration_in_class_member_declaration642);
                     class_declaration72=class_declaration();
@@ -2903,7 +2903,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:92:4: struct_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:92:4: struct_declaration
                     {
                     pushFollow(FOLLOW_struct_declaration_in_class_member_declaration649);
                     struct_declaration73=struct_declaration();
@@ -2915,7 +2915,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:93:4: enum_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:93:4: enum_declaration
                     {
                     pushFollow(FOLLOW_enum_declaration_in_class_member_declaration655);
                     enum_declaration74=enum_declaration();
@@ -2927,7 +2927,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:94:4: delegate_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:94:4: delegate_declaration
                     {
                     pushFollow(FOLLOW_delegate_declaration_in_class_member_declaration662);
                     delegate_declaration75=delegate_declaration();
@@ -2939,7 +2939,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:95:4: conversion_operator_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:95:4: conversion_operator_declaration
                     {
                     pushFollow(FOLLOW_conversion_operator_declaration_in_class_member_declaration668);
                     conversion_operator_declaration76=conversion_operator_declaration();
@@ -2951,7 +2951,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:96:4: constructor_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:96:4: constructor_declaration
                     {
                     pushFollow(FOLLOW_constructor_declaration_in_class_member_declaration673);
                     constructor_declaration77=constructor_declaration();
@@ -2963,7 +2963,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:97:4: destructor_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:97:4: destructor_declaration
                     {
                     pushFollow(FOLLOW_destructor_declaration_in_class_member_declaration679);
                     destructor_declaration78=destructor_declaration();
@@ -3013,7 +3013,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primary_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:101:1: primary_expression : ( ( 'this' brackets )=> 'this' brackets ( primary_expression_part )* | ( 'base' brackets )=> 'this' brackets ( primary_expression_part )* | primary_expression_start ( primary_expression_part )* | 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression ) | sizeof_expression | checked_expression | unchecked_expression | default_value_expression | anonymous_method_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:101:1: primary_expression : ( ( 'this' brackets )=> 'this' brackets ( primary_expression_part )* | ( 'base' brackets )=> 'this' brackets ( primary_expression_part )* | primary_expression_start ( primary_expression_part )* | 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression ) | sizeof_expression | checked_expression | unchecked_expression | default_value_expression | anonymous_method_expression );
     public final csParser.primary_expression_return primary_expression() throws RecognitionException {
         csParser.primary_expression_return retval = new csParser.primary_expression_return();
         retval.start = input.LT(1);
@@ -3065,7 +3065,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 19) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:101:19: ( ( 'this' brackets )=> 'this' brackets ( primary_expression_part )* | ( 'base' brackets )=> 'this' brackets ( primary_expression_part )* | primary_expression_start ( primary_expression_part )* | 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression ) | sizeof_expression | checked_expression | unchecked_expression | default_value_expression | anonymous_method_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:101:19: ( ( 'this' brackets )=> 'this' brackets ( primary_expression_part )* | ( 'base' brackets )=> 'this' brackets ( primary_expression_part )* | primary_expression_start ( primary_expression_part )* | 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression ) | sizeof_expression | checked_expression | unchecked_expression | default_value_expression | anonymous_method_expression )
             int alt27=9;
             switch ( input.LA(1) ) {
             case 180:
@@ -3193,7 +3193,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt27) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:2: ( 'this' brackets )=> 'this' brackets ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:2: ( 'this' brackets )=> 'this' brackets ( primary_expression_part )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3213,7 +3213,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, brackets80.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:46: ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:46: ( primary_expression_part )*
                     loop22:
                     do {
                         int alt22=2;
@@ -3226,7 +3226,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt22) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:46: primary_expression_part
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:46: primary_expression_part
                     	    {
                     	    pushFollow(FOLLOW_primary_expression_part_in_primary_expression713);
                     	    primary_expression_part81=primary_expression_part();
@@ -3247,7 +3247,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:4: ( 'base' brackets )=> 'this' brackets ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:4: ( 'base' brackets )=> 'this' brackets ( primary_expression_part )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3267,7 +3267,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, brackets83.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:47: ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:47: ( primary_expression_part )*
                     loop23:
                     do {
                         int alt23=2;
@@ -3280,7 +3280,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt23) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:47: primary_expression_part
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:47: primary_expression_part
                     	    {
                     	    pushFollow(FOLLOW_primary_expression_part_in_primary_expression737);
                     	    primary_expression_part84=primary_expression_part();
@@ -3301,7 +3301,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:104:4: primary_expression_start ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:104:4: primary_expression_start ( primary_expression_part )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3313,7 +3313,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, primary_expression_start85.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:104:31: ( primary_expression_part )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:104:31: ( primary_expression_part )*
                     loop24:
                     do {
                         int alt24=2;
@@ -3326,7 +3326,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt24) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:104:31: primary_expression_part
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:104:31: primary_expression_part
                     	    {
                     	    pushFollow(FOLLOW_primary_expression_part_in_primary_expression747);
                     	    primary_expression_part86=primary_expression_part();
@@ -3347,7 +3347,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:4: 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:4: 'new' ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3360,7 +3360,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal87_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:10: ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:10: ( ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+ | ( delegate_creation_expression )=> delegate_creation_expression | object_creation_expression | anonymous_object_creation_expression )
                     int alt26=4;
                     switch ( input.LA(1) ) {
                     case 103:
@@ -3485,7 +3485,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt26) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:14: ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:14: ( object_creation_expression ( '.' | '->' | '[' ) )=> object_creation_expression ( primary_expression_part )+
                             {
                             pushFollow(FOLLOW_object_creation_expression_in_primary_expression781);
                             object_creation_expression88=object_creation_expression();
@@ -3494,7 +3494,7 @@ public TreeAdaptor getTreeAdaptor() {
                             if (state.failed) return retval;
                             if ( state.backtracking==0 ) adaptor.addChild(root_0, object_creation_expression88.getTree());
 
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:106:35: ( primary_expression_part )+
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:106:35: ( primary_expression_part )+
                             int cnt25=0;
                             loop25:
                             do {
@@ -3508,7 +3508,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                                 switch (alt25) {
                             	case 1 :
-                            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:106:35: primary_expression_part
+                            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:106:35: primary_expression_part
                             	    {
                             	    pushFollow(FOLLOW_primary_expression_part_in_primary_expression785);
                             	    primary_expression_part89=primary_expression_part();
@@ -3534,7 +3534,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:109:7: ( delegate_creation_expression )=> delegate_creation_expression
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:109:7: ( delegate_creation_expression )=> delegate_creation_expression
                             {
                             pushFollow(FOLLOW_delegate_creation_expression_in_primary_expression813);
                             delegate_creation_expression90=delegate_creation_expression();
@@ -3546,7 +3546,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:110:7: object_creation_expression
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:110:7: object_creation_expression
                             {
                             pushFollow(FOLLOW_object_creation_expression_in_primary_expression821);
                             object_creation_expression91=object_creation_expression();
@@ -3558,7 +3558,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 4 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:111:7: anonymous_object_creation_expression
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:111:7: anonymous_object_creation_expression
                             {
                             pushFollow(FOLLOW_anonymous_object_creation_expression_in_primary_expression829);
                             anonymous_object_creation_expression92=anonymous_object_creation_expression();
@@ -3576,7 +3576,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:112:4: sizeof_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:112:4: sizeof_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3591,7 +3591,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:113:4: checked_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:113:4: checked_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3606,7 +3606,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:114:4: unchecked_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:114:4: unchecked_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3621,7 +3621,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:115:4: default_value_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:115:4: default_value_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3636,7 +3636,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:116:4: anonymous_method_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:116:4: anonymous_method_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3685,7 +3685,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primary_expression_start"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:119:1: primary_expression_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | 'this' | 'base' | paren_expression | typeof_expression | literal );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:119:1: primary_expression_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | 'this' | 'base' | paren_expression | typeof_expression | literal );
     public final csParser.primary_expression_start_return primary_expression_start() throws RecognitionException {
         csParser.primary_expression_start_return retval = new csParser.primary_expression_start_return();
         retval.start = input.LT(1);
@@ -3721,7 +3721,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 20) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:119:25: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | 'this' | 'base' | paren_expression | typeof_expression | literal )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:119:25: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | 'this' | 'base' | paren_expression | typeof_expression | literal )
             int alt29=8;
             switch ( input.LA(1) ) {
             case 103:
@@ -3836,7 +3836,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt29) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:120:2: predefined_type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:120:2: predefined_type
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3851,7 +3851,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:121:4: ( identifier '<' )=> identifier generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:121:4: ( identifier '<' )=> identifier generic_argument_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3873,7 +3873,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:122:4: identifier ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:122:4: identifier ( '::' identifier )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3885,7 +3885,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier101.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:122:15: ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:122:15: ( '::' identifier )?
                     int alt28=2;
                     int LA28_0 = input.LA(1);
 
@@ -3894,7 +3894,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt28) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:122:16: '::' identifier
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:122:16: '::' identifier
                             {
                             string_literal102=(Token)match(input,80,FOLLOW_80_in_primary_expression_start943); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -3920,7 +3920,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:123:4: 'this'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:123:4: 'this'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3936,7 +3936,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:124:4: 'base'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:124:4: 'base'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3952,7 +3952,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:125:4: paren_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:125:4: paren_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3967,7 +3967,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:126:4: typeof_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:126:4: typeof_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -3982,7 +3982,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:127:4: literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:127:4: literal
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4031,7 +4031,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primary_expression_part"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:130:1: primary_expression_part : ( access_identifier | brackets_or_arguments );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:130:1: primary_expression_part : ( access_identifier | brackets_or_arguments );
     public final csParser.primary_expression_part_return primary_expression_part() throws RecognitionException {
         csParser.primary_expression_part_return retval = new csParser.primary_expression_part_return();
         retval.start = input.LT(1);
@@ -4049,7 +4049,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 21) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:130:24: ( access_identifier | brackets_or_arguments )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:130:24: ( access_identifier | brackets_or_arguments )
             int alt30=2;
             int LA30_0 = input.LA(1);
 
@@ -4069,7 +4069,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt30) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:131:3: access_identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:131:3: access_identifier
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4084,7 +4084,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:132:4: brackets_or_arguments
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:132:4: brackets_or_arguments
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4133,7 +4133,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "access_identifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:133:1: access_identifier : access_operator type_or_generic ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:133:1: access_identifier : access_operator type_or_generic ;
     public final csParser.access_identifier_return access_identifier() throws RecognitionException {
         csParser.access_identifier_return retval = new csParser.access_identifier_return();
         retval.start = input.LT(1);
@@ -4151,8 +4151,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 22) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:133:18: ( access_operator type_or_generic )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:134:2: access_operator type_or_generic
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:133:18: ( access_operator type_or_generic )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:134:2: access_operator type_or_generic
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4206,7 +4206,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "access_operator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:135:1: access_operator : ( '.' | '->' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:135:1: access_operator : ( '.' | '->' );
     public final csParser.access_operator_return access_operator() throws RecognitionException {
         csParser.access_operator_return retval = new csParser.access_operator_return();
         retval.start = input.LT(1);
@@ -4222,8 +4222,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 23) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:135:16: ( '.' | '->' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:135:16: ( '.' | '->' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4280,7 +4280,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "brackets_or_arguments"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:137:1: brackets_or_arguments : ( brackets | arguments );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:137:1: brackets_or_arguments : ( brackets | arguments );
     public final csParser.brackets_or_arguments_return brackets_or_arguments() throws RecognitionException {
         csParser.brackets_or_arguments_return retval = new csParser.brackets_or_arguments_return();
         retval.start = input.LT(1);
@@ -4298,7 +4298,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 24) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:137:22: ( brackets | arguments )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:137:22: ( brackets | arguments )
             int alt31=2;
             int LA31_0 = input.LA(1);
 
@@ -4318,7 +4318,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt31) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:138:2: brackets
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:138:2: brackets
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4333,7 +4333,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:138:13: arguments
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:138:13: arguments
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4382,7 +4382,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "brackets"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:139:1: brackets : '[' ( expression_list )? ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:139:1: brackets : '[' ( expression_list )? ']' ;
     public final csParser.brackets_return brackets() throws RecognitionException {
         csParser.brackets_return retval = new csParser.brackets_return();
         retval.start = input.LT(1);
@@ -4402,8 +4402,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 25) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:139:9: ( '[' ( expression_list )? ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:140:2: '[' ( expression_list )? ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:139:9: ( '[' ( expression_list )? ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:140:2: '[' ( expression_list )? ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4416,7 +4416,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal116_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:140:8: ( expression_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:140:8: ( expression_list )?
             int alt32=2;
             int LA32_0 = input.LA(1);
 
@@ -4425,7 +4425,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt32) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:140:8: expression_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:140:8: expression_list
                     {
                     pushFollow(FOLLOW_expression_list_in_brackets1054);
                     expression_list117=expression_list();
@@ -4483,7 +4483,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "paren_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:141:1: paren_expression : '(' expression ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:141:1: paren_expression : '(' expression ')' ;
     public final csParser.paren_expression_return paren_expression() throws RecognitionException {
         csParser.paren_expression_return retval = new csParser.paren_expression_return();
         retval.start = input.LT(1);
@@ -4503,8 +4503,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 26) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:141:17: ( '(' expression ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:142:2: '(' expression ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:141:17: ( '(' expression ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:142:2: '(' expression ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4567,7 +4567,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "arguments"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:143:1: arguments : '(' ( argument_list )? ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:143:1: arguments : '(' ( argument_list )? ')' ;
     public final csParser.arguments_return arguments() throws RecognitionException {
         csParser.arguments_return retval = new csParser.arguments_return();
         retval.start = input.LT(1);
@@ -4587,8 +4587,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 27) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:143:10: ( '(' ( argument_list )? ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:144:2: '(' ( argument_list )? ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:143:10: ( '(' ( argument_list )? ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:144:2: '(' ( argument_list )? ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4601,7 +4601,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal122_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:144:8: ( argument_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:144:8: ( argument_list )?
             int alt33=2;
             int LA33_0 = input.LA(1);
 
@@ -4610,7 +4610,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt33) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:144:8: argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:144:8: argument_list
                     {
                     pushFollow(FOLLOW_argument_list_in_arguments1090);
                     argument_list123=argument_list();
@@ -4668,7 +4668,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argument_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:145:1: argument_list : argument ( ',' argument )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:145:1: argument_list : argument ( ',' argument )* ;
     public final csParser.argument_list_return argument_list() throws RecognitionException {
         csParser.argument_list_return retval = new csParser.argument_list_return();
         retval.start = input.LT(1);
@@ -4688,8 +4688,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 28) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:145:14: ( argument ( ',' argument )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:146:2: argument ( ',' argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:145:14: ( argument ( ',' argument )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:146:2: argument ( ',' argument )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -4701,7 +4701,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, argument125.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:146:11: ( ',' argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:146:11: ( ',' argument )*
             loop34:
             do {
                 int alt34=2;
@@ -4714,7 +4714,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt34) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:146:12: ',' argument
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:146:12: ',' argument
             	    {
             	    char_literal126=(Token)match(input,74,FOLLOW_74_in_argument_list1107); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -4775,7 +4775,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argument"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:148:1: argument : ( argument_name argument_value | argument_value );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:148:1: argument : ( argument_name argument_value | argument_value );
     public final csParser.argument_return argument() throws RecognitionException {
         csParser.argument_return retval = new csParser.argument_return();
         retval.start = input.LT(1);
@@ -4795,7 +4795,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 29) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:148:9: ( argument_name argument_value | argument_value )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:148:9: ( argument_name argument_value | argument_value )
             int alt35=2;
             switch ( input.LA(1) ) {
             case 132:
@@ -4925,7 +4925,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt35) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:149:2: argument_name argument_value
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:149:2: argument_name argument_value
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4947,7 +4947,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:150:4: argument_value
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:150:4: argument_value
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -4996,7 +4996,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argument_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:151:1: argument_name : identifier ':' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:151:1: argument_name : identifier ':' ;
     public final csParser.argument_name_return argument_name() throws RecognitionException {
         csParser.argument_name_return retval = new csParser.argument_name_return();
         retval.start = input.LT(1);
@@ -5014,8 +5014,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 30) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:151:14: ( identifier ':' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:152:2: identifier ':'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:151:14: ( identifier ':' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:152:2: identifier ':'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5070,7 +5070,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "argument_value"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:153:1: argument_value : ( expression | ref_variable_reference | 'out' variable_reference );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:153:1: argument_value : ( expression | ref_variable_reference | 'out' variable_reference );
     public final csParser.argument_value_return argument_value() throws RecognitionException {
         csParser.argument_value_return retval = new csParser.argument_value_return();
         retval.start = input.LT(1);
@@ -5092,7 +5092,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 31) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:153:15: ( expression | ref_variable_reference | 'out' variable_reference )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:153:15: ( expression | ref_variable_reference | 'out' variable_reference )
             int alt36=3;
             switch ( input.LA(1) ) {
             case Character_literal:
@@ -5192,7 +5192,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt36) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:154:2: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:154:2: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5207,7 +5207,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:155:4: ref_variable_reference
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:155:4: ref_variable_reference
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5222,7 +5222,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:156:4: 'out' variable_reference
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:156:4: 'out' variable_reference
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -5279,7 +5279,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ref_variable_reference"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:157:1: ref_variable_reference : 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:157:1: ref_variable_reference : 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference ) ;
     public final csParser.ref_variable_reference_return ref_variable_reference() throws RecognitionException {
         csParser.ref_variable_reference_return retval = new csParser.ref_variable_reference_return();
         retval.start = input.LT(1);
@@ -5307,8 +5307,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 32) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:157:23: ( 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:158:2: 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:157:23: ( 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:158:2: 'ref' ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5321,7 +5321,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal137_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:3: ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:3: ( ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference ) | variable_reference )
             int alt38=2;
             int LA38_0 = input.LA(1);
 
@@ -5356,7 +5356,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt38) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:4: ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:4: ( '(' type ')' )=> '(' type ')' ( ref_variable_reference | variable_reference )
                     {
                     char_literal138=(Token)match(input,68,FOLLOW_68_in_ref_variable_reference1193); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -5381,7 +5381,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal140_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:47: ( ref_variable_reference | variable_reference )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:47: ( ref_variable_reference | variable_reference )
                     int alt37=2;
                     int LA37_0 = input.LA(1);
 
@@ -5401,7 +5401,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt37) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:48: ref_variable_reference
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:48: ref_variable_reference
                             {
                             pushFollow(FOLLOW_ref_variable_reference_in_ref_variable_reference1206);
                             ref_variable_reference141=ref_variable_reference();
@@ -5413,7 +5413,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:73: variable_reference
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:73: variable_reference
                             {
                             pushFollow(FOLLOW_variable_reference_in_ref_variable_reference1210);
                             variable_reference142=variable_reference();
@@ -5431,7 +5431,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:161:5: variable_reference
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:161:5: variable_reference
                     {
                     pushFollow(FOLLOW_variable_reference_in_ref_variable_reference1246);
                     variable_reference143=variable_reference();
@@ -5481,7 +5481,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_reference"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:163:1: variable_reference : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:163:1: variable_reference : expression ;
     public final csParser.variable_reference_return variable_reference() throws RecognitionException {
         csParser.variable_reference_return retval = new csParser.variable_reference_return();
         retval.start = input.LT(1);
@@ -5497,8 +5497,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 33) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:163:19: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:164:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:163:19: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:164:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5545,7 +5545,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "rank_specifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:165:1: rank_specifiers : ( rank_specifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:165:1: rank_specifiers : ( rank_specifier )+ ;
     public final csParser.rank_specifiers_return rank_specifiers() throws RecognitionException {
         csParser.rank_specifiers_return retval = new csParser.rank_specifiers_return();
         retval.start = input.LT(1);
@@ -5561,13 +5561,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 34) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:165:16: ( ( rank_specifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:166:2: ( rank_specifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:165:16: ( ( rank_specifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:166:2: ( rank_specifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:166:2: ( rank_specifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:166:2: ( rank_specifier )+
             int cnt39=0;
             loop39:
             do {
@@ -5587,7 +5587,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt39) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:166:2: rank_specifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:166:2: rank_specifier
             	    {
             	    pushFollow(FOLLOW_rank_specifier_in_rank_specifiers1264);
             	    rank_specifier145=rank_specifier();
@@ -5645,7 +5645,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "rank_specifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:167:1: rank_specifier : '[' ( dim_separators )? ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:167:1: rank_specifier : '[' ( dim_separators )? ']' ;
     public final csParser.rank_specifier_return rank_specifier() throws RecognitionException {
         csParser.rank_specifier_return retval = new csParser.rank_specifier_return();
         retval.start = input.LT(1);
@@ -5665,8 +5665,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 35) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:167:15: ( '[' ( dim_separators )? ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:168:2: '[' ( dim_separators )? ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:167:15: ( '[' ( dim_separators )? ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:168:2: '[' ( dim_separators )? ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5679,7 +5679,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal146_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:168:8: ( dim_separators )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:168:8: ( dim_separators )?
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -5688,7 +5688,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt40) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:168:8: dim_separators
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:168:8: dim_separators
                     {
                     pushFollow(FOLLOW_dim_separators_in_rank_specifier1286);
                     dim_separators147=dim_separators();
@@ -5746,7 +5746,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "dim_separators"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:169:1: dim_separators : ( ',' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:169:1: dim_separators : ( ',' )+ ;
     public final csParser.dim_separators_return dim_separators() throws RecognitionException {
         csParser.dim_separators_return retval = new csParser.dim_separators_return();
         retval.start = input.LT(1);
@@ -5762,13 +5762,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 36) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:169:15: ( ( ',' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:170:2: ( ',' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:169:15: ( ( ',' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:170:2: ( ',' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:170:2: ( ',' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:170:2: ( ',' )+
             int cnt41=0;
             loop41:
             do {
@@ -5782,7 +5782,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt41) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:170:2: ','
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:170:2: ','
             	    {
             	    char_literal149=(Token)match(input,74,FOLLOW_74_in_dim_separators1300); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -5841,7 +5841,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "delegate_creation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:172:1: delegate_creation_expression : type_name '(' type_name ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:172:1: delegate_creation_expression : type_name '(' type_name ')' ;
     public final csParser.delegate_creation_expression_return delegate_creation_expression() throws RecognitionException {
         csParser.delegate_creation_expression_return retval = new csParser.delegate_creation_expression_return();
         retval.start = input.LT(1);
@@ -5863,8 +5863,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 37) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:172:29: ( type_name '(' type_name ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:174:2: type_name '(' type_name ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:172:29: ( type_name '(' type_name ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:174:2: type_name '(' type_name ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5934,7 +5934,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_object_creation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:175:1: anonymous_object_creation_expression : anonymous_object_initializer ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:175:1: anonymous_object_creation_expression : anonymous_object_initializer ;
     public final csParser.anonymous_object_creation_expression_return anonymous_object_creation_expression() throws RecognitionException {
         csParser.anonymous_object_creation_expression_return retval = new csParser.anonymous_object_creation_expression_return();
         retval.start = input.LT(1);
@@ -5950,8 +5950,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 38) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:175:37: ( anonymous_object_initializer )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:177:2: anonymous_object_initializer
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:175:37: ( anonymous_object_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:177:2: anonymous_object_initializer
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -5998,7 +5998,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_object_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:178:1: anonymous_object_initializer : '{' ( member_declarator_list )? ( ',' )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:178:1: anonymous_object_initializer : '{' ( member_declarator_list )? ( ',' )? '}' ;
     public final csParser.anonymous_object_initializer_return anonymous_object_initializer() throws RecognitionException {
         csParser.anonymous_object_initializer_return retval = new csParser.anonymous_object_initializer_return();
         retval.start = input.LT(1);
@@ -6020,8 +6020,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 39) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:178:29: ( '{' ( member_declarator_list )? ( ',' )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:179:2: '{' ( member_declarator_list )? ( ',' )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:178:29: ( '{' ( member_declarator_list )? ( ',' )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:179:2: '{' ( member_declarator_list )? ( ',' )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -6034,7 +6034,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal155_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:179:8: ( member_declarator_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:179:8: ( member_declarator_list )?
             int alt42=2;
             int LA42_0 = input.LA(1);
 
@@ -6043,7 +6043,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt42) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:179:8: member_declarator_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:179:8: member_declarator_list
                     {
                     pushFollow(FOLLOW_member_declarator_list_in_anonymous_object_initializer1349);
                     member_declarator_list156=member_declarator_list();
@@ -6058,7 +6058,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:179:34: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:179:34: ( ',' )?
             int alt43=2;
             int LA43_0 = input.LA(1);
 
@@ -6067,7 +6067,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt43) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:179:34: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:179:34: ','
                     {
                     char_literal157=(Token)match(input,74,FOLLOW_74_in_anonymous_object_initializer1354); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -6126,7 +6126,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_declarator_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:180:1: member_declarator_list : member_declarator ( ',' member_declarator )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:180:1: member_declarator_list : member_declarator ( ',' member_declarator )* ;
     public final csParser.member_declarator_list_return member_declarator_list() throws RecognitionException {
         csParser.member_declarator_list_return retval = new csParser.member_declarator_list_return();
         retval.start = input.LT(1);
@@ -6146,8 +6146,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 40) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:180:23: ( member_declarator ( ',' member_declarator )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:181:2: member_declarator ( ',' member_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:180:23: ( member_declarator ( ',' member_declarator )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:181:2: member_declarator ( ',' member_declarator )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -6159,7 +6159,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, member_declarator159.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:181:21: ( ',' member_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:181:21: ( ',' member_declarator )*
             loop44:
             do {
                 int alt44=2;
@@ -6178,7 +6178,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt44) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:181:22: ',' member_declarator
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:181:22: ',' member_declarator
             	    {
             	    char_literal160=(Token)match(input,74,FOLLOW_74_in_member_declarator_list1371); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -6239,7 +6239,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:182:1: member_declarator : identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:182:1: member_declarator : identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression ) ;
     public final csParser.member_declarator_return member_declarator() throws RecognitionException {
         csParser.member_declarator_return retval = new csParser.member_declarator_return();
         retval.start = input.LT(1);
@@ -6265,8 +6265,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 41) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:182:18: ( identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:183:2: identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:182:18: ( identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:183:2: identifier ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -6278,7 +6278,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier162.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:183:15: ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:183:15: ( generic_argument_list | ( '.' primary_or_array_creation_expression ) | '=' expression )
             int alt45=3;
             switch ( input.LA(1) ) {
             case 81:
@@ -6307,7 +6307,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt45) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:183:16: generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:183:16: generic_argument_list
                     {
                     pushFollow(FOLLOW_generic_argument_list_in_member_declarator1390);
                     generic_argument_list163=generic_argument_list();
@@ -6319,10 +6319,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:184:8: ( '.' primary_or_array_creation_expression )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:184:8: ( '.' primary_or_array_creation_expression )
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:184:8: ( '.' primary_or_array_creation_expression )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:184:9: '.' primary_or_array_creation_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:184:8: ( '.' primary_or_array_creation_expression )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:184:9: '.' primary_or_array_creation_expression
                     {
                     char_literal164=(Token)match(input,DOT,FOLLOW_DOT_in_member_declarator1400); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -6345,7 +6345,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:185:8: '=' expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:185:8: '=' expression
                     {
                     char_literal166=(Token)match(input,85,FOLLOW_85_in_member_declarator1414); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -6403,7 +6403,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primary_or_array_creation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:186:1: primary_or_array_creation_expression : ( ( array_creation_expression )=> array_creation_expression | primary_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:186:1: primary_or_array_creation_expression : ( ( array_creation_expression )=> array_creation_expression | primary_expression );
     public final csParser.primary_or_array_creation_expression_return primary_or_array_creation_expression() throws RecognitionException {
         csParser.primary_or_array_creation_expression_return retval = new csParser.primary_or_array_creation_expression_return();
         retval.start = input.LT(1);
@@ -6421,7 +6421,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 42) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:186:37: ( ( array_creation_expression )=> array_creation_expression | primary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:186:37: ( ( array_creation_expression )=> array_creation_expression | primary_expression )
             int alt46=2;
             int LA46_0 = input.LA(1);
 
@@ -6456,7 +6456,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt46) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:187:2: ( array_creation_expression )=> array_creation_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:187:2: ( array_creation_expression )=> array_creation_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6471,7 +6471,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:188:4: primary_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:188:4: primary_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -6520,7 +6520,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "array_creation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:191:1: array_creation_expression : 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:191:1: array_creation_expression : 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) ) ;
     public final csParser.array_creation_expression_return array_creation_expression() throws RecognitionException {
         csParser.array_creation_expression_return retval = new csParser.array_creation_expression_return();
         retval.start = input.LT(1);
@@ -6562,8 +6562,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 43) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:191:26: ( 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:192:2: 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:191:26: ( 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:192:2: 'new' ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -6576,7 +6576,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal170_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:193:3: ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:193:3: ( type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer ) | rank_specifier ( array_initializer ) )
             int alt52=2;
             int LA52_0 = input.LA(1);
 
@@ -6596,7 +6596,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt52) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:193:4: type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:193:4: type ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer )
                     {
                     pushFollow(FOLLOW_type_in_array_creation_expression1457);
                     type171=type();
@@ -6605,7 +6605,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, type171.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:193:11: ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:193:11: ( '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ) | array_initializer )
                     int alt51=2;
                     int LA51_0 = input.LA(1);
 
@@ -6625,7 +6625,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt51) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:193:12: '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:193:12: '[' expression_list ']' ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
                             {
                             char_literal172=(Token)match(input,91,FOLLOW_91_in_array_creation_expression1462); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -6650,14 +6650,14 @@ public TreeAdaptor getTreeAdaptor() {
                             adaptor.addChild(root_0, char_literal174_tree);
                             }
 
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:6: ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:6: ( ( rank_specifiers )? ( array_initializer )? | ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
                             int alt50=2;
                             alt50 = dfa50.predict(input);
                             switch (alt50) {
                                 case 1 :
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:8: ( rank_specifiers )? ( array_initializer )?
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:8: ( rank_specifiers )? ( array_initializer )?
                                     {
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:8: ( rank_specifiers )?
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:8: ( rank_specifiers )?
                                     int alt47=2;
                                     int LA47_0 = input.LA(1);
 
@@ -6666,7 +6666,7 @@ public TreeAdaptor getTreeAdaptor() {
                                     }
                                     switch (alt47) {
                                         case 1 :
-                                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:8: rank_specifiers
+                                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:8: rank_specifiers
                                             {
                                             pushFollow(FOLLOW_rank_specifiers_in_array_creation_expression1482);
                                             rank_specifiers175=rank_specifiers();
@@ -6681,7 +6681,7 @@ public TreeAdaptor getTreeAdaptor() {
                                     }
 
 
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:27: ( array_initializer )?
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:27: ( array_initializer )?
                                     int alt48=2;
                                     int LA48_0 = input.LA(1);
 
@@ -6690,7 +6690,7 @@ public TreeAdaptor getTreeAdaptor() {
                                     }
                                     switch (alt48) {
                                         case 1 :
-                                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:194:27: array_initializer
+                                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:194:27: array_initializer
                                             {
                                             pushFollow(FOLLOW_array_initializer_in_array_creation_expression1487);
                                             array_initializer176=array_initializer();
@@ -6708,9 +6708,9 @@ public TreeAdaptor getTreeAdaptor() {
                                     }
                                     break;
                                 case 2 :
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:8: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:8: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments
                                     {
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:8: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )*
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:8: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )*
                                     loop49:
                                     do {
                                         int alt49=3;
@@ -6732,10 +6732,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                                         switch (alt49) {
                                     	case 1 :
-                                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:10: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
+                                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:10: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
                                     	    {
-                                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:10: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
-                                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:11: ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part
+                                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:10: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
+                                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:11: ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part
                                     	    {
                                     	    pushFollow(FOLLOW_arguments_in_array_creation_expression1523);
                                     	    arguments177=arguments();
@@ -6757,7 +6757,7 @@ public TreeAdaptor getTreeAdaptor() {
                                     	    }
                                     	    break;
                                     	case 2 :
-                                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:197:10: invocation_part
+                                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:197:10: invocation_part
                                     	    {
                                     	    pushFollow(FOLLOW_invocation_part_in_array_creation_expression1539);
                                     	    invocation_part179=invocation_part();
@@ -6791,7 +6791,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:199:7: array_initializer
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:199:7: array_initializer
                             {
                             pushFollow(FOLLOW_array_initializer_in_array_creation_expression1567);
                             array_initializer181=array_initializer();
@@ -6809,7 +6809,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:201:5: rank_specifier ( array_initializer )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:201:5: rank_specifier ( array_initializer )
                     {
                     pushFollow(FOLLOW_rank_specifier_in_array_creation_expression1581);
                     rank_specifier182=rank_specifier();
@@ -6818,8 +6818,8 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, rank_specifier182.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:202:4: ( array_initializer )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:202:5: array_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:202:4: ( array_initializer )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:202:5: array_initializer
                     {
                     pushFollow(FOLLOW_array_initializer_in_array_creation_expression1590);
                     array_initializer183=array_initializer();
@@ -6872,7 +6872,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "array_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:205:1: array_initializer : '{' ( variable_initializer_list )? ( ',' )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:205:1: array_initializer : '{' ( variable_initializer_list )? ( ',' )? '}' ;
     public final csParser.array_initializer_return array_initializer() throws RecognitionException {
         csParser.array_initializer_return retval = new csParser.array_initializer_return();
         retval.start = input.LT(1);
@@ -6894,8 +6894,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 44) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:205:18: ( '{' ( variable_initializer_list )? ( ',' )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:206:2: '{' ( variable_initializer_list )? ( ',' )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:205:18: ( '{' ( variable_initializer_list )? ( ',' )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:206:2: '{' ( variable_initializer_list )? ( ',' )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -6908,7 +6908,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal184_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:206:8: ( variable_initializer_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:206:8: ( variable_initializer_list )?
             int alt53=2;
             int LA53_0 = input.LA(1);
 
@@ -6917,7 +6917,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt53) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:206:8: variable_initializer_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:206:8: variable_initializer_list
                     {
                     pushFollow(FOLLOW_variable_initializer_list_in_array_initializer1615);
                     variable_initializer_list185=variable_initializer_list();
@@ -6932,7 +6932,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:206:37: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:206:37: ( ',' )?
             int alt54=2;
             int LA54_0 = input.LA(1);
 
@@ -6941,7 +6941,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt54) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:206:37: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:206:37: ','
                     {
                     char_literal186=(Token)match(input,74,FOLLOW_74_in_array_initializer1620); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -7000,7 +7000,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_initializer_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:207:1: variable_initializer_list : variable_initializer ( ',' variable_initializer )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:207:1: variable_initializer_list : variable_initializer ( ',' variable_initializer )* ;
     public final csParser.variable_initializer_list_return variable_initializer_list() throws RecognitionException {
         csParser.variable_initializer_list_return retval = new csParser.variable_initializer_list_return();
         retval.start = input.LT(1);
@@ -7020,8 +7020,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 45) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:207:26: ( variable_initializer ( ',' variable_initializer )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:208:2: variable_initializer ( ',' variable_initializer )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:207:26: ( variable_initializer ( ',' variable_initializer )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:208:2: variable_initializer ( ',' variable_initializer )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7033,7 +7033,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, variable_initializer188.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:208:23: ( ',' variable_initializer )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:208:23: ( ',' variable_initializer )*
             loop55:
             do {
                 int alt55=2;
@@ -7052,7 +7052,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt55) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:208:24: ',' variable_initializer
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:208:24: ',' variable_initializer
             	    {
             	    char_literal189=(Token)match(input,74,FOLLOW_74_in_variable_initializer_list1636); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -7113,7 +7113,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:209:1: variable_initializer : ( expression | array_initializer );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:209:1: variable_initializer : ( expression | array_initializer );
     public final csParser.variable_initializer_return variable_initializer() throws RecognitionException {
         csParser.variable_initializer_return retval = new csParser.variable_initializer_return();
         retval.start = input.LT(1);
@@ -7131,7 +7131,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 46) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:209:21: ( expression | array_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:209:21: ( expression | array_initializer )
             int alt56=2;
             int LA56_0 = input.LA(1);
 
@@ -7151,7 +7151,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt56) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:210:2: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:210:2: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -7166,7 +7166,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:210:15: array_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:210:15: array_initializer
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -7215,7 +7215,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "sizeof_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:211:1: sizeof_expression : 'sizeof' '(' unmanaged_type ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:211:1: sizeof_expression : 'sizeof' '(' unmanaged_type ')' ;
     public final csParser.sizeof_expression_return sizeof_expression() throws RecognitionException {
         csParser.sizeof_expression_return retval = new csParser.sizeof_expression_return();
         retval.start = input.LT(1);
@@ -7237,8 +7237,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 47) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:211:18: ( 'sizeof' '(' unmanaged_type ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:212:2: 'sizeof' '(' unmanaged_type ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:211:18: ( 'sizeof' '(' unmanaged_type ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:212:2: 'sizeof' '(' unmanaged_type ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7309,7 +7309,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "checked_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:213:1: checked_expression : 'checked' '(' expression ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:213:1: checked_expression : 'checked' '(' expression ')' ;
     public final csParser.checked_expression_return checked_expression() throws RecognitionException {
         csParser.checked_expression_return retval = new csParser.checked_expression_return();
         retval.start = input.LT(1);
@@ -7331,8 +7331,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 48) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:213:19: ( 'checked' '(' expression ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:214:2: 'checked' '(' expression ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:213:19: ( 'checked' '(' expression ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:214:2: 'checked' '(' expression ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7403,7 +7403,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unchecked_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:215:1: unchecked_expression : 'unchecked' '(' expression ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:215:1: unchecked_expression : 'unchecked' '(' expression ')' ;
     public final csParser.unchecked_expression_return unchecked_expression() throws RecognitionException {
         csParser.unchecked_expression_return retval = new csParser.unchecked_expression_return();
         retval.start = input.LT(1);
@@ -7425,8 +7425,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 49) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:215:21: ( 'unchecked' '(' expression ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:216:2: 'unchecked' '(' expression ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:215:21: ( 'unchecked' '(' expression ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:216:2: 'unchecked' '(' expression ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7497,7 +7497,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "default_value_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:217:1: default_value_expression : 'default' '(' type ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:217:1: default_value_expression : 'default' '(' type ')' ;
     public final csParser.default_value_expression_return default_value_expression() throws RecognitionException {
         csParser.default_value_expression_return retval = new csParser.default_value_expression_return();
         retval.start = input.LT(1);
@@ -7519,8 +7519,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 50) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:217:25: ( 'default' '(' type ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:218:2: 'default' '(' type ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:217:25: ( 'default' '(' type ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:218:2: 'default' '(' type ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7591,7 +7591,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_method_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:219:1: anonymous_method_expression : 'delegate' ( explicit_anonymous_function_signature )? block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:219:1: anonymous_method_expression : 'delegate' ( explicit_anonymous_function_signature )? block ;
     public final csParser.anonymous_method_expression_return anonymous_method_expression() throws RecognitionException {
         csParser.anonymous_method_expression_return retval = new csParser.anonymous_method_expression_return();
         retval.start = input.LT(1);
@@ -7611,8 +7611,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 51) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:219:28: ( 'delegate' ( explicit_anonymous_function_signature )? block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:220:2: 'delegate' ( explicit_anonymous_function_signature )? block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:219:28: ( 'delegate' ( explicit_anonymous_function_signature )? block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:220:2: 'delegate' ( explicit_anonymous_function_signature )? block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7625,7 +7625,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal209_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:220:15: ( explicit_anonymous_function_signature )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:220:15: ( explicit_anonymous_function_signature )?
             int alt57=2;
             int LA57_0 = input.LA(1);
 
@@ -7634,7 +7634,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt57) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:220:15: explicit_anonymous_function_signature
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:220:15: explicit_anonymous_function_signature
                     {
                     pushFollow(FOLLOW_explicit_anonymous_function_signature_in_anonymous_method_expression1746);
                     explicit_anonymous_function_signature210=explicit_anonymous_function_signature();
@@ -7691,7 +7691,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "explicit_anonymous_function_signature"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:221:1: explicit_anonymous_function_signature : '(' ( explicit_anonymous_function_parameter_list )? ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:221:1: explicit_anonymous_function_signature : '(' ( explicit_anonymous_function_parameter_list )? ')' ;
     public final csParser.explicit_anonymous_function_signature_return explicit_anonymous_function_signature() throws RecognitionException {
         csParser.explicit_anonymous_function_signature_return retval = new csParser.explicit_anonymous_function_signature_return();
         retval.start = input.LT(1);
@@ -7711,8 +7711,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 52) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:221:38: ( '(' ( explicit_anonymous_function_parameter_list )? ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:222:2: '(' ( explicit_anonymous_function_parameter_list )? ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:221:38: ( '(' ( explicit_anonymous_function_parameter_list )? ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:222:2: '(' ( explicit_anonymous_function_parameter_list )? ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7725,7 +7725,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal212_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:222:8: ( explicit_anonymous_function_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:222:8: ( explicit_anonymous_function_parameter_list )?
             int alt58=2;
             int LA58_0 = input.LA(1);
 
@@ -7734,7 +7734,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt58) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:222:8: explicit_anonymous_function_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:222:8: explicit_anonymous_function_parameter_list
                     {
                     pushFollow(FOLLOW_explicit_anonymous_function_parameter_list_in_explicit_anonymous_function_signature1762);
                     explicit_anonymous_function_parameter_list213=explicit_anonymous_function_parameter_list();
@@ -7792,7 +7792,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "explicit_anonymous_function_parameter_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:223:1: explicit_anonymous_function_parameter_list : explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:223:1: explicit_anonymous_function_parameter_list : explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )* ;
     public final csParser.explicit_anonymous_function_parameter_list_return explicit_anonymous_function_parameter_list() throws RecognitionException {
         csParser.explicit_anonymous_function_parameter_list_return retval = new csParser.explicit_anonymous_function_parameter_list_return();
         retval.start = input.LT(1);
@@ -7812,8 +7812,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 53) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:223:43: ( explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:224:2: explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:223:43: ( explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:224:2: explicit_anonymous_function_parameter ( ',' explicit_anonymous_function_parameter )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -7825,7 +7825,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, explicit_anonymous_function_parameter215.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:224:42: ( ',' explicit_anonymous_function_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:224:42: ( ',' explicit_anonymous_function_parameter )*
             loop59:
             do {
                 int alt59=2;
@@ -7838,7 +7838,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt59) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:224:43: ',' explicit_anonymous_function_parameter
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:224:43: ',' explicit_anonymous_function_parameter
             	    {
             	    char_literal216=(Token)match(input,74,FOLLOW_74_in_explicit_anonymous_function_parameter_list1780); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -7899,7 +7899,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "explicit_anonymous_function_parameter"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:225:1: explicit_anonymous_function_parameter : ( anonymous_function_parameter_modifier )? type identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:225:1: explicit_anonymous_function_parameter : ( anonymous_function_parameter_modifier )? type identifier ;
     public final csParser.explicit_anonymous_function_parameter_return explicit_anonymous_function_parameter() throws RecognitionException {
         csParser.explicit_anonymous_function_parameter_return retval = new csParser.explicit_anonymous_function_parameter_return();
         retval.start = input.LT(1);
@@ -7919,13 +7919,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 54) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:225:38: ( ( anonymous_function_parameter_modifier )? type identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:226:2: ( anonymous_function_parameter_modifier )? type identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:225:38: ( ( anonymous_function_parameter_modifier )? type identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:226:2: ( anonymous_function_parameter_modifier )? type identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:226:2: ( anonymous_function_parameter_modifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:226:2: ( anonymous_function_parameter_modifier )?
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -7934,7 +7934,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt60) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:226:2: anonymous_function_parameter_modifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:226:2: anonymous_function_parameter_modifier
                     {
                     pushFollow(FOLLOW_anonymous_function_parameter_modifier_in_explicit_anonymous_function_parameter1795);
                     anonymous_function_parameter_modifier218=anonymous_function_parameter_modifier();
@@ -7998,7 +7998,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_function_parameter_modifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:227:1: anonymous_function_parameter_modifier : ( 'ref' | 'out' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:227:1: anonymous_function_parameter_modifier : ( 'ref' | 'out' );
     public final csParser.anonymous_function_parameter_modifier_return anonymous_function_parameter_modifier() throws RecognitionException {
         csParser.anonymous_function_parameter_modifier_return retval = new csParser.anonymous_function_parameter_modifier_return();
         retval.start = input.LT(1);
@@ -8014,8 +8014,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 55) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:227:38: ( 'ref' | 'out' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:227:38: ( 'ref' | 'out' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8072,7 +8072,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "object_creation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:232:1: object_creation_expression : type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:232:1: object_creation_expression : type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer ) ;
     public final csParser.object_creation_expression_return object_creation_expression() throws RecognitionException {
         csParser.object_creation_expression_return retval = new csParser.object_creation_expression_return();
         retval.start = input.LT(1);
@@ -8098,8 +8098,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 56) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:232:27: ( type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:234:2: type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:232:27: ( type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:234:2: type ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8111,7 +8111,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type222.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:3: ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:3: ( '(' ( argument_list )? ')' ( object_or_collection_initializer )? | object_or_collection_initializer )
             int alt63=2;
             int LA63_0 = input.LA(1);
 
@@ -8131,7 +8131,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt63) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:5: '(' ( argument_list )? ')' ( object_or_collection_initializer )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:5: '(' ( argument_list )? ')' ( object_or_collection_initializer )?
                     {
                     char_literal223=(Token)match(input,68,FOLLOW_68_in_object_creation_expression1837); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -8141,7 +8141,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal223_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:11: ( argument_list )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:11: ( argument_list )?
                     int alt61=2;
                     int LA61_0 = input.LA(1);
 
@@ -8150,7 +8150,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt61) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:11: argument_list
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:11: argument_list
                             {
                             pushFollow(FOLLOW_argument_list_in_object_creation_expression1841);
                             argument_list224=argument_list();
@@ -8173,7 +8173,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal225_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:34: ( object_or_collection_initializer )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:34: ( object_or_collection_initializer )?
                     int alt62=2;
                     int LA62_0 = input.LA(1);
 
@@ -8182,7 +8182,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt62) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:235:34: object_or_collection_initializer
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:235:34: object_or_collection_initializer
                             {
                             pushFollow(FOLLOW_object_or_collection_initializer_in_object_creation_expression1850);
                             object_or_collection_initializer226=object_or_collection_initializer();
@@ -8200,7 +8200,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:236:7: object_or_collection_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:236:7: object_or_collection_initializer
                     {
                     pushFollow(FOLLOW_object_or_collection_initializer_in_object_creation_expression1861);
                     object_or_collection_initializer227=object_or_collection_initializer();
@@ -8250,7 +8250,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "object_or_collection_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:238:1: object_or_collection_initializer : '{' ( object_initializer | collection_initializer ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:238:1: object_or_collection_initializer : '{' ( object_initializer | collection_initializer ) ;
     public final csParser.object_or_collection_initializer_return object_or_collection_initializer() throws RecognitionException {
         csParser.object_or_collection_initializer_return retval = new csParser.object_or_collection_initializer_return();
         retval.start = input.LT(1);
@@ -8270,8 +8270,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 57) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:238:33: ( '{' ( object_initializer | collection_initializer ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:239:2: '{' ( object_initializer | collection_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:238:33: ( '{' ( object_initializer | collection_initializer ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:239:2: '{' ( object_initializer | collection_initializer )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8284,7 +8284,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal228_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:239:7: ( object_initializer | collection_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:239:7: ( object_initializer | collection_initializer )
             int alt64=2;
             switch ( input.LA(1) ) {
             case 132:
@@ -8419,7 +8419,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt64) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:239:8: object_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:239:8: object_initializer
                     {
                     pushFollow(FOLLOW_object_initializer_in_object_or_collection_initializer1877);
                     object_initializer229=object_initializer();
@@ -8431,7 +8431,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:240:5: collection_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:240:5: collection_initializer
                     {
                     pushFollow(FOLLOW_collection_initializer_in_object_or_collection_initializer1884);
                     collection_initializer230=collection_initializer();
@@ -8481,7 +8481,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "collection_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:241:1: collection_initializer : element_initializer_list ( ',' )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:241:1: collection_initializer : element_initializer_list ( ',' )? '}' ;
     public final csParser.collection_initializer_return collection_initializer() throws RecognitionException {
         csParser.collection_initializer_return retval = new csParser.collection_initializer_return();
         retval.start = input.LT(1);
@@ -8501,8 +8501,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 58) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:241:23: ( element_initializer_list ( ',' )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:242:2: element_initializer_list ( ',' )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:241:23: ( element_initializer_list ( ',' )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:242:2: element_initializer_list ( ',' )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8514,7 +8514,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, element_initializer_list231.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:242:29: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:242:29: ( ',' )?
             int alt65=2;
             int LA65_0 = input.LA(1);
 
@@ -8523,7 +8523,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt65) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:242:29: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:242:29: ','
                     {
                     char_literal232=(Token)match(input,74,FOLLOW_74_in_collection_initializer1898); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -8582,7 +8582,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "element_initializer_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:243:1: element_initializer_list : element_initializer ( ',' element_initializer )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:243:1: element_initializer_list : element_initializer ( ',' element_initializer )* ;
     public final csParser.element_initializer_list_return element_initializer_list() throws RecognitionException {
         csParser.element_initializer_list_return retval = new csParser.element_initializer_list_return();
         retval.start = input.LT(1);
@@ -8602,8 +8602,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 59) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:243:25: ( element_initializer ( ',' element_initializer )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:244:2: element_initializer ( ',' element_initializer )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:243:25: ( element_initializer ( ',' element_initializer )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:244:2: element_initializer ( ',' element_initializer )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8615,7 +8615,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, element_initializer234.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:244:23: ( ',' element_initializer )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:244:23: ( ',' element_initializer )*
             loop66:
             do {
                 int alt66=2;
@@ -8634,7 +8634,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt66) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:244:24: ',' element_initializer
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:244:24: ',' element_initializer
             	    {
             	    char_literal235=(Token)match(input,74,FOLLOW_74_in_element_initializer_list1916); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -8695,7 +8695,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "element_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:245:1: element_initializer : ( non_assignment_expression | '{' expression_list '}' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:245:1: element_initializer : ( non_assignment_expression | '{' expression_list '}' );
     public final csParser.element_initializer_return element_initializer() throws RecognitionException {
         csParser.element_initializer_return retval = new csParser.element_initializer_return();
         retval.start = input.LT(1);
@@ -8717,7 +8717,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 60) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:245:20: ( non_assignment_expression | '{' expression_list '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:245:20: ( non_assignment_expression | '{' expression_list '}' )
             int alt67=2;
             int LA67_0 = input.LA(1);
 
@@ -8737,7 +8737,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt67) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:246:2: non_assignment_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:246:2: non_assignment_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -8752,7 +8752,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:247:4: '{' expression_list '}'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:247:4: '{' expression_list '}'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -8817,7 +8817,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "object_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:254:1: object_initializer : ( member_initializer_list )? ( ',' )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:254:1: object_initializer : ( member_initializer_list )? ( ',' )? '}' ;
     public final csParser.object_initializer_return object_initializer() throws RecognitionException {
         csParser.object_initializer_return retval = new csParser.object_initializer_return();
         retval.start = input.LT(1);
@@ -8837,13 +8837,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 61) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:254:19: ( ( member_initializer_list )? ( ',' )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:255:2: ( member_initializer_list )? ( ',' )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:254:19: ( ( member_initializer_list )? ( ',' )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:255:2: ( member_initializer_list )? ( ',' )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:255:2: ( member_initializer_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:255:2: ( member_initializer_list )?
             int alt68=2;
             int LA68_0 = input.LA(1);
 
@@ -8852,7 +8852,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt68) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:255:2: member_initializer_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:255:2: member_initializer_list
                     {
                     pushFollow(FOLLOW_member_initializer_list_in_object_initializer1958);
                     member_initializer_list241=member_initializer_list();
@@ -8867,7 +8867,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:255:29: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:255:29: ( ',' )?
             int alt69=2;
             int LA69_0 = input.LA(1);
 
@@ -8876,7 +8876,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt69) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:255:29: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:255:29: ','
                     {
                     char_literal242=(Token)match(input,74,FOLLOW_74_in_object_initializer1963); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -8935,7 +8935,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_initializer_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:256:1: member_initializer_list : member_initializer ( ',' member_initializer ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:256:1: member_initializer_list : member_initializer ( ',' member_initializer ) ;
     public final csParser.member_initializer_list_return member_initializer_list() throws RecognitionException {
         csParser.member_initializer_list_return retval = new csParser.member_initializer_list_return();
         retval.start = input.LT(1);
@@ -8955,8 +8955,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 62) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:256:24: ( member_initializer ( ',' member_initializer ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:257:2: member_initializer ( ',' member_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:256:24: ( member_initializer ( ',' member_initializer ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:257:2: member_initializer ( ',' member_initializer )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -8968,8 +8968,8 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, member_initializer244.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:257:22: ( ',' member_initializer )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:257:23: ',' member_initializer
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:257:22: ( ',' member_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:257:23: ',' member_initializer
             {
             char_literal245=(Token)match(input,74,FOLLOW_74_in_member_initializer_list1981); if (state.failed) return retval;
             if ( state.backtracking==0 ) {
@@ -9024,7 +9024,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:258:1: member_initializer : identifier '=' initializer_value ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:258:1: member_initializer : identifier '=' initializer_value ;
     public final csParser.member_initializer_return member_initializer() throws RecognitionException {
         csParser.member_initializer_return retval = new csParser.member_initializer_return();
         retval.start = input.LT(1);
@@ -9044,8 +9044,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 63) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:258:19: ( identifier '=' initializer_value )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:259:2: identifier '=' initializer_value
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:258:19: ( identifier '=' initializer_value )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:259:2: identifier '=' initializer_value
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9107,7 +9107,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "initializer_value"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:260:1: initializer_value : ( expression | object_or_collection_initializer );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:260:1: initializer_value : ( expression | object_or_collection_initializer );
     public final csParser.initializer_value_return initializer_value() throws RecognitionException {
         csParser.initializer_value_return retval = new csParser.initializer_value_return();
         retval.start = input.LT(1);
@@ -9125,7 +9125,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 64) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:260:18: ( expression | object_or_collection_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:260:18: ( expression | object_or_collection_initializer )
             int alt70=2;
             int LA70_0 = input.LA(1);
 
@@ -9145,7 +9145,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt70) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:261:2: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:261:2: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -9160,7 +9160,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:262:4: object_or_collection_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:262:4: object_or_collection_initializer
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -9209,7 +9209,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "typeof_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:266:1: typeof_expression : 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:266:1: typeof_expression : 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')' ;
     public final csParser.typeof_expression_return typeof_expression() throws RecognitionException {
         csParser.typeof_expression_return retval = new csParser.typeof_expression_return();
         retval.start = input.LT(1);
@@ -9235,8 +9235,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 65) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:266:18: ( 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:267:2: 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:266:18: ( 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:267:2: 'typeof' '(' ( ( unbound_type_name )=> unbound_type_name | type | 'void' ) ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9257,12 +9257,12 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal253_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:267:19: ( ( unbound_type_name )=> unbound_type_name | type | 'void' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:267:19: ( ( unbound_type_name )=> unbound_type_name | type | 'void' )
             int alt71=3;
             alt71 = dfa71.predict(input);
             switch (alt71) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:267:20: ( unbound_type_name )=> unbound_type_name
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:267:20: ( unbound_type_name )=> unbound_type_name
                     {
                     pushFollow(FOLLOW_unbound_type_name_in_typeof_expression2043);
                     unbound_type_name254=unbound_type_name();
@@ -9274,7 +9274,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:268:10: type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:268:10: type
                     {
                     pushFollow(FOLLOW_type_in_typeof_expression2054);
                     type255=type();
@@ -9286,7 +9286,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:269:10: 'void'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:269:10: 'void'
                     {
                     string_literal256=(Token)match(input,192,FOLLOW_192_in_typeof_expression2066); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -9345,7 +9345,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unbound_type_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:274:1: unbound_type_name : unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:274:1: unbound_type_name : unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier ;
     public final csParser.unbound_type_name_return unbound_type_name() throws RecognitionException {
         csParser.unbound_type_name_return retval = new csParser.unbound_type_name_return();
         retval.start = input.LT(1);
@@ -9369,8 +9369,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 66) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:274:18: ( unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:276:2: unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:274:18: ( unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:276:2: unbound_type_name_start ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )* generic_dimension_specifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9382,17 +9382,17 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, unbound_type_name_start258.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:3: ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:3: ( ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part ) | unbound_type_name_part )*
             loop72:
             do {
                 int alt72=3;
                 alt72 = dfa72.predict(input);
                 switch (alt72) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:4: ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:4: ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part )
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:4: ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part )
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:5: ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:4: ( ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:5: ( generic_dimension_specifier '.' )=> generic_dimension_specifier unbound_type_name_part
             	    {
             	    pushFollow(FOLLOW_generic_dimension_specifier_in_unbound_type_name2105);
             	    generic_dimension_specifier259=generic_dimension_specifier();
@@ -9414,7 +9414,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:278:5: unbound_type_name_part
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:278:5: unbound_type_name_part
             	    {
             	    pushFollow(FOLLOW_unbound_type_name_part_in_unbound_type_name2116);
             	    unbound_type_name_part261=unbound_type_name_part();
@@ -9474,7 +9474,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unbound_type_name_start"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:282:1: unbound_type_name_start : identifier ( '::' identifier )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:282:1: unbound_type_name_start : identifier ( '::' identifier )? ;
     public final csParser.unbound_type_name_start_return unbound_type_name_start() throws RecognitionException {
         csParser.unbound_type_name_start_return retval = new csParser.unbound_type_name_start_return();
         retval.start = input.LT(1);
@@ -9494,8 +9494,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 67) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:282:24: ( identifier ( '::' identifier )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:283:2: identifier ( '::' identifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:282:24: ( identifier ( '::' identifier )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:283:2: identifier ( '::' identifier )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9507,7 +9507,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier263.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:283:13: ( '::' identifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:283:13: ( '::' identifier )?
             int alt73=2;
             int LA73_0 = input.LA(1);
 
@@ -9516,7 +9516,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt73) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:283:14: '::' identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:283:14: '::' identifier
                     {
                     string_literal264=(Token)match(input,80,FOLLOW_80_in_unbound_type_name_start2139); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -9574,7 +9574,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unbound_type_name_part"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:284:1: unbound_type_name_part : '.' identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:284:1: unbound_type_name_part : '.' identifier ;
     public final csParser.unbound_type_name_part_return unbound_type_name_part() throws RecognitionException {
         csParser.unbound_type_name_part_return retval = new csParser.unbound_type_name_part_return();
         retval.start = input.LT(1);
@@ -9592,8 +9592,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 68) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:284:23: ( '.' identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:285:2: '.' identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:284:23: ( '.' identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:285:2: '.' identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9648,7 +9648,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "generic_dimension_specifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:286:1: generic_dimension_specifier : '<' ( commas )? '>' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:286:1: generic_dimension_specifier : '<' ( commas )? '>' ;
     public final csParser.generic_dimension_specifier_return generic_dimension_specifier() throws RecognitionException {
         csParser.generic_dimension_specifier_return retval = new csParser.generic_dimension_specifier_return();
         retval.start = input.LT(1);
@@ -9668,8 +9668,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 69) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:286:28: ( '<' ( commas )? '>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:287:2: '<' ( commas )? '>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:286:28: ( '<' ( commas )? '>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:287:2: '<' ( commas )? '>'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9682,7 +9682,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal268_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:287:8: ( commas )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:287:8: ( commas )?
             int alt74=2;
             int LA74_0 = input.LA(1);
 
@@ -9691,7 +9691,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt74) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:287:8: commas
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:287:8: commas
                     {
                     pushFollow(FOLLOW_commas_in_generic_dimension_specifier2166);
                     commas269=commas();
@@ -9749,7 +9749,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "commas"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:288:1: commas : ( ',' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:288:1: commas : ( ',' )+ ;
     public final csParser.commas_return commas() throws RecognitionException {
         csParser.commas_return retval = new csParser.commas_return();
         retval.start = input.LT(1);
@@ -9765,13 +9765,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 70) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:288:7: ( ( ',' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:289:2: ( ',' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:288:7: ( ( ',' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:289:2: ( ',' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:289:2: ( ',' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:289:2: ( ',' )+
             int cnt75=0;
             loop75:
             do {
@@ -9785,7 +9785,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt75) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:289:2: ','
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:289:2: ','
             	    {
             	    char_literal271=(Token)match(input,74,FOLLOW_74_in_commas2180); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -9844,7 +9844,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:295:1: type_name : namespace_or_type_name ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:295:1: type_name : namespace_or_type_name ;
     public final csParser.type_name_return type_name() throws RecognitionException {
         csParser.type_name_return retval = new csParser.type_name_return();
         retval.start = input.LT(1);
@@ -9860,8 +9860,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 71) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:295:10: ( namespace_or_type_name )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:296:2: namespace_or_type_name
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:295:10: ( namespace_or_type_name )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:296:2: namespace_or_type_name
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9908,7 +9908,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "namespace_or_type_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:297:1: namespace_or_type_name : type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:297:1: namespace_or_type_name : type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )* ;
     public final csParser.namespace_or_type_name_return namespace_or_type_name() throws RecognitionException {
         csParser.namespace_or_type_name_return retval = new csParser.namespace_or_type_name_return();
         retval.start = input.LT(1);
@@ -9932,8 +9932,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 72) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:297:23: ( type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:298:3: type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:297:23: ( type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:298:3: type_or_generic ( '::' type_or_generic )? ( '.' type_or_generic )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -9945,7 +9945,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_or_generic273.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:298:21: ( '::' type_or_generic )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:298:21: ( '::' type_or_generic )?
             int alt76=2;
             int LA76_0 = input.LA(1);
 
@@ -9954,7 +9954,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt76) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:298:22: '::' type_or_generic
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:298:22: '::' type_or_generic
                     {
                     string_literal274=(Token)match(input,80,FOLLOW_80_in_namespace_or_type_name2210); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -9977,7 +9977,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:298:45: ( '.' type_or_generic )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:298:45: ( '.' type_or_generic )*
             loop77:
             do {
                 int alt77=2;
@@ -9996,7 +9996,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt77) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:298:46: '.' type_or_generic
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:298:46: '.' type_or_generic
             	    {
             	    char_literal276=(Token)match(input,DOT,FOLLOW_DOT_in_namespace_or_type_name2217); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -10057,7 +10057,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_or_generic"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:299:1: type_or_generic : ( ( identifier '<' )=> identifier generic_argument_list | identifier );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:299:1: type_or_generic : ( ( identifier '<' )=> identifier generic_argument_list | identifier );
     public final csParser.type_or_generic_return type_or_generic() throws RecognitionException {
         csParser.type_or_generic_return retval = new csParser.type_or_generic_return();
         retval.start = input.LT(1);
@@ -10077,7 +10077,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 73) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:299:16: ( ( identifier '<' )=> identifier generic_argument_list | identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:299:16: ( ( identifier '<' )=> identifier generic_argument_list | identifier )
             int alt78=2;
             int LA78_0 = input.LA(1);
 
@@ -10109,7 +10109,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt78) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:300:2: ( identifier '<' )=> identifier generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:300:2: ( identifier '<' )=> identifier generic_argument_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10131,7 +10131,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:301:4: identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:301:4: identifier
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10180,7 +10180,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "qid"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:303:1: qid : qid_start ( qid_part )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:303:1: qid : qid_start ( qid_part )* ;
     public final csParser.qid_return qid() throws RecognitionException {
         csParser.qid_return retval = new csParser.qid_return();
         retval.start = input.LT(1);
@@ -10198,8 +10198,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 74) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:303:4: ( qid_start ( qid_part )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:304:2: qid_start ( qid_part )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:303:4: ( qid_start ( qid_part )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:304:2: qid_start ( qid_part )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10211,7 +10211,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, qid_start281.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:304:14: ( qid_part )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:304:14: ( qid_part )*
             loop79:
             do {
                 int alt79=2;
@@ -10233,7 +10233,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt79) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:304:14: qid_part
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:304:14: qid_part
             	    {
             	    pushFollow(FOLLOW_qid_part_in_qid2265);
             	    qid_part282=qid_part();
@@ -10286,7 +10286,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "qid_start"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:306:1: qid_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | literal );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:306:1: qid_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | literal );
     public final csParser.qid_start_return qid_start() throws RecognitionException {
         csParser.qid_start_return retval = new csParser.qid_start_return();
         retval.start = input.LT(1);
@@ -10314,7 +10314,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 75) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:306:10: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | literal )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:306:10: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | identifier ( '::' identifier )? | literal )
             int alt81=4;
             switch ( input.LA(1) ) {
             case 103:
@@ -10409,7 +10409,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt81) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:307:2: predefined_type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:307:2: predefined_type
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10424,7 +10424,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:308:4: ( identifier '<' )=> identifier generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:308:4: ( identifier '<' )=> identifier generic_argument_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10446,7 +10446,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:311:4: identifier ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:311:4: identifier ( '::' identifier )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10458,7 +10458,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier286.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:311:17: ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:311:17: ( '::' identifier )?
                     int alt80=2;
                     int LA80_0 = input.LA(1);
 
@@ -10467,7 +10467,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt80) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:311:18: '::' identifier
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:311:18: '::' identifier
                             {
                             string_literal287=(Token)match(input,80,FOLLOW_80_in_qid_start2307); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -10493,7 +10493,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:312:4: literal
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:312:4: literal
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -10542,7 +10542,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "qid_part"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:316:1: qid_part : access_identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:316:1: qid_part : access_identifier ;
     public final csParser.qid_part_return qid_part() throws RecognitionException {
         csParser.qid_part_return retval = new csParser.qid_part_return();
         retval.start = input.LT(1);
@@ -10558,8 +10558,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 76) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:316:9: ( access_identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:317:2: access_identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:316:9: ( access_identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:317:2: access_identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10606,7 +10606,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "generic_argument_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:319:1: generic_argument_list : '<' type_arguments '>' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:319:1: generic_argument_list : '<' type_arguments '>' ;
     public final csParser.generic_argument_list_return generic_argument_list() throws RecognitionException {
         csParser.generic_argument_list_return retval = new csParser.generic_argument_list_return();
         retval.start = input.LT(1);
@@ -10626,8 +10626,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 77) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:319:22: ( '<' type_arguments '>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:320:2: '<' type_arguments '>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:319:22: ( '<' type_arguments '>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:320:2: '<' type_arguments '>'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10690,7 +10690,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_arguments"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:321:1: type_arguments : type ( ',' type )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:321:1: type_arguments : type ( ',' type )* ;
     public final csParser.type_arguments_return type_arguments() throws RecognitionException {
         csParser.type_arguments_return retval = new csParser.type_arguments_return();
         retval.start = input.LT(1);
@@ -10710,8 +10710,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 78) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:321:15: ( type ( ',' type )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:322:2: type ( ',' type )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:321:15: ( type ( ',' type )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:322:2: type ( ',' type )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -10723,7 +10723,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type294.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:322:7: ( ',' type )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:322:7: ( ',' type )*
             loop82:
             do {
                 int alt82=2;
@@ -10736,7 +10736,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt82) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:322:8: ',' type
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:322:8: ',' type
             	    {
             	    char_literal295=(Token)match(input,74,FOLLOW_74_in_type_arguments2362); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -10797,7 +10797,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:324:1: type : ( ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )* | ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' ) | ( predefined_type | type_name ) | 'void' ( '*' )+ );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:324:1: type : ( ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )* | ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' ) | ( predefined_type | type_name ) | 'void' ( '*' )+ );
     public final csParser.type_return type() throws RecognitionException {
         csParser.type_return retval = new csParser.type_return();
         retval.start = input.LT(1);
@@ -10835,7 +10835,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 79) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:324:5: ( ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )* | ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' ) | ( predefined_type | type_name ) | 'void' ( '*' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:324:5: ( ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )* | ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' ) | ( predefined_type | type_name ) | 'void' ( '*' )+ )
             int alt90=4;
             switch ( input.LA(1) ) {
             case 103:
@@ -10943,12 +10943,12 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt90) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:4: ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:4: ( ( predefined_type | type_name ) rank_specifiers )=> ( predefined_type | type_name ) rank_specifiers ( '*' )*
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:56: ( predefined_type | type_name )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:56: ( predefined_type | type_name )
                     int alt83=2;
                     int LA83_0 = input.LA(1);
 
@@ -10968,7 +10968,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt83) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:57: predefined_type
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:57: predefined_type
                             {
                             pushFollow(FOLLOW_predefined_type_in_type2393);
                             predefined_type297=predefined_type();
@@ -10980,7 +10980,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:75: type_name
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:75: type_name
                             {
                             pushFollow(FOLLOW_type_name_in_type2397);
                             type_name298=type_name();
@@ -11002,7 +11002,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, rank_specifiers299.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:106: ( '*' )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:106: ( '*' )*
                     loop84:
                     do {
                         int alt84=2;
@@ -11015,7 +11015,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt84) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:106: '*'
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:106: '*'
                     	    {
                     	    char_literal300=(Token)match(input,69,FOLLOW_69_in_type2406); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -11037,12 +11037,12 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:4: ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:4: ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )=> ( predefined_type | type_name ) ( ( '*' )+ | '?' )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:53: ( predefined_type | type_name )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:53: ( predefined_type | type_name )
                     int alt85=2;
                     int LA85_0 = input.LA(1);
 
@@ -11062,7 +11062,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt85) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:54: predefined_type
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:54: predefined_type
                             {
                             pushFollow(FOLLOW_predefined_type_in_type2435);
                             predefined_type301=predefined_type();
@@ -11074,7 +11074,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:72: type_name
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:72: type_name
                             {
                             pushFollow(FOLLOW_type_name_in_type2439);
                             type_name302=type_name();
@@ -11089,7 +11089,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:85: ( ( '*' )+ | '?' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:85: ( ( '*' )+ | '?' )
                     int alt87=2;
                     int LA87_0 = input.LA(1);
 
@@ -11109,9 +11109,9 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt87) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:86: ( '*' )+
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:86: ( '*' )+
                             {
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:86: ( '*' )+
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:86: ( '*' )+
                             int cnt86=0;
                             loop86:
                             do {
@@ -11125,7 +11125,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                                 switch (alt86) {
                             	case 1 :
-                            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:86: '*'
+                            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:86: '*'
                             	    {
                             	    char_literal303=(Token)match(input,69,FOLLOW_69_in_type2445); if (state.failed) return retval;
                             	    if ( state.backtracking==0 ) {
@@ -11152,7 +11152,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:93: '?'
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:93: '?'
                             {
                             char_literal304=(Token)match(input,89,FOLLOW_89_in_type2450); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -11171,12 +11171,12 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:327:4: ( predefined_type | type_name )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:327:4: ( predefined_type | type_name )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:327:4: ( predefined_type | type_name )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:327:4: ( predefined_type | type_name )
                     int alt88=2;
                     int LA88_0 = input.LA(1);
 
@@ -11196,7 +11196,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt88) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:327:5: predefined_type
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:327:5: predefined_type
                             {
                             pushFollow(FOLLOW_predefined_type_in_type2457);
                             predefined_type305=predefined_type();
@@ -11208,7 +11208,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:327:23: type_name
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:327:23: type_name
                             {
                             pushFollow(FOLLOW_type_name_in_type2461);
                             type_name306=type_name();
@@ -11226,7 +11226,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:328:4: 'void' ( '*' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:328:4: 'void' ( '*' )+
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -11239,7 +11239,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal307_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:328:11: ( '*' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:328:11: ( '*' )+
                     int cnt89=0;
                     loop89:
                     do {
@@ -11253,7 +11253,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt89) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:328:11: '*'
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:328:11: '*'
                     	    {
                     	    char_literal308=(Token)match(input,69,FOLLOW_69_in_type2469); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -11314,7 +11314,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "non_nullable_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:330:1: non_nullable_type : ( ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? ) | 'void' ( '*' )+ );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:330:1: non_nullable_type : ( ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? ) | 'void' ( '*' )+ );
     public final csParser.non_nullable_type_return non_nullable_type() throws RecognitionException {
         csParser.non_nullable_type_return retval = new csParser.non_nullable_type_return();
         retval.start = input.LT(1);
@@ -11342,7 +11342,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 80) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:330:18: ( ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? ) | 'void' ( '*' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:330:18: ( ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? ) | 'void' ( '*' )+ )
             int alt97=2;
             int LA97_0 = input.LA(1);
 
@@ -11362,12 +11362,12 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt97) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:331:2: ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:331:2: ( predefined_type | type_name ) ( rank_specifiers ( '*' )* | ( ( '*' )+ )? )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:331:2: ( predefined_type | type_name )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:331:2: ( predefined_type | type_name )
                     int alt91=2;
                     int LA91_0 = input.LA(1);
 
@@ -11387,7 +11387,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt91) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:331:3: predefined_type
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:331:3: predefined_type
                             {
                             pushFollow(FOLLOW_predefined_type_in_non_nullable_type2480);
                             predefined_type309=predefined_type();
@@ -11399,7 +11399,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:331:21: type_name
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:331:21: type_name
                             {
                             pushFollow(FOLLOW_type_name_in_non_nullable_type2484);
                             type_name310=type_name();
@@ -11414,7 +11414,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:332:3: ( rank_specifiers ( '*' )* | ( ( '*' )+ )? )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:332:3: ( rank_specifiers ( '*' )* | ( ( '*' )+ )? )
                     int alt95=2;
                     int LA95_0 = input.LA(1);
 
@@ -11434,7 +11434,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt95) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:332:7: rank_specifiers ( '*' )*
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:332:7: rank_specifiers ( '*' )*
                             {
                             pushFollow(FOLLOW_rank_specifiers_in_non_nullable_type2493);
                             rank_specifiers311=rank_specifiers();
@@ -11443,7 +11443,7 @@ public TreeAdaptor getTreeAdaptor() {
                             if (state.failed) return retval;
                             if ( state.backtracking==0 ) adaptor.addChild(root_0, rank_specifiers311.getTree());
 
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:332:25: ( '*' )*
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:332:25: ( '*' )*
                             loop92:
                             do {
                                 int alt92=2;
@@ -11456,7 +11456,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                                 switch (alt92) {
                             	case 1 :
-                            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:332:25: '*'
+                            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:332:25: '*'
                             	    {
                             	    char_literal312=(Token)match(input,69,FOLLOW_69_in_non_nullable_type2497); if (state.failed) return retval;
                             	    if ( state.backtracking==0 ) {
@@ -11478,9 +11478,9 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:333:6: ( ( '*' )+ )?
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:333:6: ( ( '*' )+ )?
                             {
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:333:6: ( ( '*' )+ )?
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:333:6: ( ( '*' )+ )?
                             int alt94=2;
                             int LA94_0 = input.LA(1);
 
@@ -11489,9 +11489,9 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             switch (alt94) {
                                 case 1 :
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:333:7: ( '*' )+
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:333:7: ( '*' )+
                                     {
-                                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:333:7: ( '*' )+
+                                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:333:7: ( '*' )+
                                     int cnt93=0;
                                     loop93:
                                     do {
@@ -11505,7 +11505,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                                         switch (alt93) {
                                     	case 1 :
-                                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:333:7: '*'
+                                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:333:7: '*'
                                     	    {
                                     	    char_literal313=(Token)match(input,69,FOLLOW_69_in_non_nullable_type2506); if (state.failed) return retval;
                                     	    if ( state.backtracking==0 ) {
@@ -11544,7 +11544,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:335:4: 'void' ( '*' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:335:4: 'void' ( '*' )+
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -11557,7 +11557,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal314_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:335:13: ( '*' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:335:13: ( '*' )+
                     int cnt96=0;
                     loop96:
                     do {
@@ -11571,7 +11571,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt96) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:335:13: '*'
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:335:13: '*'
                     	    {
                     	    char_literal315=(Token)match(input,69,FOLLOW_69_in_non_nullable_type2522); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -11632,7 +11632,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "non_array_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:337:1: non_array_type : type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:337:1: non_array_type : type ;
     public final csParser.non_array_type_return non_array_type() throws RecognitionException {
         csParser.non_array_type_return retval = new csParser.non_array_type_return();
         retval.start = input.LT(1);
@@ -11648,8 +11648,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 81) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:337:15: ( type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:338:2: type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:337:15: ( type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:338:2: type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11696,7 +11696,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "array_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:339:1: array_type : type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:339:1: array_type : type ;
     public final csParser.array_type_return array_type() throws RecognitionException {
         csParser.array_type_return retval = new csParser.array_type_return();
         retval.start = input.LT(1);
@@ -11712,8 +11712,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 82) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:339:11: ( type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:340:2: type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:339:11: ( type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:340:2: type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11760,7 +11760,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unmanaged_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:341:1: unmanaged_type : type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:341:1: unmanaged_type : type ;
     public final csParser.unmanaged_type_return unmanaged_type() throws RecognitionException {
         csParser.unmanaged_type_return retval = new csParser.unmanaged_type_return();
         retval.start = input.LT(1);
@@ -11776,8 +11776,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 83) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:341:15: ( type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:342:2: type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:341:15: ( type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:342:2: type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11824,7 +11824,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:343:1: class_type : type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:343:1: class_type : type ;
     public final csParser.class_type_return class_type() throws RecognitionException {
         csParser.class_type_return retval = new csParser.class_type_return();
         retval.start = input.LT(1);
@@ -11840,8 +11840,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 84) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:343:11: ( type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:344:2: type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:343:11: ( type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:344:2: type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11888,7 +11888,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "pointer_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:345:1: pointer_type : type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:345:1: pointer_type : type ;
     public final csParser.pointer_type_return pointer_type() throws RecognitionException {
         csParser.pointer_type_return retval = new csParser.pointer_type_return();
         retval.start = input.LT(1);
@@ -11904,8 +11904,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 85) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:345:13: ( type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:346:2: type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:345:13: ( type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:346:2: type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -11952,7 +11952,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "block"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:352:1: block : ( ';' | '{' ( statement_list )? '}' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:352:1: block : ( ';' | '{' ( statement_list )? '}' );
     public final csParser.block_return block() throws RecognitionException {
         csParser.block_return retval = new csParser.block_return();
         retval.start = input.LT(1);
@@ -11974,7 +11974,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 86) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:352:6: ( ';' | '{' ( statement_list )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:352:6: ( ';' | '{' ( statement_list )? '}' )
             int alt99=2;
             int LA99_0 = input.LA(1);
 
@@ -11994,7 +11994,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt99) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:353:2: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:353:2: ';'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -12010,7 +12010,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:354:4: '{' ( statement_list )? '}'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:354:4: '{' ( statement_list )? '}'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -12023,7 +12023,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal322_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:354:10: ( statement_list )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:354:10: ( statement_list )?
                     int alt98=2;
                     int LA98_0 = input.LA(1);
 
@@ -12032,7 +12032,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt98) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:354:10: statement_list
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:354:10: statement_list
                             {
                             pushFollow(FOLLOW_statement_list_in_block2582);
                             statement_list323=statement_list();
@@ -12092,7 +12092,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:355:1: statement_list : ( statement )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:355:1: statement_list : ( statement )+ ;
     public final csParser.statement_list_return statement_list() throws RecognitionException {
         csParser.statement_list_return retval = new csParser.statement_list_return();
         retval.start = input.LT(1);
@@ -12108,13 +12108,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 87) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:355:15: ( ( statement )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:356:2: ( statement )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:355:15: ( ( statement )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:356:2: ( statement )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:356:2: ( statement )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:356:2: ( statement )+
             int cnt100=0;
             loop100:
             do {
@@ -12137,7 +12137,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt100) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:356:2: statement
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:356:2: statement
             	    {
             	    pushFollow(FOLLOW_statement_in_statement_list2594);
             	    statement325=statement();
@@ -12195,7 +12195,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:361:1: expression : ( ( unary_expression assignment_operator )=> assignment | non_assignment_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:361:1: expression : ( ( unary_expression assignment_operator )=> assignment | non_assignment_expression );
     public final csParser.expression_return expression() throws RecognitionException {
         csParser.expression_return retval = new csParser.expression_return();
         retval.start = input.LT(1);
@@ -12213,7 +12213,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 88) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:361:11: ( ( unary_expression assignment_operator )=> assignment | non_assignment_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:361:11: ( ( unary_expression assignment_operator )=> assignment | non_assignment_expression )
             int alt101=2;
             switch ( input.LA(1) ) {
             case 68:
@@ -12717,7 +12717,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt101) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:362:2: ( unary_expression assignment_operator )=> assignment
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:362:2: ( unary_expression assignment_operator )=> assignment
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -12732,7 +12732,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:363:4: non_assignment_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:363:4: non_assignment_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -12781,7 +12781,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:365:1: expression_list : expression ( ',' expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:365:1: expression_list : expression ( ',' expression )* ;
     public final csParser.expression_list_return expression_list() throws RecognitionException {
         csParser.expression_list_return retval = new csParser.expression_list_return();
         retval.start = input.LT(1);
@@ -12801,8 +12801,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 89) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:365:16: ( expression ( ',' expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:366:2: expression ( ',' expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:365:16: ( expression ( ',' expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:366:2: expression ( ',' expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -12814,7 +12814,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, expression328.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:366:14: ( ',' expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:366:14: ( ',' expression )*
             loop102:
             do {
                 int alt102=2;
@@ -12827,7 +12827,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt102) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:366:15: ',' expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:366:15: ',' expression
             	    {
             	    char_literal329=(Token)match(input,74,FOLLOW_74_in_expression_list2638); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -12888,7 +12888,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assignment"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:367:1: assignment : unary_expression assignment_operator expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:367:1: assignment : unary_expression assignment_operator expression ;
     public final csParser.assignment_return assignment() throws RecognitionException {
         csParser.assignment_return retval = new csParser.assignment_return();
         retval.start = input.LT(1);
@@ -12908,8 +12908,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 90) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:367:11: ( unary_expression assignment_operator expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:368:2: unary_expression assignment_operator expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:367:11: ( unary_expression assignment_operator expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:368:2: unary_expression assignment_operator expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -12970,7 +12970,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unary_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:369:1: unary_expression : ( ( cast_expression )=> cast_expression | primary_or_array_creation_expression ( '++' )? ( '--' )? | '+' unary_expression | '-' unary_expression | '!' unary_expression | '~' unary_expression | pre_increment_expression | pre_decrement_expression | pointer_indirection_expression | addressof_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:369:1: unary_expression : ( ( cast_expression )=> cast_expression | primary_or_array_creation_expression ( '++' )? ( '--' )? | '+' unary_expression | '-' unary_expression | '!' unary_expression | '~' unary_expression | pre_increment_expression | pre_decrement_expression | pointer_indirection_expression | addressof_expression );
     public final csParser.unary_expression_return unary_expression() throws RecognitionException {
         csParser.unary_expression_return retval = new csParser.unary_expression_return();
         retval.start = input.LT(1);
@@ -13016,7 +13016,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 91) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:369:17: ( ( cast_expression )=> cast_expression | primary_or_array_creation_expression ( '++' )? ( '--' )? | '+' unary_expression | '-' unary_expression | '!' unary_expression | '~' unary_expression | pre_increment_expression | pre_decrement_expression | pointer_indirection_expression | addressof_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:369:17: ( ( cast_expression )=> cast_expression | primary_or_array_creation_expression ( '++' )? ( '--' )? | '+' unary_expression | '-' unary_expression | '!' unary_expression | '~' unary_expression | pre_increment_expression | pre_decrement_expression | pointer_indirection_expression | addressof_expression )
             int alt105=10;
             switch ( input.LA(1) ) {
             case 68:
@@ -13157,7 +13157,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt105) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:371:2: ( cast_expression )=> cast_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:371:2: ( cast_expression )=> cast_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13172,7 +13172,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:372:4: primary_or_array_creation_expression ( '++' )? ( '--' )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:372:4: primary_or_array_creation_expression ( '++' )? ( '--' )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13184,7 +13184,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, primary_or_array_creation_expression335.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:372:43: ( '++' )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:372:43: ( '++' )?
                     int alt103=2;
                     int LA103_0 = input.LA(1);
 
@@ -13193,7 +13193,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt103) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:372:43: '++'
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:372:43: '++'
                             {
                             string_literal336=(Token)match(input,72,FOLLOW_72_in_unary_expression2686); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -13209,7 +13209,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:372:51: ( '--' )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:372:51: ( '--' )?
                     int alt104=2;
                     int LA104_0 = input.LA(1);
 
@@ -13218,7 +13218,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt104) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:372:51: '--'
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:372:51: '--'
                             {
                             string_literal337=(Token)match(input,75,FOLLOW_75_in_unary_expression2691); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -13237,7 +13237,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:373:4: '+' unary_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:373:4: '+' unary_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13260,7 +13260,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:374:4: '-' unary_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:374:4: '-' unary_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13283,7 +13283,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:375:4: '!' unary_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:375:4: '!' unary_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13306,7 +13306,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:376:4: '~' unary_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:376:4: '~' unary_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13329,7 +13329,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:377:4: pre_increment_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:377:4: pre_increment_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13344,7 +13344,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:378:4: pre_decrement_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:378:4: pre_decrement_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13359,7 +13359,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:379:4: pointer_indirection_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:379:4: pointer_indirection_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13374,7 +13374,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:380:4: addressof_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:380:4: addressof_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13423,7 +13423,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "cast_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:382:1: cast_expression : '(' type ')' unary_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:382:1: cast_expression : '(' type ')' unary_expression ;
     public final csParser.cast_expression_return cast_expression() throws RecognitionException {
         csParser.cast_expression_return retval = new csParser.cast_expression_return();
         retval.start = input.LT(1);
@@ -13445,8 +13445,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 92) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:382:16: ( '(' type ')' unary_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:383:2: '(' type ')' unary_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:382:16: ( '(' type ')' unary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:383:2: '(' type ')' unary_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13516,7 +13516,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assignment_operator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:384:1: assignment_operator : ( '=' | '+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>' '>=' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:384:1: assignment_operator : ( '=' | '+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>' '>=' );
     public final csParser.assignment_operator_return assignment_operator() throws RecognitionException {
         csParser.assignment_operator_return retval = new csParser.assignment_operator_return();
         retval.start = input.LT(1);
@@ -13554,7 +13554,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 93) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:384:20: ( '=' | '+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>' '>=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:384:20: ( '=' | '+=' | '-=' | '*=' | '/=' | '%=' | '&=' | '|=' | '^=' | '<<=' | '>' '>=' )
             int alt106=11;
             switch ( input.LA(1) ) {
             case 85:
@@ -13623,7 +13623,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt106) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:2: '='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:2: '='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13639,7 +13639,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:8: '+='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:8: '+='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13655,7 +13655,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:15: '-='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:15: '-='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13671,7 +13671,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:22: '*='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:22: '*='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13687,7 +13687,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:29: '/='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:29: '/='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13703,7 +13703,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:36: '%='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:36: '%='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13719,7 +13719,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:43: '&='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:43: '&='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13735,7 +13735,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:50: '|='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:50: '|='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13751,7 +13751,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:57: '^='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:57: '^='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13767,7 +13767,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:64: '<<='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:64: '<<='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13783,7 +13783,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:385:72: '>' '>='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:385:72: '>' '>='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -13841,7 +13841,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "pre_increment_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:386:1: pre_increment_expression : '++' unary_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:386:1: pre_increment_expression : '++' unary_expression ;
     public final csParser.pre_increment_expression_return pre_increment_expression() throws RecognitionException {
         csParser.pre_increment_expression_return retval = new csParser.pre_increment_expression_return();
         retval.start = input.LT(1);
@@ -13859,8 +13859,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 94) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:386:25: ( '++' unary_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:387:2: '++' unary_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:386:25: ( '++' unary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:387:2: '++' unary_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13915,7 +13915,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "pre_decrement_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:388:1: pre_decrement_expression : '--' unary_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:388:1: pre_decrement_expression : '--' unary_expression ;
     public final csParser.pre_decrement_expression_return pre_decrement_expression() throws RecognitionException {
         csParser.pre_decrement_expression_return retval = new csParser.pre_decrement_expression_return();
         retval.start = input.LT(1);
@@ -13933,8 +13933,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 95) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:388:25: ( '--' unary_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:389:2: '--' unary_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:388:25: ( '--' unary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:389:2: '--' unary_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -13989,7 +13989,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "pointer_indirection_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:390:1: pointer_indirection_expression : '*' unary_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:390:1: pointer_indirection_expression : '*' unary_expression ;
     public final csParser.pointer_indirection_expression_return pointer_indirection_expression() throws RecognitionException {
         csParser.pointer_indirection_expression_return retval = new csParser.pointer_indirection_expression_return();
         retval.start = input.LT(1);
@@ -14007,8 +14007,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 96) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:390:31: ( '*' unary_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:391:2: '*' unary_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:390:31: ( '*' unary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:391:2: '*' unary_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14063,7 +14063,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "addressof_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:392:1: addressof_expression : '&' unary_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:392:1: addressof_expression : '&' unary_expression ;
     public final csParser.addressof_expression_return addressof_expression() throws RecognitionException {
         csParser.addressof_expression_return retval = new csParser.addressof_expression_return();
         retval.start = input.LT(1);
@@ -14081,8 +14081,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 97) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:392:21: ( '&' unary_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:393:2: '&' unary_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:392:21: ( '&' unary_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:393:2: '&' unary_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14137,7 +14137,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "non_assignment_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:395:1: non_assignment_expression : ( ( anonymous_function_signature '=>' )=> lambda_expression | ( query_expression )=> query_expression | conditional_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:395:1: non_assignment_expression : ( ( anonymous_function_signature '=>' )=> lambda_expression | ( query_expression )=> query_expression | conditional_expression );
     public final csParser.non_assignment_expression_return non_assignment_expression() throws RecognitionException {
         csParser.non_assignment_expression_return retval = new csParser.non_assignment_expression_return();
         retval.start = input.LT(1);
@@ -14157,7 +14157,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 98) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:395:26: ( ( anonymous_function_signature '=>' )=> lambda_expression | ( query_expression )=> query_expression | conditional_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:395:26: ( ( anonymous_function_signature '=>' )=> lambda_expression | ( query_expression )=> query_expression | conditional_expression )
             int alt107=3;
             switch ( input.LA(1) ) {
             case 68:
@@ -14307,7 +14307,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt107) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:397:2: ( anonymous_function_signature '=>' )=> lambda_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:397:2: ( anonymous_function_signature '=>' )=> lambda_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14322,7 +14322,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:398:4: ( query_expression )=> query_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:398:4: ( query_expression )=> query_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14337,7 +14337,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:399:4: conditional_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:399:4: conditional_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -14386,7 +14386,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "multiplicative_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:406:1: multiplicative_expression : unary_expression ( ( '*' | '/' | '%' ) unary_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:406:1: multiplicative_expression : unary_expression ( ( '*' | '/' | '%' ) unary_expression )* ;
     public final csParser.multiplicative_expression_return multiplicative_expression() throws RecognitionException {
         csParser.multiplicative_expression_return retval = new csParser.multiplicative_expression_return();
         retval.start = input.LT(1);
@@ -14406,8 +14406,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 99) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:406:26: ( unary_expression ( ( '*' | '/' | '%' ) unary_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:407:2: unary_expression ( ( '*' | '/' | '%' ) unary_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:406:26: ( unary_expression ( ( '*' | '/' | '%' ) unary_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:407:2: unary_expression ( ( '*' | '/' | '%' ) unary_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14419,7 +14419,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, unary_expression377.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:407:19: ( ( '*' | '/' | '%' ) unary_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:407:19: ( ( '*' | '/' | '%' ) unary_expression )*
             loop108:
             do {
                 int alt108=2;
@@ -14432,7 +14432,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt108) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:407:22: ( '*' | '/' | '%' ) unary_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:407:22: ( '*' | '/' | '%' ) unary_expression
             	    {
             	    set378=(Token)input.LT(1);
 
@@ -14502,7 +14502,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "additive_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:408:1: additive_expression : multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:408:1: additive_expression : multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )* ;
     public final csParser.additive_expression_return additive_expression() throws RecognitionException {
         csParser.additive_expression_return retval = new csParser.additive_expression_return();
         retval.start = input.LT(1);
@@ -14522,8 +14522,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 100) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:408:20: ( multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:409:2: multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:408:20: ( multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:409:2: multiplicative_expression ( ( '+' | '-' ) multiplicative_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14535,7 +14535,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, multiplicative_expression380.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:409:28: ( ( '+' | '-' ) multiplicative_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:409:28: ( ( '+' | '-' ) multiplicative_expression )*
             loop109:
             do {
                 int alt109=2;
@@ -14548,7 +14548,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt109) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:409:29: ( '+' | '-' ) multiplicative_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:409:29: ( '+' | '-' ) multiplicative_expression
             	    {
             	    set381=(Token)input.LT(1);
 
@@ -14618,7 +14618,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "shift_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:411:1: shift_expression : additive_expression ( ( '<<' | '>' '>' ) additive_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:411:1: shift_expression : additive_expression ( ( '<<' | '>' '>' ) additive_expression )* ;
     public final csParser.shift_expression_return shift_expression() throws RecognitionException {
         csParser.shift_expression_return retval = new csParser.shift_expression_return();
         retval.start = input.LT(1);
@@ -14642,8 +14642,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 101) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:411:17: ( additive_expression ( ( '<<' | '>' '>' ) additive_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:2: additive_expression ( ( '<<' | '>' '>' ) additive_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:411:17: ( additive_expression ( ( '<<' | '>' '>' ) additive_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:2: additive_expression ( ( '<<' | '>' '>' ) additive_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14655,7 +14655,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, additive_expression383.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:22: ( ( '<<' | '>' '>' ) additive_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:22: ( ( '<<' | '>' '>' ) additive_expression )*
             loop111:
             do {
                 int alt111=2;
@@ -14677,9 +14677,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt111) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:23: ( '<<' | '>' '>' ) additive_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:23: ( '<<' | '>' '>' ) additive_expression
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:23: ( '<<' | '>' '>' )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:23: ( '<<' | '>' '>' )
             	    int alt110=2;
             	    int LA110_0 = input.LA(1);
 
@@ -14699,7 +14699,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt110) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:24: '<<'
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:24: '<<'
             	            {
             	            string_literal384=(Token)match(input,82,FOLLOW_82_in_shift_expression2979); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -14712,7 +14712,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:412:29: '>' '>'
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:412:29: '>' '>'
             	            {
             	            char_literal385=(Token)match(input,GT,FOLLOW_GT_in_shift_expression2981); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -14787,7 +14787,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "relational_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:413:1: relational_expression : shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:413:1: relational_expression : shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )* ;
     public final csParser.relational_expression_return relational_expression() throws RecognitionException {
         csParser.relational_expression_return retval = new csParser.relational_expression_return();
         retval.start = input.LT(1);
@@ -14811,8 +14811,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 102) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:413:22: ( shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:414:2: shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:413:22: ( shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:414:2: shift_expression ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14824,7 +14824,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, shift_expression388.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:415:3: ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:415:3: ( ( ( '<' | '>' | '>=' | '<=' ) shift_expression ) | ( ( 'is' | 'as' ) non_nullable_type ) )*
             loop112:
             do {
                 int alt112=3;
@@ -14840,10 +14840,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt112) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:415:5: ( ( '<' | '>' | '>=' | '<=' ) shift_expression )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:415:5: ( ( '<' | '>' | '>=' | '<=' ) shift_expression )
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:415:5: ( ( '<' | '>' | '>=' | '<=' ) shift_expression )
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:415:6: ( '<' | '>' | '>=' | '<=' ) shift_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:415:5: ( ( '<' | '>' | '>=' | '<=' ) shift_expression )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:415:6: ( '<' | '>' | '>=' | '<=' ) shift_expression
             	    {
             	    set389=(Token)input.LT(1);
 
@@ -14875,10 +14875,10 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:416:6: ( ( 'is' | 'as' ) non_nullable_type )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:416:6: ( ( 'is' | 'as' ) non_nullable_type )
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:416:6: ( ( 'is' | 'as' ) non_nullable_type )
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:416:7: ( 'is' | 'as' ) non_nullable_type
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:416:6: ( ( 'is' | 'as' ) non_nullable_type )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:416:7: ( 'is' | 'as' ) non_nullable_type
             	    {
             	    set391=(Token)input.LT(1);
 
@@ -14951,7 +14951,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "equality_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:418:1: equality_expression : relational_expression ( ( '==' | '!=' ) relational_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:418:1: equality_expression : relational_expression ( ( '==' | '!=' ) relational_expression )* ;
     public final csParser.equality_expression_return equality_expression() throws RecognitionException {
         csParser.equality_expression_return retval = new csParser.equality_expression_return();
         retval.start = input.LT(1);
@@ -14971,8 +14971,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 103) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:418:20: ( relational_expression ( ( '==' | '!=' ) relational_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:419:2: relational_expression ( ( '==' | '!=' ) relational_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:418:20: ( relational_expression ( ( '==' | '!=' ) relational_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:419:2: relational_expression ( ( '==' | '!=' ) relational_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -14984,7 +14984,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, relational_expression393.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:420:5: ( ( '==' | '!=' ) relational_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:420:5: ( ( '==' | '!=' ) relational_expression )*
             loop113:
             do {
                 int alt113=2;
@@ -14997,7 +14997,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt113) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:420:6: ( '==' | '!=' ) relational_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:420:6: ( '==' | '!=' ) relational_expression
             	    {
             	    set394=(Token)input.LT(1);
 
@@ -15067,7 +15067,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "and_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:421:1: and_expression : equality_expression ( '&' equality_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:421:1: and_expression : equality_expression ( '&' equality_expression )* ;
     public final csParser.and_expression_return and_expression() throws RecognitionException {
         csParser.and_expression_return retval = new csParser.and_expression_return();
         retval.start = input.LT(1);
@@ -15087,8 +15087,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 104) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:421:15: ( equality_expression ( '&' equality_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:422:2: equality_expression ( '&' equality_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:421:15: ( equality_expression ( '&' equality_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:422:2: equality_expression ( '&' equality_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15100,7 +15100,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, equality_expression396.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:422:22: ( '&' equality_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:422:22: ( '&' equality_expression )*
             loop114:
             do {
                 int alt114=2;
@@ -15113,7 +15113,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt114) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:422:23: '&' equality_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:422:23: '&' equality_expression
             	    {
             	    char_literal397=(Token)match(input,66,FOLLOW_66_in_and_expression3072); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15174,7 +15174,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "exclusive_or_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:423:1: exclusive_or_expression : and_expression ( '^' and_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:423:1: exclusive_or_expression : and_expression ( '^' and_expression )* ;
     public final csParser.exclusive_or_expression_return exclusive_or_expression() throws RecognitionException {
         csParser.exclusive_or_expression_return retval = new csParser.exclusive_or_expression_return();
         retval.start = input.LT(1);
@@ -15194,8 +15194,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 105) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:423:24: ( and_expression ( '^' and_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:424:2: and_expression ( '^' and_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:423:24: ( and_expression ( '^' and_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:424:2: and_expression ( '^' and_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15207,7 +15207,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, and_expression399.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:424:17: ( '^' and_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:424:17: ( '^' and_expression )*
             loop115:
             do {
                 int alt115=2;
@@ -15220,7 +15220,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt115) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:424:18: '^' and_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:424:18: '^' and_expression
             	    {
             	    char_literal400=(Token)match(input,93,FOLLOW_93_in_exclusive_or_expression3089); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15281,7 +15281,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "inclusive_or_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:425:1: inclusive_or_expression : exclusive_or_expression ( '|' exclusive_or_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:425:1: inclusive_or_expression : exclusive_or_expression ( '|' exclusive_or_expression )* ;
     public final csParser.inclusive_or_expression_return inclusive_or_expression() throws RecognitionException {
         csParser.inclusive_or_expression_return retval = new csParser.inclusive_or_expression_return();
         retval.start = input.LT(1);
@@ -15301,8 +15301,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 106) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:425:24: ( exclusive_or_expression ( '|' exclusive_or_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:426:2: exclusive_or_expression ( '|' exclusive_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:425:24: ( exclusive_or_expression ( '|' exclusive_or_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:426:2: exclusive_or_expression ( '|' exclusive_or_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15314,7 +15314,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, exclusive_or_expression402.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:426:28: ( '|' exclusive_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:426:28: ( '|' exclusive_or_expression )*
             loop116:
             do {
                 int alt116=2;
@@ -15327,7 +15327,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt116) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:426:29: '|' exclusive_or_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:426:29: '|' exclusive_or_expression
             	    {
             	    char_literal403=(Token)match(input,198,FOLLOW_198_in_inclusive_or_expression3108); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15388,7 +15388,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "conditional_and_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:427:1: conditional_and_expression : inclusive_or_expression ( '&&' inclusive_or_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:427:1: conditional_and_expression : inclusive_or_expression ( '&&' inclusive_or_expression )* ;
     public final csParser.conditional_and_expression_return conditional_and_expression() throws RecognitionException {
         csParser.conditional_and_expression_return retval = new csParser.conditional_and_expression_return();
         retval.start = input.LT(1);
@@ -15408,8 +15408,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 107) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:427:27: ( inclusive_or_expression ( '&&' inclusive_or_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:428:2: inclusive_or_expression ( '&&' inclusive_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:427:27: ( inclusive_or_expression ( '&&' inclusive_or_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:428:2: inclusive_or_expression ( '&&' inclusive_or_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15421,7 +15421,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, inclusive_or_expression405.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:428:28: ( '&&' inclusive_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:428:28: ( '&&' inclusive_or_expression )*
             loop117:
             do {
                 int alt117=2;
@@ -15434,7 +15434,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt117) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:428:29: '&&' inclusive_or_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:428:29: '&&' inclusive_or_expression
             	    {
             	    string_literal406=(Token)match(input,65,FOLLOW_65_in_conditional_and_expression3127); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15495,7 +15495,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "conditional_or_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:429:1: conditional_or_expression : conditional_and_expression ( '||' conditional_and_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:429:1: conditional_or_expression : conditional_and_expression ( '||' conditional_and_expression )* ;
     public final csParser.conditional_or_expression_return conditional_or_expression() throws RecognitionException {
         csParser.conditional_or_expression_return retval = new csParser.conditional_or_expression_return();
         retval.start = input.LT(1);
@@ -15515,8 +15515,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 108) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:429:26: ( conditional_and_expression ( '||' conditional_and_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:430:2: conditional_and_expression ( '||' conditional_and_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:429:26: ( conditional_and_expression ( '||' conditional_and_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:430:2: conditional_and_expression ( '||' conditional_and_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15528,7 +15528,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, conditional_and_expression408.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:430:30: ( '||' conditional_and_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:430:30: ( '||' conditional_and_expression )*
             loop118:
             do {
                 int alt118=2;
@@ -15541,7 +15541,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt118) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:430:31: '||' conditional_and_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:430:31: '||' conditional_and_expression
             	    {
             	    string_literal409=(Token)match(input,200,FOLLOW_200_in_conditional_or_expression3145); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15602,7 +15602,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "null_coalescing_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:432:1: null_coalescing_expression : conditional_or_expression ( '??' conditional_or_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:432:1: null_coalescing_expression : conditional_or_expression ( '??' conditional_or_expression )* ;
     public final csParser.null_coalescing_expression_return null_coalescing_expression() throws RecognitionException {
         csParser.null_coalescing_expression_return retval = new csParser.null_coalescing_expression_return();
         retval.start = input.LT(1);
@@ -15622,8 +15622,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 109) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:432:27: ( conditional_or_expression ( '??' conditional_or_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:433:2: conditional_or_expression ( '??' conditional_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:432:27: ( conditional_or_expression ( '??' conditional_or_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:433:2: conditional_or_expression ( '??' conditional_or_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15635,7 +15635,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, conditional_or_expression411.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:433:30: ( '??' conditional_or_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:433:30: ( '??' conditional_or_expression )*
             loop119:
             do {
                 int alt119=2;
@@ -15648,7 +15648,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt119) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:433:31: '??' conditional_or_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:433:31: '??' conditional_or_expression
             	    {
             	    string_literal412=(Token)match(input,90,FOLLOW_90_in_null_coalescing_expression3165); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -15709,7 +15709,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "conditional_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:434:1: conditional_expression : null_coalescing_expression ( '?' expression ':' expression )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:434:1: conditional_expression : null_coalescing_expression ( '?' expression ':' expression )? ;
     public final csParser.conditional_expression_return conditional_expression() throws RecognitionException {
         csParser.conditional_expression_return retval = new csParser.conditional_expression_return();
         retval.start = input.LT(1);
@@ -15733,8 +15733,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 110) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:434:23: ( null_coalescing_expression ( '?' expression ':' expression )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:435:2: null_coalescing_expression ( '?' expression ':' expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:434:23: ( null_coalescing_expression ( '?' expression ':' expression )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:435:2: null_coalescing_expression ( '?' expression ':' expression )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15746,7 +15746,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, null_coalescing_expression414.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:435:31: ( '?' expression ':' expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:435:31: ( '?' expression ':' expression )?
             int alt120=2;
             int LA120_0 = input.LA(1);
 
@@ -15755,7 +15755,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt120) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:435:32: '?' expression ':' expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:435:32: '?' expression ':' expression
                     {
                     char_literal415=(Token)match(input,89,FOLLOW_89_in_conditional_expression3184); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -15828,7 +15828,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "lambda_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:440:1: lambda_expression : anonymous_function_signature '=>' anonymous_function_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:440:1: lambda_expression : anonymous_function_signature '=>' anonymous_function_body ;
     public final csParser.lambda_expression_return lambda_expression() throws RecognitionException {
         csParser.lambda_expression_return retval = new csParser.lambda_expression_return();
         retval.start = input.LT(1);
@@ -15848,8 +15848,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 111) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:440:18: ( anonymous_function_signature '=>' anonymous_function_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:441:2: anonymous_function_signature '=>' anonymous_function_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:440:18: ( anonymous_function_signature '=>' anonymous_function_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:441:2: anonymous_function_signature '=>' anonymous_function_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -15911,7 +15911,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_function_signature"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:442:1: anonymous_function_signature : ( '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')' | implicit_anonymous_function_parameter_list );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:442:1: anonymous_function_signature : ( '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')' | implicit_anonymous_function_parameter_list );
     public final csParser.anonymous_function_signature_return anonymous_function_signature() throws RecognitionException {
         csParser.anonymous_function_signature_return retval = new csParser.anonymous_function_signature_return();
         retval.start = input.LT(1);
@@ -15935,7 +15935,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 112) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:442:29: ( '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')' | implicit_anonymous_function_parameter_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:442:29: ( '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')' | implicit_anonymous_function_parameter_list )
             int alt122=2;
             int LA122_0 = input.LA(1);
 
@@ -15955,7 +15955,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt122) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:443:2: '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:443:2: '(' ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )? ')'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -15968,7 +15968,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, char_literal422_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:443:6: ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:443:6: ( explicit_anonymous_function_parameter_list | implicit_anonymous_function_parameter_list )?
                     int alt121=3;
                     int LA121_0 = input.LA(1);
 
@@ -15987,7 +15987,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt121) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:443:7: explicit_anonymous_function_parameter_list
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:443:7: explicit_anonymous_function_parameter_list
                             {
                             pushFollow(FOLLOW_explicit_anonymous_function_parameter_list_in_anonymous_function_signature3234);
                             explicit_anonymous_function_parameter_list423=explicit_anonymous_function_parameter_list();
@@ -15999,7 +15999,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:444:5: implicit_anonymous_function_parameter_list
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:444:5: implicit_anonymous_function_parameter_list
                             {
                             pushFollow(FOLLOW_implicit_anonymous_function_parameter_list_in_anonymous_function_signature3240);
                             implicit_anonymous_function_parameter_list424=implicit_anonymous_function_parameter_list();
@@ -16025,7 +16025,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:445:4: implicit_anonymous_function_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:445:4: implicit_anonymous_function_parameter_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16074,7 +16074,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicit_anonymous_function_parameter_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:447:1: implicit_anonymous_function_parameter_list : implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:447:1: implicit_anonymous_function_parameter_list : implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )* ;
     public final csParser.implicit_anonymous_function_parameter_list_return implicit_anonymous_function_parameter_list() throws RecognitionException {
         csParser.implicit_anonymous_function_parameter_list_return retval = new csParser.implicit_anonymous_function_parameter_list_return();
         retval.start = input.LT(1);
@@ -16094,8 +16094,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 113) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:447:43: ( implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:448:2: implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:447:43: ( implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:448:2: implicit_anonymous_function_parameter ( ',' implicit_anonymous_function_parameter )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -16107,7 +16107,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, implicit_anonymous_function_parameter427.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:448:42: ( ',' implicit_anonymous_function_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:448:42: ( ',' implicit_anonymous_function_parameter )*
             loop123:
             do {
                 int alt123=2;
@@ -16120,7 +16120,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt123) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:448:43: ',' implicit_anonymous_function_parameter
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:448:43: ',' implicit_anonymous_function_parameter
             	    {
             	    char_literal428=(Token)match(input,74,FOLLOW_74_in_implicit_anonymous_function_parameter_list3263); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -16181,7 +16181,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "implicit_anonymous_function_parameter"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:449:1: implicit_anonymous_function_parameter : identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:449:1: implicit_anonymous_function_parameter : identifier ;
     public final csParser.implicit_anonymous_function_parameter_return implicit_anonymous_function_parameter() throws RecognitionException {
         csParser.implicit_anonymous_function_parameter_return retval = new csParser.implicit_anonymous_function_parameter_return();
         retval.start = input.LT(1);
@@ -16197,8 +16197,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 114) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:449:38: ( identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:450:2: identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:449:38: ( identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:450:2: identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -16245,7 +16245,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "anonymous_function_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:451:1: anonymous_function_body : ( expression | block );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:451:1: anonymous_function_body : ( expression | block );
     public final csParser.anonymous_function_body_return anonymous_function_body() throws RecognitionException {
         csParser.anonymous_function_body_return retval = new csParser.anonymous_function_body_return();
         retval.start = input.LT(1);
@@ -16263,7 +16263,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 115) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:451:24: ( expression | block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:451:24: ( expression | block )
             int alt124=2;
             int LA124_0 = input.LA(1);
 
@@ -16283,7 +16283,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt124) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:452:2: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:452:2: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16298,7 +16298,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:453:4: block
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:453:4: block
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16347,7 +16347,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "query_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:458:1: query_expression : from_clause query_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:458:1: query_expression : from_clause query_body ;
     public final csParser.query_expression_return query_expression() throws RecognitionException {
         csParser.query_expression_return retval = new csParser.query_expression_return();
         retval.start = input.LT(1);
@@ -16365,8 +16365,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 116) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:458:17: ( from_clause query_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:459:2: from_clause query_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:458:17: ( from_clause query_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:459:2: from_clause query_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -16420,7 +16420,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "query_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:460:1: query_body : ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:460:1: query_body : ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )? ;
     public final csParser.query_body_return query_body() throws RecognitionException {
         csParser.query_body_return retval = new csParser.query_body_return();
         retval.start = input.LT(1);
@@ -16440,13 +16440,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 117) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:460:11: ( ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:2: ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:460:11: ( ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:2: ( query_body_clauses )? select_or_group_clause ( ( 'into' )=> query_continuation )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:2: ( query_body_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:2: ( query_body_clauses )?
             int alt125=2;
             int LA125_0 = input.LA(1);
 
@@ -16455,7 +16455,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt125) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:2: query_body_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:2: query_body_clauses
                     {
                     pushFollow(FOLLOW_query_body_clauses_in_query_body3315);
                     query_body_clauses435=query_body_clauses();
@@ -16477,7 +16477,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, select_or_group_clause436.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:49: ( ( 'into' )=> query_continuation )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:49: ( ( 'into' )=> query_continuation )?
             int alt126=2;
             int LA126_0 = input.LA(1);
 
@@ -16490,7 +16490,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt126) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:50: ( 'into' )=> query_continuation
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:50: ( 'into' )=> query_continuation
                     {
                     pushFollow(FOLLOW_query_continuation_in_query_body3331);
                     query_continuation437=query_continuation();
@@ -16540,7 +16540,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "query_continuation"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:463:1: query_continuation : 'into' identifier query_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:463:1: query_continuation : 'into' identifier query_body ;
     public final csParser.query_continuation_return query_continuation() throws RecognitionException {
         csParser.query_continuation_return retval = new csParser.query_continuation_return();
         retval.start = input.LT(1);
@@ -16560,8 +16560,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 118) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:463:19: ( 'into' identifier query_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:464:2: 'into' identifier query_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:463:19: ( 'into' identifier query_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:464:2: 'into' identifier query_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -16623,7 +16623,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "query_body_clauses"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:465:1: query_body_clauses : ( query_body_clause )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:465:1: query_body_clauses : ( query_body_clause )+ ;
     public final csParser.query_body_clauses_return query_body_clauses() throws RecognitionException {
         csParser.query_body_clauses_return retval = new csParser.query_body_clauses_return();
         retval.start = input.LT(1);
@@ -16639,13 +16639,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 119) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:465:19: ( ( query_body_clause )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:466:2: ( query_body_clause )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:465:19: ( ( query_body_clause )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:466:2: ( query_body_clause )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:466:2: ( query_body_clause )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:466:2: ( query_body_clause )+
             int cnt127=0;
             loop127:
             do {
@@ -16659,7 +16659,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt127) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:466:2: query_body_clause
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:466:2: query_body_clause
             	    {
             	    pushFollow(FOLLOW_query_body_clause_in_query_body_clauses3356);
             	    query_body_clause441=query_body_clause();
@@ -16717,7 +16717,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "query_body_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:467:1: query_body_clause : ( from_clause | let_clause | where_clause | join_clause | orderby_clause );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:467:1: query_body_clause : ( from_clause | let_clause | where_clause | join_clause | orderby_clause );
     public final csParser.query_body_clause_return query_body_clause() throws RecognitionException {
         csParser.query_body_clause_return retval = new csParser.query_body_clause_return();
         retval.start = input.LT(1);
@@ -16741,7 +16741,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 120) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:467:18: ( from_clause | let_clause | where_clause | join_clause | orderby_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:467:18: ( from_clause | let_clause | where_clause | join_clause | orderby_clause )
             int alt128=5;
             switch ( input.LA(1) ) {
             case 132:
@@ -16780,7 +16780,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt128) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:468:2: from_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:468:2: from_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16795,7 +16795,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:469:4: let_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:469:4: let_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16810,7 +16810,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:470:4: where_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:470:4: where_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16825,7 +16825,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:471:4: join_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:471:4: join_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16840,7 +16840,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:472:4: orderby_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:472:4: orderby_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -16889,7 +16889,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "from_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:473:1: from_clause : 'from' ( type )? identifier 'in' expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:473:1: from_clause : 'from' ( type )? identifier 'in' expression ;
     public final csParser.from_clause_return from_clause() throws RecognitionException {
         csParser.from_clause_return retval = new csParser.from_clause_return();
         retval.start = input.LT(1);
@@ -16913,8 +16913,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 121) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:473:12: ( 'from' ( type )? identifier 'in' expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:474:2: 'from' ( type )? identifier 'in' expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:473:12: ( 'from' ( type )? identifier 'in' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:474:2: 'from' ( type )? identifier 'in' expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -16927,7 +16927,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal447_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:474:11: ( type )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:474:11: ( type )?
             int alt129=2;
             int LA129_0 = input.LA(1);
 
@@ -16943,7 +16943,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt129) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:474:11: type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:474:11: type
                     {
                     pushFollow(FOLLOW_type_in_from_clause3396);
                     type448=type();
@@ -17015,7 +17015,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "join_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:475:1: join_clause : 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:475:1: join_clause : 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )? ;
     public final csParser.join_clause_return join_clause() throws RecognitionException {
         csParser.join_clause_return retval = new csParser.join_clause_return();
         retval.start = input.LT(1);
@@ -17051,8 +17051,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 122) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:475:12: ( 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:476:2: 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:475:12: ( 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:476:2: 'join' ( type )? identifier 'in' expression 'on' expression 'equals' expression ( 'into' identifier )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17065,7 +17065,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal452_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:476:11: ( type )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:476:11: ( type )?
             int alt130=2;
             int LA130_0 = input.LA(1);
 
@@ -17081,7 +17081,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt130) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:476:11: type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:476:11: type
                     {
                     pushFollow(FOLLOW_type_in_join_clause3421);
                     type453=type();
@@ -17148,7 +17148,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, expression460.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:476:94: ( 'into' identifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:476:94: ( 'into' identifier )?
             int alt131=2;
             int LA131_0 = input.LA(1);
 
@@ -17157,7 +17157,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt131) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:476:95: 'into' identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:476:95: 'into' identifier
                     {
                     string_literal461=(Token)match(input,141,FOLLOW_141_in_join_clause3453); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -17215,7 +17215,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "let_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:477:1: let_clause : 'let' identifier '=' expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:477:1: let_clause : 'let' identifier '=' expression ;
     public final csParser.let_clause_return let_clause() throws RecognitionException {
         csParser.let_clause_return retval = new csParser.let_clause_return();
         retval.start = input.LT(1);
@@ -17237,8 +17237,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 123) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:477:11: ( 'let' identifier '=' expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:478:2: 'let' identifier '=' expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:477:11: ( 'let' identifier '=' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:478:2: 'let' identifier '=' expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17308,7 +17308,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "orderby_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:479:1: orderby_clause : 'orderby' ordering_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:479:1: orderby_clause : 'orderby' ordering_list ;
     public final csParser.orderby_clause_return orderby_clause() throws RecognitionException {
         csParser.orderby_clause_return retval = new csParser.orderby_clause_return();
         retval.start = input.LT(1);
@@ -17326,8 +17326,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 124) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:479:15: ( 'orderby' ordering_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:480:2: 'orderby' ordering_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:479:15: ( 'orderby' ordering_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:480:2: 'orderby' ordering_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17382,7 +17382,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ordering_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:481:1: ordering_list : ordering ( ',' ordering )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:481:1: ordering_list : ordering ( ',' ordering )* ;
     public final csParser.ordering_list_return ordering_list() throws RecognitionException {
         csParser.ordering_list_return retval = new csParser.ordering_list_return();
         retval.start = input.LT(1);
@@ -17402,8 +17402,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 125) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:481:14: ( ordering ( ',' ordering )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:482:2: ordering ( ',' ordering )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:481:14: ( ordering ( ',' ordering )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:482:2: ordering ( ',' ordering )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17415,7 +17415,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, ordering469.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:482:13: ( ',' ordering )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:482:13: ( ',' ordering )*
             loop132:
             do {
                 int alt132=2;
@@ -17428,7 +17428,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt132) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:482:14: ',' ordering
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:482:14: ',' ordering
             	    {
             	    char_literal470=(Token)match(input,74,FOLLOW_74_in_ordering_list3501); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -17489,7 +17489,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ordering"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:483:1: ordering : expression ordering_direction ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:483:1: ordering : expression ordering_direction ;
     public final csParser.ordering_return ordering() throws RecognitionException {
         csParser.ordering_return retval = new csParser.ordering_return();
         retval.start = input.LT(1);
@@ -17507,8 +17507,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 126) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:483:9: ( expression ordering_direction )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:484:2: expression ordering_direction
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:483:9: ( expression ordering_direction )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:484:2: expression ordering_direction
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17562,7 +17562,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "ordering_direction"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:486:1: ordering_direction : ( 'ascending' | 'descending' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:486:1: ordering_direction : ( 'ascending' | 'descending' );
     public final csParser.ordering_direction_return ordering_direction() throws RecognitionException {
         csParser.ordering_direction_return retval = new csParser.ordering_direction_return();
         retval.start = input.LT(1);
@@ -17578,8 +17578,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 127) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:486:19: ( 'ascending' | 'descending' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:486:19: ( 'ascending' | 'descending' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17636,7 +17636,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "select_or_group_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:489:1: select_or_group_clause : ( select_clause | group_clause );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:489:1: select_or_group_clause : ( select_clause | group_clause );
     public final csParser.select_or_group_clause_return select_or_group_clause() throws RecognitionException {
         csParser.select_or_group_clause_return retval = new csParser.select_or_group_clause_return();
         retval.start = input.LT(1);
@@ -17654,7 +17654,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 128) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:489:23: ( select_clause | group_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:489:23: ( select_clause | group_clause )
             int alt133=2;
             int LA133_0 = input.LA(1);
 
@@ -17674,7 +17674,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt133) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:490:2: select_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:490:2: select_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -17689,7 +17689,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:491:4: group_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:491:4: group_clause
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -17738,7 +17738,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "select_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:492:1: select_clause : 'select' expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:492:1: select_clause : 'select' expression ;
     public final csParser.select_clause_return select_clause() throws RecognitionException {
         csParser.select_clause_return retval = new csParser.select_clause_return();
         retval.start = input.LT(1);
@@ -17756,8 +17756,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 129) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:492:14: ( 'select' expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:493:2: 'select' expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:492:14: ( 'select' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:493:2: 'select' expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17812,7 +17812,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "group_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:494:1: group_clause : 'group' expression 'by' expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:494:1: group_clause : 'group' expression 'by' expression ;
     public final csParser.group_clause_return group_clause() throws RecognitionException {
         csParser.group_clause_return retval = new csParser.group_clause_return();
         retval.start = input.LT(1);
@@ -17834,8 +17834,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 130) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:494:13: ( 'group' expression 'by' expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:495:2: 'group' expression 'by' expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:494:13: ( 'group' expression 'by' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:495:2: 'group' expression 'by' expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17905,7 +17905,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "where_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:496:1: where_clause : 'where' boolean_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:496:1: where_clause : 'where' boolean_expression ;
     public final csParser.where_clause_return where_clause() throws RecognitionException {
         csParser.where_clause_return retval = new csParser.where_clause_return();
         retval.start = input.LT(1);
@@ -17923,8 +17923,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 131) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:496:13: ( 'where' boolean_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:497:2: 'where' boolean_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:496:13: ( 'where' boolean_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:497:2: 'where' boolean_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -17979,7 +17979,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "boolean_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:498:1: boolean_expression : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:498:1: boolean_expression : expression ;
     public final csParser.boolean_expression_return boolean_expression() throws RecognitionException {
         csParser.boolean_expression_return retval = new csParser.boolean_expression_return();
         retval.start = input.LT(1);
@@ -17995,8 +17995,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 132) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:498:19: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:499:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:498:19: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:499:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18043,7 +18043,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "global_attributes"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:504:1: global_attributes : ( global_attribute )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:504:1: global_attributes : ( global_attribute )+ ;
     public final csParser.global_attributes_return global_attributes() throws RecognitionException {
         csParser.global_attributes_return retval = new csParser.global_attributes_return();
         retval.start = input.LT(1);
@@ -18059,13 +18059,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 133) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:504:18: ( ( global_attribute )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:505:2: ( global_attribute )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:504:18: ( ( global_attribute )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:505:2: ( global_attribute )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:505:2: ( global_attribute )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:505:2: ( global_attribute )+
             int cnt134=0;
             loop134:
             do {
@@ -18091,7 +18091,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt134) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:505:2: global_attribute
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:505:2: global_attribute
             	    {
             	    pushFollow(FOLLOW_global_attribute_in_global_attributes3611);
             	    global_attribute486=global_attribute();
@@ -18149,7 +18149,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "global_attribute"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:506:1: global_attribute : '[' global_attribute_target_specifier attribute_list ( ',' )? ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:506:1: global_attribute : '[' global_attribute_target_specifier attribute_list ( ',' )? ']' ;
     public final csParser.global_attribute_return global_attribute() throws RecognitionException {
         csParser.global_attribute_return retval = new csParser.global_attribute_return();
         retval.start = input.LT(1);
@@ -18173,8 +18173,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 134) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:506:17: ( '[' global_attribute_target_specifier attribute_list ( ',' )? ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:507:2: '[' global_attribute_target_specifier attribute_list ( ',' )? ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:506:17: ( '[' global_attribute_target_specifier attribute_list ( ',' )? ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:507:2: '[' global_attribute_target_specifier attribute_list ( ',' )? ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18201,7 +18201,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, attribute_list489.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:507:61: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:507:61: ( ',' )?
             int alt135=2;
             int LA135_0 = input.LA(1);
 
@@ -18210,7 +18210,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt135) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:507:61: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:507:61: ','
                     {
                     char_literal490=(Token)match(input,74,FOLLOW_74_in_global_attribute3633); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -18269,7 +18269,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "global_attribute_target_specifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:508:1: global_attribute_target_specifier : global_attribute_target ':' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:508:1: global_attribute_target_specifier : global_attribute_target ':' ;
     public final csParser.global_attribute_target_specifier_return global_attribute_target_specifier() throws RecognitionException {
         csParser.global_attribute_target_specifier_return retval = new csParser.global_attribute_target_specifier_return();
         retval.start = input.LT(1);
@@ -18287,8 +18287,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 135) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:508:34: ( global_attribute_target ':' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:509:2: global_attribute_target ':'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:508:34: ( global_attribute_target ':' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:509:2: global_attribute_target ':'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18343,7 +18343,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "global_attribute_target"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:510:1: global_attribute_target : ( 'assembly' | 'module' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:510:1: global_attribute_target : ( 'assembly' | 'module' );
     public final csParser.global_attribute_target_return global_attribute_target() throws RecognitionException {
         csParser.global_attribute_target_return retval = new csParser.global_attribute_target_return();
         retval.start = input.LT(1);
@@ -18359,8 +18359,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 136) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:510:24: ( 'assembly' | 'module' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:510:24: ( 'assembly' | 'module' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18417,7 +18417,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attributes"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:512:1: attributes : attribute_sections ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:512:1: attributes : attribute_sections ;
     public final csParser.attributes_return attributes() throws RecognitionException {
         csParser.attributes_return retval = new csParser.attributes_return();
         retval.start = input.LT(1);
@@ -18433,8 +18433,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 137) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:512:11: ( attribute_sections )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:513:2: attribute_sections
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:512:11: ( attribute_sections )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:513:2: attribute_sections
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18481,7 +18481,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_sections"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:514:1: attribute_sections : ( attribute_section )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:514:1: attribute_sections : ( attribute_section )+ ;
     public final csParser.attribute_sections_return attribute_sections() throws RecognitionException {
         csParser.attribute_sections_return retval = new csParser.attribute_sections_return();
         retval.start = input.LT(1);
@@ -18497,13 +18497,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 138) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:514:19: ( ( attribute_section )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:515:2: ( attribute_section )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:514:19: ( ( attribute_section )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:515:2: ( attribute_section )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:515:2: ( attribute_section )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:515:2: ( attribute_section )+
             int cnt136=0;
             loop136:
             do {
@@ -18517,7 +18517,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt136) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:515:2: attribute_section
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:515:2: attribute_section
             	    {
             	    pushFollow(FOLLOW_attribute_section_in_attribute_sections3682);
             	    attribute_section496=attribute_section();
@@ -18575,7 +18575,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_section"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:516:1: attribute_section : '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:516:1: attribute_section : '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']' ;
     public final csParser.attribute_section_return attribute_section() throws RecognitionException {
         csParser.attribute_section_return retval = new csParser.attribute_section_return();
         retval.start = input.LT(1);
@@ -18599,8 +18599,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 139) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:516:18: ( '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:517:2: '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:516:18: ( '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:517:2: '[' ( attribute_target_specifier )? attribute_list ( ',' )? ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18613,7 +18613,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal497_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:517:8: ( attribute_target_specifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:517:8: ( attribute_target_specifier )?
             int alt137=2;
             int LA137_0 = input.LA(1);
 
@@ -18629,7 +18629,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt137) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:517:8: attribute_target_specifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:517:8: attribute_target_specifier
                     {
                     pushFollow(FOLLOW_attribute_target_specifier_in_attribute_section3696);
                     attribute_target_specifier498=attribute_target_specifier();
@@ -18651,7 +18651,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, attribute_list499.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:517:55: ( ',' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:517:55: ( ',' )?
             int alt138=2;
             int LA138_0 = input.LA(1);
 
@@ -18660,7 +18660,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt138) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:517:55: ','
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:517:55: ','
                     {
                     char_literal500=(Token)match(input,74,FOLLOW_74_in_attribute_section3705); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -18719,7 +18719,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_target_specifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:518:1: attribute_target_specifier : attribute_target ':' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:518:1: attribute_target_specifier : attribute_target ':' ;
     public final csParser.attribute_target_specifier_return attribute_target_specifier() throws RecognitionException {
         csParser.attribute_target_specifier_return retval = new csParser.attribute_target_specifier_return();
         retval.start = input.LT(1);
@@ -18737,8 +18737,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 140) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:518:27: ( attribute_target ':' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:519:2: attribute_target ':'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:518:27: ( attribute_target ':' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:519:2: attribute_target ':'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18793,7 +18793,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_target"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:520:1: attribute_target : ( 'field' | 'event' | 'method' | 'param' | 'property' | 'return' | 'type' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:520:1: attribute_target : ( 'field' | 'event' | 'method' | 'param' | 'property' | 'return' | 'type' );
     public final csParser.attribute_target_return attribute_target() throws RecognitionException {
         csParser.attribute_target_return retval = new csParser.attribute_target_return();
         retval.start = input.LT(1);
@@ -18809,8 +18809,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 141) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:520:17: ( 'field' | 'event' | 'method' | 'param' | 'property' | 'return' | 'type' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:520:17: ( 'field' | 'event' | 'method' | 'param' | 'property' | 'return' | 'type' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18867,7 +18867,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:522:1: attribute_list : attribute ( ',' attribute )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:522:1: attribute_list : attribute ( ',' attribute )* ;
     public final csParser.attribute_list_return attribute_list() throws RecognitionException {
         csParser.attribute_list_return retval = new csParser.attribute_list_return();
         retval.start = input.LT(1);
@@ -18887,8 +18887,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 142) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:522:15: ( attribute ( ',' attribute )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:523:2: attribute ( ',' attribute )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:522:15: ( attribute ( ',' attribute )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:523:2: attribute ( ',' attribute )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -18900,7 +18900,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, attribute505.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:523:12: ( ',' attribute )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:523:12: ( ',' attribute )*
             loop139:
             do {
                 int alt139=2;
@@ -18919,7 +18919,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt139) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:523:13: ',' attribute
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:523:13: ',' attribute
             	    {
             	    char_literal506=(Token)match(input,74,FOLLOW_74_in_attribute_list3768); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -18980,7 +18980,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:524:1: attribute : type_name ( attribute_arguments )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:524:1: attribute : type_name ( attribute_arguments )? ;
     public final csParser.attribute_return attribute() throws RecognitionException {
         csParser.attribute_return retval = new csParser.attribute_return();
         retval.start = input.LT(1);
@@ -18998,8 +18998,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 143) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:524:10: ( type_name ( attribute_arguments )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:525:2: type_name ( attribute_arguments )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:524:10: ( type_name ( attribute_arguments )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:525:2: type_name ( attribute_arguments )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19011,7 +19011,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_name508.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:525:14: ( attribute_arguments )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:525:14: ( attribute_arguments )?
             int alt140=2;
             int LA140_0 = input.LA(1);
 
@@ -19020,7 +19020,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt140) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:525:14: attribute_arguments
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:525:14: attribute_arguments
                     {
                     pushFollow(FOLLOW_attribute_arguments_in_attribute3786);
                     attribute_arguments509=attribute_arguments();
@@ -19070,7 +19070,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_arguments"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:527:1: attribute_arguments : '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:527:1: attribute_arguments : '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' ) ;
     public final csParser.attribute_arguments_return attribute_arguments() throws RecognitionException {
         csParser.attribute_arguments_return retval = new csParser.attribute_arguments_return();
         retval.start = input.LT(1);
@@ -19098,8 +19098,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 144) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:527:20: ( '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:528:2: '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:527:20: ( '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:528:2: '(' ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19112,7 +19112,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal510_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:528:8: ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:528:8: ( ')' | ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')' )
             int alt142=2;
             int LA142_0 = input.LA(1);
 
@@ -19132,7 +19132,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt142) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:528:9: ')'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:528:9: ')'
                     {
                     char_literal511=(Token)match(input,RPAREN,FOLLOW_RPAREN_in_attribute_arguments3802); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -19145,10 +19145,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:8: ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:8: ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* ) ')'
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:8: ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:9: positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:8: ( positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )* )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:9: positional_argument ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )*
                     {
                     pushFollow(FOLLOW_positional_argument_in_attribute_arguments3822);
                     positional_argument512=positional_argument();
@@ -19157,7 +19157,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, positional_argument512.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:31: ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:31: ( ( ',' identifier '=' )=> named_argument | ',' positional_argument )*
                     loop141:
                     do {
                         int alt141=3;
@@ -19173,7 +19173,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                         switch (alt141) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:32: ( ',' identifier '=' )=> named_argument
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:32: ( ',' identifier '=' )=> named_argument
                     	    {
                     	    pushFollow(FOLLOW_named_argument_in_attribute_arguments3841);
                     	    named_argument513=named_argument();
@@ -19185,7 +19185,7 @@ public TreeAdaptor getTreeAdaptor() {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:530:15: ',' positional_argument
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:530:15: ',' positional_argument
                     	    {
                     	    char_literal514=(Token)match(input,74,FOLLOW_74_in_attribute_arguments3857); if (state.failed) return retval;
                     	    if ( state.backtracking==0 ) {
@@ -19263,7 +19263,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "positional_argument_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:533:1: positional_argument_list : positional_argument ( ',' positional_argument )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:533:1: positional_argument_list : positional_argument ( ',' positional_argument )* ;
     public final csParser.positional_argument_list_return positional_argument_list() throws RecognitionException {
         csParser.positional_argument_list_return retval = new csParser.positional_argument_list_return();
         retval.start = input.LT(1);
@@ -19283,8 +19283,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 145) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:533:25: ( positional_argument ( ',' positional_argument )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:534:2: positional_argument ( ',' positional_argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:533:25: ( positional_argument ( ',' positional_argument )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:534:2: positional_argument ( ',' positional_argument )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19296,7 +19296,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, positional_argument517.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:534:22: ( ',' positional_argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:534:22: ( ',' positional_argument )*
             loop143:
             do {
                 int alt143=2;
@@ -19309,7 +19309,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt143) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:534:23: ',' positional_argument
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:534:23: ',' positional_argument
             	    {
             	    char_literal518=(Token)match(input,74,FOLLOW_74_in_positional_argument_list3887); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -19370,7 +19370,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "positional_argument"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:535:1: positional_argument : attribute_argument_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:535:1: positional_argument : attribute_argument_expression ;
     public final csParser.positional_argument_return positional_argument() throws RecognitionException {
         csParser.positional_argument_return retval = new csParser.positional_argument_return();
         retval.start = input.LT(1);
@@ -19386,8 +19386,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 146) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:535:20: ( attribute_argument_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:536:2: attribute_argument_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:535:20: ( attribute_argument_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:536:2: attribute_argument_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19434,7 +19434,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "named_argument_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:537:1: named_argument_list : named_argument ( ',' named_argument )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:537:1: named_argument_list : named_argument ( ',' named_argument )* ;
     public final csParser.named_argument_list_return named_argument_list() throws RecognitionException {
         csParser.named_argument_list_return retval = new csParser.named_argument_list_return();
         retval.start = input.LT(1);
@@ -19454,8 +19454,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 147) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:537:20: ( named_argument ( ',' named_argument )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:538:2: named_argument ( ',' named_argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:537:20: ( named_argument ( ',' named_argument )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:538:2: named_argument ( ',' named_argument )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19467,7 +19467,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, named_argument521.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:538:17: ( ',' named_argument )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:538:17: ( ',' named_argument )*
             loop144:
             do {
                 int alt144=2;
@@ -19480,7 +19480,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt144) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:538:18: ',' named_argument
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:538:18: ',' named_argument
             	    {
             	    char_literal522=(Token)match(input,74,FOLLOW_74_in_named_argument_list3912); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -19541,7 +19541,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "named_argument"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:539:1: named_argument : identifier '=' attribute_argument_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:539:1: named_argument : identifier '=' attribute_argument_expression ;
     public final csParser.named_argument_return named_argument() throws RecognitionException {
         csParser.named_argument_return retval = new csParser.named_argument_return();
         retval.start = input.LT(1);
@@ -19561,8 +19561,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 148) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:539:15: ( identifier '=' attribute_argument_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:540:2: identifier '=' attribute_argument_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:539:15: ( identifier '=' attribute_argument_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:540:2: identifier '=' attribute_argument_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19624,7 +19624,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "attribute_argument_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:541:1: attribute_argument_expression : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:541:1: attribute_argument_expression : expression ;
     public final csParser.attribute_argument_expression_return attribute_argument_expression() throws RecognitionException {
         csParser.attribute_argument_expression_return retval = new csParser.attribute_argument_expression_return();
         retval.start = input.LT(1);
@@ -19640,8 +19640,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 149) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:541:30: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:542:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:541:30: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:542:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19688,7 +19688,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:548:1: class_declaration : 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:548:1: class_declaration : 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )? ;
     public final csParser.class_declaration_return class_declaration() throws RecognitionException {
         csParser.class_declaration_return retval = new csParser.class_declaration_return();
         retval.start = input.LT(1);
@@ -19714,8 +19714,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 150) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:548:18: ( 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:2: 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:548:18: ( 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:2: 'class' type_or_generic ( class_base )? ( type_parameter_constraints_clauses )? class_body ( ';' )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19735,7 +19735,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_or_generic529.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:29: ( class_base )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:29: ( class_base )?
             int alt145=2;
             int LA145_0 = input.LA(1);
 
@@ -19744,7 +19744,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt145) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:29: class_base
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:29: class_base
                     {
                     pushFollow(FOLLOW_class_base_in_class_declaration3962);
                     class_base530=class_base();
@@ -19759,7 +19759,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:43: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:43: ( type_parameter_constraints_clauses )?
             int alt146=2;
             int LA146_0 = input.LA(1);
 
@@ -19768,7 +19768,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt146) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:43: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:43: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_class_declaration3967);
                     type_parameter_constraints_clauses531=type_parameter_constraints_clauses();
@@ -19790,7 +19790,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, class_body532.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:94: ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:94: ( ';' )?
             int alt147=2;
             int LA147_0 = input.LA(1);
 
@@ -19799,7 +19799,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt147) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:549:94: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:549:94: ';'
                     {
                     char_literal533=(Token)match(input,SEMI,FOLLOW_SEMI_in_class_declaration3976); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -19850,7 +19850,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_base"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:550:1: class_base : ':' interface_type_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:550:1: class_base : ':' interface_type_list ;
     public final csParser.class_base_return class_base() throws RecognitionException {
         csParser.class_base_return retval = new csParser.class_base_return();
         retval.start = input.LT(1);
@@ -19868,8 +19868,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 151) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:550:11: ( ':' interface_type_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:553:2: ':' interface_type_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:550:11: ( ':' interface_type_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:553:2: ':' interface_type_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19924,7 +19924,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_type_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:555:1: interface_type_list : type ( ',' type )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:555:1: interface_type_list : type ( ',' type )* ;
     public final csParser.interface_type_list_return interface_type_list() throws RecognitionException {
         csParser.interface_type_list_return retval = new csParser.interface_type_list_return();
         retval.start = input.LT(1);
@@ -19944,8 +19944,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 152) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:555:20: ( type ( ',' type )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:556:2: type ( ',' type )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:555:20: ( type ( ',' type )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:556:2: type ( ',' type )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -19957,7 +19957,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type536.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:556:7: ( ',' type )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:556:7: ( ',' type )*
             loop148:
             do {
                 int alt148=2;
@@ -19970,7 +19970,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt148) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:556:8: ',' type
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:556:8: ',' type
             	    {
             	    char_literal537=(Token)match(input,74,FOLLOW_74_in_interface_type_list4006); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -20031,7 +20031,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:558:1: class_body : '{' ( class_member_declarations )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:558:1: class_body : '{' ( class_member_declarations )? '}' ;
     public final csParser.class_body_return class_body() throws RecognitionException {
         csParser.class_body_return retval = new csParser.class_body_return();
         retval.start = input.LT(1);
@@ -20051,8 +20051,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 153) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:558:11: ( '{' ( class_member_declarations )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:559:2: '{' ( class_member_declarations )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:558:11: ( '{' ( class_member_declarations )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:559:2: '{' ( class_member_declarations )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20065,7 +20065,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal539_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:559:8: ( class_member_declarations )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:559:8: ( class_member_declarations )?
             int alt149=2;
             int LA149_0 = input.LA(1);
 
@@ -20074,7 +20074,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt149) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:559:8: class_member_declarations
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:559:8: class_member_declarations
                     {
                     pushFollow(FOLLOW_class_member_declarations_in_class_body4025);
                     class_member_declarations540=class_member_declarations();
@@ -20132,7 +20132,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "class_member_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:560:1: class_member_declarations : ( class_member_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:560:1: class_member_declarations : ( class_member_declaration )+ ;
     public final csParser.class_member_declarations_return class_member_declarations() throws RecognitionException {
         csParser.class_member_declarations_return retval = new csParser.class_member_declarations_return();
         retval.start = input.LT(1);
@@ -20148,13 +20148,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 154) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:560:26: ( ( class_member_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:561:2: ( class_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:560:26: ( ( class_member_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:561:2: ( class_member_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:561:2: ( class_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:561:2: ( class_member_declaration )+
             int cnt150=0;
             loop150:
             do {
@@ -20168,7 +20168,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt150) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:561:2: class_member_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:561:2: class_member_declaration
             	    {
             	    pushFollow(FOLLOW_class_member_declaration_in_class_member_declarations4038);
             	    class_member_declaration542=class_member_declaration();
@@ -20226,7 +20226,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constant_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:564:1: constant_declaration : 'const' type constant_declarators ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:564:1: constant_declaration : 'const' type constant_declarators ';' ;
     public final csParser.constant_declaration_return constant_declaration() throws RecognitionException {
         csParser.constant_declaration_return retval = new csParser.constant_declaration_return();
         retval.start = input.LT(1);
@@ -20248,8 +20248,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 155) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:564:21: ( 'const' type constant_declarators ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:565:2: 'const' type constant_declarators ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:564:21: ( 'const' type constant_declarators ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:565:2: 'const' type constant_declarators ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20319,7 +20319,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constant_declarators"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:566:1: constant_declarators : constant_declarator ( ',' constant_declarator )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:566:1: constant_declarators : constant_declarator ( ',' constant_declarator )* ;
     public final csParser.constant_declarators_return constant_declarators() throws RecognitionException {
         csParser.constant_declarators_return retval = new csParser.constant_declarators_return();
         retval.start = input.LT(1);
@@ -20339,8 +20339,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 156) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:566:21: ( constant_declarator ( ',' constant_declarator )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:567:2: constant_declarator ( ',' constant_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:566:21: ( constant_declarator ( ',' constant_declarator )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:567:2: constant_declarator ( ',' constant_declarator )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20352,7 +20352,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, constant_declarator547.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:567:22: ( ',' constant_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:567:22: ( ',' constant_declarator )*
             loop151:
             do {
                 int alt151=2;
@@ -20365,7 +20365,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt151) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:567:23: ',' constant_declarator
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:567:23: ',' constant_declarator
             	    {
             	    char_literal548=(Token)match(input,74,FOLLOW_74_in_constant_declarators4072); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -20426,7 +20426,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constant_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:568:1: constant_declarator : identifier ( '=' constant_expression )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:568:1: constant_declarator : identifier ( '=' constant_expression )? ;
     public final csParser.constant_declarator_return constant_declarator() throws RecognitionException {
         csParser.constant_declarator_return retval = new csParser.constant_declarator_return();
         retval.start = input.LT(1);
@@ -20446,8 +20446,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 157) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:568:20: ( identifier ( '=' constant_expression )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:569:2: identifier ( '=' constant_expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:568:20: ( identifier ( '=' constant_expression )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:569:2: identifier ( '=' constant_expression )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20459,7 +20459,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier550.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:569:15: ( '=' constant_expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:569:15: ( '=' constant_expression )?
             int alt152=2;
             int LA152_0 = input.LA(1);
 
@@ -20468,7 +20468,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt152) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:569:16: '=' constant_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:569:16: '=' constant_expression
                     {
                     char_literal551=(Token)match(input,85,FOLLOW_85_in_constant_declarator4089); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -20526,7 +20526,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constant_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:570:1: constant_expression : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:570:1: constant_expression : expression ;
     public final csParser.constant_expression_return constant_expression() throws RecognitionException {
         csParser.constant_expression_return retval = new csParser.constant_expression_return();
         retval.start = input.LT(1);
@@ -20542,8 +20542,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 158) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:570:20: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:571:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:570:20: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:571:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20590,7 +20590,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "field_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:574:1: field_declaration : variable_declarators ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:574:1: field_declaration : variable_declarators ';' ;
     public final csParser.field_declaration_return field_declaration() throws RecognitionException {
         csParser.field_declaration_return retval = new csParser.field_declaration_return();
         retval.start = input.LT(1);
@@ -20608,8 +20608,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 159) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:574:18: ( variable_declarators ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:575:2: variable_declarators ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:574:18: ( variable_declarators ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:575:2: variable_declarators ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20664,7 +20664,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_declarators"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:576:1: variable_declarators : variable_declarator ( ',' variable_declarator )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:576:1: variable_declarators : variable_declarator ( ',' variable_declarator )* ;
     public final csParser.variable_declarators_return variable_declarators() throws RecognitionException {
         csParser.variable_declarators_return retval = new csParser.variable_declarators_return();
         retval.start = input.LT(1);
@@ -20684,8 +20684,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 160) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:576:21: ( variable_declarator ( ',' variable_declarator )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:577:2: variable_declarator ( ',' variable_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:576:21: ( variable_declarator ( ',' variable_declarator )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:577:2: variable_declarator ( ',' variable_declarator )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20697,7 +20697,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, variable_declarator556.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:577:22: ( ',' variable_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:577:22: ( ',' variable_declarator )*
             loop153:
             do {
                 int alt153=2;
@@ -20710,7 +20710,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt153) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:577:23: ',' variable_declarator
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:577:23: ',' variable_declarator
             	    {
             	    char_literal557=(Token)match(input,74,FOLLOW_74_in_variable_declarators4127); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -20771,7 +20771,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variable_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:578:1: variable_declarator : type_name ( '=' variable_initializer )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:578:1: variable_declarator : type_name ( '=' variable_initializer )? ;
     public final csParser.variable_declarator_return variable_declarator() throws RecognitionException {
         csParser.variable_declarator_return retval = new csParser.variable_declarator_return();
         retval.start = input.LT(1);
@@ -20791,8 +20791,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 161) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:578:20: ( type_name ( '=' variable_initializer )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:579:2: type_name ( '=' variable_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:578:20: ( type_name ( '=' variable_initializer )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:579:2: type_name ( '=' variable_initializer )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20804,7 +20804,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_name559.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:579:12: ( '=' variable_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:579:12: ( '=' variable_initializer )?
             int alt154=2;
             int LA154_0 = input.LA(1);
 
@@ -20813,7 +20813,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt154) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:579:13: '=' variable_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:579:13: '=' variable_initializer
                     {
                     char_literal560=(Token)match(input,85,FOLLOW_85_in_variable_declarator4144); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -20871,7 +20871,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:582:1: method_declaration : method_header method_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:582:1: method_declaration : method_header method_body ;
     public final csParser.method_declaration_return method_declaration() throws RecognitionException {
         csParser.method_declaration_return retval = new csParser.method_declaration_return();
         retval.start = input.LT(1);
@@ -20889,8 +20889,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 162) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:582:19: ( method_header method_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:583:2: method_header method_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:582:19: ( method_header method_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:583:2: method_header method_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20944,7 +20944,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method_header"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:584:1: method_header : member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:584:1: method_header : member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ;
     public final csParser.method_header_return method_header() throws RecognitionException {
         csParser.method_header_return retval = new csParser.method_header_return();
         retval.start = input.LT(1);
@@ -20968,8 +20968,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 163) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:584:14: ( member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:585:2: member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:584:14: ( member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:585:2: member_name '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -20989,7 +20989,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal565_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:585:21: ( formal_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:585:21: ( formal_parameter_list )?
             int alt155=2;
             int LA155_0 = input.LA(1);
 
@@ -20998,7 +20998,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt155) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:585:21: formal_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:585:21: formal_parameter_list
                     {
                     pushFollow(FOLLOW_formal_parameter_list_in_method_header4181);
                     formal_parameter_list566=formal_parameter_list();
@@ -21021,7 +21021,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal567_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:585:52: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:585:52: ( type_parameter_constraints_clauses )?
             int alt156=2;
             int LA156_0 = input.LA(1);
 
@@ -21030,7 +21030,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt156) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:585:52: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:585:52: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_method_header4190);
                     type_parameter_constraints_clauses568=type_parameter_constraints_clauses();
@@ -21080,7 +21080,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:586:1: method_body : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:586:1: method_body : block ;
     public final csParser.method_body_return method_body() throws RecognitionException {
         csParser.method_body_return retval = new csParser.method_body_return();
         retval.start = input.LT(1);
@@ -21096,8 +21096,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 164) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:586:12: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:587:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:586:12: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:587:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21144,7 +21144,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "member_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:588:1: member_name : qid ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:588:1: member_name : qid ;
     public final csParser.member_name_return member_name() throws RecognitionException {
         csParser.member_name_return retval = new csParser.member_name_return();
         retval.start = input.LT(1);
@@ -21160,8 +21160,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 165) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:588:12: ( qid )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:589:2: qid
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:588:12: ( qid )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:589:2: qid
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21208,7 +21208,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "property_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:592:1: property_declaration : member_name '{' accessor_declarations '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:592:1: property_declaration : member_name '{' accessor_declarations '}' ;
     public final csParser.property_declaration_return property_declaration() throws RecognitionException {
         csParser.property_declaration_return retval = new csParser.property_declaration_return();
         retval.start = input.LT(1);
@@ -21230,8 +21230,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 166) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:592:21: ( member_name '{' accessor_declarations '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:593:2: member_name '{' accessor_declarations '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:592:21: ( member_name '{' accessor_declarations '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:593:2: member_name '{' accessor_declarations '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21301,7 +21301,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "accessor_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:594:1: accessor_declarations : ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:594:1: accessor_declarations : ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? ) ;
     public final csParser.accessor_declarations_return accessor_declarations() throws RecognitionException {
         csParser.accessor_declarations_return retval = new csParser.accessor_declarations_return();
         retval.start = input.LT(1);
@@ -21329,13 +21329,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 167) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:594:22: ( ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:595:2: ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:594:22: ( ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:595:2: ( attributes )? ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:595:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:595:2: ( attributes )?
             int alt157=2;
             int LA157_0 = input.LA(1);
 
@@ -21344,7 +21344,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt157) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:595:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:595:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_accessor_declarations4239);
                     attributes575=attributes();
@@ -21359,7 +21359,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:3: ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:3: ( get_accessor_declaration ( attributes )? ( set_accessor_declaration )? | set_accessor_declaration ( attributes )? ( get_accessor_declaration )? )
             int alt162=2;
             switch ( input.LA(1) ) {
             case 140:
@@ -21406,7 +21406,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt162) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:4: get_accessor_declaration ( attributes )? ( set_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:4: get_accessor_declaration ( attributes )? ( set_accessor_declaration )?
                     {
                     pushFollow(FOLLOW_get_accessor_declaration_in_accessor_declarations4245);
                     get_accessor_declaration576=get_accessor_declaration();
@@ -21415,7 +21415,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, get_accessor_declaration576.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:31: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:31: ( attributes )?
                     int alt158=2;
                     int LA158_0 = input.LA(1);
 
@@ -21424,7 +21424,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt158) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:31: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:31: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_accessor_declarations4249);
                             attributes577=attributes();
@@ -21439,7 +21439,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:45: ( set_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:45: ( set_accessor_declaration )?
                     int alt159=2;
                     int LA159_0 = input.LA(1);
 
@@ -21448,7 +21448,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt159) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:596:45: set_accessor_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:596:45: set_accessor_declaration
                             {
                             pushFollow(FOLLOW_set_accessor_declaration_in_accessor_declarations4254);
                             set_accessor_declaration578=set_accessor_declaration();
@@ -21466,7 +21466,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:597:5: set_accessor_declaration ( attributes )? ( get_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:597:5: set_accessor_declaration ( attributes )? ( get_accessor_declaration )?
                     {
                     pushFollow(FOLLOW_set_accessor_declaration_in_accessor_declarations4261);
                     set_accessor_declaration579=set_accessor_declaration();
@@ -21475,7 +21475,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, set_accessor_declaration579.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:597:32: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:597:32: ( attributes )?
                     int alt160=2;
                     int LA160_0 = input.LA(1);
 
@@ -21484,7 +21484,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt160) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:597:32: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:597:32: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_accessor_declarations4265);
                             attributes580=attributes();
@@ -21499,7 +21499,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:597:46: ( get_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:597:46: ( get_accessor_declaration )?
                     int alt161=2;
                     int LA161_0 = input.LA(1);
 
@@ -21508,7 +21508,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt161) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:597:46: get_accessor_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:597:46: get_accessor_declaration
                             {
                             pushFollow(FOLLOW_get_accessor_declaration_in_accessor_declarations4270);
                             get_accessor_declaration581=get_accessor_declaration();
@@ -21564,7 +21564,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "get_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:598:1: get_accessor_declaration : ( accessor_modifier )? 'get' accessor_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:598:1: get_accessor_declaration : ( accessor_modifier )? 'get' accessor_body ;
     public final csParser.get_accessor_declaration_return get_accessor_declaration() throws RecognitionException {
         csParser.get_accessor_declaration_return retval = new csParser.get_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -21584,13 +21584,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 168) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:598:25: ( ( accessor_modifier )? 'get' accessor_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:599:2: ( accessor_modifier )? 'get' accessor_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:598:25: ( ( accessor_modifier )? 'get' accessor_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:599:2: ( accessor_modifier )? 'get' accessor_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:599:2: ( accessor_modifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:599:2: ( accessor_modifier )?
             int alt163=2;
             int LA163_0 = input.LA(1);
 
@@ -21599,7 +21599,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt163) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:599:2: accessor_modifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:599:2: accessor_modifier
                     {
                     pushFollow(FOLLOW_accessor_modifier_in_get_accessor_declaration4280);
                     accessor_modifier582=accessor_modifier();
@@ -21664,7 +21664,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "set_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:600:1: set_accessor_declaration : ( accessor_modifier )? 'set' accessor_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:600:1: set_accessor_declaration : ( accessor_modifier )? 'set' accessor_body ;
     public final csParser.set_accessor_declaration_return set_accessor_declaration() throws RecognitionException {
         csParser.set_accessor_declaration_return retval = new csParser.set_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -21684,13 +21684,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 169) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:600:25: ( ( accessor_modifier )? 'set' accessor_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:601:2: ( accessor_modifier )? 'set' accessor_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:600:25: ( ( accessor_modifier )? 'set' accessor_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:601:2: ( accessor_modifier )? 'set' accessor_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:601:2: ( accessor_modifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:601:2: ( accessor_modifier )?
             int alt164=2;
             int LA164_0 = input.LA(1);
 
@@ -21699,7 +21699,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt164) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:601:2: accessor_modifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:601:2: accessor_modifier
                     {
                     pushFollow(FOLLOW_accessor_modifier_in_set_accessor_declaration4297);
                     accessor_modifier585=accessor_modifier();
@@ -21764,7 +21764,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "accessor_modifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:602:1: accessor_modifier : ( 'public' | 'protected' | 'private' | 'internal' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:602:1: accessor_modifier : ( 'public' | 'protected' | 'private' | 'internal' );
     public final csParser.accessor_modifier_return accessor_modifier() throws RecognitionException {
         csParser.accessor_modifier_return retval = new csParser.accessor_modifier_return();
         retval.start = input.LT(1);
@@ -21780,8 +21780,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 170) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:602:18: ( 'public' | 'protected' | 'private' | 'internal' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:602:18: ( 'public' | 'protected' | 'private' | 'internal' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21838,7 +21838,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "accessor_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:604:1: accessor_body : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:604:1: accessor_body : block ;
     public final csParser.accessor_body_return accessor_body() throws RecognitionException {
         csParser.accessor_body_return retval = new csParser.accessor_body_return();
         retval.start = input.LT(1);
@@ -21854,8 +21854,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 171) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:604:14: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:605:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:604:14: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:605:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21902,7 +21902,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "event_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:608:1: event_declaration : 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:608:1: event_declaration : 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' ) ;
     public final csParser.event_declaration_return event_declaration() throws RecognitionException {
         csParser.event_declaration_return retval = new csParser.event_declaration_return();
         retval.start = input.LT(1);
@@ -21932,8 +21932,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 172) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:608:18: ( 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:609:2: 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:608:18: ( 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:609:2: 'event' type ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -21953,7 +21953,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type591.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:610:3: ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:610:3: ( ( member_name '{' )=> member_name '{' event_accessor_declarations '}' | variable_declarators ';' )
             int alt165=2;
             int LA165_0 = input.LA(1);
 
@@ -21991,7 +21991,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt165) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:610:4: ( member_name '{' )=> member_name '{' event_accessor_declarations '}'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:610:4: ( member_name '{' )=> member_name '{' event_accessor_declarations '}'
                     {
                     pushFollow(FOLLOW_member_name_in_event_declaration4363);
                     member_name592=member_name();
@@ -22026,7 +22026,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:611:5: variable_declarators ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:611:5: variable_declarators ';'
                     {
                     pushFollow(FOLLOW_variable_declarators_in_event_declaration4381);
                     variable_declarators596=variable_declarators();
@@ -22084,7 +22084,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "event_modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:613:1: event_modifiers : ( modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:613:1: event_modifiers : ( modifier )+ ;
     public final csParser.event_modifiers_return event_modifiers() throws RecognitionException {
         csParser.event_modifiers_return retval = new csParser.event_modifiers_return();
         retval.start = input.LT(1);
@@ -22100,13 +22100,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 173) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:613:16: ( ( modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:614:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:613:16: ( ( modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:614:2: ( modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:614:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:614:2: ( modifier )+
             int cnt166=0;
             loop166:
             do {
@@ -22120,7 +22120,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt166) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:614:2: modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:614:2: modifier
             	    {
             	    pushFollow(FOLLOW_modifier_in_event_modifiers4397);
             	    modifier598=modifier();
@@ -22178,7 +22178,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "event_accessor_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:615:1: event_accessor_declarations : ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:615:1: event_accessor_declarations : ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) ) ;
     public final csParser.event_accessor_declarations_return event_accessor_declarations() throws RecognitionException {
         csParser.event_accessor_declarations_return retval = new csParser.event_accessor_declarations_return();
         retval.start = input.LT(1);
@@ -22206,13 +22206,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 174) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:615:28: ( ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:2: ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:615:28: ( ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:2: ( attributes )? ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:2: ( attributes )?
             int alt167=2;
             int LA167_0 = input.LA(1);
 
@@ -22221,7 +22221,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt167) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_event_accessor_declarations4406);
                     attributes599=attributes();
@@ -22236,7 +22236,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:16: ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:16: ( ( add_accessor_declaration ( attributes )? remove_accessor_declaration ) | ( remove_accessor_declaration ( attributes )? add_accessor_declaration ) )
             int alt170=2;
             int LA170_0 = input.LA(1);
 
@@ -22256,10 +22256,10 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt170) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:17: ( add_accessor_declaration ( attributes )? remove_accessor_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:17: ( add_accessor_declaration ( attributes )? remove_accessor_declaration )
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:17: ( add_accessor_declaration ( attributes )? remove_accessor_declaration )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:18: add_accessor_declaration ( attributes )? remove_accessor_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:17: ( add_accessor_declaration ( attributes )? remove_accessor_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:18: add_accessor_declaration ( attributes )? remove_accessor_declaration
                     {
                     pushFollow(FOLLOW_add_accessor_declaration_in_event_accessor_declarations4413);
                     add_accessor_declaration600=add_accessor_declaration();
@@ -22268,7 +22268,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, add_accessor_declaration600.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:45: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:45: ( attributes )?
                     int alt168=2;
                     int LA168_0 = input.LA(1);
 
@@ -22277,7 +22277,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt168) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:616:45: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:616:45: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_event_accessor_declarations4417);
                             attributes601=attributes();
@@ -22305,10 +22305,10 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:617:18: ( remove_accessor_declaration ( attributes )? add_accessor_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:617:18: ( remove_accessor_declaration ( attributes )? add_accessor_declaration )
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:617:18: ( remove_accessor_declaration ( attributes )? add_accessor_declaration )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:617:19: remove_accessor_declaration ( attributes )? add_accessor_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:617:18: ( remove_accessor_declaration ( attributes )? add_accessor_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:617:19: remove_accessor_declaration ( attributes )? add_accessor_declaration
                     {
                     pushFollow(FOLLOW_remove_accessor_declaration_in_event_accessor_declarations4443);
                     remove_accessor_declaration603=remove_accessor_declaration();
@@ -22317,7 +22317,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, remove_accessor_declaration603.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:617:49: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:617:49: ( attributes )?
                     int alt169=2;
                     int LA169_0 = input.LA(1);
 
@@ -22326,7 +22326,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt169) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:617:49: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:617:49: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_event_accessor_declarations4447);
                             attributes604=attributes();
@@ -22392,7 +22392,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "add_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:618:1: add_accessor_declaration : 'add' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:618:1: add_accessor_declaration : 'add' block ;
     public final csParser.add_accessor_declaration_return add_accessor_declaration() throws RecognitionException {
         csParser.add_accessor_declaration_return retval = new csParser.add_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -22410,8 +22410,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 175) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:618:25: ( 'add' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:619:2: 'add' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:618:25: ( 'add' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:619:2: 'add' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22466,7 +22466,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "remove_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:620:1: remove_accessor_declaration : 'remove' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:620:1: remove_accessor_declaration : 'remove' block ;
     public final csParser.remove_accessor_declaration_return remove_accessor_declaration() throws RecognitionException {
         csParser.remove_accessor_declaration_return retval = new csParser.remove_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -22484,8 +22484,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 176) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:620:28: ( 'remove' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:621:2: 'remove' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:620:28: ( 'remove' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:621:2: 'remove' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22540,7 +22540,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "enum_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:626:1: enum_declaration : 'enum' identifier ( enum_base )? enum_body ( ';' )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:626:1: enum_declaration : 'enum' identifier ( enum_base )? enum_body ( ';' )? ;
     public final csParser.enum_declaration_return enum_declaration() throws RecognitionException {
         csParser.enum_declaration_return retval = new csParser.enum_declaration_return();
         retval.start = input.LT(1);
@@ -22564,8 +22564,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 177) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:626:17: ( 'enum' identifier ( enum_base )? enum_body ( ';' )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:627:2: 'enum' identifier ( enum_base )? enum_body ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:626:17: ( 'enum' identifier ( enum_base )? enum_body ( ';' )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:627:2: 'enum' identifier ( enum_base )? enum_body ( ';' )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22585,7 +22585,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier611.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:627:24: ( enum_base )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:627:24: ( enum_base )?
             int alt171=2;
             int LA171_0 = input.LA(1);
 
@@ -22594,7 +22594,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt171) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:627:24: enum_base
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:627:24: enum_base
                     {
                     pushFollow(FOLLOW_enum_base_in_enum_declaration4498);
                     enum_base612=enum_base();
@@ -22616,7 +22616,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, enum_body613.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:627:49: ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:627:49: ( ';' )?
             int alt172=2;
             int LA172_0 = input.LA(1);
 
@@ -22625,7 +22625,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt172) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:627:49: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:627:49: ';'
                     {
                     char_literal614=(Token)match(input,SEMI,FOLLOW_SEMI_in_enum_declaration4507); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -22676,7 +22676,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "enum_base"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:628:1: enum_base : ':' integral_type ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:628:1: enum_base : ':' integral_type ;
     public final csParser.enum_base_return enum_base() throws RecognitionException {
         csParser.enum_base_return retval = new csParser.enum_base_return();
         retval.start = input.LT(1);
@@ -22694,8 +22694,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 178) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:628:10: ( ':' integral_type )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:629:2: ':' integral_type
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:628:10: ( ':' integral_type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:629:2: ':' integral_type
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22750,7 +22750,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "enum_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:630:1: enum_body : '{' ( enum_member_declarations ( ',' )? )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:630:1: enum_body : '{' ( enum_member_declarations ( ',' )? )? '}' ;
     public final csParser.enum_body_return enum_body() throws RecognitionException {
         csParser.enum_body_return retval = new csParser.enum_body_return();
         retval.start = input.LT(1);
@@ -22772,8 +22772,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 179) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:630:10: ( '{' ( enum_member_declarations ( ',' )? )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:631:2: '{' ( enum_member_declarations ( ',' )? )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:630:10: ( '{' ( enum_member_declarations ( ',' )? )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:631:2: '{' ( enum_member_declarations ( ',' )? )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22786,7 +22786,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal617_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:631:6: ( enum_member_declarations ( ',' )? )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:631:6: ( enum_member_declarations ( ',' )? )?
             int alt174=2;
             int LA174_0 = input.LA(1);
 
@@ -22795,7 +22795,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt174) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:631:7: enum_member_declarations ( ',' )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:631:7: enum_member_declarations ( ',' )?
                     {
                     pushFollow(FOLLOW_enum_member_declarations_in_enum_body4531);
                     enum_member_declarations618=enum_member_declarations();
@@ -22804,7 +22804,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, enum_member_declarations618.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:631:32: ( ',' )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:631:32: ( ',' )?
                     int alt173=2;
                     int LA173_0 = input.LA(1);
 
@@ -22813,7 +22813,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt173) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:631:32: ','
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:631:32: ','
                             {
                             char_literal619=(Token)match(input,74,FOLLOW_74_in_enum_body4533); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -22878,7 +22878,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "enum_member_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:632:1: enum_member_declarations : enum_member_declaration ( ',' enum_member_declaration )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:632:1: enum_member_declarations : enum_member_declaration ( ',' enum_member_declaration )* ;
     public final csParser.enum_member_declarations_return enum_member_declarations() throws RecognitionException {
         csParser.enum_member_declarations_return retval = new csParser.enum_member_declarations_return();
         retval.start = input.LT(1);
@@ -22898,8 +22898,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 180) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:632:25: ( enum_member_declaration ( ',' enum_member_declaration )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:633:2: enum_member_declaration ( ',' enum_member_declaration )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:632:25: ( enum_member_declaration ( ',' enum_member_declaration )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:633:2: enum_member_declaration ( ',' enum_member_declaration )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -22911,7 +22911,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, enum_member_declaration621.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:633:26: ( ',' enum_member_declaration )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:633:26: ( ',' enum_member_declaration )*
             loop175:
             do {
                 int alt175=2;
@@ -22930,7 +22930,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt175) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:633:27: ',' enum_member_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:633:27: ',' enum_member_declaration
             	    {
             	    char_literal622=(Token)match(input,74,FOLLOW_74_in_enum_member_declarations4551); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -22991,7 +22991,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "enum_member_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:634:1: enum_member_declaration : ( attributes )? identifier ( '=' expression )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:634:1: enum_member_declaration : ( attributes )? identifier ( '=' expression )? ;
     public final csParser.enum_member_declaration_return enum_member_declaration() throws RecognitionException {
         csParser.enum_member_declaration_return retval = new csParser.enum_member_declaration_return();
         retval.start = input.LT(1);
@@ -23013,13 +23013,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 181) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:634:24: ( ( attributes )? identifier ( '=' expression )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:635:2: ( attributes )? identifier ( '=' expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:634:24: ( ( attributes )? identifier ( '=' expression )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:635:2: ( attributes )? identifier ( '=' expression )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:635:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:635:2: ( attributes )?
             int alt176=2;
             int LA176_0 = input.LA(1);
 
@@ -23028,7 +23028,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt176) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:635:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:635:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_enum_member_declaration4563);
                     attributes624=attributes();
@@ -23050,7 +23050,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier625.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:635:29: ( '=' expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:635:29: ( '=' expression )?
             int alt177=2;
             int LA177_0 = input.LA(1);
 
@@ -23059,7 +23059,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt177) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:635:30: '=' expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:635:30: '=' expression
                     {
                     char_literal626=(Token)match(input,85,FOLLOW_85_in_enum_member_declaration4573); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -23117,7 +23117,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "integral_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:640:1: integral_type : ( 'sbyte' | 'byte' | 'short' | 'ushort' | 'int' | 'uint' | 'long' | 'ulong' | 'char' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:640:1: integral_type : ( 'sbyte' | 'byte' | 'short' | 'ushort' | 'int' | 'uint' | 'long' | 'ulong' | 'char' );
     public final csParser.integral_type_return integral_type() throws RecognitionException {
         csParser.integral_type_return retval = new csParser.integral_type_return();
         retval.start = input.LT(1);
@@ -23133,8 +23133,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 182) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:640:14: ( 'sbyte' | 'byte' | 'short' | 'ushort' | 'int' | 'uint' | 'long' | 'ulong' | 'char' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:640:14: ( 'sbyte' | 'byte' | 'short' | 'ushort' | 'int' | 'uint' | 'long' | 'ulong' | 'char' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23191,7 +23191,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "delegate_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:644:1: delegate_declaration : 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:644:1: delegate_declaration : 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' ;
     public final csParser.delegate_declaration_return delegate_declaration() throws RecognitionException {
         csParser.delegate_declaration_return retval = new csParser.delegate_declaration_return();
         retval.start = input.LT(1);
@@ -23223,8 +23223,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 183) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:644:21: ( 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:645:2: 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:644:21: ( 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:645:2: 'delegate' return_type identifier ( variant_generic_parameter_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23251,7 +23251,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier631.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:645:41: ( variant_generic_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:645:41: ( variant_generic_parameter_list )?
             int alt178=2;
             int LA178_0 = input.LA(1);
 
@@ -23260,7 +23260,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt178) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:645:41: variant_generic_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:645:41: variant_generic_parameter_list
                     {
                     pushFollow(FOLLOW_variant_generic_parameter_list_in_delegate_declaration4645);
                     variant_generic_parameter_list632=variant_generic_parameter_list();
@@ -23283,7 +23283,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal633_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:646:9: ( formal_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:646:9: ( formal_parameter_list )?
             int alt179=2;
             int LA179_0 = input.LA(1);
 
@@ -23292,7 +23292,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt179) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:646:9: formal_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:646:9: formal_parameter_list
                     {
                     pushFollow(FOLLOW_formal_parameter_list_in_delegate_declaration4657);
                     formal_parameter_list634=formal_parameter_list();
@@ -23315,7 +23315,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal635_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:646:40: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:646:40: ( type_parameter_constraints_clauses )?
             int alt180=2;
             int LA180_0 = input.LA(1);
 
@@ -23324,7 +23324,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt180) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:646:40: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:646:40: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_delegate_declaration4666);
                     type_parameter_constraints_clauses636=type_parameter_constraints_clauses();
@@ -23382,7 +23382,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "delegate_modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:647:1: delegate_modifiers : ( modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:647:1: delegate_modifiers : ( modifier )+ ;
     public final csParser.delegate_modifiers_return delegate_modifiers() throws RecognitionException {
         csParser.delegate_modifiers_return retval = new csParser.delegate_modifiers_return();
         retval.start = input.LT(1);
@@ -23398,13 +23398,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 184) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:647:19: ( ( modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:648:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:647:19: ( ( modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:648:2: ( modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:648:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:648:2: ( modifier )+
             int cnt181=0;
             loop181:
             do {
@@ -23418,7 +23418,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt181) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:648:2: modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:648:2: modifier
             	    {
             	    pushFollow(FOLLOW_modifier_in_delegate_modifiers4679);
             	    modifier638=modifier();
@@ -23476,7 +23476,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variant_generic_parameter_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:650:1: variant_generic_parameter_list : '<' variant_type_parameters '>' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:650:1: variant_generic_parameter_list : '<' variant_type_parameters '>' ;
     public final csParser.variant_generic_parameter_list_return variant_generic_parameter_list() throws RecognitionException {
         csParser.variant_generic_parameter_list_return retval = new csParser.variant_generic_parameter_list_return();
         retval.start = input.LT(1);
@@ -23496,8 +23496,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 185) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:650:31: ( '<' variant_type_parameters '>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:651:2: '<' variant_type_parameters '>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:650:31: ( '<' variant_type_parameters '>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:651:2: '<' variant_type_parameters '>'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23560,7 +23560,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variant_type_parameters"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:652:1: variant_type_parameters : variant_type_variable_name ( ',' variant_type_variable_name )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:652:1: variant_type_parameters : variant_type_variable_name ( ',' variant_type_variable_name )* ;
     public final csParser.variant_type_parameters_return variant_type_parameters() throws RecognitionException {
         csParser.variant_type_parameters_return retval = new csParser.variant_type_parameters_return();
         retval.start = input.LT(1);
@@ -23580,8 +23580,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 186) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:652:24: ( variant_type_variable_name ( ',' variant_type_variable_name )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:653:2: variant_type_variable_name ( ',' variant_type_variable_name )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:652:24: ( variant_type_variable_name ( ',' variant_type_variable_name )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:653:2: variant_type_variable_name ( ',' variant_type_variable_name )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23593,7 +23593,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, variant_type_variable_name642.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:653:29: ( ',' variant_type_variable_name )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:653:29: ( ',' variant_type_variable_name )*
             loop182:
             do {
                 int alt182=2;
@@ -23606,7 +23606,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt182) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:653:30: ',' variant_type_variable_name
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:653:30: ',' variant_type_variable_name
             	    {
             	    char_literal643=(Token)match(input,74,FOLLOW_74_in_variant_type_parameters4708); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -23667,7 +23667,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variant_type_variable_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:654:1: variant_type_variable_name : ( attributes )? ( variance_annotation )? type_variable_name ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:654:1: variant_type_variable_name : ( attributes )? ( variance_annotation )? type_variable_name ;
     public final csParser.variant_type_variable_name_return variant_type_variable_name() throws RecognitionException {
         csParser.variant_type_variable_name_return retval = new csParser.variant_type_variable_name_return();
         retval.start = input.LT(1);
@@ -23687,13 +23687,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 187) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:654:27: ( ( attributes )? ( variance_annotation )? type_variable_name )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:655:2: ( attributes )? ( variance_annotation )? type_variable_name
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:654:27: ( ( attributes )? ( variance_annotation )? type_variable_name )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:655:2: ( attributes )? ( variance_annotation )? type_variable_name
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:655:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:655:2: ( attributes )?
             int alt183=2;
             int LA183_0 = input.LA(1);
 
@@ -23702,7 +23702,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt183) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:655:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:655:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_variant_type_variable_name4720);
                     attributes645=attributes();
@@ -23717,7 +23717,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:655:16: ( variance_annotation )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:655:16: ( variance_annotation )?
             int alt184=2;
             int LA184_0 = input.LA(1);
 
@@ -23726,7 +23726,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt184) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:655:16: variance_annotation
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:655:16: variance_annotation
                     {
                     pushFollow(FOLLOW_variance_annotation_in_variant_type_variable_name4725);
                     variance_annotation646=variance_annotation();
@@ -23783,7 +23783,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "variance_annotation"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:656:1: variance_annotation : ( 'in' | 'out' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:656:1: variance_annotation : ( 'in' | 'out' );
     public final csParser.variance_annotation_return variance_annotation() throws RecognitionException {
         csParser.variance_annotation_return retval = new csParser.variance_annotation_return();
         retval.start = input.LT(1);
@@ -23799,8 +23799,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 188) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:656:20: ( 'in' | 'out' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:656:20: ( 'in' | 'out' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23857,7 +23857,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_parameter_constraints_clauses"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:659:1: type_parameter_constraints_clauses : type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:659:1: type_parameter_constraints_clauses : type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )* ;
     public final csParser.type_parameter_constraints_clauses_return type_parameter_constraints_clauses() throws RecognitionException {
         csParser.type_parameter_constraints_clauses_return retval = new csParser.type_parameter_constraints_clauses_return();
         retval.start = input.LT(1);
@@ -23877,8 +23877,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 189) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:659:35: ( type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:660:2: type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:659:35: ( type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:660:2: type_parameter_constraints_clause ( ',' type_parameter_constraints_clause )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -23890,7 +23890,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_parameter_constraints_clause649.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:660:38: ( ',' type_parameter_constraints_clause )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:660:38: ( ',' type_parameter_constraints_clause )*
             loop185:
             do {
                 int alt185=2;
@@ -23903,7 +23903,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt185) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:660:39: ',' type_parameter_constraints_clause
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:660:39: ',' type_parameter_constraints_clause
             	    {
             	    char_literal650=(Token)match(input,74,FOLLOW_74_in_type_parameter_constraints_clauses4756); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -23964,7 +23964,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_parameter_constraints_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:661:1: type_parameter_constraints_clause : 'where' type_variable_name ':' type_parameter_constraint_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:661:1: type_parameter_constraints_clause : 'where' type_variable_name ':' type_parameter_constraint_list ;
     public final csParser.type_parameter_constraints_clause_return type_parameter_constraints_clause() throws RecognitionException {
         csParser.type_parameter_constraints_clause_return retval = new csParser.type_parameter_constraints_clause_return();
         retval.start = input.LT(1);
@@ -23986,8 +23986,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 190) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:661:34: ( 'where' type_variable_name ':' type_parameter_constraint_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:662:2: 'where' type_variable_name ':' type_parameter_constraint_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:661:34: ( 'where' type_variable_name ':' type_parameter_constraint_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:662:2: 'where' type_variable_name ':' type_parameter_constraint_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24057,7 +24057,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_parameter_constraint_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:664:1: type_parameter_constraint_list : ( ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )? | secondary_constraint_list ( ',' constructor_constraint )? | constructor_constraint );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:664:1: type_parameter_constraint_list : ( ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )? | secondary_constraint_list ( ',' constructor_constraint )? | constructor_constraint );
     public final csParser.type_parameter_constraint_list_return type_parameter_constraint_list() throws RecognitionException {
         csParser.type_parameter_constraint_list_return retval = new csParser.type_parameter_constraint_list_return();
         retval.start = input.LT(1);
@@ -24089,7 +24089,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 191) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:664:31: ( ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )? | secondary_constraint_list ( ',' constructor_constraint )? | constructor_constraint )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:664:31: ( ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )? | secondary_constraint_list ( ',' constructor_constraint )? | constructor_constraint )
             int alt189=3;
             switch ( input.LA(1) ) {
             case 111:
@@ -24148,7 +24148,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt189) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:665:5: ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:665:5: ( 'class' | 'struct' ) ( ',' secondary_constraint_list )? ( ',' constructor_constraint )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -24170,7 +24170,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:665:28: ( ',' secondary_constraint_list )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:665:28: ( ',' secondary_constraint_list )?
                     int alt186=2;
                     int LA186_0 = input.LA(1);
 
@@ -24190,7 +24190,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt186) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:665:29: ',' secondary_constraint_list
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:665:29: ',' secondary_constraint_list
                             {
                             char_literal657=(Token)match(input,74,FOLLOW_74_in_type_parameter_constraint_list4856); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -24213,7 +24213,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:665:65: ( ',' constructor_constraint )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:665:65: ( ',' constructor_constraint )?
                     int alt187=2;
                     int LA187_0 = input.LA(1);
 
@@ -24226,7 +24226,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt187) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:665:66: ',' constructor_constraint
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:665:66: ',' constructor_constraint
                             {
                             char_literal659=(Token)match(input,74,FOLLOW_74_in_type_parameter_constraint_list4867); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -24252,7 +24252,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:666:4: secondary_constraint_list ( ',' constructor_constraint )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:666:4: secondary_constraint_list ( ',' constructor_constraint )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -24264,7 +24264,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, secondary_constraint_list661.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:666:32: ( ',' constructor_constraint )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:666:32: ( ',' constructor_constraint )?
                     int alt188=2;
                     int LA188_0 = input.LA(1);
 
@@ -24277,7 +24277,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt188) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:666:33: ',' constructor_constraint
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:666:33: ',' constructor_constraint
                             {
                             char_literal662=(Token)match(input,74,FOLLOW_74_in_type_parameter_constraint_list4883); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -24303,7 +24303,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:667:4: constructor_constraint
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:667:4: constructor_constraint
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -24352,7 +24352,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "secondary_constraint_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:672:1: secondary_constraint_list : secondary_constraint ( ',' secondary_constraint )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:672:1: secondary_constraint_list : secondary_constraint ( ',' secondary_constraint )* ;
     public final csParser.secondary_constraint_list_return secondary_constraint_list() throws RecognitionException {
         csParser.secondary_constraint_list_return retval = new csParser.secondary_constraint_list_return();
         retval.start = input.LT(1);
@@ -24372,8 +24372,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 192) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:672:26: ( secondary_constraint ( ',' secondary_constraint )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:673:2: secondary_constraint ( ',' secondary_constraint )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:672:26: ( secondary_constraint ( ',' secondary_constraint )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:673:2: secondary_constraint ( ',' secondary_constraint )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24385,7 +24385,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, secondary_constraint665.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:673:23: ( ',' secondary_constraint )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:673:23: ( ',' secondary_constraint )*
             loop190:
             do {
                 int alt190=2;
@@ -24413,7 +24413,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt190) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:673:24: ',' secondary_constraint
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:673:24: ',' secondary_constraint
             	    {
             	    char_literal666=(Token)match(input,74,FOLLOW_74_in_secondary_constraint_list4909); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -24474,7 +24474,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "secondary_constraint"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:674:1: secondary_constraint : type_name ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:674:1: secondary_constraint : type_name ;
     public final csParser.secondary_constraint_return secondary_constraint() throws RecognitionException {
         csParser.secondary_constraint_return retval = new csParser.secondary_constraint_return();
         retval.start = input.LT(1);
@@ -24490,8 +24490,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 193) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:674:21: ( type_name )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:675:2: type_name
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:674:21: ( type_name )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:675:2: type_name
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24538,7 +24538,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "type_variable_name"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:676:1: type_variable_name : identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:676:1: type_variable_name : identifier ;
     public final csParser.type_variable_name_return type_variable_name() throws RecognitionException {
         csParser.type_variable_name_return retval = new csParser.type_variable_name_return();
         retval.start = input.LT(1);
@@ -24554,8 +24554,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 194) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:676:19: ( identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:677:2: identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:676:19: ( identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:677:2: identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24602,7 +24602,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor_constraint"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:678:1: constructor_constraint : 'new' '(' ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:678:1: constructor_constraint : 'new' '(' ')' ;
     public final csParser.constructor_constraint_return constructor_constraint() throws RecognitionException {
         csParser.constructor_constraint_return retval = new csParser.constructor_constraint_return();
         retval.start = input.LT(1);
@@ -24622,8 +24622,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 195) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:678:23: ( 'new' '(' ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:679:2: 'new' '(' ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:678:23: ( 'new' '(' ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:679:2: 'new' '(' ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24687,7 +24687,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "return_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:680:1: return_type : ( type | 'void' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:680:1: return_type : ( type | 'void' );
     public final csParser.return_type_return return_type() throws RecognitionException {
         csParser.return_type_return retval = new csParser.return_type_return();
         retval.start = input.LT(1);
@@ -24705,7 +24705,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 196) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:680:12: ( type | 'void' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:680:12: ( type | 'void' )
             int alt191=2;
             int LA191_0 = input.LA(1);
 
@@ -24740,7 +24740,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt191) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:681:2: type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:681:2: type
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -24755,7 +24755,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:682:5: 'void'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:682:5: 'void'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -24805,7 +24805,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "formal_parameter_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:683:1: formal_parameter_list : formal_parameter ( ',' formal_parameter )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:683:1: formal_parameter_list : formal_parameter ( ',' formal_parameter )* ;
     public final csParser.formal_parameter_list_return formal_parameter_list() throws RecognitionException {
         csParser.formal_parameter_list_return retval = new csParser.formal_parameter_list_return();
         retval.start = input.LT(1);
@@ -24825,8 +24825,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 197) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:683:22: ( formal_parameter ( ',' formal_parameter )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:684:2: formal_parameter ( ',' formal_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:683:22: ( formal_parameter ( ',' formal_parameter )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:684:2: formal_parameter ( ',' formal_parameter )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -24838,7 +24838,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, formal_parameter675.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:684:19: ( ',' formal_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:684:19: ( ',' formal_parameter )*
             loop192:
             do {
                 int alt192=2;
@@ -24851,7 +24851,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt192) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:684:20: ',' formal_parameter
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:684:20: ',' formal_parameter
             	    {
             	    char_literal676=(Token)match(input,74,FOLLOW_74_in_formal_parameter_list4971); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -24912,7 +24912,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "formal_parameter"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:685:1: formal_parameter : ( ( attributes )? ( fixed_parameter | parameter_array ) | '__arglist' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:685:1: formal_parameter : ( ( attributes )? ( fixed_parameter | parameter_array ) | '__arglist' );
     public final csParser.formal_parameter_return formal_parameter() throws RecognitionException {
         csParser.formal_parameter_return retval = new csParser.formal_parameter_return();
         retval.start = input.LT(1);
@@ -24934,7 +24934,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 198) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:685:17: ( ( attributes )? ( fixed_parameter | parameter_array ) | '__arglist' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:685:17: ( ( attributes )? ( fixed_parameter | parameter_array ) | '__arglist' )
             int alt195=2;
             int LA195_0 = input.LA(1);
 
@@ -24969,12 +24969,12 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt195) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:2: ( attributes )? ( fixed_parameter | parameter_array )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:2: ( attributes )? ( fixed_parameter | parameter_array )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:2: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:2: ( attributes )?
                     int alt193=2;
                     int LA193_0 = input.LA(1);
 
@@ -24983,7 +24983,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt193) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:2: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:2: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_formal_parameter4983);
                             attributes678=attributes();
@@ -24998,7 +24998,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:16: ( fixed_parameter | parameter_array )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:16: ( fixed_parameter | parameter_array )
                     int alt194=2;
                     int LA194_0 = input.LA(1);
 
@@ -25018,7 +25018,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt194) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:17: fixed_parameter
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:17: fixed_parameter
                             {
                             pushFollow(FOLLOW_fixed_parameter_in_formal_parameter4989);
                             fixed_parameter679=fixed_parameter();
@@ -25030,7 +25030,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:686:35: parameter_array
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:686:35: parameter_array
                             {
                             pushFollow(FOLLOW_parameter_array_in_formal_parameter4993);
                             parameter_array680=parameter_array();
@@ -25048,7 +25048,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:687:4: '__arglist'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:687:4: '__arglist'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -25098,7 +25098,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_parameters"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:688:1: fixed_parameters : fixed_parameter ( ',' fixed_parameter )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:688:1: fixed_parameters : fixed_parameter ( ',' fixed_parameter )* ;
     public final csParser.fixed_parameters_return fixed_parameters() throws RecognitionException {
         csParser.fixed_parameters_return retval = new csParser.fixed_parameters_return();
         retval.start = input.LT(1);
@@ -25118,8 +25118,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 199) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:688:17: ( fixed_parameter ( ',' fixed_parameter )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:689:2: fixed_parameter ( ',' fixed_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:688:17: ( fixed_parameter ( ',' fixed_parameter )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:689:2: fixed_parameter ( ',' fixed_parameter )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25131,7 +25131,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, fixed_parameter682.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:689:20: ( ',' fixed_parameter )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:689:20: ( ',' fixed_parameter )*
             loop196:
             do {
                 int alt196=2;
@@ -25144,7 +25144,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt196) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:689:21: ',' fixed_parameter
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:689:21: ',' fixed_parameter
             	    {
             	    char_literal683=(Token)match(input,74,FOLLOW_74_in_fixed_parameters5013); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -25205,7 +25205,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_parameter"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:691:1: fixed_parameter : ( parameter_modifier )? type identifier ( default_argument )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:691:1: fixed_parameter : ( parameter_modifier )? type identifier ( default_argument )? ;
     public final csParser.fixed_parameter_return fixed_parameter() throws RecognitionException {
         csParser.fixed_parameter_return retval = new csParser.fixed_parameter_return();
         retval.start = input.LT(1);
@@ -25227,13 +25227,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 200) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:691:16: ( ( parameter_modifier )? type identifier ( default_argument )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:692:2: ( parameter_modifier )? type identifier ( default_argument )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:691:16: ( ( parameter_modifier )? type identifier ( default_argument )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:692:2: ( parameter_modifier )? type identifier ( default_argument )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:692:2: ( parameter_modifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:692:2: ( parameter_modifier )?
             int alt197=2;
             int LA197_0 = input.LA(1);
 
@@ -25242,7 +25242,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt197) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:692:2: parameter_modifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:692:2: parameter_modifier
                     {
                     pushFollow(FOLLOW_parameter_modifier_in_fixed_parameter5028);
                     parameter_modifier685=parameter_modifier();
@@ -25271,7 +25271,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier687.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:692:44: ( default_argument )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:692:44: ( default_argument )?
             int alt198=2;
             int LA198_0 = input.LA(1);
 
@@ -25280,7 +25280,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt198) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:692:44: default_argument
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:692:44: default_argument
                     {
                     pushFollow(FOLLOW_default_argument_in_fixed_parameter5041);
                     default_argument688=default_argument();
@@ -25330,7 +25330,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "default_argument"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:694:1: default_argument : '=' expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:694:1: default_argument : '=' expression ;
     public final csParser.default_argument_return default_argument() throws RecognitionException {
         csParser.default_argument_return retval = new csParser.default_argument_return();
         retval.start = input.LT(1);
@@ -25348,8 +25348,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 201) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:694:17: ( '=' expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:695:2: '=' expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:694:17: ( '=' expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:695:2: '=' expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25404,7 +25404,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameter_modifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:696:1: parameter_modifier : ( 'ref' | 'out' | 'this' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:696:1: parameter_modifier : ( 'ref' | 'out' | 'this' );
     public final csParser.parameter_modifier_return parameter_modifier() throws RecognitionException {
         csParser.parameter_modifier_return retval = new csParser.parameter_modifier_return();
         retval.start = input.LT(1);
@@ -25420,8 +25420,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 202) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:696:19: ( 'ref' | 'out' | 'this' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:696:19: ( 'ref' | 'out' | 'this' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25478,7 +25478,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "parameter_array"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:698:1: parameter_array : 'params' type identifier ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:698:1: parameter_array : 'params' type identifier ;
     public final csParser.parameter_array_return parameter_array() throws RecognitionException {
         csParser.parameter_array_return retval = new csParser.parameter_array_return();
         retval.start = input.LT(1);
@@ -25498,8 +25498,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 203) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:698:16: ( 'params' type identifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:699:2: 'params' type identifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:698:16: ( 'params' type identifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:699:2: 'params' type identifier
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25561,7 +25561,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:702:1: interface_declaration : 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:702:1: interface_declaration : 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )? ;
     public final csParser.interface_declaration_return interface_declaration() throws RecognitionException {
         csParser.interface_declaration_return retval = new csParser.interface_declaration_return();
         retval.start = input.LT(1);
@@ -25589,8 +25589,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 204) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:702:22: ( 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:703:2: 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:702:22: ( 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:703:2: 'interface' identifier ( variant_generic_parameter_list )? ( interface_base )? ( type_parameter_constraints_clauses )? interface_body ( ';' )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25610,7 +25610,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier696.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:703:29: ( variant_generic_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:703:29: ( variant_generic_parameter_list )?
             int alt199=2;
             int LA199_0 = input.LA(1);
 
@@ -25619,7 +25619,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt199) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:703:29: variant_generic_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:703:29: variant_generic_parameter_list
                     {
                     pushFollow(FOLLOW_variant_generic_parameter_list_in_interface_declaration5102);
                     variant_generic_parameter_list697=variant_generic_parameter_list();
@@ -25634,7 +25634,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:6: ( interface_base )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:6: ( interface_base )?
             int alt200=2;
             int LA200_0 = input.LA(1);
 
@@ -25643,7 +25643,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt200) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:6: interface_base
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:6: interface_base
                     {
                     pushFollow(FOLLOW_interface_base_in_interface_declaration5111);
                     interface_base698=interface_base();
@@ -25658,7 +25658,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:24: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:24: ( type_parameter_constraints_clauses )?
             int alt201=2;
             int LA201_0 = input.LA(1);
 
@@ -25667,7 +25667,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt201) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:24: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:24: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_interface_declaration5116);
                     type_parameter_constraints_clauses699=type_parameter_constraints_clauses();
@@ -25689,7 +25689,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, interface_body700.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:79: ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:79: ( ';' )?
             int alt202=2;
             int LA202_0 = input.LA(1);
 
@@ -25698,7 +25698,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt202) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:704:79: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:704:79: ';'
                     {
                     char_literal701=(Token)match(input,SEMI,FOLLOW_SEMI_in_interface_declaration5125); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -25749,7 +25749,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:705:1: interface_modifiers : ( modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:705:1: interface_modifiers : ( modifier )+ ;
     public final csParser.interface_modifiers_return interface_modifiers() throws RecognitionException {
         csParser.interface_modifiers_return retval = new csParser.interface_modifiers_return();
         retval.start = input.LT(1);
@@ -25765,13 +25765,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 205) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:705:20: ( ( modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:706:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:705:20: ( ( modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:706:2: ( modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:706:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:706:2: ( modifier )+
             int cnt203=0;
             loop203:
             do {
@@ -25785,7 +25785,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt203) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:706:2: modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:706:2: modifier
             	    {
             	    pushFollow(FOLLOW_modifier_in_interface_modifiers5135);
             	    modifier702=modifier();
@@ -25843,7 +25843,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_base"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:707:1: interface_base : ':' interface_type_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:707:1: interface_base : ':' interface_type_list ;
     public final csParser.interface_base_return interface_base() throws RecognitionException {
         csParser.interface_base_return retval = new csParser.interface_base_return();
         retval.start = input.LT(1);
@@ -25861,8 +25861,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 206) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:707:15: ( ':' interface_type_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:708:5: ':' interface_type_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:707:15: ( ':' interface_type_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:708:5: ':' interface_type_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25917,7 +25917,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:709:1: interface_body : '{' ( interface_member_declarations )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:709:1: interface_body : '{' ( interface_member_declarations )? '}' ;
     public final csParser.interface_body_return interface_body() throws RecognitionException {
         csParser.interface_body_return retval = new csParser.interface_body_return();
         retval.start = input.LT(1);
@@ -25937,8 +25937,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 207) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:709:15: ( '{' ( interface_member_declarations )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:710:2: '{' ( interface_member_declarations )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:709:15: ( '{' ( interface_member_declarations )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:710:2: '{' ( interface_member_declarations )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -25951,7 +25951,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal705_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:710:8: ( interface_member_declarations )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:710:8: ( interface_member_declarations )?
             int alt204=2;
             int LA204_0 = input.LA(1);
 
@@ -25960,7 +25960,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt204) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:710:8: interface_member_declarations
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:710:8: interface_member_declarations
                     {
                     pushFollow(FOLLOW_interface_member_declarations_in_interface_body5162);
                     interface_member_declarations706=interface_member_declarations();
@@ -26018,7 +26018,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_member_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:711:1: interface_member_declarations : ( interface_member_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:711:1: interface_member_declarations : ( interface_member_declaration )+ ;
     public final csParser.interface_member_declarations_return interface_member_declarations() throws RecognitionException {
         csParser.interface_member_declarations_return retval = new csParser.interface_member_declarations_return();
         retval.start = input.LT(1);
@@ -26034,13 +26034,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 208) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:711:30: ( ( interface_member_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:712:2: ( interface_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:711:30: ( ( interface_member_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:712:2: ( interface_member_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:712:2: ( interface_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:712:2: ( interface_member_declaration )+
             int cnt205=0;
             loop205:
             do {
@@ -26054,7 +26054,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt205) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:712:2: interface_member_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:712:2: interface_member_declaration
             	    {
             	    pushFollow(FOLLOW_interface_member_declaration_in_interface_member_declarations5175);
             	    interface_member_declaration708=interface_member_declaration();
@@ -26112,7 +26112,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_member_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:713:1: interface_member_declaration : ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:713:1: interface_member_declaration : ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) ) ;
     public final csParser.interface_member_declaration_return interface_member_declaration() throws RecognitionException {
         csParser.interface_member_declaration_return retval = new csParser.interface_member_declaration_return();
         retval.start = input.LT(1);
@@ -26144,13 +26144,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 209) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:713:29: ( ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:714:2: ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:713:29: ( ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:714:2: ( attributes )? ( modifiers )? ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:714:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:714:2: ( attributes )?
             int alt206=2;
             int LA206_0 = input.LA(1);
 
@@ -26159,7 +26159,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt206) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:714:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:714:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_interface_member_declaration5184);
                     attributes709=attributes();
@@ -26174,7 +26174,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:714:17: ( modifiers )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:714:17: ( modifiers )?
             int alt207=2;
             int LA207_0 = input.LA(1);
 
@@ -26183,7 +26183,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt207) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:714:17: modifiers
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:714:17: modifiers
                     {
                     pushFollow(FOLLOW_modifiers_in_interface_member_declaration5190);
                     modifiers710=modifiers();
@@ -26198,7 +26198,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:715:3: ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:715:3: ( 'void' interface_method_declaration | interface_event_declaration | type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration ) )
             int alt209=3;
             switch ( input.LA(1) ) {
             case 192:
@@ -26286,7 +26286,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt209) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:715:4: 'void' interface_method_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:715:4: 'void' interface_method_declaration
                     {
                     string_literal711=(Token)match(input,192,FOLLOW_192_in_interface_member_declaration5196); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -26306,7 +26306,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:716:5: interface_event_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:716:5: interface_event_declaration
                     {
                     pushFollow(FOLLOW_interface_event_declaration_in_interface_member_declaration5206);
                     interface_event_declaration713=interface_event_declaration();
@@ -26318,7 +26318,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:717:5: type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:717:5: type ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration )
                     {
                     pushFollow(FOLLOW_type_in_interface_member_declaration5212);
                     type714=type();
@@ -26327,7 +26327,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, type714.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:717:12: ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:717:12: ( ( member_name '(' )=> interface_method_declaration | ( member_name '{' )=> interface_property_declaration | interface_indexer_declaration )
                     int alt208=3;
                     int LA208_0 = input.LA(1);
 
@@ -26365,7 +26365,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt208) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:717:14: ( member_name '(' )=> interface_method_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:717:14: ( member_name '(' )=> interface_method_declaration
                             {
                             pushFollow(FOLLOW_interface_method_declaration_in_interface_member_declaration5228);
                             interface_method_declaration715=interface_method_declaration();
@@ -26377,7 +26377,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:718:14: ( member_name '{' )=> interface_property_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:718:14: ( member_name '{' )=> interface_property_declaration
                             {
                             pushFollow(FOLLOW_interface_property_declaration_in_interface_member_declaration5253);
                             interface_property_declaration716=interface_property_declaration();
@@ -26389,7 +26389,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:719:8: interface_indexer_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:719:8: interface_indexer_declaration
                             {
                             pushFollow(FOLLOW_interface_indexer_declaration_in_interface_member_declaration5263);
                             interface_indexer_declaration717=interface_indexer_declaration();
@@ -26445,7 +26445,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_property_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:722:1: interface_property_declaration : identifier '{' interface_accessor_declarations '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:722:1: interface_property_declaration : identifier '{' interface_accessor_declarations '}' ;
     public final csParser.interface_property_declaration_return interface_property_declaration() throws RecognitionException {
         csParser.interface_property_declaration_return retval = new csParser.interface_property_declaration_return();
         retval.start = input.LT(1);
@@ -26467,8 +26467,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 210) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:722:31: ( identifier '{' interface_accessor_declarations '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:723:2: identifier '{' interface_accessor_declarations '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:722:31: ( identifier '{' interface_accessor_declarations '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:723:2: identifier '{' interface_accessor_declarations '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -26538,7 +26538,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_method_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:724:1: interface_method_declaration : identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:724:1: interface_method_declaration : identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' ;
     public final csParser.interface_method_declaration_return interface_method_declaration() throws RecognitionException {
         csParser.interface_method_declaration_return retval = new csParser.interface_method_declaration_return();
         retval.start = input.LT(1);
@@ -26566,8 +26566,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 211) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:724:29: ( identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:725:2: identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:724:29: ( identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:725:2: identifier ( generic_argument_list )? '(' ( formal_parameter_list )? ')' ( type_parameter_constraints_clauses )? ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -26579,7 +26579,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier722.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:725:15: ( generic_argument_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:725:15: ( generic_argument_list )?
             int alt210=2;
             int LA210_0 = input.LA(1);
 
@@ -26588,7 +26588,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt210) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:725:15: generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:725:15: generic_argument_list
                     {
                     pushFollow(FOLLOW_generic_argument_list_in_interface_method_declaration5304);
                     generic_argument_list723=generic_argument_list();
@@ -26611,7 +26611,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal724_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:726:12: ( formal_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:726:12: ( formal_parameter_list )?
             int alt211=2;
             int LA211_0 = input.LA(1);
 
@@ -26620,7 +26620,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt211) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:726:12: formal_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:726:12: formal_parameter_list
                     {
                     pushFollow(FOLLOW_formal_parameter_list_in_interface_method_declaration5316);
                     formal_parameter_list725=formal_parameter_list();
@@ -26643,7 +26643,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal726_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:726:43: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:726:43: ( type_parameter_constraints_clauses )?
             int alt212=2;
             int LA212_0 = input.LA(1);
 
@@ -26652,7 +26652,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt212) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:726:43: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:726:43: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_interface_method_declaration5325);
                     type_parameter_constraints_clauses727=type_parameter_constraints_clauses();
@@ -26710,7 +26710,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_event_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:727:1: interface_event_declaration : 'event' type identifier ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:727:1: interface_event_declaration : 'event' type identifier ';' ;
     public final csParser.interface_event_declaration_return interface_event_declaration() throws RecognitionException {
         csParser.interface_event_declaration_return retval = new csParser.interface_event_declaration_return();
         retval.start = input.LT(1);
@@ -26732,8 +26732,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 212) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:727:28: ( 'event' type identifier ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:729:2: 'event' type identifier ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:727:28: ( 'event' type identifier ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:729:2: 'event' type identifier ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -26803,7 +26803,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_indexer_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:730:1: interface_indexer_declaration : 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:730:1: interface_indexer_declaration : 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}' ;
     public final csParser.interface_indexer_declaration_return interface_indexer_declaration() throws RecognitionException {
         csParser.interface_indexer_declaration_return retval = new csParser.interface_indexer_declaration_return();
         retval.start = input.LT(1);
@@ -26831,8 +26831,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 213) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:730:30: ( 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:732:2: 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:730:30: ( 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:732:2: 'this' '[' formal_parameter_list ']' '{' interface_accessor_declarations '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -26926,7 +26926,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_accessor_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:733:1: interface_accessor_declarations : ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:733:1: interface_accessor_declarations : ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? ) ;
     public final csParser.interface_accessor_declarations_return interface_accessor_declarations() throws RecognitionException {
         csParser.interface_accessor_declarations_return retval = new csParser.interface_accessor_declarations_return();
         retval.start = input.LT(1);
@@ -26954,13 +26954,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 214) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:733:32: ( ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:734:2: ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:733:32: ( ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:734:2: ( attributes )? ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:734:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:734:2: ( attributes )?
             int alt213=2;
             int LA213_0 = input.LA(1);
 
@@ -26969,7 +26969,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt213) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:734:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:734:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_interface_accessor_declarations5397);
                     attributes740=attributes();
@@ -26984,7 +26984,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:3: ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:3: ( interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )? | interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )? )
             int alt218=2;
             int LA218_0 = input.LA(1);
 
@@ -27004,7 +27004,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt218) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:4: interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:4: interface_get_accessor_declaration ( attributes )? ( interface_set_accessor_declaration )?
                     {
                     pushFollow(FOLLOW_interface_get_accessor_declaration_in_interface_accessor_declarations5406);
                     interface_get_accessor_declaration741=interface_get_accessor_declaration();
@@ -27013,7 +27013,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, interface_get_accessor_declaration741.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:41: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:41: ( attributes )?
                     int alt214=2;
                     int LA214_0 = input.LA(1);
 
@@ -27022,7 +27022,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt214) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:41: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:41: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_interface_accessor_declarations5410);
                             attributes742=attributes();
@@ -27037,7 +27037,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:55: ( interface_set_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:55: ( interface_set_accessor_declaration )?
                     int alt215=2;
                     int LA215_0 = input.LA(1);
 
@@ -27046,7 +27046,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt215) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:735:55: interface_set_accessor_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:735:55: interface_set_accessor_declaration
                             {
                             pushFollow(FOLLOW_interface_set_accessor_declaration_in_interface_accessor_declarations5415);
                             interface_set_accessor_declaration743=interface_set_accessor_declaration();
@@ -27064,7 +27064,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:736:5: interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:736:5: interface_set_accessor_declaration ( attributes )? ( interface_get_accessor_declaration )?
                     {
                     pushFollow(FOLLOW_interface_set_accessor_declaration_in_interface_accessor_declarations5422);
                     interface_set_accessor_declaration744=interface_set_accessor_declaration();
@@ -27073,7 +27073,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, interface_set_accessor_declaration744.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:736:42: ( attributes )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:736:42: ( attributes )?
                     int alt216=2;
                     int LA216_0 = input.LA(1);
 
@@ -27082,7 +27082,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt216) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:736:42: attributes
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:736:42: attributes
                             {
                             pushFollow(FOLLOW_attributes_in_interface_accessor_declarations5426);
                             attributes745=attributes();
@@ -27097,7 +27097,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:736:56: ( interface_get_accessor_declaration )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:736:56: ( interface_get_accessor_declaration )?
                     int alt217=2;
                     int LA217_0 = input.LA(1);
 
@@ -27106,7 +27106,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt217) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:736:56: interface_get_accessor_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:736:56: interface_get_accessor_declaration
                             {
                             pushFollow(FOLLOW_interface_get_accessor_declaration_in_interface_accessor_declarations5431);
                             interface_get_accessor_declaration746=interface_get_accessor_declaration();
@@ -27162,7 +27162,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_get_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:737:1: interface_get_accessor_declaration : 'get' ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:737:1: interface_get_accessor_declaration : 'get' ';' ;
     public final csParser.interface_get_accessor_declaration_return interface_get_accessor_declaration() throws RecognitionException {
         csParser.interface_get_accessor_declaration_return retval = new csParser.interface_get_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -27180,8 +27180,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 215) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:737:35: ( 'get' ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:738:2: 'get' ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:737:35: ( 'get' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:738:2: 'get' ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27237,7 +27237,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "interface_set_accessor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:739:1: interface_set_accessor_declaration : 'set' ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:739:1: interface_set_accessor_declaration : 'set' ';' ;
     public final csParser.interface_set_accessor_declaration_return interface_set_accessor_declaration() throws RecognitionException {
         csParser.interface_set_accessor_declaration_return retval = new csParser.interface_set_accessor_declaration_return();
         retval.start = input.LT(1);
@@ -27255,8 +27255,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 216) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:739:35: ( 'set' ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:740:2: 'set' ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:739:35: ( 'set' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:740:2: 'set' ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27312,7 +27312,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method_modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:741:1: method_modifiers : ( modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:741:1: method_modifiers : ( modifier )+ ;
     public final csParser.method_modifiers_return method_modifiers() throws RecognitionException {
         csParser.method_modifiers_return retval = new csParser.method_modifiers_return();
         retval.start = input.LT(1);
@@ -27328,13 +27328,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 217) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:741:17: ( ( modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:742:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:741:17: ( ( modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:742:2: ( modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:742:2: ( modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:742:2: ( modifier )+
             int cnt219=0;
             loop219:
             do {
@@ -27348,7 +27348,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt219) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:742:2: modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:742:2: modifier
             	    {
             	    pushFollow(FOLLOW_modifier_in_method_modifiers5469);
             	    modifier751=modifier();
@@ -27406,7 +27406,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:745:1: struct_declaration : 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:745:1: struct_declaration : 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )? ;
     public final csParser.struct_declaration_return struct_declaration() throws RecognitionException {
         csParser.struct_declaration_return retval = new csParser.struct_declaration_return();
         retval.start = input.LT(1);
@@ -27432,8 +27432,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 218) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:745:19: ( 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:2: 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:745:19: ( 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:2: 'struct' type_or_generic ( struct_interfaces )? ( type_parameter_constraints_clauses )? struct_body ( ';' )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27453,7 +27453,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, type_or_generic753.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:31: ( struct_interfaces )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:31: ( struct_interfaces )?
             int alt220=2;
             int LA220_0 = input.LA(1);
 
@@ -27462,7 +27462,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt220) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:31: struct_interfaces
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:31: struct_interfaces
                     {
                     pushFollow(FOLLOW_struct_interfaces_in_struct_declaration5489);
                     struct_interfaces754=struct_interfaces();
@@ -27477,7 +27477,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:52: ( type_parameter_constraints_clauses )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:52: ( type_parameter_constraints_clauses )?
             int alt221=2;
             int LA221_0 = input.LA(1);
 
@@ -27486,7 +27486,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt221) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:52: type_parameter_constraints_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:52: type_parameter_constraints_clauses
                     {
                     pushFollow(FOLLOW_type_parameter_constraints_clauses_in_struct_declaration5494);
                     type_parameter_constraints_clauses755=type_parameter_constraints_clauses();
@@ -27508,7 +27508,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, struct_body756.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:104: ( ';' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:104: ( ';' )?
             int alt222=2;
             int LA222_0 = input.LA(1);
 
@@ -27517,7 +27517,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt222) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:746:104: ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:746:104: ';'
                     {
                     char_literal757=(Token)match(input,SEMI,FOLLOW_SEMI_in_struct_declaration5503); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -27568,7 +27568,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_modifiers"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:747:1: struct_modifiers : ( struct_modifier )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:747:1: struct_modifiers : ( struct_modifier )+ ;
     public final csParser.struct_modifiers_return struct_modifiers() throws RecognitionException {
         csParser.struct_modifiers_return retval = new csParser.struct_modifiers_return();
         retval.start = input.LT(1);
@@ -27584,13 +27584,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 219) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:747:17: ( ( struct_modifier )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:748:2: ( struct_modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:747:17: ( ( struct_modifier )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:748:2: ( struct_modifier )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:748:2: ( struct_modifier )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:748:2: ( struct_modifier )+
             int cnt223=0;
             loop223:
             do {
@@ -27604,7 +27604,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt223) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:748:2: struct_modifier
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:748:2: struct_modifier
             	    {
             	    pushFollow(FOLLOW_struct_modifier_in_struct_modifiers5512);
             	    struct_modifier758=struct_modifier();
@@ -27662,7 +27662,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_modifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:749:1: struct_modifier : ( 'new' | 'public' | 'protected' | 'internal' | 'private' | 'unsafe' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:749:1: struct_modifier : ( 'new' | 'public' | 'protected' | 'internal' | 'private' | 'unsafe' );
     public final csParser.struct_modifier_return struct_modifier() throws RecognitionException {
         csParser.struct_modifier_return retval = new csParser.struct_modifier_return();
         retval.start = input.LT(1);
@@ -27678,8 +27678,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 220) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:749:16: ( 'new' | 'public' | 'protected' | 'internal' | 'private' | 'unsafe' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:749:16: ( 'new' | 'public' | 'protected' | 'internal' | 'private' | 'unsafe' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27736,7 +27736,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_interfaces"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:751:1: struct_interfaces : ':' interface_type_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:751:1: struct_interfaces : ':' interface_type_list ;
     public final csParser.struct_interfaces_return struct_interfaces() throws RecognitionException {
         csParser.struct_interfaces_return retval = new csParser.struct_interfaces_return();
         retval.start = input.LT(1);
@@ -27754,8 +27754,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 221) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:751:18: ( ':' interface_type_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:752:2: ':' interface_type_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:751:18: ( ':' interface_type_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:752:2: ':' interface_type_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27810,7 +27810,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:753:1: struct_body : '{' ( struct_member_declarations )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:753:1: struct_body : '{' ( struct_member_declarations )? '}' ;
     public final csParser.struct_body_return struct_body() throws RecognitionException {
         csParser.struct_body_return retval = new csParser.struct_body_return();
         retval.start = input.LT(1);
@@ -27830,8 +27830,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 222) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:753:12: ( '{' ( struct_member_declarations )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:754:2: '{' ( struct_member_declarations )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:753:12: ( '{' ( struct_member_declarations )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:754:2: '{' ( struct_member_declarations )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -27844,7 +27844,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal762_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:754:8: ( struct_member_declarations )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:754:8: ( struct_member_declarations )?
             int alt224=2;
             int LA224_0 = input.LA(1);
 
@@ -27853,7 +27853,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt224) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:754:8: struct_member_declarations
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:754:8: struct_member_declarations
                     {
                     pushFollow(FOLLOW_struct_member_declarations_in_struct_body5564);
                     struct_member_declarations763=struct_member_declarations();
@@ -27911,7 +27911,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_member_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:755:1: struct_member_declarations : ( struct_member_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:755:1: struct_member_declarations : ( struct_member_declaration )+ ;
     public final csParser.struct_member_declarations_return struct_member_declarations() throws RecognitionException {
         csParser.struct_member_declarations_return retval = new csParser.struct_member_declarations_return();
         retval.start = input.LT(1);
@@ -27927,13 +27927,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 223) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:755:27: ( ( struct_member_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:756:2: ( struct_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:755:27: ( ( struct_member_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:756:2: ( struct_member_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:756:2: ( struct_member_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:756:2: ( struct_member_declaration )+
             int cnt225=0;
             loop225:
             do {
@@ -27947,7 +27947,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt225) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:756:2: struct_member_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:756:2: struct_member_declaration
             	    {
             	    pushFollow(FOLLOW_struct_member_declaration_in_struct_member_declarations5576);
             	    struct_member_declaration765=struct_member_declaration();
@@ -28005,7 +28005,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "struct_member_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:757:1: struct_member_declaration : ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:757:1: struct_member_declaration : ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration ) ;
     public final csParser.struct_member_declaration_return struct_member_declaration() throws RecognitionException {
         csParser.struct_member_declaration_return retval = new csParser.struct_member_declaration_return();
         retval.start = input.LT(1);
@@ -28079,13 +28079,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 224) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:757:26: ( ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:758:2: ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:757:26: ( ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:758:2: ( attributes )? (m= modifiers )? ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration )
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:758:2: ( attributes )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:758:2: ( attributes )?
             int alt226=2;
             int LA226_0 = input.LA(1);
 
@@ -28094,7 +28094,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt226) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:758:2: attributes
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:758:2: attributes
                     {
                     pushFollow(FOLLOW_attributes_in_struct_member_declaration5585);
                     attributes766=attributes();
@@ -28109,7 +28109,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:758:17: (m= modifiers )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:758:17: (m= modifiers )?
             int alt227=2;
             int LA227_0 = input.LA(1);
 
@@ -28118,7 +28118,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt227) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:758:17: m= modifiers
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:758:17: m= modifiers
                     {
                     pushFollow(FOLLOW_modifiers_in_struct_member_declaration5592);
                     m=modifiers();
@@ -28133,7 +28133,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:759:2: ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:759:2: ( 'const' type constant_declarators ';' | event_declaration | 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration ) | interface_declaration | class_declaration | 'void' method_declaration | type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration ) | struct_declaration | enum_declaration | delegate_declaration | conversion_operator_declaration | constructor_declaration )
             int alt230=12;
             switch ( input.LA(1) ) {
             case 112:
@@ -28281,7 +28281,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt230) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:759:4: 'const' type constant_declarators ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:759:4: 'const' type constant_declarators ';'
                     {
                     string_literal767=(Token)match(input,112,FOLLOW_112_in_struct_member_declaration5598); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -28316,7 +28316,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:760:4: event_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:760:4: event_declaration
                     {
                     pushFollow(FOLLOW_event_declaration_in_struct_member_declaration5615);
                     event_declaration771=event_declaration();
@@ -28328,7 +28328,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:761:4: 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:761:4: 'partial' ( method_declaration | interface_declaration | class_declaration | struct_declaration )
                     {
                     string_literal772=(Token)match(input,159,FOLLOW_159_in_struct_member_declaration5622); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -28338,7 +28338,7 @@ public TreeAdaptor getTreeAdaptor() {
                     adaptor.addChild(root_0, string_literal772_tree);
                     }
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:761:14: ( method_declaration | interface_declaration | class_declaration | struct_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:761:14: ( method_declaration | interface_declaration | class_declaration | struct_declaration )
                     int alt228=4;
                     switch ( input.LA(1) ) {
                     case Character_literal:
@@ -28425,7 +28425,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt228) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:761:15: method_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:761:15: method_declaration
                             {
                             pushFollow(FOLLOW_method_declaration_in_struct_member_declaration5625);
                             method_declaration773=method_declaration();
@@ -28437,7 +28437,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:762:9: interface_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:762:9: interface_declaration
                             {
                             pushFollow(FOLLOW_interface_declaration_in_struct_member_declaration5636);
                             interface_declaration774=interface_declaration();
@@ -28449,7 +28449,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:763:9: class_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:763:9: class_declaration
                             {
                             pushFollow(FOLLOW_class_declaration_in_struct_member_declaration5647);
                             class_declaration775=class_declaration();
@@ -28461,7 +28461,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 4 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:764:9: struct_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:764:9: struct_declaration
                             {
                             pushFollow(FOLLOW_struct_declaration_in_struct_member_declaration5658);
                             struct_declaration776=struct_declaration();
@@ -28479,7 +28479,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:766:4: interface_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:766:4: interface_declaration
                     {
                     pushFollow(FOLLOW_interface_declaration_in_struct_member_declaration5665);
                     interface_declaration777=interface_declaration();
@@ -28491,7 +28491,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:767:4: class_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:767:4: class_declaration
                     {
                     pushFollow(FOLLOW_class_declaration_in_struct_member_declaration5671);
                     class_declaration778=class_declaration();
@@ -28503,7 +28503,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:768:4: 'void' method_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:768:4: 'void' method_declaration
                     {
                     string_literal779=(Token)match(input,192,FOLLOW_192_in_struct_member_declaration5678); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -28523,7 +28523,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:769:4: type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:769:4: type ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
                     {
                     pushFollow(FOLLOW_type_in_struct_member_declaration5687);
                     type781=type();
@@ -28532,7 +28532,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, type781.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:769:9: ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:769:9: ( ( member_name '(' )=> method_declaration | ( member_name '{' )=> property_declaration | ( member_name '.' 'this' )=> type_name '.' indexer_declaration | indexer_declaration | field_declaration | operator_declaration )
                     int alt229=6;
                     switch ( input.LA(1) ) {
                     case 103:
@@ -28673,7 +28673,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt229) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:769:11: ( member_name '(' )=> method_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:769:11: ( member_name '(' )=> method_declaration
                             {
                             pushFollow(FOLLOW_method_declaration_in_struct_member_declaration5701);
                             method_declaration782=method_declaration();
@@ -28685,7 +28685,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:770:8: ( member_name '{' )=> property_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:770:8: ( member_name '{' )=> property_declaration
                             {
                             pushFollow(FOLLOW_property_declaration_in_struct_member_declaration5720);
                             property_declaration783=property_declaration();
@@ -28697,7 +28697,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 3 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:771:8: ( member_name '.' 'this' )=> type_name '.' indexer_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:771:8: ( member_name '.' 'this' )=> type_name '.' indexer_declaration
                             {
                             pushFollow(FOLLOW_type_name_in_struct_member_declaration5743);
                             type_name784=type_name();
@@ -28724,7 +28724,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 4 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:772:8: indexer_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:772:8: indexer_declaration
                             {
                             pushFollow(FOLLOW_indexer_declaration_in_struct_member_declaration5756);
                             indexer_declaration787=indexer_declaration();
@@ -28736,7 +28736,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 5 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:773:11: field_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:773:11: field_declaration
                             {
                             pushFollow(FOLLOW_field_declaration_in_struct_member_declaration5769);
                             field_declaration788=field_declaration();
@@ -28748,7 +28748,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 6 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:774:11: operator_declaration
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:774:11: operator_declaration
                             {
                             pushFollow(FOLLOW_operator_declaration_in_struct_member_declaration5787);
                             operator_declaration789=operator_declaration();
@@ -28766,7 +28766,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:778:4: struct_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:778:4: struct_declaration
                     {
                     pushFollow(FOLLOW_struct_declaration_in_struct_member_declaration5805);
                     struct_declaration790=struct_declaration();
@@ -28778,7 +28778,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:779:4: enum_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:779:4: enum_declaration
                     {
                     pushFollow(FOLLOW_enum_declaration_in_struct_member_declaration5811);
                     enum_declaration791=enum_declaration();
@@ -28790,7 +28790,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:780:4: delegate_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:780:4: delegate_declaration
                     {
                     pushFollow(FOLLOW_delegate_declaration_in_struct_member_declaration5818);
                     delegate_declaration792=delegate_declaration();
@@ -28802,7 +28802,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:781:4: conversion_operator_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:781:4: conversion_operator_declaration
                     {
                     pushFollow(FOLLOW_conversion_operator_declaration_in_struct_member_declaration5824);
                     conversion_operator_declaration793=conversion_operator_declaration();
@@ -28814,7 +28814,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:782:4: constructor_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:782:4: constructor_declaration
                     {
                     pushFollow(FOLLOW_constructor_declaration_in_struct_member_declaration5829);
                     constructor_declaration794=constructor_declaration();
@@ -28864,7 +28864,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "indexer_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:788:1: indexer_declaration : indexer_declarator '{' accessor_declarations '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:788:1: indexer_declaration : indexer_declarator '{' accessor_declarations '}' ;
     public final csParser.indexer_declaration_return indexer_declaration() throws RecognitionException {
         csParser.indexer_declaration_return retval = new csParser.indexer_declaration_return();
         retval.start = input.LT(1);
@@ -28886,8 +28886,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 225) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:788:20: ( indexer_declarator '{' accessor_declarations '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:789:2: indexer_declarator '{' accessor_declarations '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:788:20: ( indexer_declarator '{' accessor_declarations '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:789:2: indexer_declarator '{' accessor_declarations '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -28957,7 +28957,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "indexer_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:790:1: indexer_declarator : 'this' '[' formal_parameter_list ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:790:1: indexer_declarator : 'this' '[' formal_parameter_list ']' ;
     public final csParser.indexer_declarator_return indexer_declarator() throws RecognitionException {
         csParser.indexer_declarator_return retval = new csParser.indexer_declarator_return();
         retval.start = input.LT(1);
@@ -28979,8 +28979,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 226) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:790:19: ( 'this' '[' formal_parameter_list ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:792:2: 'this' '[' formal_parameter_list ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:790:19: ( 'this' '[' formal_parameter_list ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:792:2: 'this' '[' formal_parameter_list ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29051,7 +29051,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "operator_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:795:1: operator_declaration : operator_declarator operator_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:795:1: operator_declaration : operator_declarator operator_body ;
     public final csParser.operator_declaration_return operator_declaration() throws RecognitionException {
         csParser.operator_declaration_return retval = new csParser.operator_declaration_return();
         retval.start = input.LT(1);
@@ -29069,8 +29069,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 227) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:795:21: ( operator_declarator operator_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:796:2: operator_declarator operator_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:795:21: ( operator_declarator operator_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:796:2: operator_declarator operator_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29124,7 +29124,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "operator_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:797:1: operator_declarator : 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:797:1: operator_declarator : 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator ) ;
     public final csParser.operator_declarator_return operator_declarator() throws RecognitionException {
         csParser.operator_declarator_return retval = new csParser.operator_declarator_return();
         retval.start = input.LT(1);
@@ -29160,8 +29160,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 228) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:797:20: ( 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:798:2: 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:797:20: ( 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:798:2: 'operator' ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29174,7 +29174,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal805_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:799:3: ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:799:3: ( ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator ) | overloadable_unary_operator unary_operator_declarator | overloadable_binary_operator binary_operator_declarator )
             int alt232=3;
             switch ( input.LA(1) ) {
             case MINUS:
@@ -29221,7 +29221,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt232) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:799:4: ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:799:4: ( '+' | '-' ) '(' type identifier ( binary_operator_declarator | unary_operator_declarator )
                     {
                     set806=(Token)input.LT(1);
 
@@ -29262,7 +29262,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier809.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:799:42: ( binary_operator_declarator | unary_operator_declarator )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:799:42: ( binary_operator_declarator | unary_operator_declarator )
                     int alt231=2;
                     int LA231_0 = input.LA(1);
 
@@ -29282,7 +29282,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt231) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:799:43: binary_operator_declarator
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:799:43: binary_operator_declarator
                             {
                             pushFollow(FOLLOW_binary_operator_declarator_in_operator_declarator5932);
                             binary_operator_declarator810=binary_operator_declarator();
@@ -29294,7 +29294,7 @@ public TreeAdaptor getTreeAdaptor() {
                             }
                             break;
                         case 2 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:799:72: unary_operator_declarator
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:799:72: unary_operator_declarator
                             {
                             pushFollow(FOLLOW_unary_operator_declarator_in_operator_declarator5936);
                             unary_operator_declarator811=unary_operator_declarator();
@@ -29312,7 +29312,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:800:5: overloadable_unary_operator unary_operator_declarator
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:800:5: overloadable_unary_operator unary_operator_declarator
                     {
                     pushFollow(FOLLOW_overloadable_unary_operator_in_operator_declarator5943);
                     overloadable_unary_operator812=overloadable_unary_operator();
@@ -29331,7 +29331,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:801:5: overloadable_binary_operator binary_operator_declarator
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:801:5: overloadable_binary_operator binary_operator_declarator
                     {
                     pushFollow(FOLLOW_overloadable_binary_operator_in_operator_declarator5953);
                     overloadable_binary_operator814=overloadable_binary_operator();
@@ -29388,7 +29388,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unary_operator_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:802:1: unary_operator_declarator : ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:802:1: unary_operator_declarator : ')' ;
     public final csParser.unary_operator_declarator_return unary_operator_declarator() throws RecognitionException {
         csParser.unary_operator_declarator_return retval = new csParser.unary_operator_declarator_return();
         retval.start = input.LT(1);
@@ -29404,8 +29404,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 229) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:802:26: ( ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:803:5: ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:802:26: ( ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:803:5: ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29453,7 +29453,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "overloadable_unary_operator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:804:1: overloadable_unary_operator : ( '!' | '~' | '++' | '--' | 'true' | 'false' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:804:1: overloadable_unary_operator : ( '!' | '~' | '++' | '--' | 'true' | 'false' );
     public final csParser.overloadable_unary_operator_return overloadable_unary_operator() throws RecognitionException {
         csParser.overloadable_unary_operator_return retval = new csParser.overloadable_unary_operator_return();
         retval.start = input.LT(1);
@@ -29469,8 +29469,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 230) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:804:28: ( '!' | '~' | '++' | '--' | 'true' | 'false' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:804:28: ( '!' | '~' | '++' | '--' | 'true' | 'false' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29527,7 +29527,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "binary_operator_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:806:1: binary_operator_declarator : ',' type identifier ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:806:1: binary_operator_declarator : ',' type identifier ')' ;
     public final csParser.binary_operator_declarator_return binary_operator_declarator() throws RecognitionException {
         csParser.binary_operator_declarator_return retval = new csParser.binary_operator_declarator_return();
         retval.start = input.LT(1);
@@ -29549,8 +29549,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 231) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:806:27: ( ',' type identifier ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:807:2: ',' type identifier ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:806:27: ( ',' type identifier ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:807:2: ',' type identifier ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -29620,7 +29620,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "overloadable_binary_operator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:809:1: overloadable_binary_operator : ( '*' | '/' | '%' | '&' | '|' | '^' | '<<' | '>' '>' | '==' | '!=' | '>' | '<' | '>=' | '<=' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:809:1: overloadable_binary_operator : ( '*' | '/' | '%' | '&' | '|' | '^' | '<<' | '>' '>' | '==' | '!=' | '>' | '<' | '>=' | '<=' );
     public final csParser.overloadable_binary_operator_return overloadable_binary_operator() throws RecognitionException {
         csParser.overloadable_binary_operator_return retval = new csParser.overloadable_binary_operator_return();
         retval.start = input.LT(1);
@@ -29664,7 +29664,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 232) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:809:29: ( '*' | '/' | '%' | '&' | '|' | '^' | '<<' | '>' '>' | '==' | '!=' | '>' | '<' | '>=' | '<=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:809:29: ( '*' | '/' | '%' | '&' | '|' | '^' | '<<' | '>' '>' | '==' | '!=' | '>' | '<' | '>=' | '<=' )
             int alt233=14;
             switch ( input.LA(1) ) {
             case 69:
@@ -29758,7 +29758,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt233) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:19: '*'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:19: '*'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29774,7 +29774,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:25: '/'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:25: '/'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29790,7 +29790,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:31: '%'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:31: '%'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29806,7 +29806,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:37: '&'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:37: '&'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29822,7 +29822,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:43: '|'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:43: '|'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29838,7 +29838,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:49: '^'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:49: '^'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29854,7 +29854,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:55: '<<'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:55: '<<'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29870,7 +29870,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:62: '>' '>'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:62: '>' '>'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29894,7 +29894,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:72: '=='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:72: '=='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29910,7 +29910,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:79: '!='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:79: '!='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29926,7 +29926,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:86: '>'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:86: '>'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29942,7 +29942,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:92: '<'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:92: '<'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29958,7 +29958,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:98: '>='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:98: '>='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -29974,7 +29974,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 14 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:810:105: '<='
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:810:105: '<='
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -30024,7 +30024,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "conversion_operator_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:812:1: conversion_operator_declaration : conversion_operator_declarator operator_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:812:1: conversion_operator_declaration : conversion_operator_declarator operator_body ;
     public final csParser.conversion_operator_declaration_return conversion_operator_declaration() throws RecognitionException {
         csParser.conversion_operator_declaration_return retval = new csParser.conversion_operator_declaration_return();
         retval.start = input.LT(1);
@@ -30042,8 +30042,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 233) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:812:32: ( conversion_operator_declarator operator_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:813:2: conversion_operator_declarator operator_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:812:32: ( conversion_operator_declarator operator_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:813:2: conversion_operator_declarator operator_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30097,7 +30097,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "conversion_operator_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:814:1: conversion_operator_declarator : ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:814:1: conversion_operator_declarator : ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')' ;
     public final csParser.conversion_operator_declarator_return conversion_operator_declarator() throws RecognitionException {
         csParser.conversion_operator_declarator_return retval = new csParser.conversion_operator_declarator_return();
         retval.start = input.LT(1);
@@ -30125,8 +30125,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 234) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:814:31: ( ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:815:2: ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:814:31: ( ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:815:2: ( 'implicit' | 'explicit' ) 'operator' type '(' type identifier ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30228,7 +30228,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "operator_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:816:1: operator_body : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:816:1: operator_body : block ;
     public final csParser.operator_body_return operator_body() throws RecognitionException {
         csParser.operator_body_return retval = new csParser.operator_body_return();
         retval.start = input.LT(1);
@@ -30244,8 +30244,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 235) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:816:14: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:817:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:816:14: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:817:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30292,7 +30292,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:820:1: constructor_declaration : constructor_declarator constructor_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:820:1: constructor_declaration : constructor_declarator constructor_body ;
     public final csParser.constructor_declaration_return constructor_declaration() throws RecognitionException {
         csParser.constructor_declaration_return retval = new csParser.constructor_declaration_return();
         retval.start = input.LT(1);
@@ -30310,8 +30310,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 236) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:820:24: ( constructor_declarator constructor_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:821:2: constructor_declarator constructor_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:820:24: ( constructor_declarator constructor_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:821:2: constructor_declarator constructor_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30365,7 +30365,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:822:1: constructor_declarator : identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:822:1: constructor_declarator : identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )? ;
     public final csParser.constructor_declarator_return constructor_declarator() throws RecognitionException {
         csParser.constructor_declarator_return retval = new csParser.constructor_declarator_return();
         retval.start = input.LT(1);
@@ -30389,8 +30389,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 237) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:822:23: ( identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:823:2: identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:822:23: ( identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:823:2: identifier '(' ( formal_parameter_list )? ')' ( constructor_initializer )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30410,7 +30410,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal850_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:823:21: ( formal_parameter_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:823:21: ( formal_parameter_list )?
             int alt234=2;
             int LA234_0 = input.LA(1);
 
@@ -30419,7 +30419,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt234) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:823:21: formal_parameter_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:823:21: formal_parameter_list
                     {
                     pushFollow(FOLLOW_formal_parameter_list_in_constructor_declarator6178);
                     formal_parameter_list851=formal_parameter_list();
@@ -30442,7 +30442,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal852_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:823:52: ( constructor_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:823:52: ( constructor_initializer )?
             int alt235=2;
             int LA235_0 = input.LA(1);
 
@@ -30451,7 +30451,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt235) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:823:52: constructor_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:823:52: constructor_initializer
                     {
                     pushFollow(FOLLOW_constructor_initializer_in_constructor_declarator6187);
                     constructor_initializer853=constructor_initializer();
@@ -30501,7 +30501,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:824:1: constructor_initializer : ':' ( 'base' | 'this' ) '(' ( argument_list )? ')' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:824:1: constructor_initializer : ':' ( 'base' | 'this' ) '(' ( argument_list )? ')' ;
     public final csParser.constructor_initializer_return constructor_initializer() throws RecognitionException {
         csParser.constructor_initializer_return retval = new csParser.constructor_initializer_return();
         retval.start = input.LT(1);
@@ -30525,8 +30525,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 238) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:824:24: ( ':' ( 'base' | 'this' ) '(' ( argument_list )? ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:825:2: ':' ( 'base' | 'this' ) '(' ( argument_list )? ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:824:24: ( ':' ( 'base' | 'this' ) '(' ( argument_list )? ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:825:2: ':' ( 'base' | 'this' ) '(' ( argument_list )? ')'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30564,7 +30564,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal856_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:825:34: ( argument_list )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:825:34: ( argument_list )?
             int alt236=2;
             int LA236_0 = input.LA(1);
 
@@ -30573,7 +30573,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt236) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:825:34: argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:825:34: argument_list
                     {
                     pushFollow(FOLLOW_argument_list_in_constructor_initializer6214);
                     argument_list857=argument_list();
@@ -30631,7 +30631,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constructor_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:826:1: constructor_body : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:826:1: constructor_body : block ;
     public final csParser.constructor_body_return constructor_body() throws RecognitionException {
         csParser.constructor_body_return retval = new csParser.constructor_body_return();
         retval.start = input.LT(1);
@@ -30647,8 +30647,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 239) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:826:17: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:827:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:826:17: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:827:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30695,7 +30695,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "destructor_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:836:1: destructor_declaration : '~' identifier '(' ')' destructor_body ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:836:1: destructor_declaration : '~' identifier '(' ')' destructor_body ;
     public final csParser.destructor_declaration_return destructor_declaration() throws RecognitionException {
         csParser.destructor_declaration_return retval = new csParser.destructor_declaration_return();
         retval.start = input.LT(1);
@@ -30719,8 +30719,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 240) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:836:23: ( '~' identifier '(' ')' destructor_body )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:837:2: '~' identifier '(' ')' destructor_body
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:836:23: ( '~' identifier '(' ')' destructor_body )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:837:2: '~' identifier '(' ')' destructor_body
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30798,7 +30798,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "destructor_body"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:838:1: destructor_body : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:838:1: destructor_body : block ;
     public final csParser.destructor_body_return destructor_body() throws RecognitionException {
         csParser.destructor_body_return retval = new csParser.destructor_body_return();
         retval.start = input.LT(1);
@@ -30814,8 +30814,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 241) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:838:16: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:839:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:838:16: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:839:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30862,7 +30862,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "invocation_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:842:1: invocation_expression : invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:842:1: invocation_expression : invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments ;
     public final csParser.invocation_expression_return invocation_expression() throws RecognitionException {
         csParser.invocation_expression_return retval = new csParser.invocation_expression_return();
         retval.start = input.LT(1);
@@ -30886,8 +30886,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 242) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:842:22: ( invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:2: invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:842:22: ( invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:2: invocation_start ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )* arguments
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -30899,7 +30899,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, invocation_start866.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:21: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:21: ( ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part ) | invocation_part )*
             loop237:
             do {
                 int alt237=3;
@@ -30921,10 +30921,10 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt237) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:22: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:22: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:22: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:23: ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:22: ( ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:23: ( arguments ( '[' | '.' | '->' ) )=> arguments invocation_part
             	    {
             	    pushFollow(FOLLOW_arguments_in_invocation_expression6299);
             	    arguments867=arguments();
@@ -30946,7 +30946,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:844:9: invocation_part
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:844:9: invocation_part
             	    {
             	    pushFollow(FOLLOW_invocation_part_in_invocation_expression6314);
             	    invocation_part869=invocation_part();
@@ -31006,7 +31006,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "invocation_start"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:845:1: invocation_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | 'this' | 'base' | identifier ( '::' identifier )? | typeof_expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:845:1: invocation_start : ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | 'this' | 'base' | identifier ( '::' identifier )? | typeof_expression );
     public final csParser.invocation_start_return invocation_start() throws RecognitionException {
         csParser.invocation_start_return retval = new csParser.invocation_start_return();
         retval.start = input.LT(1);
@@ -31038,7 +31038,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 243) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:845:17: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | 'this' | 'base' | identifier ( '::' identifier )? | typeof_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:845:17: ( predefined_type | ( identifier '<' )=> identifier generic_argument_list | 'this' | 'base' | identifier ( '::' identifier )? | typeof_expression )
             int alt239=6;
             switch ( input.LA(1) ) {
             case 103:
@@ -31135,7 +31135,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt239) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:846:2: predefined_type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:846:2: predefined_type
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31150,7 +31150,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:847:4: ( identifier '<' )=> identifier generic_argument_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:847:4: ( identifier '<' )=> identifier generic_argument_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31172,7 +31172,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:848:4: 'this'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:848:4: 'this'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31188,7 +31188,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:849:4: 'base'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:849:4: 'base'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31204,7 +31204,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:850:4: identifier ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:850:4: identifier ( '::' identifier )?
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31216,7 +31216,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier876.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:850:17: ( '::' identifier )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:850:17: ( '::' identifier )?
                     int alt238=2;
                     int LA238_0 = input.LA(1);
 
@@ -31225,7 +31225,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt238) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:850:18: '::' identifier
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:850:18: '::' identifier
                             {
                             string_literal877=(Token)match(input,80,FOLLOW_80_in_invocation_start6370); if (state.failed) return retval;
                             if ( state.backtracking==0 ) {
@@ -31251,7 +31251,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:851:4: typeof_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:851:4: typeof_expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31300,7 +31300,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "invocation_part"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:853:1: invocation_part : ( access_identifier | brackets );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:853:1: invocation_part : ( access_identifier | brackets );
     public final csParser.invocation_part_return invocation_part() throws RecognitionException {
         csParser.invocation_part_return retval = new csParser.invocation_part_return();
         retval.start = input.LT(1);
@@ -31318,7 +31318,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 244) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:853:16: ( access_identifier | brackets )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:853:16: ( access_identifier | brackets )
             int alt240=2;
             int LA240_0 = input.LA(1);
 
@@ -31338,7 +31338,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt240) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:854:3: access_identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:854:3: access_identifier
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31353,7 +31353,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:855:4: brackets
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:855:4: brackets
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31402,7 +31402,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:859:1: statement : ( ( declaration_statement )=> declaration_statement | ( identifier ':' )=> labeled_statement | embedded_statement );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:859:1: statement : ( ( declaration_statement )=> declaration_statement | ( identifier ':' )=> labeled_statement | embedded_statement );
     public final csParser.statement_return statement() throws RecognitionException {
         csParser.statement_return retval = new csParser.statement_return();
         retval.start = input.LT(1);
@@ -31422,7 +31422,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 245) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:859:10: ( ( declaration_statement )=> declaration_statement | ( identifier ':' )=> labeled_statement | embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:859:10: ( ( declaration_statement )=> declaration_statement | ( identifier ':' )=> labeled_statement | embedded_statement )
             int alt241=3;
             int LA241_0 = input.LA(1);
 
@@ -31568,7 +31568,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt241) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:860:2: ( declaration_statement )=> declaration_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:860:2: ( declaration_statement )=> declaration_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31583,7 +31583,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:861:4: ( identifier ':' )=> labeled_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:861:4: ( identifier ':' )=> labeled_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31598,7 +31598,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:862:4: embedded_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:862:4: embedded_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31647,7 +31647,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "embedded_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:864:1: embedded_statement : ( block | selection_statement | iteration_statement | jump_statement | try_statement | checked_statement | unchecked_statement | lock_statement | using_statement | yield_statement | unsafe_statement | fixed_statement | expression_statement );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:864:1: embedded_statement : ( block | selection_statement | iteration_statement | jump_statement | try_statement | checked_statement | unchecked_statement | lock_statement | using_statement | yield_statement | unsafe_statement | fixed_statement | expression_statement );
     public final csParser.embedded_statement_return embedded_statement() throws RecognitionException {
         csParser.embedded_statement_return retval = new csParser.embedded_statement_return();
         retval.start = input.LT(1);
@@ -31687,7 +31687,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 246) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:864:19: ( block | selection_statement | iteration_statement | jump_statement | try_statement | checked_statement | unchecked_statement | lock_statement | using_statement | yield_statement | unsafe_statement | fixed_statement | expression_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:864:19: ( block | selection_statement | iteration_statement | jump_statement | try_statement | checked_statement | unchecked_statement | lock_statement | using_statement | yield_statement | unsafe_statement | fixed_statement | expression_statement )
             int alt242=13;
             switch ( input.LA(1) ) {
             case SEMI:
@@ -31888,7 +31888,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt242) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:865:2: block
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:865:2: block
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31903,7 +31903,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:866:4: selection_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:866:4: selection_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31918,7 +31918,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:867:4: iteration_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:867:4: iteration_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31933,7 +31933,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:868:4: jump_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:868:4: jump_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31948,7 +31948,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:869:4: try_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:869:4: try_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31963,7 +31963,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:870:4: checked_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:870:4: checked_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31978,7 +31978,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:871:4: unchecked_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:871:4: unchecked_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -31993,7 +31993,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:872:4: lock_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:872:4: lock_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32008,7 +32008,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:873:4: using_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:873:4: using_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32023,7 +32023,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:874:4: yield_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:874:4: yield_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32038,7 +32038,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:875:4: unsafe_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:875:4: unsafe_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32053,7 +32053,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:876:4: fixed_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:876:4: fixed_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32068,7 +32068,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 13 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:877:4: expression_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:877:4: expression_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32117,7 +32117,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:879:1: fixed_statement : 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:879:1: fixed_statement : 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement ;
     public final csParser.fixed_statement_return fixed_statement() throws RecognitionException {
         csParser.fixed_statement_return retval = new csParser.fixed_statement_return();
         retval.start = input.LT(1);
@@ -32143,8 +32143,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 247) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:879:16: ( 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:880:2: 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:879:16: ( 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:880:2: 'fixed' '(' pointer_type fixed_pointer_declarators ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32229,7 +32229,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_pointer_declarators"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:881:1: fixed_pointer_declarators : fixed_pointer_declarator ( ',' fixed_pointer_declarator )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:881:1: fixed_pointer_declarators : fixed_pointer_declarator ( ',' fixed_pointer_declarator )* ;
     public final csParser.fixed_pointer_declarators_return fixed_pointer_declarators() throws RecognitionException {
         csParser.fixed_pointer_declarators_return retval = new csParser.fixed_pointer_declarators_return();
         retval.start = input.LT(1);
@@ -32249,8 +32249,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 248) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:881:26: ( fixed_pointer_declarator ( ',' fixed_pointer_declarator )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:882:2: fixed_pointer_declarator ( ',' fixed_pointer_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:881:26: ( fixed_pointer_declarator ( ',' fixed_pointer_declarator )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:882:2: fixed_pointer_declarator ( ',' fixed_pointer_declarator )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32262,7 +32262,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, fixed_pointer_declarator904.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:882:29: ( ',' fixed_pointer_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:882:29: ( ',' fixed_pointer_declarator )*
             loop243:
             do {
                 int alt243=2;
@@ -32275,7 +32275,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt243) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:882:30: ',' fixed_pointer_declarator
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:882:30: ',' fixed_pointer_declarator
             	    {
             	    char_literal905=(Token)match(input,74,FOLLOW_74_in_fixed_pointer_declarators6563); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -32336,7 +32336,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_pointer_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:883:1: fixed_pointer_declarator : identifier '=' fixed_pointer_initializer ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:883:1: fixed_pointer_declarator : identifier '=' fixed_pointer_initializer ;
     public final csParser.fixed_pointer_declarator_return fixed_pointer_declarator() throws RecognitionException {
         csParser.fixed_pointer_declarator_return retval = new csParser.fixed_pointer_declarator_return();
         retval.start = input.LT(1);
@@ -32356,8 +32356,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 249) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:883:25: ( identifier '=' fixed_pointer_initializer )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:884:2: identifier '=' fixed_pointer_initializer
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:883:25: ( identifier '=' fixed_pointer_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:884:2: identifier '=' fixed_pointer_initializer
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32419,7 +32419,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "fixed_pointer_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:885:1: fixed_pointer_initializer : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:885:1: fixed_pointer_initializer : expression ;
     public final csParser.fixed_pointer_initializer_return fixed_pointer_initializer() throws RecognitionException {
         csParser.fixed_pointer_initializer_return retval = new csParser.fixed_pointer_initializer_return();
         retval.start = input.LT(1);
@@ -32435,8 +32435,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 250) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:885:26: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:887:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:885:26: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:887:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32483,7 +32483,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unsafe_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:888:1: unsafe_statement : 'unsafe' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:888:1: unsafe_statement : 'unsafe' block ;
     public final csParser.unsafe_statement_return unsafe_statement() throws RecognitionException {
         csParser.unsafe_statement_return retval = new csParser.unsafe_statement_return();
         retval.start = input.LT(1);
@@ -32501,8 +32501,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 251) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:888:17: ( 'unsafe' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:889:2: 'unsafe' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:888:17: ( 'unsafe' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:889:2: 'unsafe' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32557,7 +32557,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "labeled_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:890:1: labeled_statement : identifier ':' statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:890:1: labeled_statement : identifier ':' statement ;
     public final csParser.labeled_statement_return labeled_statement() throws RecognitionException {
         csParser.labeled_statement_return retval = new csParser.labeled_statement_return();
         retval.start = input.LT(1);
@@ -32577,8 +32577,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 252) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:890:18: ( identifier ':' statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:891:2: identifier ':' statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:890:18: ( identifier ':' statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:891:2: identifier ':' statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32640,7 +32640,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "declaration_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:892:1: declaration_statement : ( local_variable_declaration | local_constant_declaration ) ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:892:1: declaration_statement : ( local_variable_declaration | local_constant_declaration ) ';' ;
     public final csParser.declaration_statement_return declaration_statement() throws RecognitionException {
         csParser.declaration_statement_return retval = new csParser.declaration_statement_return();
         retval.start = input.LT(1);
@@ -32660,13 +32660,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 253) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:892:22: ( ( local_variable_declaration | local_constant_declaration ) ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:893:2: ( local_variable_declaration | local_constant_declaration ) ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:892:22: ( ( local_variable_declaration | local_constant_declaration ) ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:893:2: ( local_variable_declaration | local_constant_declaration ) ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:893:2: ( local_variable_declaration | local_constant_declaration )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:893:2: ( local_variable_declaration | local_constant_declaration )
             int alt244=2;
             int LA244_0 = input.LA(1);
 
@@ -32686,7 +32686,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt244) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:893:3: local_variable_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:893:3: local_variable_declaration
                     {
                     pushFollow(FOLLOW_local_variable_declaration_in_declaration_statement6630);
                     local_variable_declaration916=local_variable_declaration();
@@ -32698,7 +32698,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:894:4: local_constant_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:894:4: local_constant_declaration
                     {
                     pushFollow(FOLLOW_local_constant_declaration_in_declaration_statement6636);
                     local_constant_declaration917=local_constant_declaration();
@@ -32756,7 +32756,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:895:1: local_variable_declaration : local_variable_type local_variable_declarators ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:895:1: local_variable_declaration : local_variable_type local_variable_declarators ;
     public final csParser.local_variable_declaration_return local_variable_declaration() throws RecognitionException {
         csParser.local_variable_declaration_return retval = new csParser.local_variable_declaration_return();
         retval.start = input.LT(1);
@@ -32774,8 +32774,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 254) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:895:27: ( local_variable_type local_variable_declarators )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:896:2: local_variable_type local_variable_declarators
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:895:27: ( local_variable_type local_variable_declarators )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:896:2: local_variable_type local_variable_declarators
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -32829,7 +32829,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:897:1: local_variable_type : ( ( 'var' )=> 'var' | ( 'dynamic' )=> 'dynamic' | type );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:897:1: local_variable_type : ( ( 'var' )=> 'var' | ( 'dynamic' )=> 'dynamic' | type );
     public final csParser.local_variable_type_return local_variable_type() throws RecognitionException {
         csParser.local_variable_type_return retval = new csParser.local_variable_type_return();
         retval.start = input.LT(1);
@@ -32849,7 +32849,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 255) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:897:20: ( ( 'var' )=> 'var' | ( 'dynamic' )=> 'dynamic' | type )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:897:20: ( ( 'var' )=> 'var' | ( 'dynamic' )=> 'dynamic' | type )
             int alt245=3;
             switch ( input.LA(1) ) {
             case 190:
@@ -32951,7 +32951,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt245) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:898:2: ( 'var' )=> 'var'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:898:2: ( 'var' )=> 'var'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32967,7 +32967,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:899:4: ( 'dynamic' )=> 'dynamic'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:899:4: ( 'dynamic' )=> 'dynamic'
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -32983,7 +32983,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:900:4: type
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:900:4: type
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33032,7 +33032,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_declarators"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:901:1: local_variable_declarators : local_variable_declarator ( ',' local_variable_declarator )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:901:1: local_variable_declarators : local_variable_declarator ( ',' local_variable_declarator )* ;
     public final csParser.local_variable_declarators_return local_variable_declarators() throws RecognitionException {
         csParser.local_variable_declarators_return retval = new csParser.local_variable_declarators_return();
         retval.start = input.LT(1);
@@ -33052,8 +33052,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 256) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:901:27: ( local_variable_declarator ( ',' local_variable_declarator )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:902:2: local_variable_declarator ( ',' local_variable_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:901:27: ( local_variable_declarator ( ',' local_variable_declarator )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:902:2: local_variable_declarator ( ',' local_variable_declarator )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33065,7 +33065,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, local_variable_declarator924.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:902:28: ( ',' local_variable_declarator )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:902:28: ( ',' local_variable_declarator )*
             loop246:
             do {
                 int alt246=2;
@@ -33078,7 +33078,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt246) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:902:29: ',' local_variable_declarator
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:902:29: ',' local_variable_declarator
             	    {
             	    char_literal925=(Token)match(input,74,FOLLOW_74_in_local_variable_declarators6692); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -33139,7 +33139,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_declarator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:903:1: local_variable_declarator : identifier ( '=' local_variable_initializer )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:903:1: local_variable_declarator : identifier ( '=' local_variable_initializer )? ;
     public final csParser.local_variable_declarator_return local_variable_declarator() throws RecognitionException {
         csParser.local_variable_declarator_return retval = new csParser.local_variable_declarator_return();
         retval.start = input.LT(1);
@@ -33159,8 +33159,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 257) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:903:26: ( identifier ( '=' local_variable_initializer )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:904:2: identifier ( '=' local_variable_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:903:26: ( identifier ( '=' local_variable_initializer )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:904:2: identifier ( '=' local_variable_initializer )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33172,7 +33172,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, identifier927.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:904:13: ( '=' local_variable_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:904:13: ( '=' local_variable_initializer )?
             int alt247=2;
             int LA247_0 = input.LA(1);
 
@@ -33181,7 +33181,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt247) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:904:14: '=' local_variable_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:904:14: '=' local_variable_initializer
                     {
                     char_literal928=(Token)match(input,85,FOLLOW_85_in_local_variable_declarator6707); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -33239,7 +33239,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:905:1: local_variable_initializer : ( expression | array_initializer | stackalloc_initializer );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:905:1: local_variable_initializer : ( expression | array_initializer | stackalloc_initializer );
     public final csParser.local_variable_initializer_return local_variable_initializer() throws RecognitionException {
         csParser.local_variable_initializer_return retval = new csParser.local_variable_initializer_return();
         retval.start = input.LT(1);
@@ -33259,7 +33259,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 258) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:905:27: ( expression | array_initializer | stackalloc_initializer )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:905:27: ( expression | array_initializer | stackalloc_initializer )
             int alt248=3;
             switch ( input.LA(1) ) {
             case Character_literal:
@@ -33359,7 +33359,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt248) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:906:2: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:906:2: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33374,7 +33374,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:907:4: array_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:907:4: array_initializer
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33389,7 +33389,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:908:4: stackalloc_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:908:4: stackalloc_initializer
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33438,7 +33438,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "stackalloc_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:909:1: stackalloc_initializer : 'stackalloc' unmanaged_type '[' expression ']' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:909:1: stackalloc_initializer : 'stackalloc' unmanaged_type '[' expression ']' ;
     public final csParser.stackalloc_initializer_return stackalloc_initializer() throws RecognitionException {
         csParser.stackalloc_initializer_return retval = new csParser.stackalloc_initializer_return();
         retval.start = input.LT(1);
@@ -33462,8 +33462,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 259) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:909:23: ( 'stackalloc' unmanaged_type '[' expression ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:910:2: 'stackalloc' unmanaged_type '[' expression ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:909:23: ( 'stackalloc' unmanaged_type '[' expression ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:910:2: 'stackalloc' unmanaged_type '[' expression ']'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33541,7 +33541,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_constant_declaration"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:911:1: local_constant_declaration : 'const' type constant_declarators ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:911:1: local_constant_declaration : 'const' type constant_declarators ;
     public final csParser.local_constant_declaration_return local_constant_declaration() throws RecognitionException {
         csParser.local_constant_declaration_return retval = new csParser.local_constant_declaration_return();
         retval.start = input.LT(1);
@@ -33561,8 +33561,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 260) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:911:27: ( 'const' type constant_declarators )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:912:2: 'const' type constant_declarators
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:911:27: ( 'const' type constant_declarators )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:912:2: 'const' type constant_declarators
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33624,7 +33624,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:913:1: expression_statement : expression ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:913:1: expression_statement : expression ';' ;
     public final csParser.expression_statement_return expression_statement() throws RecognitionException {
         csParser.expression_statement_return retval = new csParser.expression_statement_return();
         retval.start = input.LT(1);
@@ -33642,8 +33642,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 261) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:913:21: ( expression ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:914:2: expression ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:913:21: ( expression ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:914:2: expression ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33698,7 +33698,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement_expression"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:917:1: statement_expression : expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:917:1: statement_expression : expression ;
     public final csParser.statement_expression_return statement_expression() throws RecognitionException {
         csParser.statement_expression_return retval = new csParser.statement_expression_return();
         retval.start = input.LT(1);
@@ -33714,8 +33714,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 262) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:917:21: ( expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:918:2: expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:917:21: ( expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:918:2: expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33762,7 +33762,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "selection_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:920:1: selection_statement : ( if_statement | switch_statement );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:920:1: selection_statement : ( if_statement | switch_statement );
     public final csParser.selection_statement_return selection_statement() throws RecognitionException {
         csParser.selection_statement_return retval = new csParser.selection_statement_return();
         retval.start = input.LT(1);
@@ -33780,7 +33780,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 263) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:920:20: ( if_statement | switch_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:920:20: ( if_statement | switch_statement )
             int alt249=2;
             int LA249_0 = input.LA(1);
 
@@ -33800,7 +33800,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt249) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:921:2: if_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:921:2: if_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33815,7 +33815,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:922:4: switch_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:922:4: switch_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -33864,7 +33864,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "if_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:923:1: if_statement : 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )? ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:923:1: if_statement : 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )? ;
     public final csParser.if_statement_return if_statement() throws RecognitionException {
         csParser.if_statement_return retval = new csParser.if_statement_return();
         retval.start = input.LT(1);
@@ -33890,8 +33890,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 264) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:923:13: ( 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:925:2: 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:923:13: ( 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:925:2: 'if' '(' boolean_expression ')' embedded_statement ( ( 'else' )=> else_statement )?
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -33934,7 +33934,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, embedded_statement950.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:925:61: ( ( 'else' )=> else_statement )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:925:61: ( ( 'else' )=> else_statement )?
             int alt250=2;
             int LA250_0 = input.LA(1);
 
@@ -33947,7 +33947,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt250) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:925:62: ( 'else' )=> else_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:925:62: ( 'else' )=> else_statement
                     {
                     pushFollow(FOLLOW_else_statement_in_if_statement6843);
                     else_statement951=else_statement();
@@ -33997,7 +33997,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "else_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:927:1: else_statement : 'else' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:927:1: else_statement : 'else' embedded_statement ;
     public final csParser.else_statement_return else_statement() throws RecognitionException {
         csParser.else_statement_return retval = new csParser.else_statement_return();
         retval.start = input.LT(1);
@@ -34015,8 +34015,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 265) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:927:15: ( 'else' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:928:2: 'else' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:927:15: ( 'else' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:928:2: 'else' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -34071,7 +34071,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:929:1: switch_statement : 'switch' '(' expression ')' switch_block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:929:1: switch_statement : 'switch' '(' expression ')' switch_block ;
     public final csParser.switch_statement_return switch_statement() throws RecognitionException {
         csParser.switch_statement_return retval = new csParser.switch_statement_return();
         retval.start = input.LT(1);
@@ -34095,8 +34095,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 266) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:929:17: ( 'switch' '(' expression ')' switch_block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:930:2: 'switch' '(' expression ')' switch_block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:929:17: ( 'switch' '(' expression ')' switch_block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:930:2: 'switch' '(' expression ')' switch_block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -34174,7 +34174,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_block"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:931:1: switch_block : '{' ( switch_sections )? '}' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:931:1: switch_block : '{' ( switch_sections )? '}' ;
     public final csParser.switch_block_return switch_block() throws RecognitionException {
         csParser.switch_block_return retval = new csParser.switch_block_return();
         retval.start = input.LT(1);
@@ -34194,8 +34194,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 267) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:931:13: ( '{' ( switch_sections )? '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:932:2: '{' ( switch_sections )? '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:931:13: ( '{' ( switch_sections )? '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:932:2: '{' ( switch_sections )? '}'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -34208,7 +34208,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal959_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:932:8: ( switch_sections )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:932:8: ( switch_sections )?
             int alt251=2;
             int LA251_0 = input.LA(1);
 
@@ -34217,7 +34217,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt251) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:932:8: switch_sections
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:932:8: switch_sections
                     {
                     pushFollow(FOLLOW_switch_sections_in_switch_block6894);
                     switch_sections960=switch_sections();
@@ -34275,7 +34275,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_sections"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:933:1: switch_sections : ( switch_section )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:933:1: switch_sections : ( switch_section )+ ;
     public final csParser.switch_sections_return switch_sections() throws RecognitionException {
         csParser.switch_sections_return retval = new csParser.switch_sections_return();
         retval.start = input.LT(1);
@@ -34291,13 +34291,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 268) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:933:16: ( ( switch_section )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:934:2: ( switch_section )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:933:16: ( ( switch_section )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:934:2: ( switch_section )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:934:2: ( switch_section )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:934:2: ( switch_section )+
             int cnt252=0;
             loop252:
             do {
@@ -34311,7 +34311,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt252) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:934:2: switch_section
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:934:2: switch_section
             	    {
             	    pushFollow(FOLLOW_switch_section_in_switch_sections6907);
             	    switch_section962=switch_section();
@@ -34369,7 +34369,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_section"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:935:1: switch_section : switch_labels statement_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:935:1: switch_section : switch_labels statement_list ;
     public final csParser.switch_section_return switch_section() throws RecognitionException {
         csParser.switch_section_return retval = new csParser.switch_section_return();
         retval.start = input.LT(1);
@@ -34387,8 +34387,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 269) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:935:15: ( switch_labels statement_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:936:2: switch_labels statement_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:935:15: ( switch_labels statement_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:936:2: switch_labels statement_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -34442,7 +34442,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_labels"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:937:1: switch_labels : ( switch_label )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:937:1: switch_labels : ( switch_label )+ ;
     public final csParser.switch_labels_return switch_labels() throws RecognitionException {
         csParser.switch_labels_return retval = new csParser.switch_labels_return();
         retval.start = input.LT(1);
@@ -34458,13 +34458,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 270) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:937:14: ( ( switch_label )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:938:2: ( switch_label )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:937:14: ( ( switch_label )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:938:2: ( switch_label )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:938:2: ( switch_label )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:938:2: ( switch_label )+
             int cnt253=0;
             loop253:
             do {
@@ -34487,7 +34487,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt253) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:938:2: switch_label
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:938:2: switch_label
             	    {
             	    pushFollow(FOLLOW_switch_label_in_switch_labels6928);
             	    switch_label965=switch_label();
@@ -34545,7 +34545,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "switch_label"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:939:1: switch_label : ( ( 'case' constant_expression ':' ) | ( 'default' ':' ) );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:939:1: switch_label : ( ( 'case' constant_expression ':' ) | ( 'default' ':' ) );
     public final csParser.switch_label_return switch_label() throws RecognitionException {
         csParser.switch_label_return retval = new csParser.switch_label_return();
         retval.start = input.LT(1);
@@ -34569,7 +34569,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 271) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:939:13: ( ( 'case' constant_expression ':' ) | ( 'default' ':' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:939:13: ( ( 'case' constant_expression ':' ) | ( 'default' ':' ) )
             int alt254=2;
             int LA254_0 = input.LA(1);
 
@@ -34589,13 +34589,13 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt254) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:940:2: ( 'case' constant_expression ':' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:940:2: ( 'case' constant_expression ':' )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:940:2: ( 'case' constant_expression ':' )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:940:3: 'case' constant_expression ':'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:940:2: ( 'case' constant_expression ':' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:940:3: 'case' constant_expression ':'
                     {
                     string_literal966=(Token)match(input,107,FOLLOW_107_in_switch_label6938); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -34626,13 +34626,13 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:941:4: ( 'default' ':' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:941:4: ( 'default' ':' )
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:941:4: ( 'default' ':' )
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:941:5: 'default' ':'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:941:4: ( 'default' ':' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:941:5: 'default' ':'
                     {
                     string_literal969=(Token)match(input,115,FOLLOW_115_in_switch_label6953); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -34690,7 +34690,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "iteration_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:942:1: iteration_statement : ( while_statement | do_statement | for_statement | foreach_statement );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:942:1: iteration_statement : ( while_statement | do_statement | for_statement | foreach_statement );
     public final csParser.iteration_statement_return iteration_statement() throws RecognitionException {
         csParser.iteration_statement_return retval = new csParser.iteration_statement_return();
         retval.start = input.LT(1);
@@ -34712,7 +34712,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 272) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:942:20: ( while_statement | do_statement | for_statement | foreach_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:942:20: ( while_statement | do_statement | for_statement | foreach_statement )
             int alt255=4;
             switch ( input.LA(1) ) {
             case 195:
@@ -34746,7 +34746,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt255) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:943:2: while_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:943:2: while_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -34761,7 +34761,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:944:4: do_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:944:4: do_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -34776,7 +34776,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:945:4: for_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:945:4: for_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -34791,7 +34791,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:946:4: foreach_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:946:4: foreach_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -34840,7 +34840,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "while_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:947:1: while_statement : 'while' '(' boolean_expression ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:947:1: while_statement : 'while' '(' boolean_expression ')' embedded_statement ;
     public final csParser.while_statement_return while_statement() throws RecognitionException {
         csParser.while_statement_return retval = new csParser.while_statement_return();
         retval.start = input.LT(1);
@@ -34864,8 +34864,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 273) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:947:16: ( 'while' '(' boolean_expression ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:948:2: 'while' '(' boolean_expression ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:947:16: ( 'while' '(' boolean_expression ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:948:2: 'while' '(' boolean_expression ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -34943,7 +34943,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "do_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:949:1: do_statement : 'do' embedded_statement 'while' '(' boolean_expression ')' ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:949:1: do_statement : 'do' embedded_statement 'while' '(' boolean_expression ')' ';' ;
     public final csParser.do_statement_return do_statement() throws RecognitionException {
         csParser.do_statement_return retval = new csParser.do_statement_return();
         retval.start = input.LT(1);
@@ -34971,8 +34971,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 274) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:949:13: ( 'do' embedded_statement 'while' '(' boolean_expression ')' ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:950:2: 'do' embedded_statement 'while' '(' boolean_expression ')' ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:949:13: ( 'do' embedded_statement 'while' '(' boolean_expression ')' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:950:2: 'do' embedded_statement 'while' '(' boolean_expression ')' ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35066,7 +35066,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "for_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:951:1: for_statement : 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:951:1: for_statement : 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement ;
     public final csParser.for_statement_return for_statement() throws RecognitionException {
         csParser.for_statement_return retval = new csParser.for_statement_return();
         retval.start = input.LT(1);
@@ -35098,8 +35098,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 275) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:951:14: ( 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:2: 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:951:14: ( 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:2: 'for' '(' ( for_initializer )? ';' ( for_condition )? ';' ( for_iterator )? ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35120,7 +35120,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal988_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:16: ( for_initializer )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:16: ( for_initializer )?
             int alt256=2;
             int LA256_0 = input.LA(1);
 
@@ -35129,7 +35129,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt256) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:16: for_initializer
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:16: for_initializer
                     {
                     pushFollow(FOLLOW_for_initializer_in_for_statement7053);
                     for_initializer989=for_initializer();
@@ -35152,7 +35152,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal990_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:41: ( for_condition )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:41: ( for_condition )?
             int alt257=2;
             int LA257_0 = input.LA(1);
 
@@ -35161,7 +35161,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt257) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:41: for_condition
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:41: for_condition
                     {
                     pushFollow(FOLLOW_for_condition_in_for_statement7062);
                     for_condition991=for_condition();
@@ -35184,7 +35184,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, char_literal992_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:64: ( for_iterator )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:64: ( for_iterator )?
             int alt258=2;
             int LA258_0 = input.LA(1);
 
@@ -35193,7 +35193,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt258) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:952:64: for_iterator
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:952:64: for_iterator
                     {
                     pushFollow(FOLLOW_for_iterator_in_for_statement7071);
                     for_iterator993=for_iterator();
@@ -35258,7 +35258,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "for_initializer"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:953:1: for_initializer : ( ( local_variable_declaration )=> local_variable_declaration | statement_expression_list );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:953:1: for_initializer : ( ( local_variable_declaration )=> local_variable_declaration | statement_expression_list );
     public final csParser.for_initializer_return for_initializer() throws RecognitionException {
         csParser.for_initializer_return retval = new csParser.for_initializer_return();
         retval.start = input.LT(1);
@@ -35276,7 +35276,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 276) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:953:16: ( ( local_variable_declaration )=> local_variable_declaration | statement_expression_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:953:16: ( ( local_variable_declaration )=> local_variable_declaration | statement_expression_list )
             int alt259=2;
             int LA259_0 = input.LA(1);
 
@@ -35386,7 +35386,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt259) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:954:2: ( local_variable_declaration )=> local_variable_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:954:2: ( local_variable_declaration )=> local_variable_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35401,7 +35401,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:955:4: statement_expression_list
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:955:4: statement_expression_list
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35450,7 +35450,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "for_condition"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:957:1: for_condition : boolean_expression ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:957:1: for_condition : boolean_expression ;
     public final csParser.for_condition_return for_condition() throws RecognitionException {
         csParser.for_condition_return retval = new csParser.for_condition_return();
         retval.start = input.LT(1);
@@ -35466,8 +35466,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 277) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:957:14: ( boolean_expression )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:958:2: boolean_expression
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:957:14: ( boolean_expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:958:2: boolean_expression
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35514,7 +35514,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "for_iterator"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:959:1: for_iterator : statement_expression_list ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:959:1: for_iterator : statement_expression_list ;
     public final csParser.for_iterator_return for_iterator() throws RecognitionException {
         csParser.for_iterator_return retval = new csParser.for_iterator_return();
         retval.start = input.LT(1);
@@ -35530,8 +35530,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 278) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:959:13: ( statement_expression_list )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:960:2: statement_expression_list
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:959:13: ( statement_expression_list )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:960:2: statement_expression_list
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35578,7 +35578,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "statement_expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:961:1: statement_expression_list : statement_expression ( ',' statement_expression )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:961:1: statement_expression_list : statement_expression ( ',' statement_expression )* ;
     public final csParser.statement_expression_list_return statement_expression_list() throws RecognitionException {
         csParser.statement_expression_list_return retval = new csParser.statement_expression_list_return();
         retval.start = input.LT(1);
@@ -35598,8 +35598,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 279) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:961:26: ( statement_expression ( ',' statement_expression )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:962:2: statement_expression ( ',' statement_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:961:26: ( statement_expression ( ',' statement_expression )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:962:2: statement_expression ( ',' statement_expression )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35611,7 +35611,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, statement_expression1000.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:962:23: ( ',' statement_expression )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:962:23: ( ',' statement_expression )*
             loop260:
             do {
                 int alt260=2;
@@ -35624,7 +35624,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt260) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:962:24: ',' statement_expression
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:962:24: ',' statement_expression
             	    {
             	    char_literal1001=(Token)match(input,74,FOLLOW_74_in_statement_expression_list7128); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -35685,7 +35685,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "foreach_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:963:1: foreach_statement : 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:963:1: foreach_statement : 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement ;
     public final csParser.foreach_statement_return foreach_statement() throws RecognitionException {
         csParser.foreach_statement_return retval = new csParser.foreach_statement_return();
         retval.start = input.LT(1);
@@ -35715,8 +35715,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 280) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:963:18: ( 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:964:2: 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:963:18: ( 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:964:2: 'foreach' '(' local_variable_type identifier 'in' expression ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -35816,7 +35816,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "jump_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:965:1: jump_statement : ( break_statement | continue_statement | goto_statement | return_statement | throw_statement );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:965:1: jump_statement : ( break_statement | continue_statement | goto_statement | return_statement | throw_statement );
     public final csParser.jump_statement_return jump_statement() throws RecognitionException {
         csParser.jump_statement_return retval = new csParser.jump_statement_return();
         retval.start = input.LT(1);
@@ -35840,7 +35840,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 281) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:965:15: ( break_statement | continue_statement | goto_statement | return_statement | throw_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:965:15: ( break_statement | continue_statement | goto_statement | return_statement | throw_statement )
             int alt261=5;
             switch ( input.LA(1) ) {
             case 104:
@@ -35879,7 +35879,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt261) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:966:2: break_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:966:2: break_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35894,7 +35894,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:967:4: continue_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:967:4: continue_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35909,7 +35909,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:968:4: goto_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:968:4: goto_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35924,7 +35924,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:969:4: return_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:969:4: return_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35939,7 +35939,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:970:4: throw_statement
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:970:4: throw_statement
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -35988,7 +35988,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "break_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:971:1: break_statement : 'break' ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:971:1: break_statement : 'break' ';' ;
     public final csParser.break_statement_return break_statement() throws RecognitionException {
         csParser.break_statement_return retval = new csParser.break_statement_return();
         retval.start = input.LT(1);
@@ -36006,8 +36006,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 282) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:971:16: ( 'break' ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:972:2: 'break' ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:971:16: ( 'break' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:972:2: 'break' ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36063,7 +36063,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "continue_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:973:1: continue_statement : 'continue' ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:973:1: continue_statement : 'continue' ';' ;
     public final csParser.continue_statement_return continue_statement() throws RecognitionException {
         csParser.continue_statement_return retval = new csParser.continue_statement_return();
         retval.start = input.LT(1);
@@ -36081,8 +36081,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 283) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:973:19: ( 'continue' ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:974:2: 'continue' ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:973:19: ( 'continue' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:974:2: 'continue' ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36138,7 +36138,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "goto_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:975:1: goto_statement : 'goto' ( identifier | 'case' constant_expression | 'default' ) ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:975:1: goto_statement : 'goto' ( identifier | 'case' constant_expression | 'default' ) ';' ;
     public final csParser.goto_statement_return goto_statement() throws RecognitionException {
         csParser.goto_statement_return retval = new csParser.goto_statement_return();
         retval.start = input.LT(1);
@@ -36164,8 +36164,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 284) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:975:15: ( 'goto' ( identifier | 'case' constant_expression | 'default' ) ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:976:2: 'goto' ( identifier | 'case' constant_expression | 'default' ) ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:975:15: ( 'goto' ( identifier | 'case' constant_expression | 'default' ) ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:976:2: 'goto' ( identifier | 'case' constant_expression | 'default' ) ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36178,7 +36178,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal1020_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:976:11: ( identifier | 'case' constant_expression | 'default' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:976:11: ( identifier | 'case' constant_expression | 'default' )
             int alt262=3;
             switch ( input.LA(1) ) {
             case IDENTIFIER:
@@ -36236,7 +36236,7 @@ public TreeAdaptor getTreeAdaptor() {
 
             switch (alt262) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:976:13: identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:976:13: identifier
                     {
                     pushFollow(FOLLOW_identifier_in_goto_statement7234);
                     identifier1021=identifier();
@@ -36248,7 +36248,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:977:7: 'case' constant_expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:977:7: 'case' constant_expression
                     {
                     string_literal1022=(Token)match(input,107,FOLLOW_107_in_goto_statement7242); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -36268,7 +36268,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:978:7: 'default'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:978:7: 'default'
                     {
                     string_literal1024=(Token)match(input,115,FOLLOW_115_in_goto_statement7254); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -36327,7 +36327,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "return_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:979:1: return_statement : 'return' ( expression )? ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:979:1: return_statement : 'return' ( expression )? ';' ;
     public final csParser.return_statement_return return_statement() throws RecognitionException {
         csParser.return_statement_return retval = new csParser.return_statement_return();
         retval.start = input.LT(1);
@@ -36347,8 +36347,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 285) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:979:17: ( 'return' ( expression )? ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:980:2: 'return' ( expression )? ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:979:17: ( 'return' ( expression )? ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:980:2: 'return' ( expression )? ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36361,7 +36361,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal1026_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:980:13: ( expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:980:13: ( expression )?
             int alt263=2;
             int LA263_0 = input.LA(1);
 
@@ -36370,7 +36370,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt263) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:980:13: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:980:13: expression
                     {
                     pushFollow(FOLLOW_expression_in_return_statement7271);
                     expression1027=expression();
@@ -36428,7 +36428,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "throw_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:981:1: throw_statement : 'throw' ( expression )? ';' ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:981:1: throw_statement : 'throw' ( expression )? ';' ;
     public final csParser.throw_statement_return throw_statement() throws RecognitionException {
         csParser.throw_statement_return retval = new csParser.throw_statement_return();
         retval.start = input.LT(1);
@@ -36448,8 +36448,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 286) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:981:16: ( 'throw' ( expression )? ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:982:2: 'throw' ( expression )? ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:981:16: ( 'throw' ( expression )? ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:982:2: 'throw' ( expression )? ';'
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36462,7 +36462,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal1029_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:982:12: ( expression )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:982:12: ( expression )?
             int alt264=2;
             int LA264_0 = input.LA(1);
 
@@ -36471,7 +36471,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt264) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:982:12: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:982:12: expression
                     {
                     pushFollow(FOLLOW_expression_in_throw_statement7288);
                     expression1030=expression();
@@ -36529,7 +36529,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "try_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:983:1: try_statement : 'try' block ( catch_clauses ( finally_clause )? | finally_clause ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:983:1: try_statement : 'try' block ( catch_clauses ( finally_clause )? | finally_clause ) ;
     public final csParser.try_statement_return try_statement() throws RecognitionException {
         csParser.try_statement_return retval = new csParser.try_statement_return();
         retval.start = input.LT(1);
@@ -36553,8 +36553,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 287) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:983:14: ( 'try' block ( catch_clauses ( finally_clause )? | finally_clause ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:984:7: 'try' block ( catch_clauses ( finally_clause )? | finally_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:983:14: ( 'try' block ( catch_clauses ( finally_clause )? | finally_clause ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:984:7: 'try' block ( catch_clauses ( finally_clause )? | finally_clause )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36574,7 +36574,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, block1033.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:984:23: ( catch_clauses ( finally_clause )? | finally_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:984:23: ( catch_clauses ( finally_clause )? | finally_clause )
             int alt266=2;
             int LA266_0 = input.LA(1);
 
@@ -36594,7 +36594,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt266) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:984:25: catch_clauses ( finally_clause )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:984:25: catch_clauses ( finally_clause )?
                     {
                     pushFollow(FOLLOW_catch_clauses_in_try_statement7316);
                     catch_clauses1034=catch_clauses();
@@ -36603,7 +36603,7 @@ public TreeAdaptor getTreeAdaptor() {
                     if (state.failed) return retval;
                     if ( state.backtracking==0 ) adaptor.addChild(root_0, catch_clauses1034.getTree());
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:984:41: ( finally_clause )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:984:41: ( finally_clause )?
                     int alt265=2;
                     int LA265_0 = input.LA(1);
 
@@ -36612,7 +36612,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     switch (alt265) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:984:41: finally_clause
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:984:41: finally_clause
                             {
                             pushFollow(FOLLOW_finally_clause_in_try_statement7320);
                             finally_clause1035=finally_clause();
@@ -36630,7 +36630,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:985:10: finally_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:985:10: finally_clause
                     {
                     pushFollow(FOLLOW_finally_clause_in_try_statement7332);
                     finally_clause1036=finally_clause();
@@ -36680,7 +36680,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "catch_clauses"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:987:1: catch_clauses : 'catch' ( specific_catch_clauses | general_catch_clause ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:987:1: catch_clauses : 'catch' ( specific_catch_clauses | general_catch_clause ) ;
     public final csParser.catch_clauses_return catch_clauses() throws RecognitionException {
         csParser.catch_clauses_return retval = new csParser.catch_clauses_return();
         retval.start = input.LT(1);
@@ -36700,8 +36700,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 288) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:987:14: ( 'catch' ( specific_catch_clauses | general_catch_clause ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:988:2: 'catch' ( specific_catch_clauses | general_catch_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:987:14: ( 'catch' ( specific_catch_clauses | general_catch_clause ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:988:2: 'catch' ( specific_catch_clauses | general_catch_clause )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36714,7 +36714,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal1037_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:988:12: ( specific_catch_clauses | general_catch_clause )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:988:12: ( specific_catch_clauses | general_catch_clause )
             int alt267=2;
             int LA267_0 = input.LA(1);
 
@@ -36734,7 +36734,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt267) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:988:13: specific_catch_clauses
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:988:13: specific_catch_clauses
                     {
                     pushFollow(FOLLOW_specific_catch_clauses_in_catch_clauses7346);
                     specific_catch_clauses1038=specific_catch_clauses();
@@ -36746,7 +36746,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:988:38: general_catch_clause
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:988:38: general_catch_clause
                     {
                     pushFollow(FOLLOW_general_catch_clause_in_catch_clauses7350);
                     general_catch_clause1039=general_catch_clause();
@@ -36796,7 +36796,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "specific_catch_clauses"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:989:1: specific_catch_clauses : specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )* ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:989:1: specific_catch_clauses : specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )* ;
     public final csParser.specific_catch_clauses_return specific_catch_clauses() throws RecognitionException {
         csParser.specific_catch_clauses_return retval = new csParser.specific_catch_clauses_return();
         retval.start = input.LT(1);
@@ -36818,8 +36818,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 289) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:989:23: ( specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:2: specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:989:23: ( specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:2: specific_catch_clause ( 'catch' ( specific_catch_clause | general_catch_clause ) )*
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36831,7 +36831,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, specific_catch_clause1040.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:26: ( 'catch' ( specific_catch_clause | general_catch_clause ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:26: ( 'catch' ( specific_catch_clause | general_catch_clause ) )*
             loop269:
             do {
                 int alt269=2;
@@ -36844,7 +36844,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt269) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:27: 'catch' ( specific_catch_clause | general_catch_clause )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:27: 'catch' ( specific_catch_clause | general_catch_clause )
             	    {
             	    string_literal1041=(Token)match(input,108,FOLLOW_108_in_specific_catch_clauses7364); if (state.failed) return retval;
             	    if ( state.backtracking==0 ) {
@@ -36854,7 +36854,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    adaptor.addChild(root_0, string_literal1041_tree);
             	    }
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:37: ( specific_catch_clause | general_catch_clause )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:37: ( specific_catch_clause | general_catch_clause )
             	    int alt268=2;
             	    int LA268_0 = input.LA(1);
 
@@ -36874,7 +36874,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt268) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:38: specific_catch_clause
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:38: specific_catch_clause
             	            {
             	            pushFollow(FOLLOW_specific_catch_clause_in_specific_catch_clauses7369);
             	            specific_catch_clause1042=specific_catch_clause();
@@ -36886,7 +36886,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:990:62: general_catch_clause
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:990:62: general_catch_clause
             	            {
             	            pushFollow(FOLLOW_general_catch_clause_in_specific_catch_clauses7373);
             	            general_catch_clause1043=general_catch_clause();
@@ -36945,7 +36945,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "specific_catch_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:991:1: specific_catch_clause : '(' class_type ( identifier )? ')' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:991:1: specific_catch_clause : '(' class_type ( identifier )? ')' block ;
     public final csParser.specific_catch_clause_return specific_catch_clause() throws RecognitionException {
         csParser.specific_catch_clause_return retval = new csParser.specific_catch_clause_return();
         retval.start = input.LT(1);
@@ -36969,8 +36969,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 290) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:991:22: ( '(' class_type ( identifier )? ')' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:992:2: '(' class_type ( identifier )? ')' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:991:22: ( '(' class_type ( identifier )? ')' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:992:2: '(' class_type ( identifier )? ')' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -36990,7 +36990,7 @@ public TreeAdaptor getTreeAdaptor() {
             if (state.failed) return retval;
             if ( state.backtracking==0 ) adaptor.addChild(root_0, class_type1045.getTree());
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:992:21: ( identifier )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:992:21: ( identifier )?
             int alt270=2;
             int LA270_0 = input.LA(1);
 
@@ -36999,7 +36999,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt270) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:992:21: identifier
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:992:21: identifier
                     {
                     pushFollow(FOLLOW_identifier_in_specific_catch_clause7391);
                     identifier1046=identifier();
@@ -37064,7 +37064,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "general_catch_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:993:1: general_catch_clause : block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:993:1: general_catch_clause : block ;
     public final csParser.general_catch_clause_return general_catch_clause() throws RecognitionException {
         csParser.general_catch_clause_return retval = new csParser.general_catch_clause_return();
         retval.start = input.LT(1);
@@ -37080,8 +37080,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 291) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:993:21: ( block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:994:2: block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:993:21: ( block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:994:2: block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37128,7 +37128,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "finally_clause"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:995:1: finally_clause : 'finally' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:995:1: finally_clause : 'finally' block ;
     public final csParser.finally_clause_return finally_clause() throws RecognitionException {
         csParser.finally_clause_return retval = new csParser.finally_clause_return();
         retval.start = input.LT(1);
@@ -37146,8 +37146,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 292) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:995:15: ( 'finally' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:996:2: 'finally' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:995:15: ( 'finally' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:996:2: 'finally' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37202,7 +37202,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "checked_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:997:1: checked_statement : 'checked' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:997:1: checked_statement : 'checked' block ;
     public final csParser.checked_statement_return checked_statement() throws RecognitionException {
         csParser.checked_statement_return retval = new csParser.checked_statement_return();
         retval.start = input.LT(1);
@@ -37220,8 +37220,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 293) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:997:18: ( 'checked' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:998:2: 'checked' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:997:18: ( 'checked' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:998:2: 'checked' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37276,7 +37276,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unchecked_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:999:1: unchecked_statement : 'unchecked' block ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:999:1: unchecked_statement : 'unchecked' block ;
     public final csParser.unchecked_statement_return unchecked_statement() throws RecognitionException {
         csParser.unchecked_statement_return retval = new csParser.unchecked_statement_return();
         retval.start = input.LT(1);
@@ -37294,8 +37294,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 294) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:999:20: ( 'unchecked' block )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1000:2: 'unchecked' block
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:999:20: ( 'unchecked' block )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1000:2: 'unchecked' block
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37350,7 +37350,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "lock_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1001:1: lock_statement : 'lock' '(' expression ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1001:1: lock_statement : 'lock' '(' expression ')' embedded_statement ;
     public final csParser.lock_statement_return lock_statement() throws RecognitionException {
         csParser.lock_statement_return retval = new csParser.lock_statement_return();
         retval.start = input.LT(1);
@@ -37374,8 +37374,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 295) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1001:15: ( 'lock' '(' expression ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1002:2: 'lock' '(' expression ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1001:15: ( 'lock' '(' expression ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1002:2: 'lock' '(' expression ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37453,7 +37453,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "using_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1003:1: using_statement : 'using' '(' resource_acquisition ')' embedded_statement ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1003:1: using_statement : 'using' '(' resource_acquisition ')' embedded_statement ;
     public final csParser.using_statement_return using_statement() throws RecognitionException {
         csParser.using_statement_return retval = new csParser.using_statement_return();
         retval.start = input.LT(1);
@@ -37477,8 +37477,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 296) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1003:16: ( 'using' '(' resource_acquisition ')' embedded_statement )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1004:2: 'using' '(' resource_acquisition ')' embedded_statement
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1003:16: ( 'using' '(' resource_acquisition ')' embedded_statement )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1004:2: 'using' '(' resource_acquisition ')' embedded_statement
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37556,7 +37556,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "resource_acquisition"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1005:1: resource_acquisition : ( ( local_variable_declaration )=> local_variable_declaration | expression );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1005:1: resource_acquisition : ( ( local_variable_declaration )=> local_variable_declaration | expression );
     public final csParser.resource_acquisition_return resource_acquisition() throws RecognitionException {
         csParser.resource_acquisition_return retval = new csParser.resource_acquisition_return();
         retval.start = input.LT(1);
@@ -37574,7 +37574,7 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 297) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1005:21: ( ( local_variable_declaration )=> local_variable_declaration | expression )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1005:21: ( ( local_variable_declaration )=> local_variable_declaration | expression )
             int alt271=2;
             int LA271_0 = input.LA(1);
 
@@ -37684,7 +37684,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt271) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1006:2: ( local_variable_declaration )=> local_variable_declaration
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1006:2: ( local_variable_declaration )=> local_variable_declaration
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -37699,7 +37699,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1007:4: expression
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1007:4: expression
                     {
                     root_0 = (CommonTree)adaptor.nil();
 
@@ -37748,7 +37748,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "yield_statement"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1008:1: yield_statement : 'yield' ( 'return' expression ';' | 'break' ';' ) ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1008:1: yield_statement : 'yield' ( 'return' expression ';' | 'break' ';' ) ;
     public final csParser.yield_statement_return yield_statement() throws RecognitionException {
         csParser.yield_statement_return retval = new csParser.yield_statement_return();
         retval.start = input.LT(1);
@@ -37774,8 +37774,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 298) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1008:16: ( 'yield' ( 'return' expression ';' | 'break' ';' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1009:2: 'yield' ( 'return' expression ';' | 'break' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1008:16: ( 'yield' ( 'return' expression ';' | 'break' ';' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1009:2: 'yield' ( 'return' expression ';' | 'break' ';' )
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37788,7 +37788,7 @@ public TreeAdaptor getTreeAdaptor() {
             adaptor.addChild(root_0, string_literal1068_tree);
             }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1009:12: ( 'return' expression ';' | 'break' ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1009:12: ( 'return' expression ';' | 'break' ';' )
             int alt272=2;
             int LA272_0 = input.LA(1);
 
@@ -37808,7 +37808,7 @@ public TreeAdaptor getTreeAdaptor() {
             }
             switch (alt272) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1009:13: 'return' expression ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1009:13: 'return' expression ';'
                     {
                     string_literal1069=(Token)match(input,168,FOLLOW_168_in_yield_statement7525); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -37836,7 +37836,7 @@ public TreeAdaptor getTreeAdaptor() {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1010:14: 'break' ';'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1010:14: 'break' ';'
                     {
                     string_literal1072=(Token)match(input,104,FOLLOW_104_in_yield_statement7548); if (state.failed) return retval;
                     if ( state.backtracking==0 ) {
@@ -37895,7 +37895,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "predefined_type"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1016:1: predefined_type : ( 'bool' | 'byte' | 'char' | 'decimal' | 'double' | 'float' | 'int' | 'long' | 'object' | 'sbyte' | 'short' | 'string' | 'uint' | 'ulong' | 'ushort' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1016:1: predefined_type : ( 'bool' | 'byte' | 'char' | 'decimal' | 'double' | 'float' | 'int' | 'long' | 'object' | 'sbyte' | 'short' | 'string' | 'uint' | 'ulong' | 'ushort' );
     public final csParser.predefined_type_return predefined_type() throws RecognitionException {
         csParser.predefined_type_return retval = new csParser.predefined_type_return();
         retval.start = input.LT(1);
@@ -37911,8 +37911,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 299) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1016:16: ( 'bool' | 'byte' | 'char' | 'decimal' | 'double' | 'float' | 'int' | 'long' | 'object' | 'sbyte' | 'short' | 'string' | 'uint' | 'ulong' | 'ushort' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1016:16: ( 'bool' | 'byte' | 'char' | 'decimal' | 'double' | 'float' | 'int' | 'long' | 'object' | 'sbyte' | 'short' | 'string' | 'uint' | 'ulong' | 'ushort' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -37969,7 +37969,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "identifier"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1020:1: identifier : ( IDENTIFIER | 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1020:1: identifier : ( IDENTIFIER | 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' );
     public final csParser.identifier_return identifier() throws RecognitionException {
         csParser.identifier_return retval = new csParser.identifier_return();
         retval.start = input.LT(1);
@@ -37985,8 +37985,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 300) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1020:11: ( IDENTIFIER | 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1020:11: ( IDENTIFIER | 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -38043,7 +38043,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "keyword"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1024:1: keyword : ( 'abstract' | 'as' | 'base' | 'bool' | 'break' | 'byte' | 'case' | 'catch' | 'char' | 'checked' | 'class' | 'const' | 'continue' | 'decimal' | 'default' | 'delegate' | 'do' | 'double' | 'else' | 'enum' | 'event' | 'explicit' | 'extern' | 'false' | 'finally' | 'fixed' | 'float' | 'for' | 'foreach' | 'goto' | 'if' | 'implicit' | 'in' | 'int' | 'interface' | 'internal' | 'is' | 'lock' | 'long' | 'namespace' | 'new' | 'null' | 'object' | 'operator' | 'out' | 'override' | 'params' | 'private' | 'protected' | 'public' | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed' | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string' | 'struct' | 'switch' | 'this' | 'throw' | 'true' | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked' | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void' | 'volatile' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1024:1: keyword : ( 'abstract' | 'as' | 'base' | 'bool' | 'break' | 'byte' | 'case' | 'catch' | 'char' | 'checked' | 'class' | 'const' | 'continue' | 'decimal' | 'default' | 'delegate' | 'do' | 'double' | 'else' | 'enum' | 'event' | 'explicit' | 'extern' | 'false' | 'finally' | 'fixed' | 'float' | 'for' | 'foreach' | 'goto' | 'if' | 'implicit' | 'in' | 'int' | 'interface' | 'internal' | 'is' | 'lock' | 'long' | 'namespace' | 'new' | 'null' | 'object' | 'operator' | 'out' | 'override' | 'params' | 'private' | 'protected' | 'public' | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed' | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string' | 'struct' | 'switch' | 'this' | 'throw' | 'true' | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked' | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void' | 'volatile' );
     public final csParser.keyword_return keyword() throws RecognitionException {
         csParser.keyword_return retval = new csParser.keyword_return();
         retval.start = input.LT(1);
@@ -38059,8 +38059,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 301) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1024:8: ( 'abstract' | 'as' | 'base' | 'bool' | 'break' | 'byte' | 'case' | 'catch' | 'char' | 'checked' | 'class' | 'const' | 'continue' | 'decimal' | 'default' | 'delegate' | 'do' | 'double' | 'else' | 'enum' | 'event' | 'explicit' | 'extern' | 'false' | 'finally' | 'fixed' | 'float' | 'for' | 'foreach' | 'goto' | 'if' | 'implicit' | 'in' | 'int' | 'interface' | 'internal' | 'is' | 'lock' | 'long' | 'namespace' | 'new' | 'null' | 'object' | 'operator' | 'out' | 'override' | 'params' | 'private' | 'protected' | 'public' | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed' | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string' | 'struct' | 'switch' | 'this' | 'throw' | 'true' | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked' | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void' | 'volatile' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1024:8: ( 'abstract' | 'as' | 'base' | 'bool' | 'break' | 'byte' | 'case' | 'catch' | 'char' | 'checked' | 'class' | 'const' | 'continue' | 'decimal' | 'default' | 'delegate' | 'do' | 'double' | 'else' | 'enum' | 'event' | 'explicit' | 'extern' | 'false' | 'finally' | 'fixed' | 'float' | 'for' | 'foreach' | 'goto' | 'if' | 'implicit' | 'in' | 'int' | 'interface' | 'internal' | 'is' | 'lock' | 'long' | 'namespace' | 'new' | 'null' | 'object' | 'operator' | 'out' | 'override' | 'params' | 'private' | 'protected' | 'public' | 'readonly' | 'ref' | 'return' | 'sbyte' | 'sealed' | 'short' | 'sizeof' | 'stackalloc' | 'static' | 'string' | 'struct' | 'switch' | 'this' | 'throw' | 'true' | 'try' | 'typeof' | 'uint' | 'ulong' | 'unchecked' | 'unsafe' | 'ushort' | 'using' | 'virtual' | 'void' | 'volatile' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -38117,7 +38117,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "also_keyword"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1027:1: also_keyword : ( 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'event' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1027:1: also_keyword : ( 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'event' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' );
     public final csParser.also_keyword_return also_keyword() throws RecognitionException {
         csParser.also_keyword_return retval = new csParser.also_keyword_return();
         retval.start = input.LT(1);
@@ -38133,8 +38133,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 302) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1027:13: ( 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'event' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1027:13: ( 'add' | 'alias' | 'assembly' | 'module' | 'field' | 'event' | 'method' | 'param' | 'property' | 'type' | 'yield' | 'from' | 'into' | 'join' | 'on' | 'where' | 'orderby' | 'group' | 'by' | 'ascending' | 'descending' | 'equals' | 'select' | 'pragma' | 'let' | 'remove' | 'set' | 'var' | '__arglist' | 'dynamic' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -38191,7 +38191,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "literal"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1032:1: literal : ( Real_literal | NUMBER | Hex_number | Character_literal | STRINGLITERAL | Verbatim_string_literal | TRUE | FALSE | NULL );
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1032:1: literal : ( Real_literal | NUMBER | Hex_number | Character_literal | STRINGLITERAL | Verbatim_string_literal | TRUE | FALSE | NULL );
     public final csParser.literal_return literal() throws RecognitionException {
         csParser.literal_return retval = new csParser.literal_return();
         retval.start = input.LT(1);
@@ -38207,8 +38207,8 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 303) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1032:8: ( Real_literal | NUMBER | Hex_number | Character_literal | STRINGLITERAL | Verbatim_string_literal | TRUE | FALSE | NULL )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1032:8: ( Real_literal | NUMBER | Hex_number | Character_literal | STRINGLITERAL | Verbatim_string_literal | TRUE | FALSE | NULL )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             root_0 = (CommonTree)adaptor.nil();
 
@@ -38265,7 +38265,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "assignment_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1241:1: assignment_list : ( assignment ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1241:1: assignment_list : ( assignment ';' )+ ;
     public final csParser.assignment_list_return assignment_list() throws RecognitionException {
         csParser.assignment_list_return retval = new csParser.assignment_list_return();
         retval.start = input.LT(1);
@@ -38283,13 +38283,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 304) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1241:16: ( ( assignment ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1242:2: ( assignment ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1241:16: ( ( assignment ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1242:2: ( assignment ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1242:2: ( assignment ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1242:2: ( assignment ';' )+
             int cnt273=0;
             loop273:
             do {
@@ -38303,7 +38303,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt273) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1242:3: assignment ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1242:3: assignment ';'
             	    {
             	    pushFollow(FOLLOW_assignment_in_assignment_list10177);
             	    assignment1079=assignment();
@@ -38369,7 +38369,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "field_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1243:1: field_declarations : ( ( attributes )? ( modifiers )? type field_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1243:1: field_declarations : ( ( attributes )? ( modifiers )? type field_declaration )+ ;
     public final csParser.field_declarations_return field_declarations() throws RecognitionException {
         csParser.field_declarations_return retval = new csParser.field_declarations_return();
         retval.start = input.LT(1);
@@ -38391,13 +38391,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 305) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1243:19: ( ( ( attributes )? ( modifiers )? type field_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:2: ( ( attributes )? ( modifiers )? type field_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1243:19: ( ( ( attributes )? ( modifiers )? type field_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:2: ( ( attributes )? ( modifiers )? type field_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:2: ( ( attributes )? ( modifiers )? type field_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:2: ( ( attributes )? ( modifiers )? type field_declaration )+
             int cnt276=0;
             loop276:
             do {
@@ -38411,9 +38411,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt276) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:3: ( attributes )? ( modifiers )? type field_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:3: ( attributes )? ( modifiers )? type field_declaration
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:3: ( attributes )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:3: ( attributes )?
             	    int alt274=2;
             	    int LA274_0 = input.LA(1);
 
@@ -38422,7 +38422,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt274) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:3: attributes
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:3: attributes
             	            {
             	            pushFollow(FOLLOW_attributes_in_field_declarations10190);
             	            attributes1081=attributes();
@@ -38437,7 +38437,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:17: ( modifiers )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:17: ( modifiers )?
             	    int alt275=2;
             	    int LA275_0 = input.LA(1);
 
@@ -38446,7 +38446,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt275) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1244:17: modifiers
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1244:17: modifiers
             	            {
             	            pushFollow(FOLLOW_modifiers_in_field_declarations10195);
             	            modifiers1082=modifiers();
@@ -38524,7 +38524,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "property_declaration_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1245:1: property_declaration_list : ( ( attributes )? ( modifiers )? type property_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1245:1: property_declaration_list : ( ( attributes )? ( modifiers )? type property_declaration )+ ;
     public final csParser.property_declaration_list_return property_declaration_list() throws RecognitionException {
         csParser.property_declaration_list_return retval = new csParser.property_declaration_list_return();
         retval.start = input.LT(1);
@@ -38546,13 +38546,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 306) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1245:26: ( ( ( attributes )? ( modifiers )? type property_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:2: ( ( attributes )? ( modifiers )? type property_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1245:26: ( ( ( attributes )? ( modifiers )? type property_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:2: ( ( attributes )? ( modifiers )? type property_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:2: ( ( attributes )? ( modifiers )? type property_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:2: ( ( attributes )? ( modifiers )? type property_declaration )+
             int cnt279=0;
             loop279:
             do {
@@ -38566,9 +38566,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt279) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:3: ( attributes )? ( modifiers )? type property_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:3: ( attributes )? ( modifiers )? type property_declaration
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:3: ( attributes )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:3: ( attributes )?
             	    int alt277=2;
             	    int LA277_0 = input.LA(1);
 
@@ -38577,7 +38577,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt277) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:3: attributes
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:3: attributes
             	            {
             	            pushFollow(FOLLOW_attributes_in_property_declaration_list10215);
             	            attributes1085=attributes();
@@ -38592,7 +38592,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:17: ( modifiers )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:17: ( modifiers )?
             	    int alt278=2;
             	    int LA278_0 = input.LA(1);
 
@@ -38601,7 +38601,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt278) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1246:17: modifiers
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1246:17: modifiers
             	            {
             	            pushFollow(FOLLOW_modifiers_in_property_declaration_list10220);
             	            modifiers1086=modifiers();
@@ -38679,7 +38679,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "constant_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1247:1: constant_declarations : ( constant_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1247:1: constant_declarations : ( constant_declaration )+ ;
     public final csParser.constant_declarations_return constant_declarations() throws RecognitionException {
         csParser.constant_declarations_return retval = new csParser.constant_declarations_return();
         retval.start = input.LT(1);
@@ -38695,13 +38695,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 307) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1247:22: ( ( constant_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1248:2: ( constant_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1247:22: ( ( constant_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1248:2: ( constant_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1248:2: ( constant_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1248:2: ( constant_declaration )+
             int cnt280=0;
             loop280:
             do {
@@ -38715,7 +38715,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt280) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1248:2: constant_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1248:2: constant_declaration
             	    {
             	    pushFollow(FOLLOW_constant_declaration_in_constant_declarations10239);
             	    constant_declaration1089=constant_declaration();
@@ -38773,7 +38773,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "literals"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1249:1: literals : ( literal )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1249:1: literals : ( literal )+ ;
     public final csParser.literals_return literals() throws RecognitionException {
         csParser.literals_return retval = new csParser.literals_return();
         retval.start = input.LT(1);
@@ -38789,13 +38789,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 308) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1249:9: ( ( literal )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1250:2: ( literal )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1249:9: ( ( literal )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1250:2: ( literal )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1250:2: ( literal )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1250:2: ( literal )+
             int cnt281=0;
             loop281:
             do {
@@ -38809,7 +38809,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt281) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1250:2: literal
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1250:2: literal
             	    {
             	    pushFollow(FOLLOW_literal_in_literals10247);
             	    literal1090=literal();
@@ -38867,7 +38867,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "delegate_declaration_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1251:1: delegate_declaration_list : ( ( attributes )? ( modifiers )? delegate_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1251:1: delegate_declaration_list : ( ( attributes )? ( modifiers )? delegate_declaration )+ ;
     public final csParser.delegate_declaration_list_return delegate_declaration_list() throws RecognitionException {
         csParser.delegate_declaration_list_return retval = new csParser.delegate_declaration_list_return();
         retval.start = input.LT(1);
@@ -38887,13 +38887,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 309) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1251:26: ( ( ( attributes )? ( modifiers )? delegate_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:2: ( ( attributes )? ( modifiers )? delegate_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1251:26: ( ( ( attributes )? ( modifiers )? delegate_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:2: ( ( attributes )? ( modifiers )? delegate_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:2: ( ( attributes )? ( modifiers )? delegate_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:2: ( ( attributes )? ( modifiers )? delegate_declaration )+
             int cnt284=0;
             loop284:
             do {
@@ -38907,9 +38907,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt284) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:3: ( attributes )? ( modifiers )? delegate_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:3: ( attributes )? ( modifiers )? delegate_declaration
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:3: ( attributes )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:3: ( attributes )?
             	    int alt282=2;
             	    int LA282_0 = input.LA(1);
 
@@ -38918,7 +38918,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt282) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:3: attributes
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:3: attributes
             	            {
             	            pushFollow(FOLLOW_attributes_in_delegate_declaration_list10257);
             	            attributes1091=attributes();
@@ -38933,7 +38933,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:17: ( modifiers )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:17: ( modifiers )?
             	    int alt283=2;
             	    int LA283_0 = input.LA(1);
 
@@ -38942,7 +38942,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt283) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1252:17: modifiers
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1252:17: modifiers
             	            {
             	            pushFollow(FOLLOW_modifiers_in_delegate_declaration_list10262);
             	            modifiers1092=modifiers();
@@ -39013,7 +39013,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_declaration_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1253:1: local_variable_declaration_list : ( local_variable_declaration ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1253:1: local_variable_declaration_list : ( local_variable_declaration ';' )+ ;
     public final csParser.local_variable_declaration_list_return local_variable_declaration_list() throws RecognitionException {
         csParser.local_variable_declaration_list_return retval = new csParser.local_variable_declaration_list_return();
         retval.start = input.LT(1);
@@ -39031,13 +39031,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 310) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1253:32: ( ( local_variable_declaration ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1254:2: ( local_variable_declaration ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1253:32: ( ( local_variable_declaration ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1254:2: ( local_variable_declaration ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1254:2: ( local_variable_declaration ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1254:2: ( local_variable_declaration ';' )+
             int cnt285=0;
             loop285:
             do {
@@ -39051,7 +39051,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt285) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1254:3: local_variable_declaration ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1254:3: local_variable_declaration ';'
             	    {
             	    pushFollow(FOLLOW_local_variable_declaration_in_local_variable_declaration_list10278);
             	    local_variable_declaration1094=local_variable_declaration();
@@ -39117,7 +39117,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "local_variable_initializer_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1255:1: local_variable_initializer_list : ( local_variable_initializer ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1255:1: local_variable_initializer_list : ( local_variable_initializer ';' )+ ;
     public final csParser.local_variable_initializer_list_return local_variable_initializer_list() throws RecognitionException {
         csParser.local_variable_initializer_list_return retval = new csParser.local_variable_initializer_list_return();
         retval.start = input.LT(1);
@@ -39135,13 +39135,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 311) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1255:32: ( ( local_variable_initializer ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1256:2: ( local_variable_initializer ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1255:32: ( ( local_variable_initializer ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1256:2: ( local_variable_initializer ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1256:2: ( local_variable_initializer ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1256:2: ( local_variable_initializer ';' )+
             int cnt286=0;
             loop286:
             do {
@@ -39155,7 +39155,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt286) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1256:3: local_variable_initializer ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1256:3: local_variable_initializer ';'
             	    {
             	    pushFollow(FOLLOW_local_variable_initializer_in_local_variable_initializer_list10291);
             	    local_variable_initializer1096=local_variable_initializer();
@@ -39221,7 +39221,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "expression_list_test"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1257:1: expression_list_test : ( expression ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1257:1: expression_list_test : ( expression ';' )+ ;
     public final csParser.expression_list_test_return expression_list_test() throws RecognitionException {
         csParser.expression_list_test_return retval = new csParser.expression_list_test_return();
         retval.start = input.LT(1);
@@ -39239,13 +39239,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 312) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1257:21: ( ( expression ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1258:2: ( expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1257:21: ( ( expression ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1258:2: ( expression ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1258:2: ( expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1258:2: ( expression ';' )+
             int cnt287=0;
             loop287:
             do {
@@ -39259,7 +39259,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt287) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1258:3: expression ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1258:3: expression ';'
             	    {
             	    pushFollow(FOLLOW_expression_in_expression_list_test10304);
             	    expression1098=expression();
@@ -39325,7 +39325,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "unary_expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1259:1: unary_expression_list : ( unary_expression ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1259:1: unary_expression_list : ( unary_expression ';' )+ ;
     public final csParser.unary_expression_list_return unary_expression_list() throws RecognitionException {
         csParser.unary_expression_list_return retval = new csParser.unary_expression_list_return();
         retval.start = input.LT(1);
@@ -39343,13 +39343,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 313) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1259:22: ( ( unary_expression ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1260:2: ( unary_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1259:22: ( ( unary_expression ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1260:2: ( unary_expression ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1260:2: ( unary_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1260:2: ( unary_expression ';' )+
             int cnt288=0;
             loop288:
             do {
@@ -39363,7 +39363,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt288) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1260:3: unary_expression ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1260:3: unary_expression ';'
             	    {
             	    pushFollow(FOLLOW_unary_expression_in_unary_expression_list10317);
             	    unary_expression1100=unary_expression();
@@ -39429,7 +39429,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "invocation_expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1261:1: invocation_expression_list : ( invocation_expression ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1261:1: invocation_expression_list : ( invocation_expression ';' )+ ;
     public final csParser.invocation_expression_list_return invocation_expression_list() throws RecognitionException {
         csParser.invocation_expression_list_return retval = new csParser.invocation_expression_list_return();
         retval.start = input.LT(1);
@@ -39447,13 +39447,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 314) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1261:27: ( ( invocation_expression ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1262:2: ( invocation_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1261:27: ( ( invocation_expression ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1262:2: ( invocation_expression ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1262:2: ( invocation_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1262:2: ( invocation_expression ';' )+
             int cnt289=0;
             loop289:
             do {
@@ -39467,7 +39467,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt289) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1262:3: invocation_expression ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1262:3: invocation_expression ';'
             	    {
             	    pushFollow(FOLLOW_invocation_expression_in_invocation_expression_list10330);
             	    invocation_expression1102=invocation_expression();
@@ -39533,7 +39533,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "primary_expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1263:1: primary_expression_list : ( primary_expression ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1263:1: primary_expression_list : ( primary_expression ';' )+ ;
     public final csParser.primary_expression_list_return primary_expression_list() throws RecognitionException {
         csParser.primary_expression_list_return retval = new csParser.primary_expression_list_return();
         retval.start = input.LT(1);
@@ -39551,13 +39551,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 315) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1263:24: ( ( primary_expression ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1264:2: ( primary_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1263:24: ( ( primary_expression ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1264:2: ( primary_expression ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1264:2: ( primary_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1264:2: ( primary_expression ';' )+
             int cnt290=0;
             loop290:
             do {
@@ -39571,7 +39571,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt290) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1264:3: primary_expression ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1264:3: primary_expression ';'
             	    {
             	    pushFollow(FOLLOW_primary_expression_in_primary_expression_list10343);
             	    primary_expression1104=primary_expression();
@@ -39637,7 +39637,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "non_assignment_expression_list"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1265:1: non_assignment_expression_list : ( non_assignment_expression ';' )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1265:1: non_assignment_expression_list : ( non_assignment_expression ';' )+ ;
     public final csParser.non_assignment_expression_list_return non_assignment_expression_list() throws RecognitionException {
         csParser.non_assignment_expression_list_return retval = new csParser.non_assignment_expression_list_return();
         retval.start = input.LT(1);
@@ -39655,13 +39655,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 316) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1265:31: ( ( non_assignment_expression ';' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1266:2: ( non_assignment_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1265:31: ( ( non_assignment_expression ';' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1266:2: ( non_assignment_expression ';' )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1266:2: ( non_assignment_expression ';' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1266:2: ( non_assignment_expression ';' )+
             int cnt291=0;
             loop291:
             do {
@@ -39675,7 +39675,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt291) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1266:3: non_assignment_expression ';'
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1266:3: non_assignment_expression ';'
             	    {
             	    pushFollow(FOLLOW_non_assignment_expression_in_non_assignment_expression_list10356);
             	    non_assignment_expression1106=non_assignment_expression();
@@ -39741,7 +39741,7 @@ public TreeAdaptor getTreeAdaptor() {
 
 
     // $ANTLR start "method_declarations"
-    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1267:1: method_declarations : ( ( modifiers )? ( 'void' | type ) method_declaration )+ ;
+    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1267:1: method_declarations : ( ( modifiers )? ( 'void' | type ) method_declaration )+ ;
     public final csParser.method_declarations_return method_declarations() throws RecognitionException {
         csParser.method_declarations_return retval = new csParser.method_declarations_return();
         retval.start = input.LT(1);
@@ -39763,13 +39763,13 @@ public TreeAdaptor getTreeAdaptor() {
         try {
             if ( state.backtracking>0 && alreadyParsedRule(input, 317) ) { return retval; }
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1267:20: ( ( ( modifiers )? ( 'void' | type ) method_declaration )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:2: ( ( modifiers )? ( 'void' | type ) method_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1267:20: ( ( ( modifiers )? ( 'void' | type ) method_declaration )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:2: ( ( modifiers )? ( 'void' | type ) method_declaration )+
             {
             root_0 = (CommonTree)adaptor.nil();
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:2: ( ( modifiers )? ( 'void' | type ) method_declaration )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:2: ( ( modifiers )? ( 'void' | type ) method_declaration )+
             int cnt294=0;
             loop294:
             do {
@@ -39783,9 +39783,9 @@ public TreeAdaptor getTreeAdaptor() {
 
                 switch (alt294) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:3: ( modifiers )? ( 'void' | type ) method_declaration
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:3: ( modifiers )? ( 'void' | type ) method_declaration
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:3: ( modifiers )?
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:3: ( modifiers )?
             	    int alt292=2;
             	    int LA292_0 = input.LA(1);
 
@@ -39794,7 +39794,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt292) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:3: modifiers
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:3: modifiers
             	            {
             	            pushFollow(FOLLOW_modifiers_in_method_declarations10369);
             	            modifiers1108=modifiers();
@@ -39809,7 +39809,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:14: ( 'void' | type )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:14: ( 'void' | type )
             	    int alt293=2;
             	    int LA293_0 = input.LA(1);
 
@@ -39844,7 +39844,7 @@ public TreeAdaptor getTreeAdaptor() {
             	    }
             	    switch (alt293) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:15: 'void'
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:15: 'void'
             	            {
             	            string_literal1109=(Token)match(input,192,FOLLOW_192_in_method_declarations10373); if (state.failed) return retval;
             	            if ( state.backtracking==0 ) {
@@ -39857,7 +39857,7 @@ public TreeAdaptor getTreeAdaptor() {
             	            }
             	            break;
             	        case 2 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1268:24: type
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1268:24: type
             	            {
             	            pushFollow(FOLLOW_type_in_method_declarations10377);
             	            type1110=type();
@@ -39922,8 +39922,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred1_cs
     public final void synpred1_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:2: ( 'partial' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:3: 'partial'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:2: ( 'partial' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:3: 'partial'
         {
         match(input,159,FOLLOW_159_in_synpred1_cs265); if (state.failed) return ;
 
@@ -39934,8 +39934,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred2_cs
     public final void synpred2_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:11: ( member_name '(' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:12: member_name '('
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:11: ( member_name '(' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:12: member_name '('
         {
         pushFollow(FOLLOW_member_name_in_synpred2_cs529);
         member_name();
@@ -39952,8 +39952,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred3_cs
     public final void synpred3_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:83:8: ( member_name '{' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:83:9: member_name '{'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:83:8: ( member_name '{' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:83:9: member_name '{'
         {
         pushFollow(FOLLOW_member_name_in_synpred3_cs548);
         member_name();
@@ -39970,8 +39970,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred4_cs
     public final void synpred4_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:84:8: ( member_name '.' 'this' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:84:9: member_name '.' 'this'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:84:8: ( member_name '.' 'this' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:84:9: member_name '.' 'this'
         {
         pushFollow(FOLLOW_member_name_in_synpred4_cs567);
         member_name();
@@ -39990,8 +39990,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred5_cs
     public final void synpred5_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:2: ( 'this' brackets )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:3: 'this' brackets
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:2: ( 'this' brackets )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:3: 'this' brackets
         {
         match(input,180,FOLLOW_180_in_synpred5_cs695); if (state.failed) return ;
 
@@ -40008,8 +40008,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred6_cs
     public final void synpred6_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:4: ( 'base' brackets )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:5: 'base' brackets
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:4: ( 'base' brackets )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:5: 'base' brackets
         {
         match(input,102,FOLLOW_102_in_synpred6_cs720); if (state.failed) return ;
 
@@ -40026,8 +40026,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred7_cs
     public final void synpred7_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:14: ( object_creation_expression ( '.' | '->' | '[' ) )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:15: object_creation_expression ( '.' | '->' | '[' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:14: ( object_creation_expression ( '.' | '->' | '[' ) )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:15: object_creation_expression ( '.' | '->' | '[' )
         {
         pushFollow(FOLLOW_object_creation_expression_in_synpred7_cs760);
         object_creation_expression();
@@ -40054,8 +40054,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred8_cs
     public final void synpred8_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:109:7: ( delegate_creation_expression )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:109:8: delegate_creation_expression
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:109:7: ( delegate_creation_expression )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:109:8: delegate_creation_expression
         {
         pushFollow(FOLLOW_delegate_creation_expression_in_synpred8_cs808);
         delegate_creation_expression();
@@ -40070,8 +40070,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred9_cs
     public final void synpred9_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:121:4: ( identifier '<' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:121:5: identifier '<'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:121:4: ( identifier '<' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:121:5: identifier '<'
         {
         pushFollow(FOLLOW_identifier_in_synpred9_cs921);
         identifier();
@@ -40088,8 +40088,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred10_cs
     public final void synpred10_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:4: ( '(' type ')' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:159:5: '(' type ')'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:4: ( '(' type ')' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:159:5: '(' type ')'
         {
         match(input,68,FOLLOW_68_in_synpred10_cs1178); if (state.failed) return ;
 
@@ -40108,8 +40108,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred11_cs
     public final void synpred11_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:187:2: ( array_creation_expression )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:187:3: array_creation_expression
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:187:2: ( array_creation_expression )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:187:3: array_creation_expression
         {
         pushFollow(FOLLOW_array_creation_expression_in_synpred11_cs1428);
         array_creation_expression();
@@ -40124,8 +40124,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred12_cs
     public final void synpred12_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:11: ( arguments ( '[' | '.' | '->' ) )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:196:12: arguments ( '[' | '.' | '->' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:11: ( arguments ( '[' | '.' | '->' ) )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:196:12: arguments ( '[' | '.' | '->' )
         {
         pushFollow(FOLLOW_arguments_in_synpred12_cs1508);
         arguments();
@@ -40152,8 +40152,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred13_cs
     public final void synpred13_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:267:20: ( unbound_type_name )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:267:21: unbound_type_name
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:267:20: ( unbound_type_name )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:267:21: unbound_type_name
         {
         pushFollow(FOLLOW_unbound_type_name_in_synpred13_cs2038);
         unbound_type_name();
@@ -40168,8 +40168,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred14_cs
     public final void synpred14_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:5: ( generic_dimension_specifier '.' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:277:6: generic_dimension_specifier '.'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:5: ( generic_dimension_specifier '.' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:277:6: generic_dimension_specifier '.'
         {
         pushFollow(FOLLOW_generic_dimension_specifier_in_synpred14_cs2096);
         generic_dimension_specifier();
@@ -40186,8 +40186,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred15_cs
     public final void synpred15_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:300:2: ( identifier '<' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:300:3: identifier '<'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:300:2: ( identifier '<' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:300:3: identifier '<'
         {
         pushFollow(FOLLOW_identifier_in_synpred15_cs2232);
         identifier();
@@ -40204,8 +40204,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred16_cs
     public final void synpred16_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:308:4: ( identifier '<' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:308:5: identifier '<'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:308:4: ( identifier '<' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:308:5: identifier '<'
         {
         pushFollow(FOLLOW_identifier_in_synpred16_cs2281);
         identifier();
@@ -40222,10 +40222,10 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred17_cs
     public final void synpred17_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:4: ( ( predefined_type | type_name ) rank_specifiers )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:5: ( predefined_type | type_name ) rank_specifiers
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:4: ( ( predefined_type | type_name ) rank_specifiers )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:5: ( predefined_type | type_name ) rank_specifiers
         {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:5: ( predefined_type | type_name )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:5: ( predefined_type | type_name )
         int alt295=2;
         int LA295_0 = input.LA(1);
 
@@ -40245,7 +40245,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt295) {
             case 1 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:6: predefined_type
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:6: predefined_type
                 {
                 pushFollow(FOLLOW_predefined_type_in_synpred17_cs2379);
                 predefined_type();
@@ -40256,7 +40256,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 2 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:325:24: type_name
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:325:24: type_name
                 {
                 pushFollow(FOLLOW_type_name_in_synpred17_cs2383);
                 type_name();
@@ -40283,10 +40283,10 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred18_cs
     public final void synpred18_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:4: ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:5: ( predefined_type | type_name ) ( ( '*' )+ | '?' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:4: ( ( predefined_type | type_name ) ( ( '*' )+ | '?' ) )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:5: ( predefined_type | type_name ) ( ( '*' )+ | '?' )
         {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:5: ( predefined_type | type_name )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:5: ( predefined_type | type_name )
         int alt296=2;
         int LA296_0 = input.LA(1);
 
@@ -40306,7 +40306,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt296) {
             case 1 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:6: predefined_type
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:6: predefined_type
                 {
                 pushFollow(FOLLOW_predefined_type_in_synpred18_cs2414);
                 predefined_type();
@@ -40317,7 +40317,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 2 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:24: type_name
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:24: type_name
                 {
                 pushFollow(FOLLOW_type_name_in_synpred18_cs2418);
                 type_name();
@@ -40331,7 +40331,7 @@ public TreeAdaptor getTreeAdaptor() {
         }
 
 
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:36: ( ( '*' )+ | '?' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:36: ( ( '*' )+ | '?' )
         int alt298=2;
         int LA298_0 = input.LA(1);
 
@@ -40351,9 +40351,9 @@ public TreeAdaptor getTreeAdaptor() {
         }
         switch (alt298) {
             case 1 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:37: ( '*' )+
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:37: ( '*' )+
                 {
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:37: ( '*' )+
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:37: ( '*' )+
                 int cnt297=0;
                 loop297:
                 do {
@@ -40367,7 +40367,7 @@ public TreeAdaptor getTreeAdaptor() {
 
                     switch (alt297) {
                 	case 1 :
-                	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:37: '*'
+                	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:37: '*'
                 	    {
                 	    match(input,69,FOLLOW_69_in_synpred18_cs2423); if (state.failed) return ;
 
@@ -40388,7 +40388,7 @@ public TreeAdaptor getTreeAdaptor() {
                 }
                 break;
             case 2 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:326:44: '?'
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:326:44: '?'
                 {
                 match(input,89,FOLLOW_89_in_synpred18_cs2428); if (state.failed) return ;
 
@@ -40405,8 +40405,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred19_cs
     public final void synpred19_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:362:2: ( unary_expression assignment_operator )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:362:3: unary_expression assignment_operator
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:362:2: ( unary_expression assignment_operator )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:362:3: unary_expression assignment_operator
         {
         pushFollow(FOLLOW_unary_expression_in_synpred19_cs2610);
         unary_expression();
@@ -40427,8 +40427,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred20_cs
     public final void synpred20_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:371:2: ( cast_expression )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:371:3: cast_expression
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:371:2: ( cast_expression )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:371:3: cast_expression
         {
         pushFollow(FOLLOW_cast_expression_in_synpred20_cs2672);
         cast_expression();
@@ -40443,8 +40443,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred21_cs
     public final void synpred21_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:397:2: ( anonymous_function_signature '=>' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:397:3: anonymous_function_signature '=>'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:397:2: ( anonymous_function_signature '=>' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:397:3: anonymous_function_signature '=>'
         {
         pushFollow(FOLLOW_anonymous_function_signature_in_synpred21_cs2888);
         anonymous_function_signature();
@@ -40461,8 +40461,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred22_cs
     public final void synpred22_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:398:4: ( query_expression )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:398:5: query_expression
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:398:4: ( query_expression )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:398:5: query_expression
         {
         pushFollow(FOLLOW_query_expression_in_synpred22_cs2903);
         query_expression();
@@ -40477,8 +40477,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred23_cs
     public final void synpred23_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:50: ( 'into' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:462:51: 'into'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:50: ( 'into' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:462:51: 'into'
         {
         match(input,141,FOLLOW_141_in_synpred23_cs3326); if (state.failed) return ;
 
@@ -40489,8 +40489,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred24_cs
     public final void synpred24_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:32: ( ',' identifier '=' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:529:33: ',' identifier '='
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:32: ( ',' identifier '=' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:529:33: ',' identifier '='
         {
         match(input,74,FOLLOW_74_in_synpred24_cs3828); if (state.failed) return ;
 
@@ -40509,8 +40509,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred25_cs
     public final void synpred25_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:610:4: ( member_name '{' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:610:5: member_name '{'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:610:4: ( member_name '{' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:610:5: member_name '{'
         {
         pushFollow(FOLLOW_member_name_in_synpred25_cs4354);
         member_name();
@@ -40527,8 +40527,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred26_cs
     public final void synpred26_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:717:14: ( member_name '(' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:717:15: member_name '('
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:717:14: ( member_name '(' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:717:15: member_name '('
         {
         pushFollow(FOLLOW_member_name_in_synpred26_cs5219);
         member_name();
@@ -40545,8 +40545,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred27_cs
     public final void synpred27_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:718:14: ( member_name '{' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:718:15: member_name '{'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:718:14: ( member_name '{' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:718:15: member_name '{'
         {
         pushFollow(FOLLOW_member_name_in_synpred27_cs5244);
         member_name();
@@ -40563,8 +40563,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred28_cs
     public final void synpred28_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:769:11: ( member_name '(' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:769:12: member_name '('
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:769:11: ( member_name '(' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:769:12: member_name '('
         {
         pushFollow(FOLLOW_member_name_in_synpred28_cs5692);
         member_name();
@@ -40581,8 +40581,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred29_cs
     public final void synpred29_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:770:8: ( member_name '{' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:770:9: member_name '{'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:770:8: ( member_name '{' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:770:9: member_name '{'
         {
         pushFollow(FOLLOW_member_name_in_synpred29_cs5711);
         member_name();
@@ -40599,8 +40599,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred30_cs
     public final void synpred30_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:771:8: ( member_name '.' 'this' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:771:9: member_name '.' 'this'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:771:8: ( member_name '.' 'this' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:771:9: member_name '.' 'this'
         {
         pushFollow(FOLLOW_member_name_in_synpred30_cs5730);
         member_name();
@@ -40619,8 +40619,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred31_cs
     public final void synpred31_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:23: ( arguments ( '[' | '.' | '->' ) )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:843:24: arguments ( '[' | '.' | '->' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:23: ( arguments ( '[' | '.' | '->' ) )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:843:24: arguments ( '[' | '.' | '->' )
         {
         pushFollow(FOLLOW_arguments_in_synpred31_cs6284);
         arguments();
@@ -40647,8 +40647,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred32_cs
     public final void synpred32_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:847:4: ( identifier '<' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:847:5: identifier '<'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:847:4: ( identifier '<' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:847:5: identifier '<'
         {
         pushFollow(FOLLOW_identifier_in_synpred32_cs6335);
         identifier();
@@ -40665,8 +40665,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred33_cs
     public final void synpred33_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:860:2: ( declaration_statement )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:860:3: declaration_statement
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:860:2: ( declaration_statement )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:860:3: declaration_statement
         {
         pushFollow(FOLLOW_declaration_statement_in_synpred33_cs6421);
         declaration_statement();
@@ -40681,8 +40681,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred34_cs
     public final void synpred34_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:861:4: ( identifier ':' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:861:5: identifier ':'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:861:4: ( identifier ':' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:861:5: identifier ':'
         {
         pushFollow(FOLLOW_identifier_in_synpred34_cs6432);
         identifier();
@@ -40699,8 +40699,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred35_cs
     public final void synpred35_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:898:2: ( 'var' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:898:3: 'var'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:898:2: ( 'var' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:898:3: 'var'
         {
         match(input,190,FOLLOW_190_in_synpred35_cs6660); if (state.failed) return ;
 
@@ -40711,8 +40711,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred36_cs
     public final void synpred36_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:899:4: ( 'dynamic' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:899:5: 'dynamic'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:899:4: ( 'dynamic' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:899:5: 'dynamic'
         {
         match(input,120,FOLLOW_120_in_synpred36_cs6671); if (state.failed) return ;
 
@@ -40723,8 +40723,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred37_cs
     public final void synpred37_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:925:62: ( 'else' )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:925:63: 'else'
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:925:62: ( 'else' )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:925:63: 'else'
         {
         match(input,121,FOLLOW_121_in_synpred37_cs6838); if (state.failed) return ;
 
@@ -40735,8 +40735,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred38_cs
     public final void synpred38_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:954:2: ( local_variable_declaration )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:954:3: local_variable_declaration
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:954:2: ( local_variable_declaration )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:954:3: local_variable_declaration
         {
         pushFollow(FOLLOW_local_variable_declaration_in_synpred38_cs7089);
         local_variable_declaration();
@@ -40751,8 +40751,8 @@ public TreeAdaptor getTreeAdaptor() {
 
     // $ANTLR start synpred39_cs
     public final void synpred39_cs_fragment() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1006:2: ( local_variable_declaration )
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1006:3: local_variable_declaration
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1006:2: ( local_variable_declaration )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1006:3: local_variable_declaration
         {
         pushFollow(FOLLOW_local_variable_declaration_in_synpred39_cs7502);
         local_variable_declaration();

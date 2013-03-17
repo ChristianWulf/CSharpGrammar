@@ -1,4 +1,4 @@
-// $ANTLR 3.4 C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g 2013-02-05 11:22:29
+// $ANTLR 3.4 C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g 2013-03-17 19:57:58
 
   package lang.csharp;
 
@@ -224,15 +224,15 @@ public class csLexer extends Lexer {
     public csLexer(CharStream input, RecognizerSharedState state) {
         super(input,state);
     }
-    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g"; }
+    public String getGrammarFileName() { return "C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g"; }
 
     // $ANTLR start "T__61"
     public final void mT__61() throws RecognitionException {
         try {
             int _type = T__61;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:11:7: ( '!' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:11:9: '!'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:11:7: ( '!' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:11:9: '!'
             {
             match('!'); 
 
@@ -252,8 +252,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__62;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:12:7: ( '!=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:12:9: '!='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:12:7: ( '!=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:12:9: '!='
             {
             match("!="); 
 
@@ -275,8 +275,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__63;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:13:7: ( '%' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:13:9: '%'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:13:7: ( '%' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:13:9: '%'
             {
             match('%'); 
 
@@ -296,8 +296,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__64;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:14:7: ( '%=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:14:9: '%='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:14:7: ( '%=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:14:9: '%='
             {
             match("%="); 
 
@@ -319,8 +319,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__65;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:15:7: ( '&&' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:15:9: '&&'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:15:7: ( '&&' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:15:9: '&&'
             {
             match("&&"); 
 
@@ -342,8 +342,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__66;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:16:7: ( '&' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:16:9: '&'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:16:7: ( '&' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:16:9: '&'
             {
             match('&'); 
 
@@ -363,8 +363,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__67;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:17:7: ( '&=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:17:9: '&='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:17:7: ( '&=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:17:9: '&='
             {
             match("&="); 
 
@@ -386,8 +386,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__68;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:18:7: ( '(' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:18:9: '('
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:18:7: ( '(' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:18:9: '('
             {
             match('('); 
 
@@ -407,8 +407,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__69;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:19:7: ( '*' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:19:9: '*'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:19:7: ( '*' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:19:9: '*'
             {
             match('*'); 
 
@@ -428,8 +428,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__70;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:20:7: ( '*=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:20:9: '*='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:20:7: ( '*=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:20:9: '*='
             {
             match("*="); 
 
@@ -451,8 +451,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__71;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:21:7: ( '+' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:21:9: '+'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:21:7: ( '+' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:21:9: '+'
             {
             match('+'); 
 
@@ -472,8 +472,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__72;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:22:7: ( '++' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:22:9: '++'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:22:7: ( '++' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:22:9: '++'
             {
             match("++"); 
 
@@ -495,8 +495,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__73;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:23:7: ( '+=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:23:9: '+='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:23:7: ( '+=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:23:9: '+='
             {
             match("+="); 
 
@@ -518,8 +518,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__74;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:24:7: ( ',' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:24:9: ','
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:24:7: ( ',' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:24:9: ','
             {
             match(','); 
 
@@ -539,8 +539,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__75;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:25:7: ( '--' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:25:9: '--'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:25:7: ( '--' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:25:9: '--'
             {
             match("--"); 
 
@@ -562,8 +562,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__76;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:26:7: ( '-=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:26:9: '-='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:26:7: ( '-=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:26:9: '-='
             {
             match("-="); 
 
@@ -585,8 +585,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__77;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:27:7: ( '/' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:27:9: '/'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:27:7: ( '/' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:27:9: '/'
             {
             match('/'); 
 
@@ -606,8 +606,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__78;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:28:7: ( '/=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:28:9: '/='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:28:7: ( '/=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:28:9: '/='
             {
             match("/="); 
 
@@ -629,8 +629,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__79;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:29:7: ( ':' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:29:9: ':'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:29:7: ( ':' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:29:9: ':'
             {
             match(':'); 
 
@@ -650,8 +650,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__80;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:30:7: ( '::' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:30:9: '::'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:30:7: ( '::' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:30:9: '::'
             {
             match("::"); 
 
@@ -673,8 +673,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__81;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:7: ( '<' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:31:9: '<'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:7: ( '<' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:31:9: '<'
             {
             match('<'); 
 
@@ -694,8 +694,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__82;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:32:7: ( '<<' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:32:9: '<<'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:32:7: ( '<<' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:32:9: '<<'
             {
             match("<<"); 
 
@@ -717,8 +717,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__83;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:33:7: ( '<<=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:33:9: '<<='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:33:7: ( '<<=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:33:9: '<<='
             {
             match("<<="); 
 
@@ -740,8 +740,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__84;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:34:7: ( '<=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:34:9: '<='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:34:7: ( '<=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:34:9: '<='
             {
             match("<="); 
 
@@ -763,8 +763,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__85;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:35:7: ( '=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:35:9: '='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:35:7: ( '=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:35:9: '='
             {
             match('='); 
 
@@ -784,8 +784,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__86;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:36:7: ( '==' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:36:9: '=='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:36:7: ( '==' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:36:9: '=='
             {
             match("=="); 
 
@@ -807,8 +807,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__87;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:37:7: ( '=>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:37:9: '=>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:37:7: ( '=>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:37:9: '=>'
             {
             match("=>"); 
 
@@ -830,8 +830,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__88;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:38:7: ( '>=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:38:9: '>='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:38:7: ( '>=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:38:9: '>='
             {
             match(">="); 
 
@@ -853,8 +853,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__89;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:39:7: ( '?' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:39:9: '?'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:39:7: ( '?' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:39:9: '?'
             {
             match('?'); 
 
@@ -874,8 +874,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__90;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:40:7: ( '??' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:40:9: '??'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:40:7: ( '??' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:40:9: '??'
             {
             match("??"); 
 
@@ -897,8 +897,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__91;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:41:7: ( '[' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:41:9: '['
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:41:7: ( '[' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:41:9: '['
             {
             match('['); 
 
@@ -918,8 +918,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__92;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:42:7: ( ']' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:42:9: ']'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:42:7: ( ']' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:42:9: ']'
             {
             match(']'); 
 
@@ -939,8 +939,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__93;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:43:7: ( '^' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:43:9: '^'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:43:7: ( '^' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:43:9: '^'
             {
             match('^'); 
 
@@ -960,8 +960,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__94;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:44:7: ( '^=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:44:9: '^='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:44:7: ( '^=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:44:9: '^='
             {
             match("^="); 
 
@@ -983,8 +983,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__95;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:45:7: ( '__arglist' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:45:9: '__arglist'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:45:7: ( '__arglist' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:45:9: '__arglist'
             {
             match("__arglist"); 
 
@@ -1006,8 +1006,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__96;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:46:7: ( 'abstract' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:46:9: 'abstract'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:46:7: ( 'abstract' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:46:9: 'abstract'
             {
             match("abstract"); 
 
@@ -1029,8 +1029,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__97;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:47:7: ( 'add' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:47:9: 'add'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:47:7: ( 'add' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:47:9: 'add'
             {
             match("add"); 
 
@@ -1052,8 +1052,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__98;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:48:7: ( 'alias' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:48:9: 'alias'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:48:7: ( 'alias' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:48:9: 'alias'
             {
             match("alias"); 
 
@@ -1075,8 +1075,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__99;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:7: ( 'as' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:49:9: 'as'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:7: ( 'as' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:49:9: 'as'
             {
             match("as"); 
 
@@ -1098,8 +1098,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__100;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:50:8: ( 'ascending' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:50:10: 'ascending'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:50:8: ( 'ascending' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:50:10: 'ascending'
             {
             match("ascending"); 
 
@@ -1121,8 +1121,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__101;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:8: ( 'assembly' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:51:10: 'assembly'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:8: ( 'assembly' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:51:10: 'assembly'
             {
             match("assembly"); 
 
@@ -1144,8 +1144,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__102;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:52:8: ( 'base' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:52:10: 'base'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:52:8: ( 'base' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:52:10: 'base'
             {
             match("base"); 
 
@@ -1167,8 +1167,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__103;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:53:8: ( 'bool' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:53:10: 'bool'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:53:8: ( 'bool' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:53:10: 'bool'
             {
             match("bool"); 
 
@@ -1190,8 +1190,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__104;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:54:8: ( 'break' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:54:10: 'break'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:54:8: ( 'break' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:54:10: 'break'
             {
             match("break"); 
 
@@ -1213,8 +1213,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__105;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:55:8: ( 'by' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:55:10: 'by'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:55:8: ( 'by' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:55:10: 'by'
             {
             match("by"); 
 
@@ -1236,8 +1236,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__106;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:56:8: ( 'byte' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:56:10: 'byte'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:56:8: ( 'byte' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:56:10: 'byte'
             {
             match("byte"); 
 
@@ -1259,8 +1259,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__107;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:57:8: ( 'case' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:57:10: 'case'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:57:8: ( 'case' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:57:10: 'case'
             {
             match("case"); 
 
@@ -1282,8 +1282,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__108;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:58:8: ( 'catch' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:58:10: 'catch'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:58:8: ( 'catch' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:58:10: 'catch'
             {
             match("catch"); 
 
@@ -1305,8 +1305,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__109;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:59:8: ( 'char' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:59:10: 'char'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:59:8: ( 'char' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:59:10: 'char'
             {
             match("char"); 
 
@@ -1328,8 +1328,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__110;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:60:8: ( 'checked' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:60:10: 'checked'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:60:8: ( 'checked' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:60:10: 'checked'
             {
             match("checked"); 
 
@@ -1351,8 +1351,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__111;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:61:8: ( 'class' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:61:10: 'class'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:61:8: ( 'class' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:61:10: 'class'
             {
             match("class"); 
 
@@ -1374,8 +1374,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__112;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:62:8: ( 'const' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:62:10: 'const'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:62:8: ( 'const' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:62:10: 'const'
             {
             match("const"); 
 
@@ -1397,8 +1397,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__113;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:63:8: ( 'continue' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:63:10: 'continue'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:63:8: ( 'continue' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:63:10: 'continue'
             {
             match("continue"); 
 
@@ -1420,8 +1420,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__114;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:64:8: ( 'decimal' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:64:10: 'decimal'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:64:8: ( 'decimal' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:64:10: 'decimal'
             {
             match("decimal"); 
 
@@ -1443,8 +1443,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__115;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:65:8: ( 'default' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:65:10: 'default'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:65:8: ( 'default' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:65:10: 'default'
             {
             match("default"); 
 
@@ -1466,8 +1466,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__116;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:66:8: ( 'delegate' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:66:10: 'delegate'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:66:8: ( 'delegate' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:66:10: 'delegate'
             {
             match("delegate"); 
 
@@ -1489,8 +1489,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__117;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:67:8: ( 'descending' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:67:10: 'descending'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:67:8: ( 'descending' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:67:10: 'descending'
             {
             match("descending"); 
 
@@ -1512,8 +1512,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__118;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:68:8: ( 'do' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:68:10: 'do'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:68:8: ( 'do' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:68:10: 'do'
             {
             match("do"); 
 
@@ -1535,8 +1535,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__119;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:69:8: ( 'double' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:69:10: 'double'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:69:8: ( 'double' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:69:10: 'double'
             {
             match("double"); 
 
@@ -1558,8 +1558,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__120;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:70:8: ( 'dynamic' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:70:10: 'dynamic'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:70:8: ( 'dynamic' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:70:10: 'dynamic'
             {
             match("dynamic"); 
 
@@ -1581,8 +1581,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__121;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:71:8: ( 'else' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:71:10: 'else'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:71:8: ( 'else' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:71:10: 'else'
             {
             match("else"); 
 
@@ -1604,8 +1604,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__122;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:72:8: ( 'equals' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:72:10: 'equals'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:72:8: ( 'equals' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:72:10: 'equals'
             {
             match("equals"); 
 
@@ -1627,8 +1627,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__123;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:73:8: ( 'event' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:73:10: 'event'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:73:8: ( 'event' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:73:10: 'event'
             {
             match("event"); 
 
@@ -1650,8 +1650,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__124;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:74:8: ( 'explicit' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:74:10: 'explicit'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:74:8: ( 'explicit' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:74:10: 'explicit'
             {
             match("explicit"); 
 
@@ -1673,8 +1673,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__125;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:75:8: ( 'extern' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:75:10: 'extern'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:75:8: ( 'extern' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:75:10: 'extern'
             {
             match("extern"); 
 
@@ -1696,8 +1696,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__126;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:76:8: ( 'field' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:76:10: 'field'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:76:8: ( 'field' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:76:10: 'field'
             {
             match("field"); 
 
@@ -1719,8 +1719,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__127;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:77:8: ( 'finally' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:77:10: 'finally'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:77:8: ( 'finally' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:77:10: 'finally'
             {
             match("finally"); 
 
@@ -1742,8 +1742,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__128;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:78:8: ( 'fixed' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:78:10: 'fixed'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:78:8: ( 'fixed' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:78:10: 'fixed'
             {
             match("fixed"); 
 
@@ -1765,8 +1765,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__129;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:79:8: ( 'float' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:79:10: 'float'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:79:8: ( 'float' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:79:10: 'float'
             {
             match("float"); 
 
@@ -1788,8 +1788,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__130;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:80:8: ( 'for' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:80:10: 'for'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:80:8: ( 'for' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:80:10: 'for'
             {
             match("for"); 
 
@@ -1811,8 +1811,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__131;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:81:8: ( 'foreach' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:81:10: 'foreach'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:81:8: ( 'foreach' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:81:10: 'foreach'
             {
             match("foreach"); 
 
@@ -1834,8 +1834,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__132;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:8: ( 'from' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:82:10: 'from'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:8: ( 'from' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:82:10: 'from'
             {
             match("from"); 
 
@@ -1857,8 +1857,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__133;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:83:8: ( 'get' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:83:10: 'get'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:83:8: ( 'get' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:83:10: 'get'
             {
             match("get"); 
 
@@ -1880,8 +1880,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__134;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:84:8: ( 'goto' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:84:10: 'goto'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:84:8: ( 'goto' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:84:10: 'goto'
             {
             match("goto"); 
 
@@ -1903,8 +1903,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__135;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:85:8: ( 'group' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:85:10: 'group'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:85:8: ( 'group' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:85:10: 'group'
             {
             match("group"); 
 
@@ -1926,8 +1926,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__136;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:86:8: ( 'implicit' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:86:10: 'implicit'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:86:8: ( 'implicit' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:86:10: 'implicit'
             {
             match("implicit"); 
 
@@ -1949,8 +1949,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__137;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:87:8: ( 'in' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:87:10: 'in'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:87:8: ( 'in' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:87:10: 'in'
             {
             match("in"); 
 
@@ -1972,8 +1972,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__138;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:88:8: ( 'int' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:88:10: 'int'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:88:8: ( 'int' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:88:10: 'int'
             {
             match("int"); 
 
@@ -1995,8 +1995,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__139;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:89:8: ( 'interface' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:89:10: 'interface'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:89:8: ( 'interface' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:89:10: 'interface'
             {
             match("interface"); 
 
@@ -2018,8 +2018,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__140;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:90:8: ( 'internal' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:90:10: 'internal'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:90:8: ( 'internal' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:90:10: 'internal'
             {
             match("internal"); 
 
@@ -2041,8 +2041,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__141;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:91:8: ( 'into' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:91:10: 'into'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:91:8: ( 'into' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:91:10: 'into'
             {
             match("into"); 
 
@@ -2064,8 +2064,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__142;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:92:8: ( 'is' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:92:10: 'is'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:92:8: ( 'is' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:92:10: 'is'
             {
             match("is"); 
 
@@ -2087,8 +2087,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__143;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:93:8: ( 'join' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:93:10: 'join'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:93:8: ( 'join' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:93:10: 'join'
             {
             match("join"); 
 
@@ -2110,8 +2110,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__144;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:94:8: ( 'let' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:94:10: 'let'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:94:8: ( 'let' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:94:10: 'let'
             {
             match("let"); 
 
@@ -2133,8 +2133,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__145;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:95:8: ( 'lock' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:95:10: 'lock'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:95:8: ( 'lock' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:95:10: 'lock'
             {
             match("lock"); 
 
@@ -2156,8 +2156,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__146;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:96:8: ( 'long' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:96:10: 'long'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:96:8: ( 'long' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:96:10: 'long'
             {
             match("long"); 
 
@@ -2179,8 +2179,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__147;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:97:8: ( 'method' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:97:10: 'method'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:97:8: ( 'method' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:97:10: 'method'
             {
             match("method"); 
 
@@ -2202,8 +2202,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__148;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:98:8: ( 'module' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:98:10: 'module'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:98:8: ( 'module' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:98:10: 'module'
             {
             match("module"); 
 
@@ -2225,8 +2225,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__149;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:99:8: ( 'namespace' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:99:10: 'namespace'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:99:8: ( 'namespace' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:99:10: 'namespace'
             {
             match("namespace"); 
 
@@ -2248,8 +2248,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__150;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:100:8: ( 'new' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:100:10: 'new'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:100:8: ( 'new' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:100:10: 'new'
             {
             match("new"); 
 
@@ -2271,8 +2271,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__151;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:101:8: ( 'object' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:101:10: 'object'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:101:8: ( 'object' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:101:10: 'object'
             {
             match("object"); 
 
@@ -2294,8 +2294,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__152;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:8: ( 'on' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:102:10: 'on'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:8: ( 'on' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:102:10: 'on'
             {
             match("on"); 
 
@@ -2317,8 +2317,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__153;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:8: ( 'operator' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:103:10: 'operator'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:8: ( 'operator' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:103:10: 'operator'
             {
             match("operator"); 
 
@@ -2340,8 +2340,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__154;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:104:8: ( 'orderby' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:104:10: 'orderby'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:104:8: ( 'orderby' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:104:10: 'orderby'
             {
             match("orderby"); 
 
@@ -2363,8 +2363,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__155;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:8: ( 'out' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:105:10: 'out'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:8: ( 'out' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:105:10: 'out'
             {
             match("out"); 
 
@@ -2386,8 +2386,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__156;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:106:8: ( 'override' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:106:10: 'override'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:106:8: ( 'override' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:106:10: 'override'
             {
             match("override"); 
 
@@ -2409,8 +2409,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__157;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:107:8: ( 'param' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:107:10: 'param'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:107:8: ( 'param' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:107:10: 'param'
             {
             match("param"); 
 
@@ -2432,8 +2432,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__158;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:108:8: ( 'params' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:108:10: 'params'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:108:8: ( 'params' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:108:10: 'params'
             {
             match("params"); 
 
@@ -2455,8 +2455,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__159;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:109:8: ( 'partial' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:109:10: 'partial'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:109:8: ( 'partial' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:109:10: 'partial'
             {
             match("partial"); 
 
@@ -2478,8 +2478,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__160;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:110:8: ( 'pragma' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:110:10: 'pragma'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:110:8: ( 'pragma' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:110:10: 'pragma'
             {
             match("pragma"); 
 
@@ -2501,8 +2501,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__161;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:111:8: ( 'private' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:111:10: 'private'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:111:8: ( 'private' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:111:10: 'private'
             {
             match("private"); 
 
@@ -2524,8 +2524,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__162;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:112:8: ( 'property' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:112:10: 'property'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:112:8: ( 'property' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:112:10: 'property'
             {
             match("property"); 
 
@@ -2547,8 +2547,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__163;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:113:8: ( 'protected' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:113:10: 'protected'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:113:8: ( 'protected' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:113:10: 'protected'
             {
             match("protected"); 
 
@@ -2570,8 +2570,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__164;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:114:8: ( 'public' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:114:10: 'public'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:114:8: ( 'public' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:114:10: 'public'
             {
             match("public"); 
 
@@ -2593,8 +2593,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__165;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:115:8: ( 'readonly' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:115:10: 'readonly'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:115:8: ( 'readonly' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:115:10: 'readonly'
             {
             match("readonly"); 
 
@@ -2616,8 +2616,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__166;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:116:8: ( 'ref' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:116:10: 'ref'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:116:8: ( 'ref' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:116:10: 'ref'
             {
             match("ref"); 
 
@@ -2639,8 +2639,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__167;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:117:8: ( 'remove' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:117:10: 'remove'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:117:8: ( 'remove' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:117:10: 'remove'
             {
             match("remove"); 
 
@@ -2662,8 +2662,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__168;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:118:8: ( 'return' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:118:10: 'return'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:118:8: ( 'return' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:118:10: 'return'
             {
             match("return"); 
 
@@ -2685,8 +2685,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__169;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:119:8: ( 'sbyte' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:119:10: 'sbyte'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:119:8: ( 'sbyte' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:119:10: 'sbyte'
             {
             match("sbyte"); 
 
@@ -2708,8 +2708,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__170;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:120:8: ( 'sealed' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:120:10: 'sealed'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:120:8: ( 'sealed' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:120:10: 'sealed'
             {
             match("sealed"); 
 
@@ -2731,8 +2731,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__171;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:121:8: ( 'select' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:121:10: 'select'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:121:8: ( 'select' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:121:10: 'select'
             {
             match("select"); 
 
@@ -2754,8 +2754,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__172;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:122:8: ( 'set' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:122:10: 'set'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:122:8: ( 'set' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:122:10: 'set'
             {
             match("set"); 
 
@@ -2777,8 +2777,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__173;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:123:8: ( 'short' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:123:10: 'short'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:123:8: ( 'short' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:123:10: 'short'
             {
             match("short"); 
 
@@ -2800,8 +2800,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__174;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:124:8: ( 'sizeof' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:124:10: 'sizeof'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:124:8: ( 'sizeof' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:124:10: 'sizeof'
             {
             match("sizeof"); 
 
@@ -2823,8 +2823,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__175;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:125:8: ( 'stackalloc' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:125:10: 'stackalloc'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:125:8: ( 'stackalloc' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:125:10: 'stackalloc'
             {
             match("stackalloc"); 
 
@@ -2846,8 +2846,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__176;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:126:8: ( 'static' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:126:10: 'static'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:126:8: ( 'static' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:126:10: 'static'
             {
             match("static"); 
 
@@ -2869,8 +2869,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__177;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:127:8: ( 'string' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:127:10: 'string'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:127:8: ( 'string' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:127:10: 'string'
             {
             match("string"); 
 
@@ -2892,8 +2892,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__178;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:128:8: ( 'struct' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:128:10: 'struct'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:128:8: ( 'struct' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:128:10: 'struct'
             {
             match("struct"); 
 
@@ -2915,8 +2915,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__179;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:129:8: ( 'switch' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:129:10: 'switch'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:129:8: ( 'switch' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:129:10: 'switch'
             {
             match("switch"); 
 
@@ -2938,8 +2938,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__180;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:130:8: ( 'this' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:130:10: 'this'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:130:8: ( 'this' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:130:10: 'this'
             {
             match("this"); 
 
@@ -2961,8 +2961,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__181;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:131:8: ( 'throw' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:131:10: 'throw'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:131:8: ( 'throw' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:131:10: 'throw'
             {
             match("throw"); 
 
@@ -2984,8 +2984,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__182;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:132:8: ( 'try' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:132:10: 'try'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:132:8: ( 'try' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:132:10: 'try'
             {
             match("try"); 
 
@@ -3007,8 +3007,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__183;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:133:8: ( 'type' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:133:10: 'type'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:133:8: ( 'type' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:133:10: 'type'
             {
             match("type"); 
 
@@ -3030,8 +3030,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__184;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:134:8: ( 'typeof' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:134:10: 'typeof'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:134:8: ( 'typeof' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:134:10: 'typeof'
             {
             match("typeof"); 
 
@@ -3053,8 +3053,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__185;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:135:8: ( 'uint' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:135:10: 'uint'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:135:8: ( 'uint' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:135:10: 'uint'
             {
             match("uint"); 
 
@@ -3076,8 +3076,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__186;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:136:8: ( 'ulong' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:136:10: 'ulong'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:136:8: ( 'ulong' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:136:10: 'ulong'
             {
             match("ulong"); 
 
@@ -3099,8 +3099,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__187;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:137:8: ( 'unchecked' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:137:10: 'unchecked'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:137:8: ( 'unchecked' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:137:10: 'unchecked'
             {
             match("unchecked"); 
 
@@ -3122,8 +3122,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__188;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:138:8: ( 'unsafe' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:138:10: 'unsafe'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:138:8: ( 'unsafe' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:138:10: 'unsafe'
             {
             match("unsafe"); 
 
@@ -3145,8 +3145,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__189;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:139:8: ( 'ushort' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:139:10: 'ushort'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:139:8: ( 'ushort' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:139:10: 'ushort'
             {
             match("ushort"); 
 
@@ -3168,8 +3168,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__190;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:140:8: ( 'var' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:140:10: 'var'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:140:8: ( 'var' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:140:10: 'var'
             {
             match("var"); 
 
@@ -3191,8 +3191,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__191;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:141:8: ( 'virtual' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:141:10: 'virtual'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:141:8: ( 'virtual' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:141:10: 'virtual'
             {
             match("virtual"); 
 
@@ -3214,8 +3214,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__192;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:142:8: ( 'void' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:142:10: 'void'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:142:8: ( 'void' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:142:10: 'void'
             {
             match("void"); 
 
@@ -3237,8 +3237,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__193;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:143:8: ( 'volatile' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:143:10: 'volatile'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:143:8: ( 'volatile' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:143:10: 'volatile'
             {
             match("volatile"); 
 
@@ -3260,8 +3260,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__194;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:144:8: ( 'where' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:144:10: 'where'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:144:8: ( 'where' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:144:10: 'where'
             {
             match("where"); 
 
@@ -3283,8 +3283,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__195;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:145:8: ( 'while' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:145:10: 'while'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:145:8: ( 'while' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:145:10: 'while'
             {
             match("while"); 
 
@@ -3306,8 +3306,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__196;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:146:8: ( 'yield' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:146:10: 'yield'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:146:8: ( 'yield' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:146:10: 'yield'
             {
             match("yield"); 
 
@@ -3329,8 +3329,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__197;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:147:8: ( '{' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:147:10: '{'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:147:8: ( '{' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:147:10: '{'
             {
             match('{'); 
 
@@ -3350,8 +3350,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__198;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:148:8: ( '|' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:148:10: '|'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:148:8: ( '|' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:148:10: '|'
             {
             match('|'); 
 
@@ -3371,8 +3371,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__199;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:149:8: ( '|=' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:149:10: '|='
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:149:8: ( '|=' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:149:10: '|='
             {
             match("|="); 
 
@@ -3394,8 +3394,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__200;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:150:8: ( '||' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:150:10: '||'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:150:8: ( '||' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:150:10: '||'
             {
             match("||"); 
 
@@ -3417,8 +3417,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__201;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:151:8: ( '}' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:151:10: '}'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:151:8: ( '}' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:151:10: '}'
             {
             match('}'); 
 
@@ -3438,8 +3438,8 @@ public class csLexer extends Lexer {
         try {
             int _type = T__202;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:152:8: ( '~' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:152:10: '~'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:152:8: ( '~' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:152:10: '~'
             {
             match('~'); 
 
@@ -3459,8 +3459,8 @@ public class csLexer extends Lexer {
         try {
             int _type = TRUE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1046:6: ( 'true' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1046:8: 'true'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1046:6: ( 'true' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1046:8: 'true'
             {
             match("true"); 
 
@@ -3482,8 +3482,8 @@ public class csLexer extends Lexer {
         try {
             int _type = FALSE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1047:6: ( 'false' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1047:8: 'false'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1047:6: ( 'false' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1047:8: 'false'
             {
             match("false"); 
 
@@ -3505,8 +3505,8 @@ public class csLexer extends Lexer {
         try {
             int _type = NULL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1048:6: ( 'null' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1048:8: 'null'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1048:6: ( 'null' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1048:8: 'null'
             {
             match("null"); 
 
@@ -3528,8 +3528,8 @@ public class csLexer extends Lexer {
         try {
             int _type = DOT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1049:5: ( '.' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1049:7: '.'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1049:5: ( '.' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1049:7: '.'
             {
             match('.'); 
 
@@ -3549,8 +3549,8 @@ public class csLexer extends Lexer {
         try {
             int _type = PTR;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1050:5: ( '->' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1050:7: '->'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1050:5: ( '->' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1050:7: '->'
             {
             match("->"); 
 
@@ -3572,8 +3572,8 @@ public class csLexer extends Lexer {
         try {
             int _type = MINUS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1051:7: ( '-' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1051:9: '-'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1051:7: ( '-' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1051:9: '-'
             {
             match('-'); 
 
@@ -3593,8 +3593,8 @@ public class csLexer extends Lexer {
         try {
             int _type = GT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1052:4: ( '>' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1052:6: '>'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1052:4: ( '>' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1052:6: '>'
             {
             match('>'); 
 
@@ -3614,8 +3614,8 @@ public class csLexer extends Lexer {
         try {
             int _type = USING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1053:7: ( 'using' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1053:9: 'using'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1053:7: ( 'using' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1053:9: 'using'
             {
             match("using"); 
 
@@ -3637,8 +3637,8 @@ public class csLexer extends Lexer {
         try {
             int _type = ENUM;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1054:6: ( 'enum' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1054:8: 'enum'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1054:6: ( 'enum' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1054:8: 'enum'
             {
             match("enum"); 
 
@@ -3660,8 +3660,8 @@ public class csLexer extends Lexer {
         try {
             int _type = IF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1055:3: ( 'if' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1055:5: 'if'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1055:3: ( 'if' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1055:5: 'if'
             {
             match("if"); 
 
@@ -3683,8 +3683,8 @@ public class csLexer extends Lexer {
         try {
             int _type = ELIF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1056:5: ( 'elif' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1056:7: 'elif'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1056:5: ( 'elif' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1056:7: 'elif'
             {
             match("elif"); 
 
@@ -3706,8 +3706,8 @@ public class csLexer extends Lexer {
         try {
             int _type = ENDIF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1057:6: ( 'endif' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1057:8: 'endif'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1057:6: ( 'endif' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1057:8: 'endif'
             {
             match("endif"); 
 
@@ -3729,8 +3729,8 @@ public class csLexer extends Lexer {
         try {
             int _type = DEFINE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1058:7: ( 'define' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1058:9: 'define'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1058:7: ( 'define' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1058:9: 'define'
             {
             match("define"); 
 
@@ -3752,8 +3752,8 @@ public class csLexer extends Lexer {
         try {
             int _type = UNDEF;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1059:6: ( 'undef' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1059:8: 'undef'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1059:6: ( 'undef' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1059:8: 'undef'
             {
             match("undef"); 
 
@@ -3775,8 +3775,8 @@ public class csLexer extends Lexer {
         try {
             int _type = SEMI;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1060:5: ( ';' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1060:7: ';'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1060:5: ( ';' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1060:7: ';'
             {
             match(';'); 
 
@@ -3796,8 +3796,8 @@ public class csLexer extends Lexer {
         try {
             int _type = RPAREN;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1061:7: ( ')' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1061:9: ')'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1061:7: ( ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1061:9: ')'
             {
             match(')'); 
 
@@ -3817,8 +3817,8 @@ public class csLexer extends Lexer {
         try {
             int _type = WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1063:5: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1063:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1063:5: ( ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1063:8: ( ' ' | '\\r' | '\\t' | '\\u000C' | '\\n' )
             {
             if ( (input.LA(1) >= '\t' && input.LA(1) <= '\n')||(input.LA(1) >= '\f' && input.LA(1) <= '\r')||input.LA(1)==' ' ) {
                 input.consume();
@@ -3846,8 +3846,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "TS"
     public final void mTS() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1067:3: ( ( ' ' | '\\t' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1067:3: ( ( ' ' | '\\t' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                 input.consume();
@@ -3874,17 +3874,17 @@ public class csLexer extends Lexer {
         try {
             int _type = DOC_LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:5: ( ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:8: ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:5: ( ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:8: ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:8: ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:9: '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:8: ( '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:9: '///' (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )+
             {
             match("///"); 
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:15: (~ ( '\\n' | '\\r' ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:15: (~ ( '\\n' | '\\r' ) )*
             loop1:
             do {
                 int alt1=2;
@@ -3897,7 +3897,7 @@ public class csLexer extends Lexer {
 
                 switch (alt1) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -3918,7 +3918,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1070:30: ( '\\r' | '\\n' )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1070:30: ( '\\r' | '\\n' )+
             int cnt2=0;
             loop2:
             do {
@@ -3932,7 +3932,7 @@ public class csLexer extends Lexer {
 
                 switch (alt2) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\n'||input.LA(1)=='\r' ) {
             	        input.consume();
@@ -3976,14 +3976,14 @@ public class csLexer extends Lexer {
         try {
             int _type = COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1074:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1074:9: '/*' ( options {greedy=false; } : . )* '*/'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1074:5: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1074:9: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1074:14: ( options {greedy=false; } : . )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1074:14: ( options {greedy=false; } : . )*
             loop3:
             do {
                 int alt3=2;
@@ -4008,7 +4008,7 @@ public class csLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1074:42: .
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1074:42: .
             	    {
             	    matchAny(); 
 
@@ -4043,14 +4043,14 @@ public class csLexer extends Lexer {
         try {
             int _type = LINE_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1078:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1078:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1078:5: ( '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1078:7: '//' (~ ( '\\n' | '\\r' ) )* ( '\\r' )? '\\n'
             {
             match("//"); 
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1078:12: (~ ( '\\n' | '\\r' ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1078:12: (~ ( '\\n' | '\\r' ) )*
             loop4:
             do {
                 int alt4=2;
@@ -4063,7 +4063,7 @@ public class csLexer extends Lexer {
 
                 switch (alt4) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -4084,7 +4084,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1078:26: ( '\\r' )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1078:26: ( '\\r' )?
             int alt5=2;
             int LA5_0 = input.LA(1);
 
@@ -4093,7 +4093,7 @@ public class csLexer extends Lexer {
             }
             switch (alt5) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1078:26: '\\r'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1078:26: '\\r'
                     {
                     match('\r'); 
 
@@ -4123,12 +4123,12 @@ public class csLexer extends Lexer {
         try {
             int _type = STRINGLITERAL;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1082:2: ( '\"' ( EscapeSequence |~ ( '\"' | '\\\\' ) )* '\"' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1083:2: '\"' ( EscapeSequence |~ ( '\"' | '\\\\' ) )* '\"'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1082:2: ( '\"' ( EscapeSequence |~ ( '\"' | '\\\\' ) )* '\"' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1083:2: '\"' ( EscapeSequence |~ ( '\"' | '\\\\' ) )* '\"'
             {
             match('\"'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1083:6: ( EscapeSequence |~ ( '\"' | '\\\\' ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1083:6: ( EscapeSequence |~ ( '\"' | '\\\\' ) )*
             loop6:
             do {
                 int alt6=3;
@@ -4144,7 +4144,7 @@ public class csLexer extends Lexer {
 
                 switch (alt6) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1083:7: EscapeSequence
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1083:7: EscapeSequence
             	    {
             	    mEscapeSequence(); 
 
@@ -4152,7 +4152,7 @@ public class csLexer extends Lexer {
             	    }
             	    break;
             	case 2 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1083:24: ~ ( '\"' | '\\\\' )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1083:24: ~ ( '\"' | '\\\\' )
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -4191,14 +4191,14 @@ public class csLexer extends Lexer {
         try {
             int _type = Verbatim_string_literal;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1084:24: ( '@' '\"' ( Verbatim_string_literal_character )* '\"' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1085:2: '@' '\"' ( Verbatim_string_literal_character )* '\"'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1084:24: ( '@' '\"' ( Verbatim_string_literal_character )* '\"' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1085:2: '@' '\"' ( Verbatim_string_literal_character )* '\"'
             {
             match('@'); 
 
             match('\"'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1085:12: ( Verbatim_string_literal_character )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1085:12: ( Verbatim_string_literal_character )*
             loop7:
             do {
                 int alt7=2;
@@ -4220,7 +4220,7 @@ public class csLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1085:12: Verbatim_string_literal_character
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1085:12: Verbatim_string_literal_character
             	    {
             	    mVerbatim_string_literal_character(); 
 
@@ -4250,7 +4250,7 @@ public class csLexer extends Lexer {
     // $ANTLR start "Verbatim_string_literal_character"
     public final void mVerbatim_string_literal_character() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1088:34: ( '\"' '\"' |~ ( '\"' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1088:34: ( '\"' '\"' |~ ( '\"' ) )
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -4269,7 +4269,7 @@ public class csLexer extends Lexer {
             }
             switch (alt8) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1089:2: '\"' '\"'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1089:2: '\"' '\"'
                     {
                     match('\"'); 
 
@@ -4278,7 +4278,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1089:12: ~ ( '\"' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1089:12: ~ ( '\"' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '!')||(input.LA(1) >= '#' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -4307,13 +4307,13 @@ public class csLexer extends Lexer {
         try {
             int _type = NUMBER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1089:7: ( Decimal_digits ( INTEGER_TYPE_SUFFIX )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1090:2: Decimal_digits ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1089:7: ( Decimal_digits ( INTEGER_TYPE_SUFFIX )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1090:2: Decimal_digits ( INTEGER_TYPE_SUFFIX )?
             {
             mDecimal_digits(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1090:17: ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1090:17: ( INTEGER_TYPE_SUFFIX )?
             int alt9=2;
             int LA9_0 = input.LA(1);
 
@@ -4322,7 +4322,7 @@ public class csLexer extends Lexer {
             }
             switch (alt9) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1090:17: INTEGER_TYPE_SUFFIX
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1090:17: INTEGER_TYPE_SUFFIX
                     {
                     mINTEGER_TYPE_SUFFIX(); 
 
@@ -4353,8 +4353,8 @@ public class csLexer extends Lexer {
             CommonToken s=null;
             int d;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1092:8: (dil= Decimal_integer_literal d= '.' s= GooBallIdentifier )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1093:2: dil= Decimal_integer_literal d= '.' s= GooBallIdentifier
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1092:8: (dil= Decimal_integer_literal d= '.' s= GooBallIdentifier )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1093:2: dil= Decimal_integer_literal d= '.' s= GooBallIdentifier
             {
             int dilStart1510 = getCharIndex();
             int dilStartLine1510 = getLine();
@@ -4392,13 +4392,13 @@ public class csLexer extends Lexer {
     // $ANTLR start "GooBallIdentifier"
     public final void mGooBallIdentifier() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1097:2: ( IdentifierStart ( IdentifierPart )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1097:4: IdentifierStart ( IdentifierPart )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1097:2: ( IdentifierStart ( IdentifierPart )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1097:4: IdentifierStart ( IdentifierPart )*
             {
             mIdentifierStart(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1097:20: ( IdentifierPart )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1097:20: ( IdentifierPart )*
             loop10:
             do {
                 int alt10=2;
@@ -4411,7 +4411,7 @@ public class csLexer extends Lexer {
 
                 switch (alt10) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
             	        input.consume();
@@ -4447,12 +4447,12 @@ public class csLexer extends Lexer {
         try {
             int _type = Real_literal;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1100:13: ( Decimal_digits '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | Decimal_digits Exponent_part ( Real_type_suffix )? | Decimal_digits Real_type_suffix )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1100:13: ( Decimal_digits '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )? | Decimal_digits Exponent_part ( Real_type_suffix )? | Decimal_digits Real_type_suffix )
             int alt16=4;
             alt16 = dfa16.predict(input);
             switch (alt16) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1101:2: Decimal_digits '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1101:2: Decimal_digits '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
                     {
                     mDecimal_digits(); 
 
@@ -4462,7 +4462,7 @@ public class csLexer extends Lexer {
                     mDecimal_digits(); 
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1101:42: ( Exponent_part )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1101:42: ( Exponent_part )?
                     int alt11=2;
                     int LA11_0 = input.LA(1);
 
@@ -4471,7 +4471,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt11) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1101:42: Exponent_part
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1101:42: Exponent_part
                             {
                             mExponent_part(); 
 
@@ -4482,7 +4482,7 @@ public class csLexer extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1101:59: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1101:59: ( Real_type_suffix )?
                     int alt12=2;
                     int LA12_0 = input.LA(1);
 
@@ -4491,7 +4491,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt12) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -4512,14 +4512,14 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1102:4: '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1102:4: '.' Decimal_digits ( Exponent_part )? ( Real_type_suffix )?
                     {
                     match('.'); 
 
                     mDecimal_digits(); 
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1102:27: ( Exponent_part )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1102:27: ( Exponent_part )?
                     int alt13=2;
                     int LA13_0 = input.LA(1);
 
@@ -4528,7 +4528,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt13) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1102:27: Exponent_part
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1102:27: Exponent_part
                             {
                             mExponent_part(); 
 
@@ -4539,7 +4539,7 @@ public class csLexer extends Lexer {
                     }
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1102:44: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1102:44: ( Real_type_suffix )?
                     int alt14=2;
                     int LA14_0 = input.LA(1);
 
@@ -4548,7 +4548,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt14) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -4569,7 +4569,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1103:4: Decimal_digits Exponent_part ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1103:4: Decimal_digits Exponent_part ( Real_type_suffix )?
                     {
                     mDecimal_digits(); 
 
@@ -4577,7 +4577,7 @@ public class csLexer extends Lexer {
                     mExponent_part(); 
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1103:37: ( Real_type_suffix )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1103:37: ( Real_type_suffix )?
                     int alt15=2;
                     int LA15_0 = input.LA(1);
 
@@ -4586,7 +4586,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt15) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                             {
                             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                                 input.consume();
@@ -4607,7 +4607,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1104:4: Decimal_digits Real_type_suffix
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1104:4: Decimal_digits Real_type_suffix
                     {
                     mDecimal_digits(); 
 
@@ -4633,12 +4633,12 @@ public class csLexer extends Lexer {
         try {
             int _type = Character_literal;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1105:18: ( '\\'' ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ) '\\'' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1106:2: '\\'' ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ) '\\''
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1105:18: ( '\\'' ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ) '\\'' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1106:2: '\\'' ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ) '\\''
             {
             match('\''); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1107:5: ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1107:5: ( EscapeSequence |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) |~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) )
             int alt17=4;
             int LA17_0 = input.LA(1);
 
@@ -4685,7 +4685,7 @@ public class csLexer extends Lexer {
             }
             switch (alt17) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1107:9: EscapeSequence
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1107:9: EscapeSequence
                     {
                     mEscapeSequence(); 
 
@@ -4693,7 +4693,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1109:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1109:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -4708,7 +4708,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1110:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1110:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -4733,7 +4733,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1111:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1111:9: ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' ) ~ ( '\\\\' | '\\'' | '\\r' | '\\n' )
                     {
                     if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '&')||(input.LA(1) >= '(' && input.LA(1) <= '[')||(input.LA(1) >= ']' && input.LA(1) <= '\uFFFF') ) {
                         input.consume();
@@ -4789,13 +4789,13 @@ public class csLexer extends Lexer {
         try {
             int _type = IDENTIFIER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1114:11: ( IdentifierStart ( IdentifierPart )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1115:5: IdentifierStart ( IdentifierPart )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1114:11: ( IdentifierStart ( IdentifierPart )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1115:5: IdentifierStart ( IdentifierPart )*
             {
             mIdentifierStart(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1115:21: ( IdentifierPart )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1115:21: ( IdentifierPart )*
             loop18:
             do {
                 int alt18=2;
@@ -4808,7 +4808,7 @@ public class csLexer extends Lexer {
 
                 switch (alt18) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
             	        input.consume();
@@ -4845,12 +4845,12 @@ public class csLexer extends Lexer {
         try {
             int _type = Pragma;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1116:7: ( '#' ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:2: '#' ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1116:7: ( '#' ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:2: '#' ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' ) (~ ( '\\n' | '\\r' ) )* ( '\\r' | '\\n' )
             {
             match('#'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:6: ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:6: ( 'pragma' | 'region' | 'endregion' | 'line' | 'warning' | 'error' )
             int alt19=6;
             switch ( input.LA(1) ) {
             case 'p':
@@ -4902,7 +4902,7 @@ public class csLexer extends Lexer {
 
             switch (alt19) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:7: 'pragma'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:7: 'pragma'
                     {
                     match("pragma"); 
 
@@ -4911,7 +4911,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:18: 'region'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:18: 'region'
                     {
                     match("region"); 
 
@@ -4920,7 +4920,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:29: 'endregion'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:29: 'endregion'
                     {
                     match("endregion"); 
 
@@ -4929,7 +4929,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:43: 'line'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:43: 'line'
                     {
                     match("line"); 
 
@@ -4938,7 +4938,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:52: 'warning'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:52: 'warning'
                     {
                     match("warning"); 
 
@@ -4947,7 +4947,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:64: 'error'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:64: 'error'
                     {
                     match("error"); 
 
@@ -4959,7 +4959,7 @@ public class csLexer extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1118:73: (~ ( '\\n' | '\\r' ) )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1118:73: (~ ( '\\n' | '\\r' ) )*
             loop20:
             do {
                 int alt20=2;
@@ -4972,7 +4972,7 @@ public class csLexer extends Lexer {
 
                 switch (alt20) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '\u0000' && input.LA(1) <= '\t')||(input.LA(1) >= '\u000B' && input.LA(1) <= '\f')||(input.LA(1) >= '\u000E' && input.LA(1) <= '\uFFFF') ) {
             	        input.consume();
@@ -5019,7 +5019,7 @@ public class csLexer extends Lexer {
         try {
             int _type = PREPROCESSOR_DIRECTIVE;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1119:23: (| PP_CONDITIONAL )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1119:23: (| PP_CONDITIONAL )
             int alt21=2;
             int LA21_0 = input.LA(1);
 
@@ -5031,12 +5031,12 @@ public class csLexer extends Lexer {
             }
             switch (alt21) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1120:2: 
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1120:2: 
                     {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1120:4: PP_CONDITIONAL
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1120:4: PP_CONDITIONAL
                     {
                     mPP_CONDITIONAL(); 
 
@@ -5057,15 +5057,15 @@ public class csLexer extends Lexer {
     // $ANTLR start "PP_CONDITIONAL"
     public final void mPP_CONDITIONAL() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1123:15: ( ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN ) ( TS )* ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1124:2: ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN ) ( TS )* ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1123:15: ( ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN ) ( TS )* ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1124:2: ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN ) ( TS )* ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1124:2: ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1124:2: ( IF_TOKEN | DEFINE_TOKEN | ELSE_TOKEN | ENDIF_TOKEN | UNDEF_TOKEN )
             int alt22=5;
             alt22 = dfa22.predict(input);
             switch (alt22) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1124:3: IF_TOKEN
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1124:3: IF_TOKEN
                     {
                     mIF_TOKEN(); 
 
@@ -5073,7 +5073,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1125:4: DEFINE_TOKEN
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1125:4: DEFINE_TOKEN
                     {
                     mDEFINE_TOKEN(); 
 
@@ -5081,7 +5081,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1126:4: ELSE_TOKEN
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1126:4: ELSE_TOKEN
                     {
                     mELSE_TOKEN(); 
 
@@ -5089,7 +5089,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1127:4: ENDIF_TOKEN
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1127:4: ENDIF_TOKEN
                     {
                     mENDIF_TOKEN(); 
 
@@ -5097,7 +5097,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:4: UNDEF_TOKEN
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:4: UNDEF_TOKEN
                     {
                     mUNDEF_TOKEN(); 
 
@@ -5108,7 +5108,7 @@ public class csLexer extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:19: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:19: ( TS )*
             loop23:
             do {
                 int alt23=2;
@@ -5121,7 +5121,7 @@ public class csLexer extends Lexer {
 
                 switch (alt23) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5142,7 +5142,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:25: ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:25: ( ( LINE_COMMENT )? | ( '\\r' | '\\n' )+ )
             int alt26=2;
             int LA26_0 = input.LA(1);
 
@@ -5154,9 +5154,9 @@ public class csLexer extends Lexer {
             }
             switch (alt26) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:26: ( LINE_COMMENT )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:26: ( LINE_COMMENT )?
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:26: ( LINE_COMMENT )?
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:26: ( LINE_COMMENT )?
                     int alt24=2;
                     int LA24_0 = input.LA(1);
 
@@ -5165,7 +5165,7 @@ public class csLexer extends Lexer {
                     }
                     switch (alt24) {
                         case 1 :
-                            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:26: LINE_COMMENT
+                            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:26: LINE_COMMENT
                             {
                             mLINE_COMMENT(); 
 
@@ -5179,9 +5179,9 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:44: ( '\\r' | '\\n' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:44: ( '\\r' | '\\n' )+
                     {
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1128:44: ( '\\r' | '\\n' )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1128:44: ( '\\r' | '\\n' )+
                     int cnt25=0;
                     loop25:
                     do {
@@ -5195,7 +5195,7 @@ public class csLexer extends Lexer {
 
                         switch (alt25) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     	    {
                     	    if ( input.LA(1)=='\n'||input.LA(1)=='\r' ) {
                     	        input.consume();
@@ -5241,15 +5241,15 @@ public class csLexer extends Lexer {
         try {
             CommonToken ppe=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1130:9: ( ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1131:2: ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1130:9: ( ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1131:2: ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1131:2: ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1131:3: '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1131:2: ( '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1131:3: '#' ( TS )* 'if' ( TS )+ ppe= PP_EXPRESSION
             {
             match('#'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1131:9: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1131:9: ( TS )*
             loop27:
             do {
                 int alt27=2;
@@ -5262,7 +5262,7 @@ public class csLexer extends Lexer {
 
                 switch (alt27) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5287,7 +5287,7 @@ public class csLexer extends Lexer {
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1131:21: ( TS )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1131:21: ( TS )+
             int cnt28=0;
             loop28:
             do {
@@ -5301,7 +5301,7 @@ public class csLexer extends Lexer {
 
                 switch (alt28) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5353,12 +5353,12 @@ public class csLexer extends Lexer {
         try {
             CommonToken define=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1134:13: ( '#' ( TS )* 'define' ( TS )+ define= IDENTIFIER )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1135:2: '#' ( TS )* 'define' ( TS )+ define= IDENTIFIER
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1134:13: ( '#' ( TS )* 'define' ( TS )+ define= IDENTIFIER )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1135:2: '#' ( TS )* 'define' ( TS )+ define= IDENTIFIER
             {
             match('#'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1135:8: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1135:8: ( TS )*
             loop29:
             do {
                 int alt29=2;
@@ -5371,7 +5371,7 @@ public class csLexer extends Lexer {
 
                 switch (alt29) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5396,7 +5396,7 @@ public class csLexer extends Lexer {
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1135:25: ( TS )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1135:25: ( TS )+
             int cnt30=0;
             loop30:
             do {
@@ -5410,7 +5410,7 @@ public class csLexer extends Lexer {
 
                 switch (alt30) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5459,12 +5459,12 @@ public class csLexer extends Lexer {
         try {
             CommonToken define=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1138:12: ( '#' ( TS )* 'undef' ( TS )+ define= IDENTIFIER )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1139:2: '#' ( TS )* 'undef' ( TS )+ define= IDENTIFIER
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1138:12: ( '#' ( TS )* 'undef' ( TS )+ define= IDENTIFIER )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1139:2: '#' ( TS )* 'undef' ( TS )+ define= IDENTIFIER
             {
             match('#'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1139:8: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1139:8: ( TS )*
             loop31:
             do {
                 int alt31=2;
@@ -5477,7 +5477,7 @@ public class csLexer extends Lexer {
 
                 switch (alt31) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5502,7 +5502,7 @@ public class csLexer extends Lexer {
 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1139:24: ( TS )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1139:24: ( TS )+
             int cnt32=0;
             loop32:
             do {
@@ -5516,7 +5516,7 @@ public class csLexer extends Lexer {
 
                 switch (alt32) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5565,19 +5565,19 @@ public class csLexer extends Lexer {
         try {
             CommonToken e=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1142:11: ( ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1143:2: ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1142:11: ( ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1143:2: ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION )
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1143:2: ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1143:2: ( '#' ( TS )* e= 'else' | '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION )
             int alt36=2;
             alt36 = dfa36.predict(input);
             switch (alt36) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1143:4: '#' ( TS )* e= 'else'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1143:4: '#' ( TS )* e= 'else'
                     {
                     match('#'); 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1143:10: ( TS )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1143:10: ( TS )*
                     loop33:
                     do {
                         int alt33=2;
@@ -5590,7 +5590,7 @@ public class csLexer extends Lexer {
 
                         switch (alt33) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -5623,11 +5623,11 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1144:4: '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1144:4: '#' ( TS )* 'elif' ( TS )+ PP_EXPRESSION
                     {
                     match('#'); 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1144:10: ( TS )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1144:10: ( TS )*
                     loop34:
                     do {
                         int alt34=2;
@@ -5640,7 +5640,7 @@ public class csLexer extends Lexer {
 
                         switch (alt34) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -5665,7 +5665,7 @@ public class csLexer extends Lexer {
 
 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1144:25: ( TS )+
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1144:25: ( TS )+
                     int cnt35=0;
                     loop35:
                     do {
@@ -5679,7 +5679,7 @@ public class csLexer extends Lexer {
 
                         switch (alt35) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -5726,8 +5726,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "ENDIF_TOKEN"
     public final void mENDIF_TOKEN() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1147:12: ( '#' 'endif' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1148:2: '#' 'endif'
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1147:12: ( '#' 'endif' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1148:2: '#' 'endif'
             {
             match('#'); 
 
@@ -5748,8 +5748,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "PP_EXPRESSION"
     public final void mPP_EXPRESSION() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1155:14: ( PP_OR_EXPRESSION )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1156:2: PP_OR_EXPRESSION
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1155:14: ( PP_OR_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1156:2: PP_OR_EXPRESSION
             {
             mPP_OR_EXPRESSION(); 
 
@@ -5767,13 +5767,13 @@ public class csLexer extends Lexer {
     // $ANTLR start "PP_OR_EXPRESSION"
     public final void mPP_OR_EXPRESSION() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1158:17: ( PP_AND_EXPRESSION ( TS )* ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:2: PP_AND_EXPRESSION ( TS )* ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1158:17: ( PP_AND_EXPRESSION ( TS )* ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:2: PP_AND_EXPRESSION ( TS )* ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )*
             {
             mPP_AND_EXPRESSION(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:22: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:22: ( TS )*
             loop37:
             do {
                 int alt37=2;
@@ -5786,7 +5786,7 @@ public class csLexer extends Lexer {
 
                 switch (alt37) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5807,7 +5807,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:28: ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:28: ( '||' ( TS )* PP_AND_EXPRESSION ( TS )* )*
             loop40:
             do {
                 int alt40=2;
@@ -5820,13 +5820,13 @@ public class csLexer extends Lexer {
 
                 switch (alt40) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:29: '||' ( TS )* PP_AND_EXPRESSION ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:29: '||' ( TS )* PP_AND_EXPRESSION ( TS )*
             	    {
             	    match("||"); 
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:36: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:36: ( TS )*
             	    loop38:
             	    do {
             	        int alt38=2;
@@ -5839,7 +5839,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt38) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -5863,7 +5863,7 @@ public class csLexer extends Lexer {
             	    mPP_AND_EXPRESSION(); 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1159:62: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1159:62: ( TS )*
             	    loop39:
             	    do {
             	        int alt39=2;
@@ -5876,7 +5876,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt39) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -5919,13 +5919,13 @@ public class csLexer extends Lexer {
     // $ANTLR start "PP_AND_EXPRESSION"
     public final void mPP_AND_EXPRESSION() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1161:18: ( PP_EQUALITY_EXPRESSION ( TS )* ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:2: PP_EQUALITY_EXPRESSION ( TS )* ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1161:18: ( PP_EQUALITY_EXPRESSION ( TS )* ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:2: PP_EQUALITY_EXPRESSION ( TS )* ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )*
             {
             mPP_EQUALITY_EXPRESSION(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:27: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:27: ( TS )*
             loop41:
             do {
                 int alt41=2;
@@ -5938,7 +5938,7 @@ public class csLexer extends Lexer {
 
                 switch (alt41) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -5959,7 +5959,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:33: ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:33: ( '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )* )*
             loop44:
             do {
                 int alt44=2;
@@ -5972,13 +5972,13 @@ public class csLexer extends Lexer {
 
                 switch (alt44) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:34: '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:34: '&&' ( TS )* PP_EQUALITY_EXPRESSION ( TS )*
             	    {
             	    match("&&"); 
 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:41: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:41: ( TS )*
             	    loop42:
             	    do {
             	        int alt42=2;
@@ -5991,7 +5991,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt42) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -6015,7 +6015,7 @@ public class csLexer extends Lexer {
             	    mPP_EQUALITY_EXPRESSION(); 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1162:72: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1162:72: ( TS )*
             	    loop43:
             	    do {
             	        int alt43=2;
@@ -6028,7 +6028,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt43) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -6073,13 +6073,13 @@ public class csLexer extends Lexer {
         try {
             CommonToken ne=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1164:23: ( PP_UNARY_EXPRESSION ( TS )* ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )* )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:2: PP_UNARY_EXPRESSION ( TS )* ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1164:23: ( PP_UNARY_EXPRESSION ( TS )* ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )* )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:2: PP_UNARY_EXPRESSION ( TS )* ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )*
             {
             mPP_UNARY_EXPRESSION(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:24: ( TS )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:24: ( TS )*
             loop45:
             do {
                 int alt45=2;
@@ -6092,7 +6092,7 @@ public class csLexer extends Lexer {
 
                 switch (alt45) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	        input.consume();
@@ -6113,7 +6113,7 @@ public class csLexer extends Lexer {
             } while (true);
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:30: ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )*
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:30: ( ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )* )*
             loop49:
             do {
                 int alt49=2;
@@ -6126,9 +6126,9 @@ public class csLexer extends Lexer {
 
                 switch (alt49) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:31: ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:31: ( '==' |ne= '!=' ) ( TS )* PP_UNARY_EXPRESSION ( TS )*
             	    {
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:31: ( '==' |ne= '!=' )
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:31: ( '==' |ne= '!=' )
             	    int alt46=2;
             	    int LA46_0 = input.LA(1);
 
@@ -6147,7 +6147,7 @@ public class csLexer extends Lexer {
             	    }
             	    switch (alt46) {
             	        case 1 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:32: '=='
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:32: '=='
             	            {
             	            match("=="); 
 
@@ -6156,7 +6156,7 @@ public class csLexer extends Lexer {
             	            }
             	            break;
             	        case 2 :
-            	            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:38: ne= '!='
+            	            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:38: ne= '!='
             	            {
             	            int neStart = getCharIndex();
             	            match("!="); 
@@ -6173,7 +6173,7 @@ public class csLexer extends Lexer {
             	    }
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1165:51: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1165:51: ( TS )*
             	    loop47:
             	    do {
             	        int alt47=2;
@@ -6186,7 +6186,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt47) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -6210,7 +6210,7 @@ public class csLexer extends Lexer {
             	    mPP_UNARY_EXPRESSION(); 
 
 
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1167:3: ( TS )*
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1167:3: ( TS )*
             	    loop48:
             	    do {
             	        int alt48=2;
@@ -6223,7 +6223,7 @@ public class csLexer extends Lexer {
 
             	        switch (alt48) {
             	    	case 1 :
-            	    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    	    {
             	    	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
             	    	        input.consume();
@@ -6269,7 +6269,7 @@ public class csLexer extends Lexer {
             CommonToken pe=null;
             CommonToken ue=null;
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1170:20: (pe= PP_PRIMARY_EXPRESSION | '!' ( TS )* ue= PP_UNARY_EXPRESSION )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1170:20: (pe= PP_PRIMARY_EXPRESSION | '!' ( TS )* ue= PP_UNARY_EXPRESSION )
             int alt51=2;
             int LA51_0 = input.LA(1);
 
@@ -6288,7 +6288,7 @@ public class csLexer extends Lexer {
             }
             switch (alt51) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1171:2: pe= PP_PRIMARY_EXPRESSION
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1171:2: pe= PP_PRIMARY_EXPRESSION
                     {
                     int peStart2219 = getCharIndex();
                     int peStartLine2219 = getLine();
@@ -6302,11 +6302,11 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1172:4: '!' ( TS )* ue= PP_UNARY_EXPRESSION
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1172:4: '!' ( TS )* ue= PP_UNARY_EXPRESSION
                     {
                     match('!'); 
 
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1172:10: ( TS )*
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1172:10: ( TS )*
                     loop50:
                     do {
                         int alt50=2;
@@ -6319,7 +6319,7 @@ public class csLexer extends Lexer {
 
                         switch (alt50) {
                     	case 1 :
-                    	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     	    {
                     	    if ( input.LA(1)=='\t'||input.LA(1)==' ' ) {
                     	        input.consume();
@@ -6364,7 +6364,7 @@ public class csLexer extends Lexer {
     // $ANTLR start "PP_PRIMARY_EXPRESSION"
     public final void mPP_PRIMARY_EXPRESSION() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1175:22: ( IDENTIFIER | '(' PP_EXPRESSION ')' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1175:22: ( IDENTIFIER | '(' PP_EXPRESSION ')' )
             int alt52=2;
             int LA52_0 = input.LA(1);
 
@@ -6383,7 +6383,7 @@ public class csLexer extends Lexer {
             }
             switch (alt52) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1176:2: IDENTIFIER
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1176:2: IDENTIFIER
                     {
                     mIDENTIFIER(); 
 
@@ -6391,7 +6391,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1178:4: '(' PP_EXPRESSION ')'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1178:4: '(' PP_EXPRESSION ')'
                     {
                     match('('); 
 
@@ -6415,8 +6415,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "IdentifierStart"
     public final void mIdentifierStart() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1185:2: ( '@' | '_' | 'A' .. 'Z' | 'a' .. 'z' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1185:2: ( '@' | '_' | 'A' .. 'Z' | 'a' .. 'z' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( (input.LA(1) >= '@' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -6441,8 +6441,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "IdentifierPart"
     public final void mIdentifierPart() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1188:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1188:3: ( 'A' .. 'Z' | 'a' .. 'z' | '0' .. '9' | '_' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'Z')||input.LA(1)=='_'||(input.LA(1) >= 'a' && input.LA(1) <= 'z') ) {
                 input.consume();
@@ -6467,12 +6467,12 @@ public class csLexer extends Lexer {
     // $ANTLR start "EscapeSequence"
     public final void mEscapeSequence() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1191:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT ) )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1191:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1191:5: ( '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT ) )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1191:9: '\\\\' ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
             {
             match('\\'); 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1191:14: ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1191:14: ( 'b' | 't' | 'n' | 'f' | 'r' | 'v' | 'a' | '\\\"' | '\\'' | '\\\\' | ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) ( '0' .. '7' ) | ( '0' .. '7' ) | 'x' HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT | 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT )
             int alt53=19;
             switch ( input.LA(1) ) {
             case 'b':
@@ -6619,77 +6619,77 @@ public class csLexer extends Lexer {
 
             switch (alt53) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1192:18: 'b'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1192:18: 'b'
                     {
                     match('b'); 
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1193:18: 't'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1193:18: 't'
                     {
                     match('t'); 
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1194:18: 'n'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1194:18: 'n'
                     {
                     match('n'); 
 
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1195:18: 'f'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1195:18: 'f'
                     {
                     match('f'); 
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1196:18: 'r'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1196:18: 'r'
                     {
                     match('r'); 
 
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1197:18: 'v'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1197:18: 'v'
                     {
                     match('v'); 
 
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1198:18: 'a'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1198:18: 'a'
                     {
                     match('a'); 
 
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1199:18: '\\\"'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1199:18: '\\\"'
                     {
                     match('\"'); 
 
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1200:18: '\\''
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1200:18: '\\''
                     {
                     match('\''); 
 
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1201:18: '\\\\'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1201:18: '\\\\'
                     {
                     match('\\'); 
 
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1202:18: ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1202:18: ( '0' .. '3' ) ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     if ( (input.LA(1) >= '0' && input.LA(1) <= '3') ) {
                         input.consume();
@@ -6724,7 +6724,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1203:18: ( '0' .. '7' ) ( '0' .. '7' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1203:18: ( '0' .. '7' ) ( '0' .. '7' )
                     {
                     if ( (input.LA(1) >= '0' && input.LA(1) <= '7') ) {
                         input.consume();
@@ -6749,7 +6749,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 13 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1204:18: ( '0' .. '7' )
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1204:18: ( '0' .. '7' )
                     {
                     if ( (input.LA(1) >= '0' && input.LA(1) <= '7') ) {
                         input.consume();
@@ -6764,7 +6764,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 14 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1205:18: 'x' HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1205:18: 'x' HEX_DIGIT
                     {
                     match('x'); 
 
@@ -6774,7 +6774,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 15 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1206:18: 'x' HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1206:18: 'x' HEX_DIGIT HEX_DIGIT
                     {
                     match('x'); 
 
@@ -6787,7 +6787,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 16 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1207:18: 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1207:18: 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match('x'); 
 
@@ -6803,7 +6803,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 17 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1208:18: 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1208:18: 'x' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match('x'); 
 
@@ -6822,7 +6822,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 18 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1209:18: 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1209:18: 'u' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match('u'); 
 
@@ -6841,7 +6841,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 19 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1210:18: 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1210:18: 'U' HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT HEX_DIGIT
                     {
                     match('U'); 
 
@@ -6885,13 +6885,13 @@ public class csLexer extends Lexer {
     // $ANTLR start "Decimal_integer_literal"
     public final void mDecimal_integer_literal() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1213:24: ( Decimal_digits ( INTEGER_TYPE_SUFFIX )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1214:2: Decimal_digits ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1213:24: ( Decimal_digits ( INTEGER_TYPE_SUFFIX )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1214:2: Decimal_digits ( INTEGER_TYPE_SUFFIX )?
             {
             mDecimal_digits(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1214:19: ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1214:19: ( INTEGER_TYPE_SUFFIX )?
             int alt54=2;
             int LA54_0 = input.LA(1);
 
@@ -6900,7 +6900,7 @@ public class csLexer extends Lexer {
             }
             switch (alt54) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1214:19: INTEGER_TYPE_SUFFIX
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1214:19: INTEGER_TYPE_SUFFIX
                     {
                     mINTEGER_TYPE_SUFFIX(); 
 
@@ -6926,8 +6926,8 @@ public class csLexer extends Lexer {
         try {
             int _type = Hex_number;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1215:11: ( '0' ( 'x' | 'X' ) HEX_DIGITS ( INTEGER_TYPE_SUFFIX )? )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1216:2: '0' ( 'x' | 'X' ) HEX_DIGITS ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1215:11: ( '0' ( 'x' | 'X' ) HEX_DIGITS ( INTEGER_TYPE_SUFFIX )? )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1216:2: '0' ( 'x' | 'X' ) HEX_DIGITS ( INTEGER_TYPE_SUFFIX )?
             {
             match('0'); 
 
@@ -6944,7 +6944,7 @@ public class csLexer extends Lexer {
             mHEX_DIGITS(); 
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1216:30: ( INTEGER_TYPE_SUFFIX )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1216:30: ( INTEGER_TYPE_SUFFIX )?
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -6953,7 +6953,7 @@ public class csLexer extends Lexer {
             }
             switch (alt55) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1216:30: INTEGER_TYPE_SUFFIX
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1216:30: INTEGER_TYPE_SUFFIX
                     {
                     mINTEGER_TYPE_SUFFIX(); 
 
@@ -6978,10 +6978,10 @@ public class csLexer extends Lexer {
     // $ANTLR start "Decimal_digits"
     public final void mDecimal_digits() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1219:15: ( ( DECIMAL_DIGIT )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1220:2: ( DECIMAL_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1219:15: ( ( DECIMAL_DIGIT )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1220:2: ( DECIMAL_DIGIT )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1220:2: ( DECIMAL_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1220:2: ( DECIMAL_DIGIT )+
             int cnt56=0;
             loop56:
             do {
@@ -6995,7 +6995,7 @@ public class csLexer extends Lexer {
 
                 switch (alt56) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
             	        input.consume();
@@ -7033,8 +7033,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "DECIMAL_DIGIT"
     public final void mDECIMAL_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1222:14: ( '0' .. '9' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1222:14: ( '0' .. '9' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9') ) {
                 input.consume();
@@ -7059,7 +7059,7 @@ public class csLexer extends Lexer {
     // $ANTLR start "INTEGER_TYPE_SUFFIX"
     public final void mINTEGER_TYPE_SUFFIX() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1225:20: ( 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1225:20: ( 'U' | 'u' | 'L' | 'l' | 'UL' | 'Ul' | 'uL' | 'ul' | 'LU' | 'Lu' | 'lU' | 'lu' )
             int alt57=12;
             switch ( input.LA(1) ) {
             case 'U':
@@ -7148,35 +7148,35 @@ public class csLexer extends Lexer {
 
             switch (alt57) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:2: 'U'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:2: 'U'
                     {
                     match('U'); 
 
                     }
                     break;
                 case 2 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:8: 'u'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:8: 'u'
                     {
                     match('u'); 
 
                     }
                     break;
                 case 3 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:14: 'L'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:14: 'L'
                     {
                     match('L'); 
 
                     }
                     break;
                 case 4 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:20: 'l'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:20: 'l'
                     {
                     match('l'); 
 
                     }
                     break;
                 case 5 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:26: 'UL'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:26: 'UL'
                     {
                     match("UL"); 
 
@@ -7185,7 +7185,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 6 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:33: 'Ul'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:33: 'Ul'
                     {
                     match("Ul"); 
 
@@ -7194,7 +7194,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 7 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:40: 'uL'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:40: 'uL'
                     {
                     match("uL"); 
 
@@ -7203,7 +7203,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 8 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:47: 'ul'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:47: 'ul'
                     {
                     match("ul"); 
 
@@ -7212,7 +7212,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 9 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:54: 'LU'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:54: 'LU'
                     {
                     match("LU"); 
 
@@ -7221,7 +7221,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 10 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:61: 'Lu'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:61: 'Lu'
                     {
                     match("Lu"); 
 
@@ -7230,7 +7230,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 11 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:68: 'lU'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:68: 'lU'
                     {
                     match("lU"); 
 
@@ -7239,7 +7239,7 @@ public class csLexer extends Lexer {
                     }
                     break;
                 case 12 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:75: 'lu'
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:75: 'lu'
                     {
                     match("lu"); 
 
@@ -7260,10 +7260,10 @@ public class csLexer extends Lexer {
     // $ANTLR start "HEX_DIGITS"
     public final void mHEX_DIGITS() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1226:20: ( ( HEX_DIGIT )+ )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1227:2: ( HEX_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1226:20: ( ( HEX_DIGIT )+ )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1227:2: ( HEX_DIGIT )+
             {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1227:2: ( HEX_DIGIT )+
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1227:2: ( HEX_DIGIT )+
             int cnt58=0;
             loop58:
             do {
@@ -7277,7 +7277,7 @@ public class csLexer extends Lexer {
 
                 switch (alt58) {
             	case 1 :
-            	    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            	    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             	    {
             	    if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
             	        input.consume();
@@ -7315,8 +7315,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "HEX_DIGIT"
     public final void mHEX_DIGIT() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1228:19: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1228:19: ( '0' .. '9' | 'A' .. 'F' | 'a' .. 'f' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( (input.LA(1) >= '0' && input.LA(1) <= '9')||(input.LA(1) >= 'A' && input.LA(1) <= 'F')||(input.LA(1) >= 'a' && input.LA(1) <= 'f') ) {
                 input.consume();
@@ -7341,8 +7341,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "Exponent_part"
     public final void mExponent_part() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1232:14: ( ( 'e' | 'E' ) ( Sign )? Decimal_digits )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1233:2: ( 'e' | 'E' ) ( Sign )? Decimal_digits
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1232:14: ( ( 'e' | 'E' ) ( Sign )? Decimal_digits )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1233:2: ( 'e' | 'E' ) ( Sign )? Decimal_digits
             {
             if ( input.LA(1)=='E'||input.LA(1)=='e' ) {
                 input.consume();
@@ -7354,7 +7354,7 @@ public class csLexer extends Lexer {
             }
 
 
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1233:14: ( Sign )?
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1233:14: ( Sign )?
             int alt59=2;
             int LA59_0 = input.LA(1);
 
@@ -7363,7 +7363,7 @@ public class csLexer extends Lexer {
             }
             switch (alt59) {
                 case 1 :
-                    // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+                    // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
                     {
                     if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                         input.consume();
@@ -7397,8 +7397,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "Sign"
     public final void mSign() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1235:5: ( '+' | '-' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1235:5: ( '+' | '-' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( input.LA(1)=='+'||input.LA(1)=='-' ) {
                 input.consume();
@@ -7423,8 +7423,8 @@ public class csLexer extends Lexer {
     // $ANTLR start "Real_type_suffix"
     public final void mReal_type_suffix() throws RecognitionException {
         try {
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1238:17: ( 'F' | 'f' | 'D' | 'd' | 'M' | 'm' )
-            // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1238:17: ( 'F' | 'f' | 'D' | 'd' | 'M' | 'm' )
+            // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:
             {
             if ( input.LA(1)=='D'||input.LA(1)=='F'||input.LA(1)=='M'||input.LA(1)=='d'||input.LA(1)=='f'||input.LA(1)=='m' ) {
                 input.consume();
@@ -7447,12 +7447,12 @@ public class csLexer extends Lexer {
     // $ANTLR end "Real_type_suffix"
 
     public void mTokens() throws RecognitionException {
-        // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:8: ( T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | T__128 | T__129 | T__130 | T__131 | T__132 | T__133 | T__134 | T__135 | T__136 | T__137 | T__138 | T__139 | T__140 | T__141 | T__142 | T__143 | T__144 | T__145 | T__146 | T__147 | T__148 | T__149 | T__150 | T__151 | T__152 | T__153 | T__154 | T__155 | T__156 | T__157 | T__158 | T__159 | T__160 | T__161 | T__162 | T__163 | T__164 | T__165 | T__166 | T__167 | T__168 | T__169 | T__170 | T__171 | T__172 | T__173 | T__174 | T__175 | T__176 | T__177 | T__178 | T__179 | T__180 | T__181 | T__182 | T__183 | T__184 | T__185 | T__186 | T__187 | T__188 | T__189 | T__190 | T__191 | T__192 | T__193 | T__194 | T__195 | T__196 | T__197 | T__198 | T__199 | T__200 | T__201 | T__202 | TRUE | FALSE | NULL | DOT | PTR | MINUS | GT | USING | ENUM | IF | ELIF | ENDIF | DEFINE | UNDEF | SEMI | RPAREN | WS | DOC_LINE_COMMENT | COMMENT | LINE_COMMENT | STRINGLITERAL | Verbatim_string_literal | NUMBER | GooBall | Real_literal | Character_literal | IDENTIFIER | Pragma | PREPROCESSOR_DIRECTIVE | Hex_number )
+        // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:8: ( T__61 | T__62 | T__63 | T__64 | T__65 | T__66 | T__67 | T__68 | T__69 | T__70 | T__71 | T__72 | T__73 | T__74 | T__75 | T__76 | T__77 | T__78 | T__79 | T__80 | T__81 | T__82 | T__83 | T__84 | T__85 | T__86 | T__87 | T__88 | T__89 | T__90 | T__91 | T__92 | T__93 | T__94 | T__95 | T__96 | T__97 | T__98 | T__99 | T__100 | T__101 | T__102 | T__103 | T__104 | T__105 | T__106 | T__107 | T__108 | T__109 | T__110 | T__111 | T__112 | T__113 | T__114 | T__115 | T__116 | T__117 | T__118 | T__119 | T__120 | T__121 | T__122 | T__123 | T__124 | T__125 | T__126 | T__127 | T__128 | T__129 | T__130 | T__131 | T__132 | T__133 | T__134 | T__135 | T__136 | T__137 | T__138 | T__139 | T__140 | T__141 | T__142 | T__143 | T__144 | T__145 | T__146 | T__147 | T__148 | T__149 | T__150 | T__151 | T__152 | T__153 | T__154 | T__155 | T__156 | T__157 | T__158 | T__159 | T__160 | T__161 | T__162 | T__163 | T__164 | T__165 | T__166 | T__167 | T__168 | T__169 | T__170 | T__171 | T__172 | T__173 | T__174 | T__175 | T__176 | T__177 | T__178 | T__179 | T__180 | T__181 | T__182 | T__183 | T__184 | T__185 | T__186 | T__187 | T__188 | T__189 | T__190 | T__191 | T__192 | T__193 | T__194 | T__195 | T__196 | T__197 | T__198 | T__199 | T__200 | T__201 | T__202 | TRUE | FALSE | NULL | DOT | PTR | MINUS | GT | USING | ENUM | IF | ELIF | ENDIF | DEFINE | UNDEF | SEMI | RPAREN | WS | DOC_LINE_COMMENT | COMMENT | LINE_COMMENT | STRINGLITERAL | Verbatim_string_literal | NUMBER | GooBall | Real_literal | Character_literal | IDENTIFIER | Pragma | PREPROCESSOR_DIRECTIVE | Hex_number )
         int alt60=172;
         alt60 = dfa60.predict(input);
         switch (alt60) {
             case 1 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:10: T__61
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:10: T__61
                 {
                 mT__61(); 
 
@@ -7460,7 +7460,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 2 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:16: T__62
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:16: T__62
                 {
                 mT__62(); 
 
@@ -7468,7 +7468,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 3 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:22: T__63
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:22: T__63
                 {
                 mT__63(); 
 
@@ -7476,7 +7476,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 4 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:28: T__64
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:28: T__64
                 {
                 mT__64(); 
 
@@ -7484,7 +7484,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 5 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:34: T__65
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:34: T__65
                 {
                 mT__65(); 
 
@@ -7492,7 +7492,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 6 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:40: T__66
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:40: T__66
                 {
                 mT__66(); 
 
@@ -7500,7 +7500,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 7 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:46: T__67
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:46: T__67
                 {
                 mT__67(); 
 
@@ -7508,7 +7508,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 8 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:52: T__68
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:52: T__68
                 {
                 mT__68(); 
 
@@ -7516,7 +7516,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 9 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:58: T__69
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:58: T__69
                 {
                 mT__69(); 
 
@@ -7524,7 +7524,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 10 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:64: T__70
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:64: T__70
                 {
                 mT__70(); 
 
@@ -7532,7 +7532,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 11 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:70: T__71
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:70: T__71
                 {
                 mT__71(); 
 
@@ -7540,7 +7540,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 12 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:76: T__72
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:76: T__72
                 {
                 mT__72(); 
 
@@ -7548,7 +7548,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 13 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:82: T__73
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:82: T__73
                 {
                 mT__73(); 
 
@@ -7556,7 +7556,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 14 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:88: T__74
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:88: T__74
                 {
                 mT__74(); 
 
@@ -7564,7 +7564,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 15 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:94: T__75
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:94: T__75
                 {
                 mT__75(); 
 
@@ -7572,7 +7572,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 16 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:100: T__76
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:100: T__76
                 {
                 mT__76(); 
 
@@ -7580,7 +7580,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 17 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:106: T__77
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:106: T__77
                 {
                 mT__77(); 
 
@@ -7588,7 +7588,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 18 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:112: T__78
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:112: T__78
                 {
                 mT__78(); 
 
@@ -7596,7 +7596,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 19 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:118: T__79
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:118: T__79
                 {
                 mT__79(); 
 
@@ -7604,7 +7604,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 20 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:124: T__80
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:124: T__80
                 {
                 mT__80(); 
 
@@ -7612,7 +7612,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 21 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:130: T__81
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:130: T__81
                 {
                 mT__81(); 
 
@@ -7620,7 +7620,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 22 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:136: T__82
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:136: T__82
                 {
                 mT__82(); 
 
@@ -7628,7 +7628,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 23 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:142: T__83
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:142: T__83
                 {
                 mT__83(); 
 
@@ -7636,7 +7636,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 24 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:148: T__84
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:148: T__84
                 {
                 mT__84(); 
 
@@ -7644,7 +7644,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 25 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:154: T__85
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:154: T__85
                 {
                 mT__85(); 
 
@@ -7652,7 +7652,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 26 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:160: T__86
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:160: T__86
                 {
                 mT__86(); 
 
@@ -7660,7 +7660,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 27 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:166: T__87
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:166: T__87
                 {
                 mT__87(); 
 
@@ -7668,7 +7668,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 28 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:172: T__88
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:172: T__88
                 {
                 mT__88(); 
 
@@ -7676,7 +7676,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 29 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:178: T__89
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:178: T__89
                 {
                 mT__89(); 
 
@@ -7684,7 +7684,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 30 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:184: T__90
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:184: T__90
                 {
                 mT__90(); 
 
@@ -7692,7 +7692,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 31 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:190: T__91
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:190: T__91
                 {
                 mT__91(); 
 
@@ -7700,7 +7700,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 32 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:196: T__92
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:196: T__92
                 {
                 mT__92(); 
 
@@ -7708,7 +7708,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 33 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:202: T__93
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:202: T__93
                 {
                 mT__93(); 
 
@@ -7716,7 +7716,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 34 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:208: T__94
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:208: T__94
                 {
                 mT__94(); 
 
@@ -7724,7 +7724,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 35 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:214: T__95
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:214: T__95
                 {
                 mT__95(); 
 
@@ -7732,7 +7732,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 36 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:220: T__96
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:220: T__96
                 {
                 mT__96(); 
 
@@ -7740,7 +7740,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 37 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:226: T__97
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:226: T__97
                 {
                 mT__97(); 
 
@@ -7748,7 +7748,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 38 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:232: T__98
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:232: T__98
                 {
                 mT__98(); 
 
@@ -7756,7 +7756,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 39 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:238: T__99
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:238: T__99
                 {
                 mT__99(); 
 
@@ -7764,7 +7764,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 40 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:244: T__100
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:244: T__100
                 {
                 mT__100(); 
 
@@ -7772,7 +7772,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 41 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:251: T__101
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:251: T__101
                 {
                 mT__101(); 
 
@@ -7780,7 +7780,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 42 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:258: T__102
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:258: T__102
                 {
                 mT__102(); 
 
@@ -7788,7 +7788,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 43 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:265: T__103
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:265: T__103
                 {
                 mT__103(); 
 
@@ -7796,7 +7796,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 44 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:272: T__104
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:272: T__104
                 {
                 mT__104(); 
 
@@ -7804,7 +7804,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 45 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:279: T__105
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:279: T__105
                 {
                 mT__105(); 
 
@@ -7812,7 +7812,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 46 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:286: T__106
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:286: T__106
                 {
                 mT__106(); 
 
@@ -7820,7 +7820,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 47 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:293: T__107
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:293: T__107
                 {
                 mT__107(); 
 
@@ -7828,7 +7828,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 48 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:300: T__108
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:300: T__108
                 {
                 mT__108(); 
 
@@ -7836,7 +7836,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 49 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:307: T__109
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:307: T__109
                 {
                 mT__109(); 
 
@@ -7844,7 +7844,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 50 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:314: T__110
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:314: T__110
                 {
                 mT__110(); 
 
@@ -7852,7 +7852,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 51 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:321: T__111
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:321: T__111
                 {
                 mT__111(); 
 
@@ -7860,7 +7860,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 52 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:328: T__112
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:328: T__112
                 {
                 mT__112(); 
 
@@ -7868,7 +7868,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 53 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:335: T__113
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:335: T__113
                 {
                 mT__113(); 
 
@@ -7876,7 +7876,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 54 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:342: T__114
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:342: T__114
                 {
                 mT__114(); 
 
@@ -7884,7 +7884,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 55 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:349: T__115
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:349: T__115
                 {
                 mT__115(); 
 
@@ -7892,7 +7892,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 56 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:356: T__116
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:356: T__116
                 {
                 mT__116(); 
 
@@ -7900,7 +7900,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 57 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:363: T__117
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:363: T__117
                 {
                 mT__117(); 
 
@@ -7908,7 +7908,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 58 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:370: T__118
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:370: T__118
                 {
                 mT__118(); 
 
@@ -7916,7 +7916,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 59 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:377: T__119
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:377: T__119
                 {
                 mT__119(); 
 
@@ -7924,7 +7924,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 60 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:384: T__120
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:384: T__120
                 {
                 mT__120(); 
 
@@ -7932,7 +7932,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 61 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:391: T__121
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:391: T__121
                 {
                 mT__121(); 
 
@@ -7940,7 +7940,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 62 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:398: T__122
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:398: T__122
                 {
                 mT__122(); 
 
@@ -7948,7 +7948,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 63 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:405: T__123
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:405: T__123
                 {
                 mT__123(); 
 
@@ -7956,7 +7956,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 64 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:412: T__124
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:412: T__124
                 {
                 mT__124(); 
 
@@ -7964,7 +7964,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 65 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:419: T__125
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:419: T__125
                 {
                 mT__125(); 
 
@@ -7972,7 +7972,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 66 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:426: T__126
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:426: T__126
                 {
                 mT__126(); 
 
@@ -7980,7 +7980,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 67 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:433: T__127
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:433: T__127
                 {
                 mT__127(); 
 
@@ -7988,7 +7988,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 68 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:440: T__128
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:440: T__128
                 {
                 mT__128(); 
 
@@ -7996,7 +7996,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 69 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:447: T__129
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:447: T__129
                 {
                 mT__129(); 
 
@@ -8004,7 +8004,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 70 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:454: T__130
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:454: T__130
                 {
                 mT__130(); 
 
@@ -8012,7 +8012,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 71 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:461: T__131
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:461: T__131
                 {
                 mT__131(); 
 
@@ -8020,7 +8020,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 72 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:468: T__132
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:468: T__132
                 {
                 mT__132(); 
 
@@ -8028,7 +8028,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 73 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:475: T__133
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:475: T__133
                 {
                 mT__133(); 
 
@@ -8036,7 +8036,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 74 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:482: T__134
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:482: T__134
                 {
                 mT__134(); 
 
@@ -8044,7 +8044,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 75 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:489: T__135
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:489: T__135
                 {
                 mT__135(); 
 
@@ -8052,7 +8052,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 76 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:496: T__136
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:496: T__136
                 {
                 mT__136(); 
 
@@ -8060,7 +8060,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 77 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:503: T__137
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:503: T__137
                 {
                 mT__137(); 
 
@@ -8068,7 +8068,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 78 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:510: T__138
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:510: T__138
                 {
                 mT__138(); 
 
@@ -8076,7 +8076,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 79 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:517: T__139
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:517: T__139
                 {
                 mT__139(); 
 
@@ -8084,7 +8084,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 80 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:524: T__140
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:524: T__140
                 {
                 mT__140(); 
 
@@ -8092,7 +8092,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 81 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:531: T__141
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:531: T__141
                 {
                 mT__141(); 
 
@@ -8100,7 +8100,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 82 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:538: T__142
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:538: T__142
                 {
                 mT__142(); 
 
@@ -8108,7 +8108,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 83 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:545: T__143
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:545: T__143
                 {
                 mT__143(); 
 
@@ -8116,7 +8116,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 84 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:552: T__144
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:552: T__144
                 {
                 mT__144(); 
 
@@ -8124,7 +8124,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 85 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:559: T__145
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:559: T__145
                 {
                 mT__145(); 
 
@@ -8132,7 +8132,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 86 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:566: T__146
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:566: T__146
                 {
                 mT__146(); 
 
@@ -8140,7 +8140,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 87 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:573: T__147
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:573: T__147
                 {
                 mT__147(); 
 
@@ -8148,7 +8148,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 88 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:580: T__148
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:580: T__148
                 {
                 mT__148(); 
 
@@ -8156,7 +8156,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 89 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:587: T__149
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:587: T__149
                 {
                 mT__149(); 
 
@@ -8164,7 +8164,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 90 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:594: T__150
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:594: T__150
                 {
                 mT__150(); 
 
@@ -8172,7 +8172,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 91 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:601: T__151
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:601: T__151
                 {
                 mT__151(); 
 
@@ -8180,7 +8180,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 92 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:608: T__152
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:608: T__152
                 {
                 mT__152(); 
 
@@ -8188,7 +8188,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 93 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:615: T__153
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:615: T__153
                 {
                 mT__153(); 
 
@@ -8196,7 +8196,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 94 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:622: T__154
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:622: T__154
                 {
                 mT__154(); 
 
@@ -8204,7 +8204,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 95 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:629: T__155
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:629: T__155
                 {
                 mT__155(); 
 
@@ -8212,7 +8212,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 96 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:636: T__156
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:636: T__156
                 {
                 mT__156(); 
 
@@ -8220,7 +8220,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 97 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:643: T__157
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:643: T__157
                 {
                 mT__157(); 
 
@@ -8228,7 +8228,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 98 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:650: T__158
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:650: T__158
                 {
                 mT__158(); 
 
@@ -8236,7 +8236,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 99 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:657: T__159
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:657: T__159
                 {
                 mT__159(); 
 
@@ -8244,7 +8244,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 100 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:664: T__160
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:664: T__160
                 {
                 mT__160(); 
 
@@ -8252,7 +8252,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 101 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:671: T__161
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:671: T__161
                 {
                 mT__161(); 
 
@@ -8260,7 +8260,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 102 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:678: T__162
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:678: T__162
                 {
                 mT__162(); 
 
@@ -8268,7 +8268,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 103 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:685: T__163
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:685: T__163
                 {
                 mT__163(); 
 
@@ -8276,7 +8276,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 104 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:692: T__164
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:692: T__164
                 {
                 mT__164(); 
 
@@ -8284,7 +8284,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 105 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:699: T__165
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:699: T__165
                 {
                 mT__165(); 
 
@@ -8292,7 +8292,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 106 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:706: T__166
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:706: T__166
                 {
                 mT__166(); 
 
@@ -8300,7 +8300,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 107 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:713: T__167
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:713: T__167
                 {
                 mT__167(); 
 
@@ -8308,7 +8308,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 108 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:720: T__168
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:720: T__168
                 {
                 mT__168(); 
 
@@ -8316,7 +8316,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 109 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:727: T__169
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:727: T__169
                 {
                 mT__169(); 
 
@@ -8324,7 +8324,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 110 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:734: T__170
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:734: T__170
                 {
                 mT__170(); 
 
@@ -8332,7 +8332,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 111 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:741: T__171
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:741: T__171
                 {
                 mT__171(); 
 
@@ -8340,7 +8340,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 112 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:748: T__172
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:748: T__172
                 {
                 mT__172(); 
 
@@ -8348,7 +8348,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 113 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:755: T__173
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:755: T__173
                 {
                 mT__173(); 
 
@@ -8356,7 +8356,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 114 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:762: T__174
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:762: T__174
                 {
                 mT__174(); 
 
@@ -8364,7 +8364,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 115 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:769: T__175
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:769: T__175
                 {
                 mT__175(); 
 
@@ -8372,7 +8372,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 116 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:776: T__176
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:776: T__176
                 {
                 mT__176(); 
 
@@ -8380,7 +8380,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 117 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:783: T__177
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:783: T__177
                 {
                 mT__177(); 
 
@@ -8388,7 +8388,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 118 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:790: T__178
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:790: T__178
                 {
                 mT__178(); 
 
@@ -8396,7 +8396,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 119 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:797: T__179
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:797: T__179
                 {
                 mT__179(); 
 
@@ -8404,7 +8404,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 120 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:804: T__180
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:804: T__180
                 {
                 mT__180(); 
 
@@ -8412,7 +8412,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 121 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:811: T__181
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:811: T__181
                 {
                 mT__181(); 
 
@@ -8420,7 +8420,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 122 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:818: T__182
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:818: T__182
                 {
                 mT__182(); 
 
@@ -8428,7 +8428,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 123 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:825: T__183
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:825: T__183
                 {
                 mT__183(); 
 
@@ -8436,7 +8436,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 124 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:832: T__184
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:832: T__184
                 {
                 mT__184(); 
 
@@ -8444,7 +8444,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 125 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:839: T__185
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:839: T__185
                 {
                 mT__185(); 
 
@@ -8452,7 +8452,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 126 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:846: T__186
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:846: T__186
                 {
                 mT__186(); 
 
@@ -8460,7 +8460,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 127 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:853: T__187
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:853: T__187
                 {
                 mT__187(); 
 
@@ -8468,7 +8468,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 128 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:860: T__188
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:860: T__188
                 {
                 mT__188(); 
 
@@ -8476,7 +8476,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 129 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:867: T__189
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:867: T__189
                 {
                 mT__189(); 
 
@@ -8484,7 +8484,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 130 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:874: T__190
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:874: T__190
                 {
                 mT__190(); 
 
@@ -8492,7 +8492,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 131 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:881: T__191
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:881: T__191
                 {
                 mT__191(); 
 
@@ -8500,7 +8500,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 132 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:888: T__192
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:888: T__192
                 {
                 mT__192(); 
 
@@ -8508,7 +8508,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 133 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:895: T__193
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:895: T__193
                 {
                 mT__193(); 
 
@@ -8516,7 +8516,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 134 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:902: T__194
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:902: T__194
                 {
                 mT__194(); 
 
@@ -8524,7 +8524,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 135 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:909: T__195
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:909: T__195
                 {
                 mT__195(); 
 
@@ -8532,7 +8532,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 136 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:916: T__196
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:916: T__196
                 {
                 mT__196(); 
 
@@ -8540,7 +8540,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 137 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:923: T__197
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:923: T__197
                 {
                 mT__197(); 
 
@@ -8548,7 +8548,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 138 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:930: T__198
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:930: T__198
                 {
                 mT__198(); 
 
@@ -8556,7 +8556,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 139 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:937: T__199
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:937: T__199
                 {
                 mT__199(); 
 
@@ -8564,7 +8564,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 140 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:944: T__200
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:944: T__200
                 {
                 mT__200(); 
 
@@ -8572,7 +8572,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 141 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:951: T__201
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:951: T__201
                 {
                 mT__201(); 
 
@@ -8580,7 +8580,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 142 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:958: T__202
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:958: T__202
                 {
                 mT__202(); 
 
@@ -8588,7 +8588,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 143 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:965: TRUE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:965: TRUE
                 {
                 mTRUE(); 
 
@@ -8596,7 +8596,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 144 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:970: FALSE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:970: FALSE
                 {
                 mFALSE(); 
 
@@ -8604,7 +8604,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 145 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:976: NULL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:976: NULL
                 {
                 mNULL(); 
 
@@ -8612,7 +8612,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 146 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:981: DOT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:981: DOT
                 {
                 mDOT(); 
 
@@ -8620,7 +8620,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 147 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:985: PTR
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:985: PTR
                 {
                 mPTR(); 
 
@@ -8628,7 +8628,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 148 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:989: MINUS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:989: MINUS
                 {
                 mMINUS(); 
 
@@ -8636,7 +8636,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 149 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:995: GT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:995: GT
                 {
                 mGT(); 
 
@@ -8644,7 +8644,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 150 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:998: USING
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:998: USING
                 {
                 mUSING(); 
 
@@ -8652,7 +8652,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 151 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1004: ENUM
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1004: ENUM
                 {
                 mENUM(); 
 
@@ -8660,7 +8660,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 152 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1009: IF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1009: IF
                 {
                 mIF(); 
 
@@ -8668,7 +8668,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 153 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1012: ELIF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1012: ELIF
                 {
                 mELIF(); 
 
@@ -8676,7 +8676,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 154 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1017: ENDIF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1017: ENDIF
                 {
                 mENDIF(); 
 
@@ -8684,7 +8684,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 155 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1023: DEFINE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1023: DEFINE
                 {
                 mDEFINE(); 
 
@@ -8692,7 +8692,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 156 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1030: UNDEF
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1030: UNDEF
                 {
                 mUNDEF(); 
 
@@ -8700,7 +8700,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 157 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1036: SEMI
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1036: SEMI
                 {
                 mSEMI(); 
 
@@ -8708,7 +8708,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 158 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1041: RPAREN
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1041: RPAREN
                 {
                 mRPAREN(); 
 
@@ -8716,7 +8716,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 159 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1048: WS
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1048: WS
                 {
                 mWS(); 
 
@@ -8724,7 +8724,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 160 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1051: DOC_LINE_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1051: DOC_LINE_COMMENT
                 {
                 mDOC_LINE_COMMENT(); 
 
@@ -8732,7 +8732,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 161 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1068: COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1068: COMMENT
                 {
                 mCOMMENT(); 
 
@@ -8740,7 +8740,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 162 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1076: LINE_COMMENT
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1076: LINE_COMMENT
                 {
                 mLINE_COMMENT(); 
 
@@ -8748,7 +8748,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 163 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1089: STRINGLITERAL
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1089: STRINGLITERAL
                 {
                 mSTRINGLITERAL(); 
 
@@ -8756,7 +8756,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 164 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1103: Verbatim_string_literal
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1103: Verbatim_string_literal
                 {
                 mVerbatim_string_literal(); 
 
@@ -8764,7 +8764,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 165 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1127: NUMBER
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1127: NUMBER
                 {
                 mNUMBER(); 
 
@@ -8772,7 +8772,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 166 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1134: GooBall
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1134: GooBall
                 {
                 mGooBall(); 
 
@@ -8780,7 +8780,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 167 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1142: Real_literal
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1142: Real_literal
                 {
                 mReal_literal(); 
 
@@ -8788,7 +8788,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 168 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1155: Character_literal
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1155: Character_literal
                 {
                 mCharacter_literal(); 
 
@@ -8796,7 +8796,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 169 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1173: IDENTIFIER
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1173: IDENTIFIER
                 {
                 mIDENTIFIER(); 
 
@@ -8804,7 +8804,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 170 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1184: Pragma
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1184: Pragma
                 {
                 mPragma(); 
 
@@ -8812,7 +8812,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 171 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1191: PREPROCESSOR_DIRECTIVE
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1191: PREPROCESSOR_DIRECTIVE
                 {
                 mPREPROCESSOR_DIRECTIVE(); 
 
@@ -8820,7 +8820,7 @@ public class csLexer extends Lexer {
                 }
                 break;
             case 172 :
-                // C:\\Users\\chw\\workspace-cloudmig\\ModifiedCSharpGrammar\\grammars\\cs.g:1:1214: Hex_number
+                // C:\\Users\\chw\\workspace-masterthesis\\CSharpGrammar\\grammars\\cs.g:1:1214: Hex_number
                 {
                 mHex_number(); 
 

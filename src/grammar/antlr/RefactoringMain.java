@@ -37,7 +37,7 @@ import org.antlr.runtime.tree.Tree;
  * and then uncomment the middle code section and comment out the
  * first "build AST" only section.
  */
-public class Main {
+public class RefactoringMain {
     public static void main(String args[]) throws Exception {
         CharStream input = null;
         String inputName = "<stdin>";
