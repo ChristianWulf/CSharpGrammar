@@ -1,6 +1,6 @@
 CSharpGrammar
 =============
-C# 4.0 preprocessor, lexer, and parser in Java
+C# 4.0 preprocessor, lexer, and parser in Java. An adapted version of my grammar is distributed via the official antlr repository: https://github.com/antlr/grammars-v4/tree/master/csharp.
 
 I have built this C# grammar to develop and perform a C# to KDM transformation, see https://github.com/ChristianWulf/CSharpKDMDiscoverer.
 
